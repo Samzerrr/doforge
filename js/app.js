@@ -225,6 +225,7 @@
       card.dataset.type = "avis";
       card.dataset.filter = item.filter;
       card.dataset.emeraude = item.useful_for_emeraude ? "true" : "false";
+      card.dataset.os = item.has_os_mechanic ? "true" : "false";
       card.dataset.search = normalizeText(`${item.name} ${item.title} ${zoneNames[item.filter] || ""}`);
 
       const zoneBadge = zoneNames[item.filter] || item.filter;
@@ -235,6 +236,7 @@
           <span class="badge badge-zone">📍 ${zoneBadge}</span>
           <div class="card-badges">
             ${item.has_invulnerable_state ? `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>` : ""}
+            ${item.has_os_mechanic ? `<span class="badge badge-os">☠️ One Shot</span>` : ""}
             ${item.legendary_hunt_exist ? `<span class="badge badge-legendary">👑 Légendaire</span>` : ""}
           </div>
         </div>
@@ -280,6 +282,7 @@
       card.dataset.filter = item.filter;
       card.dataset.ocre = item.useful_for_ocre ? "true" : "false";
       card.dataset.emeraude = item.useful_for_emeraude ? "true" : "false";
+      card.dataset.os = item.has_os_mechanic ? "true" : "false";
       card.dataset.search = normalizeText(`${item.name} ${mobName} ${item.filter}`);
 
       const levelBadge = levelNames[item.filter.split(" ")[0]] || item.filter;
@@ -290,6 +293,7 @@
           <span class="badge badge-zone">🏰 ${levelBadge}</span>
           <div class="card-badges">
             ${item.has_invulnerable_state ? `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>` : ""}
+            ${item.has_os_mechanic ? `<span class="badge badge-os">☠️ One Shot</span>` : ""}
             ${item.has_special_strat ? `<span class="badge badge-legendary">⚡ Stratégie</span>` : ""}
           </div>
         </div>
@@ -342,6 +346,8 @@
       let matchesFilter = false;
       if (activeFilter === "all") {
         matchesFilter = true;
+      } else if (activeFilter === "os") {
+        matchesFilter = card.dataset.os === "true";
       } else if (activeFilter === "ocre") {
         matchesFilter = isOcre;
       } else {

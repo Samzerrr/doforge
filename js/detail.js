@@ -107,6 +107,9 @@
     if (item.has_invulnerable_state) {
       elements.mobBadges.innerHTML += `<span class="badge badge-invulnerable">🛡️ État Invulnérable</span>`;
     }
+    if (item.has_os_mechanic) {
+      elements.mobBadges.innerHTML += `<span class="badge badge-os">☠️ Mécanique OS</span>`;
+    }
     if (item.useful_for_emeraude) {
       elements.mobBadges.innerHTML += `<span class="badge badge-emeraude">💚 Dofus Émeraude</span>`;
     }
@@ -130,6 +133,12 @@
       }
     } else {
       elements.invulnerableSection.style.display = "none";
+    }
+
+    // 1.5 OS Alert
+    const osSection = document.getElementById("os-section");
+    if (osSection) {
+      osSection.style.display = item.has_os_mechanic ? "block" : "none";
     }
 
     // 2. Explanation / Strategy Section

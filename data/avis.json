@@ -16,7 +16,8 @@
       "Il donne 120 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "sam-sagaz",
@@ -36,7 +37,8 @@
       "Il donne 2 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "maitre-boulet",
@@ -57,7 +59,8 @@
       "Il donne 3 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "frakacia-leukocytine",
@@ -78,7 +81,8 @@
       "Il donne 180 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "les-guman",
@@ -99,7 +103,8 @@
       "Il donne 180 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "roub-ignolles",
@@ -120,7 +125,8 @@
       "Il donne 4 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "bouss-baybe",
@@ -141,7 +147,8 @@
       "Il donne 5 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "ogivol-scalarcin",
@@ -163,7 +170,8 @@
       "Il donne 300 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "brumen-tinctorias",
@@ -186,7 +194,8 @@
       "Il donne 360 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "marzwel-le-gobelin",
@@ -206,7 +215,8 @@
       "Il donne 360 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "nono-le-wobot",
@@ -227,7 +237,8 @@
       "Il donne 6 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "gadoo",
@@ -250,7 +261,8 @@
       "Il donne 360 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "qil-bil",
@@ -271,7 +283,8 @@
       "Il donne 480 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "armada-l-invincible",
@@ -291,7 +304,8 @@
       "Il donne 7 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "aermyne",
@@ -312,7 +326,8 @@
       "Il donne 600 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "tournade",
@@ -332,7 +347,8 @@
       "Il donne 600 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "musha-l-oni",
@@ -353,7 +369,8 @@
       "Il donne 600 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "dragodingo",
@@ -374,7 +391,8 @@
       "Il donne 8 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "tyranne-la-terrible",
@@ -395,7 +413,8 @@
       "Il donne 600 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "degolas",
@@ -416,7 +435,8 @@
       "Il donne 9 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "simbadas",
@@ -437,7 +457,8 @@
       "Il donne 660 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "rok-gnorok",
@@ -458,7 +479,8 @@
       "Il donne 660 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "maxi-malle",
@@ -479,7 +501,8 @@
       "Il donne 720 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "carlita-de-l-aguerfelde",
@@ -500,7 +523,8 @@
       "Il donne 660 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "naganita",
@@ -520,7 +544,8 @@
       "Il donne 660 avitons"
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "prince-marchand",
@@ -541,7 +566,8 @@
       "Il donne 10 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "trukipik",
@@ -561,7 +587,8 @@
       "Il donne 660 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "gobrechaun",
@@ -583,7 +610,8 @@
       "Il donne 11 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": true
   },
   {
     "slug": "bouflouth",
@@ -604,7 +632,8 @@
       "Il donne 960 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "morblok",
@@ -626,7 +655,8 @@
       "Il donne 960 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": true
   },
   {
     "slug": "vashkiwi",
@@ -647,7 +677,8 @@
       "Il donne 12 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "nenuflor-tilotus",
@@ -667,7 +698,8 @@
       "Il donne 960 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": true
+    "useful_for_emeraude": true,
+    "has_os_mechanic": false
   },
   {
     "slug": "padgref-demoel",
@@ -690,7 +722,8 @@
       "Il donne 1080 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "jerart-dupaindur",
@@ -711,7 +744,8 @@
       "Il donne 13 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "panteroz",
@@ -730,7 +764,8 @@
       "Il donne 1080 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "ali-grothor",
@@ -751,7 +786,8 @@
       "Il donne 1080 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "roi-camole",
@@ -773,7 +809,8 @@
       "Il donne 1080 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "monsieur-pingouin",
@@ -794,7 +831,8 @@
       "Il donne 1080 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "amy-l-empoisonneuse",
@@ -817,7 +855,8 @@
       "Il donne 1200 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "katigrou",
@@ -838,7 +877,8 @@
       "Il donne 1200 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "darma",
@@ -860,7 +900,8 @@
       "Il donne 14 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "fojumo",
@@ -881,7 +922,8 @@
       "Il donne 1200 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "aigripoil",
@@ -900,7 +942,8 @@
       "Il donne 1320 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "mogligli",
@@ -921,7 +964,8 @@
       "Il donne 15 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "fantomayte",
@@ -942,7 +986,8 @@
       "Il donne 1320 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "zatoishwan",
@@ -965,7 +1010,8 @@
       "Il donne 1320 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "glandalf-l-aigri",
@@ -986,7 +1032,8 @@
       "Il donne 16 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "vengeuse-masquee",
@@ -1007,7 +1054,8 @@
       "Il donne 1440 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "anatak-diskedor",
@@ -1028,7 +1076,8 @@
       "Il donne 1440 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "yechti",
@@ -1055,7 +1104,8 @@
       "Il donne 1560 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "ka-youloud",
@@ -1084,7 +1134,8 @@
       "Il donne 1560 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "crasper",
@@ -1105,7 +1156,8 @@
       "Il donne 17 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "hin",
@@ -1126,7 +1178,8 @@
       "Il donne 1560 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "fuji-givrefoux",
@@ -1146,7 +1199,8 @@
       "Il donne 1560 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "shushu-debruk-sayl",
@@ -1167,7 +1221,8 @@
       "Il donne 1680 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "guerrier-du-ko",
@@ -1185,7 +1240,8 @@
       "Il donne 1680 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "dremoan",
@@ -1207,7 +1263,8 @@
       "Il donne 1680 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "carter-le-pillard",
@@ -1228,7 +1285,8 @@
       "Il donne 18 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "mouchame",
@@ -1246,7 +1304,8 @@
       "Il donne 1680 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "sans-visage",
@@ -1267,7 +1326,8 @@
       "Il donne 19 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "viti-glourson",
@@ -1293,7 +1353,8 @@
       "Il donne 1860 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "predagob",
@@ -1315,7 +1376,8 @@
       "Il donne 1680 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "flasho",
@@ -1339,7 +1401,8 @@
       "Il donne 1860 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "docteur-eggob",
@@ -1360,7 +1423,8 @@
       "Il donne 1860 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "culbutoeuf",
@@ -1385,7 +1449,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "hyperscampe",
@@ -1407,7 +1472,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "homard-medali",
@@ -1428,7 +1494,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "gein",
@@ -1448,7 +1515,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "atcham",
@@ -1468,7 +1536,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "glourdorak",
@@ -1490,7 +1559,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "psikopompe",
@@ -1513,7 +1583,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "mekamouth",
@@ -1537,7 +1608,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "takomako",
@@ -1557,7 +1629,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "ganos",
@@ -1589,7 +1662,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "sicogne",
@@ -1612,7 +1686,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "grand-kongoku",
@@ -1638,7 +1713,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "voldelor",
@@ -1659,7 +1735,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "chevalier-de-glace",
@@ -1682,7 +1759,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": true,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "khepricorne",
@@ -1712,7 +1790,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "fantome-braideur",
@@ -1735,7 +1814,8 @@
       "Il donne 20 alitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   },
   {
     "slug": "comte-harebourg",
@@ -1755,7 +1835,8 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": true
   },
   {
     "slug": "buldalazred",
@@ -1774,6 +1855,7 @@
       "Il donne 2040 avitons."
     ],
     "legendary_hunt_exist": false,
-    "useful_for_emeraude": false
+    "useful_for_emeraude": false,
+    "has_os_mechanic": false
   }
 ]
