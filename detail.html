@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Détails du Monstre | Dofus Mobs</title>
+  <meta name="description" content="Guide de combat et stratégie pour vaincre le monstre sur Dofus.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Mesh -->
+  <div class="bg-ambient">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">⚔️</div>
+        <span class="logo-text">DOFUS MOBS</span>
+      </a>
+      <nav class="header-nav">
+        <a href="index.html#avis" class="nav-link">Avis de Recherche</a>
+        <a href="index.html#donjons" class="nav-link">Boss & Donjons</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Detail Container -->
+  <main class="detail-container">
+    <a href="index.html" class="back-button">
+      <span>← Retour au bestiaire</span>
+    </a>
+
+    <div id="loading" class="loading-container">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Chargement des données du combat...</div>
+    </div>
+
+    <article id="detail-content" style="display: none;">
+      <!-- Dynamic Header -->
+      <div class="detail-header">
+        <div id="mob-icon">👾</div>
+        <h1 class="detail-title" id="mob-title">Nom du Monstre</h1>
+        <div class="detail-location" id="mob-location">📍 Localisation non spécifiée</div>
+        <div class="detail-badges" id="mob-badges"></div>
+      </div>
+
+      <!-- Invulnerability State Alert if applicable -->
+      <div id="invulnerable-section" class="invulnerable-alert" style="display: none;">
+        <div class="alert-title">
+          <span>🛡️ ÉTAT INVULNÉRABLE</span>
+        </div>
+        <div class="alert-text" id="invulnerable-text">
+          Ce monstre possède un état invulnérable par défaut.
+        </div>
+      </div>
+
+      <!-- Strategy / Explanation Section -->
+      <section id="explanation-section" class="detail-section" style="display: none;">
+        <div class="section-header">
+          <div class="section-icon purple">🧠</div>
+          <h2 class="section-title">Mécaniques & Stratégie</h2>
+        </div>
+        <div class="explanation-text" id="explanation-content"></div>
+      </section>
+
+      <!-- Spells Section -->
+      <section id="spells-section" class="detail-section" style="display: none;">
+        <div class="section-header">
+          <div class="section-icon red">💥</div>
+          <h2 class="section-title">Sorts & Capacités</h2>
+        </div>
+        <ul class="spells-list" id="spells-content"></ul>
+      </section>
+
+      <!-- Quest & Rewards Section -->
+      <section id="quest-section" class="detail-section" style="display: none;">
+        <div class="section-header">
+          <div class="section-icon gold">📜</div>
+          <h2 class="section-title">Quêtes & Récompenses</h2>
+        </div>
+        <div class="quest-info" id="quest-content"></div>
+      </section>
+
+      <!-- Extra Info Section -->
+      <section id="extra-section" class="detail-section" style="display: none;">
+        <div class="section-header">
+          <div class="section-icon cyan">ℹ️</div>
+          <h2 class="section-title">Informations Complémentaires</h2>
+        </div>
+        <div class="explanation-text" id="extra-content"></div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. Dofus Mobs est une interface de consultation non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- Detail JS -->
+  <script src="js/detail.js"></script>
+</body>
+</html>

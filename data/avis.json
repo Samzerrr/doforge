@@ -1,0 +1,1779 @@
+[
+  {
+    "slug": "fouduglen-l-ecureuil",
+    "name": "Fouduglen l'Ecureuil",
+    "filter": "astrub",
+    "title": "Fouduglen l'Ecureuil - Ville d'Astrub",
+    "picture": "images/avis-fouduglen-l-ecureuil.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Tape et retire tous les états invulnérable de la cible",
+      "Se met invisible pour 3 tours en se boostant de 1PM, tous les 7 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 1.",
+      "Il donne 120 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "sam-sagaz",
+    "name": "Sam Sagaz",
+    "filter": "alignement",
+    "title": "Sam Sagaz - Prairies d'Astrub",
+    "picture": "images/avis-sam-sagaz.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il faut tuer son invocation à sa mêlée pour enlever l’invulnérabilité pour 2 tours",
+    "spells": [
+      "Tape et retire de la puissance",
+      "Tape en zone autour de lui",
+      "Invoque et révèle les invisibles sur toute la map, tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès le level 1.",
+      "Il donne 2 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "maitre-boulet",
+    "name": "Maître Boulet",
+    "filter": "alignement",
+    "title": "Maître Boulet - Bord de la Forêt Maléfique",
+    "picture": "images/avis-maitre-boulet.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost en PM, Puissance et Do Pou pour chaque retrait PM",
+      "Tape, retire des PM, s’avance et pousse de 5 cases",
+      "Tape et retire 1 PM",
+      "Invoque un Tournesol tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès le level 10.",
+      "Il donne 3 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "frakacia-leukocytine",
+    "name": "Frakacia Leukocytine",
+    "filter": "astrub",
+    "title": "Frakacia Leukocytine - Forêt d'Astrub",
+    "picture": "images/avis-frakacia-leukocytine.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Retire 2 PA et réduit les dégats reçus pour chaque attaque à distance",
+      "Tape et retire des résistances Terre et Neutre",
+      "Tape jusqu’à 10PO et volant de la PO et des PM",
+      "Debuff de 4 tour et applique l'état Pacifiste jusqu’a 6PO autour d’elle, tous les 3 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 10.",
+      "Il donne 180 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "les-guman",
+    "name": "Les Guman",
+    "filter": "base-justiciers",
+    "title": "Les Guman - Champs d'Amakna",
+    "picture": "images/avis-les-guman.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Invoque Exi Guman",
+      "Tape et pousse de 4 cases",
+      "Tape et retire 3 PM, jusqu’à 9PO",
+      "Invoque une Citwouillette qui boost PA et stat ses alliés autour d’elle"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans la Base des Justiciers, dès le level 10.",
+      "Il donne 180 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "roub-ignolles",
+    "name": "Roub'Ignolles",
+    "filter": "alignement",
+    "title": "Roub'Ignolles - Cimetière d'Amakna",
+    "picture": "images/avis-roub-ignolles.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Invoque des bombes qui explosent si on les tue ou au bout de 4 tours",
+      "Applique un retrait de résistance autour d’une bombe",
+      "Repousse de 4 cases, jusqu’à 6PO",
+      "Change de place avec une de ses bombes et la boost pour la faire exploser"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’alignement 10.",
+      "Il donne 4 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "bouss-baybe",
+    "name": "Bouss Baybe",
+    "filter": "alignement",
+    "title": "Bouss Baybe - Plaine des Porkass",
+    "picture": "images/avis-bouss-baybe.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Boost tous ses alliés de 2PA, 4PM et 100 puissance au début du combat",
+      "Tape et retire des résistances poussées, jusqu’à 4PO",
+      "En zone: pousse, retire de la puissance et applique l’état Affaibli, jusqu’à 12 PO",
+      "Tue les invocations pour les remplacer par un Cavalier ou Berger Porkass, jusqu’à 12 PO tous les 2 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’alignement 10.",
+      "Il donne 5 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "ogivol-scalarcin",
+    "name": "Ogivol Scalarcin",
+    "filter": "astrub",
+    "title": "Ogivol Scalarcin - Bordure de Brakmar",
+    "picture": "images/avis-ogivol-scalarcin.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais il esquive 100% des dégâts mêlée en reculant de 1 case !",
+    "spells": [
+      "Applique un poison de début de tour, jusqu’à 4 PO",
+      "Tape et vol des statistiques autour de lui",
+      "Se rend invisible et se boost PM, critique et dommage critique pour 4 tours, tous les 7 tours",
+      "Invoque un double de lui même, tous les 7 tours",
+      "Tape, pousse de 2 cases et se boost en dommage poussée, jusqu’à 3 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 40.",
+      "Il donne 300 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "brumen-tinctorias",
+    "name": "Brumen Tinctorias",
+    "filter": "astrub",
+    "title": "Brumen Tinctorias - Désolation de Sidimote",
+    "picture": "images/avis-brumen-tinctorias.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique un poison en fonction des PA utilisés",
+      "Se soigne",
+      "Soigne ses alliés jusqu’à 8PO",
+      "Tape jusqu’à 8PO",
+      "Se boost de 2PA pour 3 tours mais s’applique 20% d’érosion pour 1 tour",
+      "Tape en vol de vie jusqu’à 8PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 40.",
+      "Il donne 360 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "marzwel-le-gobelin",
+    "name": "Marzwel le Gobelin",
+    "filter": "astrub",
+    "title": "Marzwel le Gobelin - Massif de Cania",
+    "picture": "images/avis-marzwel-le-gobelin.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Tape et retire 300 puissance, jusqu’à 13 PO",
+      "Tape, pousse de 2 cases et vole 1 PM, jusqu’à 3 PO",
+      "Se boost en fuite et PO, tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 40.",
+      "Il donne 360 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "nono-le-wobot",
+    "name": "Nono le Wobot",
+    "filter": "alignement",
+    "title": "Nono le Wobot - Îlot de la Couronne",
+    "picture": "images/avis-nono-le-wobot.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Réduit de 40 les dommages d’arme ou de mêlée",
+      "Révèle les entités invisibles",
+      "Tape et retire des PM, en zone cercle de 3",
+      "Tape et retire des résistances neutres en mêlée !"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
+      "Il donne 6 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "gadoo",
+    "name": "Gadoo",
+    "filter": "base-justiciers",
+    "title": "Gadoo - Marécages Sans Fond",
+    "picture": "images/avis-gadoo.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Lorsqu’il est tapé terre: annule les dommages reçus, augmente sa puissance et ses résistances feu/air et baisse ses résistances eau/terre",
+      "Lorsqu’il est tapé eau: se soigne et baisse ses coups critiques",
+      "Attire en ligne de 5 cases",
+      "Tape et retire de la puissance, jusqu’à 10PO. Se boost aussi en dommage critique",
+      "Retire 4 PO, puis le tour suivant 4 PA et applique l’état Affaibli, puis le tour suivant 4 PM et enfin le tour suivant passe le tour de la cible, tous les 3 tours",
+      "Tape en fonction de ses points de vie en zone, tue les invocations et les remplace par des Boos et révèle les entités invisibles, tous les 3 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans la Base des Justiciers, dès le level 40.",
+      "Il donne 360 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "qil-bil",
+    "name": "Qil Bil",
+    "filter": "astrub",
+    "title": "Qil Bil - Cimetière des Torturés",
+    "picture": "images/avis-qil-bil.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne du bouclier s’il est poussé ou si on lui retire des PM",
+      "Tape en ligne et retire des PA, jusqu’à 2 PO",
+      "Augmente ses dommages. Augmente également sa puissance s’il subit des dégâts de piège, de poison, de dommage renvoyé ou de glyphe",
+      "Tape autour de lui et repousse de 3 cases"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 50.",
+      "Il donne 480 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "armada-l-invincible",
+    "name": "Armada l'Invincible",
+    "filter": "alignement",
+    "title": "Armada l'Invincible - Arche d'Otomaï",
+    "picture": "images/avis-armada-l-invincible.webp",
+    "has_invulnerable_state": true,
+    "explanation": "2 moyens pour retirer son invulnérabilité:\nIl faut effectuer un coup critique ET avoir un joueur au corps à corps\nIl faut taper avec une arme",
+    "spells": [
+      "Réduit les dommages reçus et s’applique du bouclier lorsqu’il sort de l’état invulnérable",
+      "Tape en zone cercle de 3, jusqu’à 10 PO et pousse",
+      "Se boost PM, PA et puissance tous les 3 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
+      "Il donne 7 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "aermyne",
+    "name": "Aermyne 'Braco' Scaptaras",
+    "filter": "astrub",
+    "title": "Aermyne 'Braco' Scaptaras - Forêt de Kalyptus",
+    "picture": "images/avis-aermyne.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne des PA si elle subit du retrait PA et des PM si elle subit du retrait PM",
+      "Soigne, boost puissance et PM un de ses alliés",
+      "Tape et repousse de 3 cases, en mêlée uniquement",
+      "Tape, vol de la vie et tape en fonction de sa vitalité, tous les 4 tours, jusqu’à 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 60.",
+      "Il donne 600 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "tournade",
+    "name": "Tournade",
+    "filter": "saharach",
+    "title": "Tournade - Désert de Saharach",
+    "picture": "images/avis-tournade.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Dans un cercle de taille 8 autour d’elle, attire de 3 cases, vole 2 PM et retire 50% de résistances",
+      "Dans un cercle de taille 5 autour d’elle, tape en vol de vie air. Se boost également en vitalité",
+      "Dans un cercle de taille 2 autour d’elle, tape, retire 10 PO et applique l’état Pacifiste"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Saharach, dès le level 60.",
+      "Il donne 600 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "musha-l-oni",
+    "name": "Musha l'Oni",
+    "filter": "astrub",
+    "title": "Musha l'Oni - Baie de Cania",
+    "picture": "images/avis-musha-l-oni.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Révèle les invisibles autour de lui à chaque tour",
+      "Vol de vie air et change de place jusqu’à 6 PO (sauf si Pesanteur)",
+      "Maximise les effets sur la cible et soit tape soit désenvoute, jusqu’à 12 PO, tous les 3 tours",
+      "Tape dans un élément aléatoire, retire 4 PO et applique l’état Affaibli, jusqu’à 12 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 60.",
+      "Il donne 600 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "dragodingo",
+    "name": "Dragodingo",
+    "filter": "alignement",
+    "title": "Dragodingo - Territoire des Dragodindes",
+    "picture": "images/avis-dragodingo.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost aléatoirement Puissance, fuite ou esquive PA/PM en début de tour",
+      "Suivant le boost précédent il va: taper, pousser, retirer des PM, appliquer les états Pesanteur ou Affaibli, en mêlée uniquement",
+      "Suivant le boost précédent il va: taper, appliquer de l’érosion, appliquer l’état Insoignable ou augmenter les dommages subit",
+      "Suivant le boost précédent il va: Soigner, appliquer du bouclier ou réduire les dommages reçus"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
+      "Il donne 8 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "tyranne-la-terrible",
+    "name": "Tyranne la Terrible",
+    "filter": "chateau-amakna",
+    "title": "Tyranne la Terrible - Forêt Sombre",
+    "picture": "images/avis-tyranne-la-terrible.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Change de place si elle reçoit des dommages et repousse de 6 cases si elle reçoit des dommage de poussée en mêlée",
+      "Tape neutre et repousse de 6 cases, jusqu’à 3 PO",
+      "Tape feu en mêlée et retire 4 PM",
+      "Se boost en dommage poussée, se téléporte jusqu’à 6PO, tape en cercle de 3cases et attire de 2 cases"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 60.",
+      "Il donne 600 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "degolas",
+    "name": "Degolas",
+    "filter": "alignement",
+    "title": "Degolas - Chemin du Crâne",
+    "picture": "images/avis-degolas.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost de 50% en coup critique",
+      "Tape air et vole 4 PO, jusqu’à 15 PO",
+      "Tape eau, retire 3 PO et pousse de 1 case, en mêlée",
+      "Se recule de 3 cases, pousse de 3 cases, tape terre en ligne de 3 cases et retire 2 PO, jusqu’à 12 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
+      "Il donne 9 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "simbadas",
+    "name": "Simbadas",
+    "filter": "chateau-amakna",
+    "title": "Simbadas - Route des Roulottes",
+    "picture": "images/avis-simbadas.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique -10 PO sur tous les joueurs en début de combat",
+      "Boost de 4 PM et 400 puissances tous ses alliés lorsqu’il meurt",
+      "Se téléporte à 6 PO et tape neutre dans un cercle de taille 2 en retirant de la fuite. (sauf si Pesanteur)",
+      "Vol de la vie terre en zone et applique un poison neutre, jusqu’à 1 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 70.",
+      "Il donne 660 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "rok-gnorok",
+    "name": "Rok Gnorok",
+    "filter": "astrub",
+    "title": "Rok Gnorok - Lacs Enchantés",
+    "picture": "images/avis-rok-gnorok.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost en puissance à chaque début de tour",
+      "Tape, augmente ses dommages et retire 1 PA, en zone cone de taille 1. En mêlée uniquement",
+      "Réduit les dommages reçus pour chaque attaque qu’il subit à distance. Se boost également de 30 résistance poussée. Tous les 3 tours",
+      "Tape feu en ligne de taille 2, applique un poison de début et fin de tour et retire de la puissance. En mêlée uniquement"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 70.",
+      "Il donne 660 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "maxi-malle",
+    "name": "Maxi-Malle",
+    "filter": "dimension-divine",
+    "title": "Maxi-Malle - Creuset des Fortunés",
+    "picture": "images/avis-maxi-malle.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Augmente ses dégats de base pour chaque attaque subit",
+      "Gagne 1 PM lorsqu’il se fait pousser",
+      "Vol de la vie air en zone cercle de taille 2 autour de lui, pousse de 2 cases et retire de la puissance",
+      "Vol de la vie feu en zone cercle de taille 2, vol 2 PM et applique l’état Pesanteur, jusqu’à 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 80.",
+      "Il donne 720 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "carlita-de-l-aguerfelde",
+    "name": "Carlita de l'Aguerfelde",
+    "filter": "chateau-amakna",
+    "title": "Carlita de l'Aguerfelde - Hauts des Hurlements",
+    "picture": "images/avis-carlita-de-l-aguerfelde.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Boost de 2000 vita tous ses alliés",
+      "Pose un piège jusqu’à 8 PO qui applique -15 PM et les états Pesanteur et Inébranlable",
+      "Avance de 5 cases en lignes et tape air",
+      "Tape eau en zone cone de taille 2 et repousse de 3 cases, entre 3 et 6 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
+      "Il donne 660 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "naganita",
+    "name": "Naganita",
+    "filter": "chateau-amakna",
+    "title": "Naganita - Île de Kartonpath",
+    "picture": "images/avis-naganita.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique l’état Pacifiste à son début de tour pour chaque joueur à plus de 3 PO",
+      "Tape terre, applique de l’érosion et repousse de 6 cases, en zone de cercle 3 autour d’elle",
+      "Tape neutre et en fonction des points de vie érodés de la cible"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
+      "Il donne 660 avitons"
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "prince-marchand",
+    "name": "Prince Marchand",
+    "filter": "alignement",
+    "title": "Prince Marchand- Territoire des Porcos",
+    "picture": "images/avis-prince-marchand.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Maximise les effets aléatoires sur joueurs à son contact en début de tour",
+      "Vole des PA, PM, PO et 200 de statistique dans un élément aléatoire",
+      "Tape dans un élément aléatoire, applique de l’érosion, et retire 100% de résistance. Boost également la cible en puissance ainsi qu’une réduction de dégâts pour chaque attaque subit",
+      "Avance en ligne de 2 cases, applique l’état Pesanteur, se soigne et attire ses alliés, jusqu’à 10 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
+      "Il donne 10 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "trukipik",
+    "name": "Trukipik",
+    "filter": "chateau-amakna",
+    "title": "Trukipik - Jungle Interdite",
+    "picture": "images/avis-trukipik.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique l’état Pacifiste en début de tour à tous les joueurs à plus de 3 cases de lui",
+      "Tape terre en zone cercle de 3, pousse de 6 cases et applique de l’érosion",
+      "Tape neutre et fonction de la vitalité érodée de la cible"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
+      "Il donne 660 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "gobrechaun",
+    "name": "Gobrechaun",
+    "filter": "alignement",
+    "title": "Gobrechaun - Plaines Herbeuses",
+    "picture": "images/avis-gobrechaun.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Recule et esquive 100% des attaques mêlées les tours impairs.\nEst invulnérable à distance les tours pairs.",
+    "spells": [
+      "Bon courage.",
+      "Quand vous le tapez lui ou un allié, boost aléatoirement parmis ces bonus: Invu, invu mêlée, invu distance, intaclable, lourd, PA, PM, PO, Puissance, Dommage réduit, bouclier, tacle, fuite, esquive PA ou PM, coup critique",
+      "Quand vous vous faites taper, vous avez un malus aléatoire parmis ces malus: états affaibli, pesanteur, insoignable, intacleur, PA, PM, PO, puissances, vulné, tacle, fuite, esquive PA ou PM, minimise les effets aléatoires",
+      "Tape air, supprime les glyphes, pièges et runes en zone cone de taille 1, en mêlée",
+      "Tape eau et applique un poison PM. Retire aléatoire des PA, de la puissance ou des résistances"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
+      "Il donne 11 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "bouflouth",
+    "name": "Bouflouth",
+    "filter": "frigost",
+    "title": "Bouflouth - Champs de Glace",
+    "picture": "images/avis-bouflouth.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne 1 PM lorsqu’il se fait pousser",
+      "Invoque un Boufmouth de guerre, tous les 6 tours",
+      "Se boost en dommage, tous les 3 tours",
+      "Tape neutre en mêlée et repousse de 5 cases"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 100.",
+      "Il donne 960 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "morblok",
+    "name": "Morblok",
+    "filter": "dimension-divine",
+    "title": "Morblok - Chemins d'hier",
+    "picture": "images/avis-morblok.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Suivant l’élément dans lequel il est tapé, il va appliquer les malus suivant en zone de cercle 2 autour de lui: augmentation des dommages, débuff, puissance, PA",
+      "Tape air et se boost puissance, jusqu’à 10 PO",
+      "Tape feu et se soigne",
+      "Se boost en dommage, tous les 3 tours",
+      "Se téléporte jusqu’à 5 PO, tape eau et attire de 3 cases en zone de cercle 3 et se boost en tacle. (sauf si pesanteur)"
+    ],
+    "quest": [
+      "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 100.",
+      "Il donne 960 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "vashkiwi",
+    "name": "Vashkiwi",
+    "filter": "dimension-divine",
+    "title": "Vashkiwi - Île du Minotoror",
+    "picture": "images/avis-vashkiwi.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Tape terre en cercle de taille 2 autour de lui à chaque début de tour",
+      "Se boost lui ou un allié en bouclier, puissance et réduit les dommages reçus dès que la cible subit des dommages, jusqu’à 10 PO",
+      "Boost en zone de cercle 3 le tacle et la fuite. Attire de 4 cases pour chaque retrait PM et boost de 4 PA pour chaque retrait PA",
+      "Invoque une Fontaine Laiteuse qui tape eau en zone et retire de la puissance"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
+      "Il donne 12 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "nenuflor-tilotus",
+    "name": "Nenufor Tilotus",
+    "filter": "chateau-amakna",
+    "title": "Nenufor Tilotus - Tourbière sans fond",
+    "picture": "images/avis-nenuflor-tilotus.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Pose un glyphe qui tape terre et retire 6 PM",
+      "Invoque des Nufor. Le sort ci dessous est répliqué d’autant de fois que le joueur a de Nufor en ligne de vue",
+      "Tape feu et retire des PM en zone cercle de taille 3, jusqu’à 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 100.",
+      "Il donne 960 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": true
+  },
+  {
+    "slug": "padgref-demoel",
+    "name": "Padgref Demoël",
+    "filter": "astrub",
+    "title": "Padgref Demoël - Bois de Litneg",
+    "picture": "images/avis-padgref-demoel.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost de 100 dans tous les éléments pour chaque dommages reçus",
+      "Attire de 6 cases en ligne, jusqu’à 30 PO",
+      "Vol de la vie air jusqu’à 3 PO",
+      "Change de place et tape eau en zone cercle de 2, jusqu’à 14 PO sans ligne de vue",
+      "Vol de la vie en feu en zone croix de 1, jusqu’à 3 PO",
+      "Tape neutre en fonction de ses PV manquants"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 110.",
+      "Il donne 1080 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "jerart-dupaindur",
+    "name": "Jérart Dupaindur",
+    "filter": "alignement",
+    "title": "Jérart Dupaindur - Terrdala",
+    "picture": "images/avis-jerart-dupaindur.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Attire de 4 cases",
+      "Tape terre en zone croix de taille 1 et retire 2 PM, jusqu’à 8 PO",
+      "Invoque une Bouteille de Pandabsynthe qui attire de 4 cases et tape feu en zone",
+      "S’avance en ligne de 63 cases, tape terre en zone cercle de taille 2 et se soigne (sauf si Indéplaçable)"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
+      "Il donne 13 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "panteroz",
+    "name": "Pantèroz",
+    "filter": "dimension-divine",
+    "title": "Pantèroz - Ruelles des Eaux-Suaires",
+    "picture": "images/avis-panteroz.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Seulement à distance. Il faut donc la taper en mêlée, mais elle applique l’état Silencieux (ne peut pas lancer de sort) dans un cercle de taille 2 autour d’elle en début de tour.",
+    "spells": [
+      "Tape terre en mêlée",
+      "Tape feu en fonction de sa vitalité érodée. Tape également feu en zone cercle de taille 2. Jusqu’à 7 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Srambad et se rend dans la Tour des Voyageurs, dès le level 110.",
+      "Il donne 1080 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "ali-grothor",
+    "name": "Ali Grothor",
+    "filter": "chateau-amakna",
+    "title": "Ali Grothor - Tourbière Nauséabonde",
+    "picture": "images/avis-ali-grothor.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il l’a perd tous les 3 tours (tours 1, 4, 7, 10, 13, …).\nIl est également possible de lui retirer son état en ayant un joueur dans l’état « Grillade » qui commence son tour à 2 PO ou moins d’Ali Grothor.",
+    "spells": [
+      "Se boost en PM pour chaque retrait PO",
+      "Tape terre et retire du tacle en mêlée",
+      "Tape neutre et air en zone, se téléporte jusqu’à 5 PO, applique l’état Pesanteur et repousse de 3 cases",
+      "Tape air, retrie 3PM et retire 15% de résistance, en zone demi cercle de taille 3 entre 4 et 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 110.",
+      "Il donne 1080 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "roi-camole",
+    "name": "Roi Camole",
+    "filter": "saharach",
+    "title": "Roi Camole - Territoire Cacterre",
+    "picture": "images/avis-roi-camole.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne de la puissance lorsqu’il commence son tour",
+      "Echange de place jusqu’à 5 PO en se boostant puissance",
+      "Tape terre, pousse de 4 cases et se rend invisible, en mêlée tous les 2 tours",
+      "Tape air en zone croix de taille 1, jusqu’à 5 PO",
+      "Tape terre, applique une augmentation des dégats subits, et un invoque un Cactruc qui tape terre en zone autour de lui"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Saharach, dès le level 110.",
+      "Il donne 1080 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "monsieur-pingouin",
+    "name": "Monsieur Pingouin",
+    "filter": "frigost",
+    "title": "Monsieur Pingouin - Lac Gelé",
+    "picture": "images/avis-monsieur-pingouin.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique -100 PM et pesanteur pour 1 tour en début du combat",
+      "Tape eau en zone croix de taille 1 et fait un effet aléatoire parmis les suivants: vol des PA, PM, pousse de 2 cases, annule le tour ou fait des dommages feu",
+      "Dans un cercle de 3 cases, soigne ses alliés, réduit les dommages subits et rend les cibles invisibles, tous les 4 tours",
+      "Tous les 4 tours, sacrifie ses alliés dans un cercle de taille 6"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 110.",
+      "Il donne 1080 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "amy-l-empoisonneuse",
+    "name": "Amy l'empoisonneuse",
+    "filter": "base-justiciers",
+    "title": "Amy l'empoisonneuse - Jungle Obscure",
+    "picture": "images/avis-amy-l-empoisonneuse.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost en bouclier pour chaque retrait PA ou PM. Se soigne si elle subit des poisons.",
+      "A chaque début de tour, tape terre et air en fonction de la vitalité de la cible, retire de la puissance et révèle les entités invisibles autour d’elle.",
+      "Invoque des ronces autour de tous les joueurs et applique l’état Pesanteur (2tours), tous les 6 tours.",
+      "Tue une ronce et la remplace par une ronce animée qui tape, soigne, revele les invisibles et minimise les effets aléatoires.",
+      "Retire de la vitalité, applique un poison feu en fonction des PM et applique un état Empathique (les dommages infligés à Amy sont dupliqués sur ce joueur).",
+      "Dans un cercle de taille 3, applique de l’érosion, soigne et tape en vol de vie Eau."
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans la Base des Justiciers, dès le level 120.",
+      "Il donne 1200 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "katigrou",
+    "name": "Katigrou",
+    "filter": "frigost",
+    "title": "Katigrou - Forêt des Pins Perdus",
+    "picture": "images/avis-katigrou.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Vole 1 PA en croix de taille 1 autour de lui, à chaque début de tour",
+      "Se téléporte jusqu’à 12 PO et fais des dommages neutre en croix de taille 1 (sauf si pesanteur)",
+      "Maximise les effets aléatoires sur la cible jusqu’à 8 PO, tous les 4 tours",
+      "Tape neutre et terre en fonction de sa vitalité manquante, en mêlée"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 120.",
+      "Il donne 1200 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "darma",
+    "name": "Darma",
+    "filter": "alignement",
+    "title": "Darma - Village de la Canopée",
+    "picture": "images/avis-darma.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Réduit les dommages reçus pour chaque dégats de pièges ou glyphes subits/li&gt;",
+      "Pose un glyphe de cercle 3 qui tape air et retire 6 PO puis un glyphe inversé de taille 4 qui retire 4 PA et tape neutre",
+      "Tape terre en zone cercle 2 autour d’elle",
+      "Sur toute la map, boost ses alliés en puissance et PM et retire de la puissance et des PM aux joueurs",
+      "Se rend invisible et réduit les dommages reçus, tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
+      "Il donne 14 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "fojumo",
+    "name": "Fojumo",
+    "filter": "chateau-amakna",
+    "title": "Fojumo - Cirque de Cania",
+    "picture": "images/avis-fojumo.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se dédouble autant de fois qu’il y a de joueurs dans le combat",
+      "Se téléporte et pose un glyphe cercle de taille 7 qui rend tous les fojumo invisible",
+      "Tape neutre en croix de taille 1, en mêlée",
+      "Echange de place, se boost puissance et PM"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 120.",
+      "Il donne 1200 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "aigripoil",
+    "name": "Aigripoil",
+    "filter": "dimension-divine",
+    "title": "Aigripoil - Carrière Aurifère",
+    "picture": "images/avis-aigripoil.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne 1 PM quand il termine son tour",
+      "Attire de 3 cases en ligne, retire 3 PM et tape terre, jusqu’à 7 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 130.",
+      "Il donne 1320 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "mogligli",
+    "name": "Mogligli",
+    "filter": "alignement",
+    "title": "Mogligli - Landes de Cania",
+    "picture": "images/avis-mogligli.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Invoque un mob aléatoire entre Bagarra, Balours et Mulibre (ils sont invu, tapent et font des boost)",
+      "Tape feu en mêlée",
+      "Tape terre en demi cercle de taille 1, pousse de 6 cases et applique l’état indéplacable",
+      "Se boost en PM, tacle, fuite et révèle les entités invisibles. Tous les 5 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
+      "Il donne 15 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "fantomayte",
+    "name": "Fantomayte",
+    "filter": "frigost",
+    "title": "Fantomayte - Berceau d'Alma",
+    "picture": "images/avis-fantomayte.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Renvoi 100% des dommages pendant 3 tours, tous les 5 tours",
+      "Retire 100 puissance aux joueurs lorsqu’elle est déplacée",
+      "Se téléporte, tape air et repousse de 4 cases en zone croix de 1, jusqu’à 15 PO (sauf si Pesanteur)",
+      "Invoque un Mefisto qui tape terre en mêlée et qui minimise les effets aléatoire"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 130.",
+      "Il donne 1320 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "zatoishwan",
+    "name": "Zatoïshwan",
+    "filter": "astrub",
+    "title": "Zatoïshwan - Feudala",
+    "picture": "images/avis-zatoishwan.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Réduit les dommages reçus en mêlée",
+      "Tape air et repousse de 4 cases, en zone croix 1 autour de lui, tous les 5 tours",
+      "Tape eau et retire du retrait PA, jusqu’a 4 PO",
+      "Tape terre et retire 4 PO, jusqu’à 8 PO",
+      "Tape feu en cercle 2 et applique un poison feu de début de tour, jusqu’à 6 PO",
+      "Se boost en PA, puissance, dommage et renvoi les dégats subits"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Astrub, dès le level 130.",
+      "Il donne 1320 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "glandalf-l-aigri",
+    "name": "Glandaf l'Aigri",
+    "filter": "alignement",
+    "title": "Glandaf l'Aigri - Arbre Hakam",
+    "picture": "images/avis-glandalf-l-aigri.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "En début de tour, boost ses alliés de 2 PO et retire 2 PO aux joueurs, dans un cercle de 3 autour de lui",
+      "Tape terre, applique de l’érosion et augmente les dommages subits à 4 PO",
+      "Tape feu en zone de cercle 3 et boost 4 PA à ses alliés",
+      "Vole 2 PA et repousse de 1 case en croix 1 autour de lui"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
+      "Il donne 16 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "vengeuse-masquee",
+    "name": "Vengeuse Masquée",
+    "filter": "frigost",
+    "title": "Vengeuse Masquée - Larmes d'Ouronigride",
+    "picture": "images/avis-vengeuse-masquee.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Augmente ses résistances si elle subit du retrait PO",
+      "Tape eau et retire des PM, jusqu’à 15 PO",
+      "Vol de la vie eau et retire des stats, en mêlée",
+      "Se boost ainsi que ses alliées en dommages, PM, critiques et PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 140.",
+      "Il donne 1440 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "anatak-diskedor",
+    "name": "Anatak Diskedor",
+    "filter": "chateau-amakna",
+    "title": "Anatak Diskedor - Dents de Pierre",
+    "picture": "images/avis-anatak-diskedor.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost en puissance et coups critiques",
+      "Tape air et applique l’était insoignable, en zone cercle 3 autour de lui",
+      "Se téléporte et applique des dommages neutre en croix, jusqu’à 8 PO",
+      "Tape air, en mêlée"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 140.",
+      "Il donne 1440 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "yechti",
+    "name": "YeCh'Ti",
+    "filter": "frigost",
+    "title": "YeCh'Ti - Crevasse Perge",
+    "picture": "images/avis-yechti.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il doit OS une entité en mêlée (à partir du tour 2) pour enlever son état",
+    "spells": [
+      "Si invulnérable:",
+      "Tape eau, pousse, applique l’état Pesanteur en ligne sur toute la map",
+      "Se boost puissance et retire de la puissance jusqu’à 15 PO",
+      "Invoque un Cromiqnons qui tape en vol de vie neutre ou eau en mêlée",
+      "Se téléporte, tape air en zone cercle 2 jusqu’à 5 PO",
+      "Si vulnérable:",
+      "Tape neutre, retire des PA, PM et se boost en dommage, en mêlée",
+      "Tape eau, retire les envoutements et pousse de 2 cases, en zone croix de 1, jusqu’à 12 PO",
+      "Tape eau sur toute la map, retire 3 PO et de l’esquive PA/PM",
+      "Se téléporte, tape eau et retire des PM en zone cercle 2, jusqu’à 6 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 150.",
+      "Il donne 1560 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "ka-youloud",
+    "name": "Ka'Youloud",
+    "filter": "saharach",
+    "title": "Ka'Youloud - Gorges des Vents Hurlants",
+    "picture": "images/avis-ka-youloud.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "En fonction de sa vitalité possède 3 phases:&nbsp;",
+      "Triple Oeil (+70% de PV) :",
+      "Dans un cercle de 5 autour de lui, tape terre en fonction des PV de la cible, retire de la puissance, des PM, de la PO et applique l’état « Déjection Salissante »",
+      "Tape en vol de vie Terre et neutre et retire des résistances. Se donne 25% de résistance pour 5 tours. En zone cone de 3, en mêlée",
+      "Se téléporte jusqu’à 5 PO et dans un cercle de 3 attire, tape neutre et retire des PM",
+      "Double Oeil (entre 40 et 70% de PV) :",
+      "Dans un cercle de taille 5, tape eau en fonction des pv de la cible et boost critique, puissance, PO, PM et applique l’état « Déjection Salissante »",
+      "Tape eau en zone ligne 5, se boost puissance et se soigne",
+      "Se téléporte jusqu’à 5 PO et dans une croix de 2 pousse, tape neutre et retire des PA",
+      "Cyclope (-40% de PV) :",
+      "Dans un cercle de taille 5, tape eau en fonction des pv de la cible et boost critique, puissance, PO, PM et applique l’état « Déjection Salissante »",
+      "Se téléporte jusqu’à 5 PO et dans un cercle de 3 attire, tape neutre et retire des PM"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Saharach, dès le level 150.",
+      "Il donne 1560 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "crasper",
+    "name": "Crasper",
+    "filter": "alignement",
+    "title": "Crasper - Mont des Tombeaux",
+    "picture": "images/avis-crasper.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais il réduit de 47500 les dégâts des armes",
+    "spells": [
+      "Echange de position avec un joueur à la fin de son tour",
+      "Tape air, retire 6 PO et minimise les effets aléatoire",
+      "Applique un poison terre PA et PM , de l’érosion et l’état « Hanté », en zone cercle 5, jusqu’à 12 PO",
+      "Applique l’état Pacifiste, retire de la fuite et retire l’état Hanté"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
+      "Il donne 17 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "hin",
+    "name": "Hin",
+    "filter": "dimension-divine",
+    "title": "Hin - Jour présent",
+    "picture": "images/avis-hin.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique un poison terre PM",
+      "Repousse de 3 cases quand il se fait taper et le boost en PM, tous les 4 tours",
+      "Tape terre en fonction de ses PM restant et pousse de 3 cases, en zone cone 3",
+      "Tape terre, repousse de 3 cases et retire 3PM, en zone cercle 3"
+    ],
+    "quest": [
+      "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 150.",
+      "Il donne 1560 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "fuji-givrefoux",
+    "name": "Fuji Givrefoux",
+    "filter": "frigost",
+    "title": "Fuji Givrefoux - Cavernes de la Crevasse Perge",
+    "picture": "images/avis-fuji-givrefoux.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Boost 1000 dommages et 1 PM tous les ennemis du combat, dès qu’un ennemi meurt",
+      "Soigne et boost en dommage, en zone cercle 5 autour d’elle",
+      "Tape en vol de vie eau et applique de l’érosion, en diagonale"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 150.",
+      "Il donne 1560 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "shushu-debruk-sayl",
+    "name": "Shushu Debruk'Sayl",
+    "filter": "chateau-amakna",
+    "title": "Shushu Debruk'Sayl - Gisgoul",
+    "picture": "images/avis-shushu-debruk-sayl.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Vole 3PA aux joueurs et invocations dans un cercle de taille 3 autour de lui.\nLorsqu’il a 16PA, ils s’enlève l’invulnérabilité.",
+    "spells": [
+      "A 20 PA, se régen à 100%, se boost de 20 PA et se téléporte jusqu’à 2 PO",
+      "Applique 40% d’érosion, jusqu’à 12 PO",
+      "Tape terre et eau, en zone croix 5 et vole de l’agilité et de l’intelligence, jusqu’à 8 PO",
+      "Tape Feu et Air en croix diagonale 4, vole de la force et de la chance jusuqu’à 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 160.",
+      "Il donne 1680 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "guerrier-du-ko",
+    "name": "Guerrier du K.O",
+    "filter": "chateau-amakna",
+    "title": "Guerrier du K.O - Mont Torrideau",
+    "picture": "images/avis-guerrier-du-ko.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Tape neutre en zone cercle 3, attire de 2 cases, se donne du bouclier, à 3 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 160.",
+      "Il donne 1680 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "dremoan",
+    "name": "Dremoan",
+    "filter": "frigost",
+    "title": "Dremoan - Forêt Pétrifiée",
+    "picture": "images/avis-dremoan.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Afin de retirer son état, Dremoan doit OS une entité dans l’état zombie pour la transformer en Germe de Dremoan.\nTuer un mob le fera revenir à la vie en état zombie.\nIl peut aussi appliquer cet état sur une de vos invocations.",
+    "spells": [
+      "Tape en vol de vie terre a chaque début de tour",
+      "Tous les 5 tours, se soigne et se boost en dommage",
+      "Tape en vol de vie eau, retire des PM et applique l’état corrompu en zone ligne de 3",
+      "Tape en vol de vie Feu et se soigne",
+      "Retire 100 PM, tape neutre, applique les états Pesanteur, Corrompu et Zombi, tous les 5 tours a partir du tour 3"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 160.",
+      "Il donne 1680 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "carter-le-pillard",
+    "name": "Carter le Pillard",
+    "filter": "alignement",
+    "title": "Carter le Pillard - Caverne des Fungus",
+    "picture": "images/avis-carter-le-pillard.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Seulement à distance.\nMais s’il pose son glyphe marron sur un ennemi, celui ci est sacrifié. Taper l’ennemi permettra de taper Carter (en distance ou en mêlée, peu importe).",
+    "spells": [
+      "Tour 1 il pose un glyphe de taille 1 autour de lui. Ce glyphe grandit de 1 case chaque tour. Tour 2, il repose le même glyphe en supplément. Les effets se cumulent et appliquent -300 puissances, -30% résistances et -6 PO.",
+      "Pose un glyphe bleu qui tape eau et qui vous fait passer votre tour si vous finissez dedans",
+      "Pose un glyphe marron qui, si vous commencez votre tour dedans, vous fera voler des PA a vos alliés autour de vous dans un cercle de 2 cases",
+      "Tape feu en zone cone de 1"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 4.",
+      "Il donne 18 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "mouchame",
+    "name": "Mouchâme",
+    "filter": "dimension-divine",
+    "title": "Mouchâme - Catacombres",
+    "picture": "images/avis-mouchame.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se divise en 8 et partage les dégâts"
+    ],
+    "quest": [
+      "La quête se récupère à Srambad et se rend dans la Tour des Voyageurs, dès le level 160.",
+      "Il donne 1680 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "sans-visage",
+    "name": "Sans Visage",
+    "filter": "alignement",
+    "title": "Sans Visage - Dimension Obscure",
+    "picture": "images/avis-sans-visage.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Il est invisible tous les tours.\nTOUS les joueurs du combats doivent le taper au moins 1 fois, sinon il se boost en vitalité.",
+    "spells": [
+      "Se donne du bouclier et invoque des Bak, invulnérable à distance. Elles ne font rien, elles gênent juste les lignes de vues",
+      "Tape en vol de vie terre, retire de la fuite et des PM, en zone cercle 2, jusqu’à 3 PO",
+      "Tape air, retire de la fuite et dévoile les invisibles en zone croix 1, jusqu’à 12 PO",
+      "Tape eau, jusqu’à 2 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 5.",
+      "Il donne 19 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "viti-glourson",
+    "name": "Viti Glourson",
+    "filter": "frigost",
+    "title": "Viti Glourson - Ruche des Gloursons",
+    "picture": "images/avis-viti-glourson.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais il se boost de 30% de résistance dans l’élément des dégâts qu’il subit (2 tours non esquivable).Chaque tentative de désenvoutement lui retire 30% de résistance.",
+    "spells": [
+      "Boost en PA et PM tous ses alliés quand il meurt",
+      "Se boost en statistique dans l’élément des dégâts qu’il subit",
+      "Boost ses alliés en PO, PA, PM quand il est porté. Réduit les résistances et les PM des joueurs également",
+      "S’il subit du retrait PA, il renvoi les dommages pendant 3 tours",
+      "Soigne ses alliés jusqu’à 9 PO",
+      "Boost en PA ses alliés jusqu’à 10 PO",
+      "Tape eau, retire des PA et des PM jusqu’à 3 PO",
+      "Tape terre et applique de l’érosion, en mêlée",
+      "Tape eau et retire 100 PA/PM pour 3 tours, tous les 3 tours jusqu’à 20 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 170.",
+      "Il donne 1860 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "predagob",
+    "name": "Predagob",
+    "filter": "chateau-amakna",
+    "title": "Predagob - Nimotopia",
+    "picture": "images/avis-predagob.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se met invisible à chaque début de tour (le taper le rend visible)",
+      "Réduit les dommages finaux, tue les invocations et repousse de 4 cases en zone croix de 1 autour de lui a chaque début de tour",
+      "Tape en vol de vie neutre, jusqu’à 8 PO",
+      "Tape feu en zone cercle 3 et retire des PA, jusqu’à 5 PO",
+      "Tape air et retire du soin, en mêlée"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 170.",
+      "Il donne 1680 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "flasho",
+    "name": "Flasho",
+    "filter": "frigost",
+    "title": "Flasho - Crocs de Verre",
+    "picture": "images/avis-flasho.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Gagne des PM s’il se fait pousser ou retirer des PM. Gagne des dommages en cas de retrait PA",
+      "Esquive 100% des dommages d’arme en reculant de 1 case",
+      "Tue les invocations, renvoi à la position de début de combat, soigne ses alliés et retire des PA aux joueurs, au tour 6",
+      "Dans une zone carré de taille 5 autour de lui, tape air, retire PO, retire de la fuite et des résistances air",
+      "Enlève les envoutements, tape feu et retire des résistances feu, en mêlée",
+      "S'il est pacifiste, se retire l'état, enlève les envoutements, tape en vol de vie neutre et soigne ses alliés sur toute la map",
+      "Enlève les envoutements, échange de place et tape en vol de vie feu, jusqu’à 20 PO et tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 170.",
+      "Il donne 1860 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "docteur-eggob",
+    "name": "Docteur Eggob",
+    "filter": "frigost",
+    "title": "Docteur Eggob - Forêt Enneigée",
+    "picture": "images/avis-docteur-eggob.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "A chaque début de tour, il boost ses alliés en puissance",
+      "Invoque un Gobus instable, tous les 2 tours",
+      "Rend un de ses alliés invulnérable et le boost en dommage, esquive PA et PM, jusqu’à 10 PO",
+      "Applique l’état Insoignable, tape feu en fonction des PV de la cible, en zone croix 3"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 170.",
+      "Il donne 1860 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "culbutoeuf",
+    "name": "Culbutoeuf",
+    "filter": "frigost",
+    "title": "Culbutoeuf - Tour de la Clepsydre",
+    "picture": "images/avis-culbutoeuf.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Seulement en mêlée",
+    "spells": [
+      "Applique l’état Inébranlable sur toutes les entités du combat",
+      "Retire 2 PM infinis aux joueurs et retire 50% de résistance s’il subit un échange de position",
+      "Tape feu, retire 10 PM, de la puissance et applique 40% d’érosion en zone croix 1, autour de lui",
+      "Tape terre et feu, jusqu’à 4 PO",
+      "Boost ses alliés en PM et tacle, en zone cercle 2, tous les 4 tours",
+      "Augmente l’esquive PM pour chaque tentative de retrait PM, tous les 4 tours",
+      "Applique un poison terre en fonction des PA et applique l’état Pesanteur",
+      "Si un ennemi tape la cible, il est soigné de 50% des dégats infligés. En zone ligne 2, jusqu’à 14 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "hyperscampe",
+    "name": "Hyperscampe",
+    "filter": "base-justiciers",
+    "title": "Hyperscampe - Salle des Abîmes",
+    "picture": "images/avis-hyperscampe.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il faut placer 3 personnages minimum dans ses glyphes bleus pour lui retirer son état pendant 1 tour.\nAttention, il invoque les glyphes autour d’un des personnages, donc ne vous collez pas à un mur.",
+    "spells": [
+      "Lui appliquer l’état Pesanteur le rend invulnérable immédiatement",
+      "Tape en vol de vie terre et pose un glyphe bleu de taille aléatoire. Finir dans ce glyphe soigne, applique l’état Indéplaçable, révèle les invisibles et retire de la puissance",
+      "Attire de 3 cases, tape air, repousse de 5 cases et s’avance de 5 cases, jusqu’à 4 PO",
+      "Tape feu, retire des PM et repousse de 4 cases, en zone cercle 2 autour de lui",
+      "Se téléporte à 2 PO, retire les envoutements et tape eau en zone croix 1 (sauf si Pesanteur)"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans la Base des Justiciers, dès le level 120.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "homard-medali",
+    "name": "Homard Medali",
+    "filter": "profondeurs-sufokia",
+    "title": "Homard Medali - Vestiges Engloutis",
+    "picture": "images/avis-homard-medali.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais il peut passer Invulnérable s’il tape une cible avec son sort « Télépunch » (entre 2 à 5PO). Dans ce cas la, il faut le taper en mêlée pour lui retirer l’invulnérabilité.",
+    "spells": [
+      "Gagne de la puissance infinis à chaque début de tour",
+      "Tape eau, en fonction des PV de la cible et repousse de 3 cases, en mêlée",
+      "Tape terre, retire 2 PM et repousse de 1 case en carré de taille 1, entre 4 et 5 PO",
+      "Se téléporte ou échange de place entre 2 et 5 PO, tape en vol de vie air et s’applique l’état invulnérable"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans les Profondeurs de Sufokia, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "gein",
+    "name": "Gein",
+    "filter": "dimension-divine",
+    "title": "Gein - Haut Ténébreux",
+    "picture": "images/avis-gein.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il faut invoquer. L’invocation meurt automatiquement pour être remplacé par un Feu des âmes perdues.\nNote :&nbsp;Vous pouvez taper un feu et s'il s’allume en bleu, Gein est en mêlée de celui-ci.\nGein est invisible toute la durée du combat sauf lorsqu’il joue ou qu’il est tapé (mais il repasse invisible à la fin de son tour ou de celui du joueur.\nQuand il passe de visible à invisible, il se tp symétriquement par rapport au prochain joueur qui joue.\nSi la case n’est pas disponible, il se téléporte à sa position de début de tour.",
+    "spells": [
+      "Applique un poison air PA et feu PM et tape terre en fonction de la vie érodée du joueur",
+      "Tape feu en zone cercle 2, attire de 3 cases et change de place jusqu’à 4 PO (sauf si Pesanteur)",
+      "Tape feu en zone cercle 2 autour de lui, tous les 2 tours"
+    ],
+    "quest": [
+      "La quête se récupère à Srambad et se rend dans la Tour des Voyageurs, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "atcham",
+    "name": "Atcham",
+    "filter": "dimension-divine",
+    "title": "Atcham - Temple de Kerubim",
+    "picture": "images/avis-atcham.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Il se divise en 3 boss qui ont chacun un état: Chi (pierre), Fou (ciseaux) et Mi (Feuille).\nÀ chaque tour de Fou, les joueurs se verront attribué un état (pierre, feuille ou ciseau), et vous ne pourrez taper que le boss qui a l’état faible au votre.\nRappel : Pierre &gt; Ciseau &gt; Feuille &gt; Pierre donc :\nÉtat Pierre = taper Fou\nÉtat Ciseau = taper Mi\nÉtat Feuille = Taper Chi",
+    "spells": [
+      "Chi tape neutre en mêlée",
+      "Fou tape feu jusqu’à 3 PO",
+      "Mi tape dans tous les éléments entre 3 et 4 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Ecaflipus et se rend dans la Tour des Voyageurs, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "glourdorak",
+    "name": "Glourdorak",
+    "filter": "frigost",
+    "title": "Glourdorak - Jardins d'Hiver",
+    "picture": "images/avis-glourdorak.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il lance un sort sur un joueur entre 3 et 6 PO qui applique l’état « Fonso Cacnoob ».\nCe joueur doit alors terminer son tour en mêlée du Glourdorak pour lui enlever l’invulnérabilité pour 1 tour.",
+    "spells": [
+      "Applique de l’érosion, tape terre et neutre en vol de vie, en mêlée",
+      "Tape air et retire des PM, jusqu’à 15 PO",
+      "Désenvoute, retire de la puissance et des résistances quand la cible se fait taper dans un élément, tous les 2 tours, jusqu’à 15 PO",
+      "Tape eau et feu en vol de vie, en zone cercle 2 jusqu’à 17 PO",
+      "Désenvoute et retire 3 PM en zone croix 1 autour de lui, tous les 3 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "psikopompe",
+    "name": "Psikopompe",
+    "filter": "frigost",
+    "title": "Psikopompe - Tannerie Ecarlate",
+    "picture": "images/avis-psikopompe.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il faut lui faire une tentative de retrait PM pour retirer son invulnérabilité pour 1 tour. Tous ses sorts passent en PO infinie.",
+    "spells": [
+      "Boost ses alliés de 3 PO",
+      "Si un joueur commence son tour en mêlée d’un autre joueur, celui ci est tapé dans un élément aléatoire",
+      "Tape Air et vole de la PO, jusqu’à 12 PO",
+      "Applique l’état Affaibli, maximise les effets aléatoires et tape neutre en fonction de la vitalité de la cible, en mêlée",
+      "Boost de 4 PA en croix taille 2, jusqu’à 6 PO",
+      "Renvoi les dégats lorsqu’il subit du retrait PA"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "mekamouth",
+    "name": "Mekamouth",
+    "filter": "frigost",
+    "title": "Mekamouth - Remparts à Vent",
+    "picture": "images/avis-mekamouth.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il doit finir son tour dans son glyphe croix bleu pour retirer l’état pour 1 tour",
+    "spells": [
+      "Retire 2 PA aux joueurs et applique un poison eau PM",
+      "Pose un glyphe cercle 2 qui tape feu, jusqu’à 12 PO",
+      "Pose un glyphe cercle 2 qui boost les résistances de ses alliés, réduit celles des joueurs, applique l’état Pesanteur et tape terre, tous les 2 tours jusqu’à 10 PO",
+      "Pose un glyphe sur toute la map (sauf les 3 cases autour de lui) qui boost dommages ses alliés et en retire aux joueurs, tous les 3 tours",
+      "Pose un glyphe cercle 2 qui boost en vitalité ses alliés et applique de l’érosion et tape eau les joueurs, tous les 4 tours jusqu’à 12 PO",
+      "Pose un glyphe croix 1 qui boost PA ses alliés et en retire aux joueurs. Ce glyphe le délock, tous les 3 tours jusqu’à 12 PO",
+      "Tape feu et eau, pousse de 8 cases, retire des PM, de la PO et s’applique du bouclier, tous les 6 tours en ligne infini"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "takomako",
+    "name": "Takomako",
+    "filter": "profondeurs-sufokia",
+    "title": "Takomako - Abîme de R'lyugluglu",
+    "picture": "images/avis-takomako.webp",
+    "has_invulnerable_state": false,
+    "explanation": "… mais s’en applique une tous les tours dès qu’il joue s’il n’a aucun joueur à 5 PO",
+    "spells": [
+      "Gagne 1 PM infini à chaque début de tour (cumul max 10)",
+      "Tape neutre en fonction de ses PM restants, jusqu’à 10 PO",
+      "Applique les états Pacifiste et Insoignable, en ligne jusqu’à 10 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans les profondeurs de Sufokia, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "ganos",
+    "name": "Ganos",
+    "filter": "dimension-divine",
+    "title": "Ganos - Osavane",
+    "picture": "images/avis-ganos.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se boost chaque tour en dommage finaux, PM, tacle, fuite et vitalité. (cumul max 10)",
+      "Repousse le joueur le plus proche de lui de 20 cases, chaque tour",
+      "Il a 2 seuils de PV à 70% et 30% qui le font changer d’état.Il commence toujours par l’état liés à la saison actuelle et suit cette ordre de rotation: Naissance &gt; Chasse &gt; Repos.",
+      "Naissance :",
+      "Tape eau en fontion de ses PV manquants et s’attire de 1 case, jusqu’à 5 PO",
+      "S’applique du bouclier et de la puissance",
+      "Tape terre et vole 1 PM, jusqu’à 5 PO",
+      "Chasse :",
+      "Tape terre et retape terre si la cible se fait déplacer, en mêlée",
+      "Se boost en PO et en dommage poussée",
+      "Tape air en zone cercle 3 autour de lui et vole de la vitalité",
+      "Repos :",
+      "Tape air et repousse de 1 case jusqu’à 10 PO",
+      "Se soigne et se boost en coups critiques",
+      "Tape eau en zone croix 1 et retire des dommages critiques pour booster ses alliés, jusqu’à 10 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Osavora et se rend dans la Tour des Voyageurs, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "sicogne",
+    "name": "Sicogne",
+    "filter": "dimension-divine",
+    "title": "Sicogne - Lendemains Incertains",
+    "picture": "images/avis-sicogne.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Passe le tour du joueur qui tente de le pousser, attirer, téléporter ou de changer de place avec lui",
+      "Pose des glyphes sous ses alliés, en marchant dedans vous échanger de place avec le mob qui l’a posé et vous le boostez",
+      "Se téléporte, se boost en tacle, tape air et terre en zone cercle 3, jusqu’à 6 PO",
+      "Se boost ainsi que ses alliés en puissance, PA, coup critique et maximise les effets aléatoires sur les joueurs, tous les 3 tours",
+      "Tape en vol de vie terre, retire de la puissance et des PM, jusqu’à 3 PO",
+      "OS les invocations, retire de la fuite, augmente les dommages subits et tape air, jusqu’à 10 PO"
+    ],
+    "quest": [
+      "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 200.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "grand-kongoku",
+    "name": "Grand Kongoku",
+    "filter": "chateau-amakna",
+    "title": "Grand Kongoku - Salle des Embruns",
+    "picture": "images/avis-grand-kongoku.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Se téléporte n’importe ou sur la carte (sauf si Pesanteur)",
+      "Tape neutre en zone ligne 9, en mêlée",
+      "Tape neutre et repousse de 10 cases, en mêlée",
+      "Invoque une Cocolune. Elle attire de 10 cases tous les joueurs et applique l’état Pacifiste à tous les joueurs dans sa ligne de vue",
+      "Tant qu’elle est en vie, le Grand Kongoku a l’état Super Singe et des effets supplémentaires sur ses sorts:",
+      "500 Puissance et 5000 vitalité",
+      "Tape neutre en zone ligne 9, en mêlée. Le prochain coup est boosté",
+      "Tape neutre et repousse de 20 cases, en mêlée",
+      "Se téléporte n’importe ou sur la carte (sauf si Pesanteur)"
+    ],
+    "quest": [
+      "La quête se récupère et se rend au Château d’Amakna, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "voldelor",
+    "name": "Voldelor",
+    "filter": "dimension-divine",
+    "title": "Voldelor - Retraite des Eternels",
+    "picture": "images/avis-voldelor.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Applique l’état Mangelors au premier joueur qui le tape dans le tour",
+      "Applique de l’érosion, tape eau en fonction des points de vie érodés et applique un poison de début de tour",
+      "Tape en vol de vie terre, change de place et réduit les dommages subits",
+      "Ressuscite son dernier allié mort"
+    ],
+    "quest": [
+      "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "chevalier-de-glace",
+    "name": "Chevalier de Glace",
+    "filter": "frigost",
+    "title": "Chevalier de Glace - Bastion des Froides Légions",
+    "picture": "images/avis-chevalier-de-glace.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais il se met invulnérable s’il subit un retrait PM, PA ou une poussée",
+    "spells": [
+      "Désenvoute et se soigne jusqu’à 500 PV lorsqu’il tape le joueur, tous les 5 tours",
+      "Boost un allié en PM et PO, change de place avec lui et passe Pesanteur tous les 3 tours",
+      "Minimise les effets aléatoires et tape eau, en zone cercle 2, jusqu’à 14 PO",
+      "Tape air et vol des dommages, jusqu’à 15 PO",
+      "Tape en vol de vie Air et Eau et applique l’état Pesanteur, jusqu’à 2 PO",
+      "Se téléporte et s’applique l’état Pesanteur, jusqu’à 5 PO tous les 4 tours"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": true,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "khepricorne",
+    "name": "Khepricorne",
+    "filter": "saharach",
+    "title": "Khepricorne - Pyramide Maudite",
+    "picture": "images/avis-khepricorne.webp",
+    "has_invulnerable_state": true,
+    "explanation": "Il faut le taper (meme sans dommage) pour lui retirer l’invulnérabilité pour 3 tours",
+    "spells": [
+      "Lorsqu’il passe vulnérable, il se boost en tacle, PM, esquive PM, devient intaclable et réduit les dommages subits. Il invoque également une Boule Puante",
+      "Les joueurs à sa mêlée sont repoussé de 1 case chaque tour",
+      "Les joueurs a plus de 6 PO subissent un retrait PO et PA chaque tour",
+      "Si Khepricorne est a 10 PO de sa boule, il tape tous les joueurs sur la carte",
+      "Quand il repasse invulnérable, il tue sa boule et occasion des dommages feu en zone cercle 2 autour d’elle",
+      "Invulnérable :",
+      "Tape neutre en mêlée et vole 1 PA",
+      "Tape feu et vole des statistiques, jusqu’à 10 PO",
+      "Vulnérable :",
+      "Tape terre et applique l’état Pesanteur en ligne infinie de la Boule, la pousse de 28 cases",
+      "Attire la boule de 20 cases et pose un piège qui met l’état Pesanteur, retire de la fuite, de l’esquive PM et des PM",
+      "Echange de place avec la Boule ce qui le soigne de 10% de ses PV. Il tape air et retire des PM en zone cercle 3 autour de lui",
+      "Il peut également invoquer des Boulettes Puantes qui tape eau, dévoile les invisible, applique de l’érosion et soigne ses alliés"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Saharach, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "fantome-braideur",
+    "name": "Fantôme Braïdeur",
+    "filter": "alignement",
+    "title": "Fantôme Braïdeur - Caserne du Jour sans fin",
+    "picture": "images/avis-fantome-braideur.webp",
+    "has_invulnerable_state": false,
+    "explanation": "Mais elle réduit les dommages à distance de 75%",
+    "spells": [
+      "Fantôme Braïdeur ainsi que les joueurs sont Pesanteur tout le combat",
+      "Fantôme Braïdeur est intaclable et repousse les joueurs à sa mêlée de 1 case",
+      "A 50% de vita, elle invoque 3 copies d’elle même. Dès qu’une copie meurt, elle est réinvoquée",
+      "Tape terre et désenvoute, jusqu’à 12 PO, tous les 3 tours",
+      "Tape feu et repousse de 6 cases, en zone ligne 6, jusqu’à 12 PO",
+      "Tape terre et eau et retire 4 PM en zone cercle 2, jusqu’à 12 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 5.",
+      "Il donne 20 alitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "comte-harebourg",
+    "name": "Comte Harebourg",
+    "filter": "frigost",
+    "title": "Comte Harebourg",
+    "picture": "images/avis-comte-harebourg.webp",
+    "has_invulnerable_state": true,
+    "explanation": "En le tapant les tours pairs, il est téléporté symétriquement par rapport au joueur.\nS’il change de place avec une entité, il est délock.",
+    "spells": [
+      "Tape en ligne jusqu’à 14 PO en fonction de sa vitalité manquante et renvoi à la position de début de tour",
+      "S’il est&nbsp;invulnérable, tape en vol de vie et en retirant des PA, jusqu’à 4 PO",
+      "S’il est&nbsp;vulnérable, tape en zone de 5, jusqu’à 6 PO. Crée des illusions du Comte"
+    ],
+    "quest": [
+      "La quête se récupère et se rend à Frigost, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  },
+  {
+    "slug": "buldalazred",
+    "name": "Buldalazred",
+    "filter": "profondeurs-sufokia",
+    "title": "Buldalazred - Tréfonds des Trithons",
+    "picture": "images/avis-buldalazred.webp",
+    "has_invulnerable_state": false,
+    "explanation": "",
+    "spells": [
+      "Pose un piège. Si un joueur le déclenche, tous les joueurs sont attirés de 3 cases vers Buldalazred et le glyphe est révélé. Buldalazred gagne de la puissance pour chaque piège déclenché",
+      "Tape feu et retire 3 PM jusqu’à 8 PO"
+    ],
+    "quest": [
+      "La quête se récupère et se rend dans les profondeurs de Sufokia, dès le level 180.",
+      "Il donne 2040 avitons."
+    ],
+    "legendary_hunt_exist": false,
+    "useful_for_emeraude": false
+  }
+]
