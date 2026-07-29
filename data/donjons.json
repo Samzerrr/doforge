@@ -299,7 +299,7 @@
     "picture": "images/boss-maison-fantome.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Mais il a la spécificité d’être Enraciné et Lourd. Il ne peut donc être déplacé d’aucune manière possible.",
+    "explanation": "👻 Le Boostache est le boss de la Maison Fantôme d'Amakna.\n⚠️ Il possède la particularité d'être Enraciné et Lourd permanent : il ne peut être déplacé, poussé ou téléporté d'aucune façon.\n💡 Stratégie : Éliminez les Chafers et Fantômes qui l'accompagnent tout en maintenant vos soins. Le Boostache tape Neutre et Terre en CàC mais reste très accessible si vous gardez vos distances.",
     "spells": [
       "Il ne tape uniquement qu’en mêlée",
       "Il ressuscite le dernier allié mort avec 100% de sa vie",
@@ -2026,7 +2026,7 @@
     "picture": "images/boss-garde-manger-du-rat-blanc.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Note : Vous pouvez retrouver ce boss dans le donjon&nbsp;Repaire du Sphincter Cell",
+    "explanation": "🐀 Le Rat Blanc est le boss du Garde-manger d'Bonta.\n⚠️ Son sort 'Peste Blanche' pose un poison mortel si vous réutilisez le même élément d'attaque. Il se soigne également lorsqu'il est frappé.\n💡 Stratégie : Variez les éléments d'attaque ou utilisez du dédébuff/débonus. Tuez les Chafers et Rats qui l'entourent d'abord.",
     "spells": [
       "Tape uniquement en mêlée",
       "Debuff les joueurs s’ils recoivent du soin",
@@ -2077,7 +2077,7 @@
     "picture": "images/boss-souriciere-du-rat-noir.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Note : Vous pouvez retrouver ce boss dans le donjon&nbsp;Repaire du Sphincter Cell",
+    "explanation": "🐀 Le Rat Noir est le boss de la Souricière de Brâkmar.\n⚠️ Son sort 'Kackitu' applique la Peste Noire : si un allié meurt à côté de vous, vous subissez des dégâts énormes.\n💡 Stratégie : Éloignez vos personnages des créatures sur le point de mourir et éliminez le Rat Noir à distance.",
     "spells": [
       "Tape uniquement en mêlée",
       "Inflige des dommages aux joueurs s’ils recoivent du soin",
@@ -2227,7 +2227,7 @@
     "picture": "images/boss-antre-du-blop-multicolore-royal.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Note : ce boss est accompagné des 4 Blops Royaux, vous pouvez retrouver&nbsp;la page de ces boss ici",
+    "explanation": "🌸 Le Blop Multicolore Royal est accompagné des 4 Blops Royaux (Coco, Griotte, Indigo, Reinette).\n⚠️ Chaque Blop Royal possède 100% de résistance dans son élément propre et invoque des Blops secondaires.\n💡 Stratégie : Tapez chaque Blop Royal dans son élément de faiblesse (ex: tapez le Blop Coco Feu avec de la Terre/Air). Éliminez le Blop Multicolore en dernier après avoir nettoyé le terrain.",
     "spells": [
       "Il tape en volant 2 PM jusqu’à 4 PO",
       "Il applique l’état insoignable pour 1 tour, tous les 3 tours",
@@ -2583,9 +2583,9 @@
     "boss_name": "Haute Truche",
     "filter": "niveaux-101-150",
     "picture": "images/boss-voliere-de-la-haute-truche.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Mais elle devient invulnérable si elle subit un coup d’arme !",
+    "explanation": "🐔 La Haute Truche possède une règle spéciale d'invulnérabilité !\n⚠️ Elle devient immédiatement invulnérable si vous l'attaquez avec un coup d'arme !\n💡 Stratégie : Attaquez la Haute Truche UNIQUEMENT avec des sorts de classe. N'utilisez JAMAIS d'arme au CàC ou à distance sous peine d'activer son invulnérabilité.",
     "spells": [
       "Tape en retirant des PM et de la puissance",
       "Tape en appliquant l’état pesanteur, un poison, et de l’érosion",
@@ -3684,7 +3684,7 @@
     "picture": "images/boss-boyau-du-pere-ver.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il est invulnérable à distance, il faut donc le taper en mêlée uniquement",
+    "explanation": "🪱 Le Père Ver est complètement invulnérable à toutes les attaques à distance !\n💡 Stratégie : Pour lui infliger des dégâts, vous devez impérativement l'attaquer au corps à corps (au CàC strict, portée 1). Restez collé à lui avec vos personnages de mêlée pour l'éliminer rapidement.",
     "spells": [
       "Tape en vol de vie",
       "Applique un poison PM, tous les 2 tours",
@@ -4251,9 +4251,9 @@
     "boss_name": "Fuji Givrefoux Nourricière",
     "filter": "niveaux-151-190",
     "picture": "images/boss-cavernes-nourricieres.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Elle est accompagnée du&nbsp;Tengu Givrefoux&nbsp;(qui lui est invulnérable)",
+    "explanation": "🦊 La Fuji Givrefoux Nourricière est accompagnée du Tengu Givrefoux (qui est invulnérable au départ).\n💡 Stratégie : Tuez la Fuji Givrefoux en premier pour stabiliser la salle. Pour dévulnérer ensuite le Tengu Givrefoux, vous devrez faire appliquer les états 'Kami' et 'Yomi' par les monstres de la salle.",
     "spells": [
       "Tape en diagonale uniquement, en vol de vie et en appliquant de l’érosion",
       "Soigne et boost dommage autour d’elle, en zone 5, tous les 3 tours",
@@ -5168,7 +5168,7 @@
     "picture": "images/boss-defi-du-chaloeil.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il perd son invulnérabilité automatiquement au tour 20",
+    "explanation": "🎲 Le Chaloeil est invulnérable au début du combat.\n☠️ Le plateau comporte des cases Dés numérotées de 1 à 6. Ne marchez JAMAIS sur une case Dé dont la valeur est égale au tour de jeu en cours, sous peine d'OS toute l'équipe !\n💡 Stratégie : Pour retirer l'invulnérabilité du Chaloeil, amenez tous les Dés du plateau à la valeur 6 en les poussant/tapant, ou attendez le tour 20 où il perd son invulnérabilité automatiquement.",
     "spells": [
       "En fonction de la case sur laquelle il finit son tour, il invoque des Dés sur le terrain et se boost (PO, PM, Etat Indéplaçable, puissance…)",
       "Le glyphe de ces Dé soigne les joueurs",
@@ -5221,7 +5221,7 @@
     "picture": "images/boss-vaisseau-du-capitaine-meno.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Cependant il réduit les dommages de 50%.\nLes joueurs gagnent 20% de dommages par tour de jeu.",
+    "explanation": "⚓ Le Capitaine Meno réduit naturellement tous les dégâts subis de 50%.\n💡 Stratégie : Chaque tour passé dans le combat augmente les dommages finaux des joueurs de 20%. Préparez un gros tour de burst aux tours 4-5 pour l'exécuter sous sous-marins !",
     "spells": [
       "Invoque 2 mobs chaque tour",
       "Les mobs sont invulnérables et meurent automatiquement 4 tours après leur invocation",
@@ -6813,7 +6813,7 @@
     "picture": "images/boss-marche-de-kelba.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il devient vulnérable au tour 11.\nEn le tuant, le combat se termine.",
+    "explanation": "🦅 Le Corbeau Noir survole la carte et reste invulnérable jusqu'au tour 11.\n💡 Stratégie : Survivez aux vagues de Kroskatz et créatures pendant 10 tours. Au tour 11, le Corbeau Noir se pose sur le terrain et devient vulnérable. Éliminez-le pour terminer le combat instantanément.",
     "spells": [
       "Applique l’état Aventurier sur un joueur. S’il meurt, le combat est perdu. Si un joueur autre que lui tape le Corbeau Noir, le combat est perdu également",
       "Se téléporte en mêlée d’un joueur en retirant des PM autour de sa case d’arrivée, portée infinie",
@@ -6899,7 +6899,7 @@
     "picture": "images/boss-percimol.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Il renvoit 25% des dommages subis si vous êtes dans sa ligne de vue.",
+    "explanation": "🔨 Percimol possède un sort de renvoi de dégâts passif.\n⚠️ Il renvoie 25% des dégâts subis à l'attaquant si celui-ci se trouve dans sa ligne de vue !\n💡 Stratégie : Attaquez Percimol hors de sa ligne de vue (en diagonale ou à travers des obstacles), ou utilisez des sorts sans ligne de vue pour éviter de subir le renvoi.",
     "spells": [
       "Tape eau en croix de taille 1 et pose des glyphes qui retirent des PM.",
       "Boost ses alliés en dommages finaux.",

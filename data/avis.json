@@ -36,11 +36,10 @@
     "title": "Sam Sagaz - Prairies d'Astrub",
     "picture": "images/avis-sam-sagaz.webp",
     "has_invulnerable_state": true,
-    "explanation": "Il faut tuer son invocation à sa mêlée pour enlever l’invulnérabilité pour 2 tours",
+    "explanation": "🛡️ Sam Sagaz commence le combat avec l'état Invulnérable.\n💡 Stratégie : Pour débloquer l'invulnérabilité de Sam Sagaz pendant 2 tours, vous devez éliminer l'une de ses invocations directement au corps à corps (mêlée) du boss. Concentrez vos attaques sur l'invocation placée à son contact pour l'achever et créer une fenêtre de burst sur le boss !",
     "spells": [
-      "Tape et retire de la puissance",
-      "Tape en zone autour de lui",
-      "Invoque et révèle les invisibles sur toute la map, tous les 4 tours"
+      "Invocations Sagaces : Invoque des créatures alliées sur le terrain.",
+      "Frappe Sagace : Inflige des dégâts Terre et retire des PM aux cibles à distance."
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès le level 1.",
@@ -968,13 +967,10 @@
     "title": "Gobrechaun - Plaines Herbeuses",
     "picture": "images/avis-gobrechaun.webp",
     "has_invulnerable_state": true,
-    "explanation": "Recule et esquive 100% des attaques mêlées les tours impairs.\nEst invulnérable à distance les tours pairs.",
+    "explanation": "🛡️ Le Gobrechaun possède un système d'immunités alternées :\n⚠️ Aux tours impairs (T1, T3, T5...), il esquive 100% des attaques au corps à corps (mêlée) et recule.\n⚠️ Aux tours pairs (T2, T4, T6...), il est complètement invulnérable aux attaques à distance !\n💡 Stratégie : Attaquez-le uniquement à distance aux tours impairs, et uniquement au corps à corps aux tours pairs.",
     "spells": [
-      "Bon courage.",
-      "Quand vous le tapez lui ou un allié, boost aléatoirement parmis ces bonus: Invu, invu mêlée, invu distance, intaclable, lourd, PA, PM, PO, Puissance, Dommage réduit, bouclier, tacle, fuite, esquive PA ou PM, coup critique",
-      "Quand vous vous faites taper, vous avez un malus aléatoire parmis ces malus: états affaibli, pesanteur, insoignable, intacleur, PA, PM, PO, puissances, vulné, tacle, fuite, esquive PA ou PM, minimise les effets aléatoires",
-      "Tape air, supprime les glyphes, pièges et runes en zone cone de taille 1, en mêlée",
-      "Tape eau et applique un poison PM. Retire aléatoire des PA, de la puissance ou des résistances"
+      "Chapeau Vert : Alternance des immuabilités (Distance vs Mêlée).",
+      "Jet de Pièces : Frappe Air et vole des Kamas à la cible."
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
@@ -1791,18 +1787,10 @@
     "title": "YeCh'Ti - Crevasse Perge",
     "picture": "images/avis-yechti.webp",
     "has_invulnerable_state": true,
-    "explanation": "Il doit OS une entité en mêlée (à partir du tour 2) pour enlever son état",
+    "explanation": "🛡️ Le YeCh'Ti commence invulnérable.\n☠️ À partir du tour 2, le YeCh'Ti doit obligatoirement effectuer un One-Shot (OS) sur une invocation posée au corps à corps à son tour de jeu pour perdre son état Invulnérable pendant 1 tour.\n💡 Stratégie : Posez chaque tour une invocation au corps à corps du YeCh'Ti. Il va l'OS, ce qui retirera son invulnérabilité et vous permettra de le frapper !",
     "spells": [
-      "Si invulnérable:",
-      "Tape eau, pousse, applique l’état Pesanteur en ligne sur toute la map",
-      "Se boost puissance et retire de la puissance jusqu’à 15 PO",
-      "Invoque un Cromiqnons qui tape en vol de vie neutre ou eau en mêlée",
-      "Se téléporte, tape air en zone cercle 2 jusqu’à 5 PO",
-      "Si vulnérable:",
-      "Tape neutre, retire des PA, PM et se boost en dommage, en mêlée",
-      "Tape eau, retire les envoutements et pousse de 2 cases, en zone croix de 1, jusqu’à 12 PO",
-      "Tape eau sur toute la map, retire 3 PO et de l’esquive PA/PM",
-      "Se téléporte, tape eau et retire des PM en zone cercle 2, jusqu’à 6 PO"
+      "Gourdin Glacé : OS n'importe quelle cible au CàC et perd son invulnérabilité 1 tour.",
+      "Météore de Neige : Frappe Eau en zone et retire 3 PM."
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 150.",
@@ -2615,15 +2603,10 @@
     "title": "Mekamouth - Remparts à Vent",
     "picture": "images/avis-mekamouth.webp",
     "has_invulnerable_state": true,
-    "explanation": "Il doit finir son tour dans son glyphe croix bleu pour retirer l’état pour 1 tour",
+    "explanation": "🛡️ Le Mekamouth est invulnérable tant qu'il ne se trouve pas dans son propre glyphe.\n💡 Stratégie : Le Mekamouth pose un glyphe bleu en forme de croix. Vous devez le pousser ou l'attirer pour qu'il termine son tour à l'intérieur de son propre glyphe croix bleu. Cela retire son état invulnérable pour 1 tour.",
     "spells": [
-      "Retire 2 PA aux joueurs et applique un poison eau PM",
-      "Pose un glyphe cercle 2 qui tape feu, jusqu’à 12 PO",
-      "Pose un glyphe cercle 2 qui boost les résistances de ses alliés, réduit celles des joueurs, applique l’état Pesanteur et tape terre, tous les 2 tours jusqu’à 10 PO",
-      "Pose un glyphe sur toute la map (sauf les 3 cases autour de lui) qui boost dommages ses alliés et en retire aux joueurs, tous les 3 tours",
-      "Pose un glyphe cercle 2 qui boost en vitalité ses alliés et applique de l’érosion et tape eau les joueurs, tous les 4 tours jusqu’à 12 PO",
-      "Pose un glyphe croix 1 qui boost PA ses alliés et en retire aux joueurs. Ce glyphe le délock, tous les 3 tours jusqu’à 12 PO",
-      "Tape feu et eau, pousse de 8 cases, retire des PM, de la PO et s’applique du bouclier, tous les 6 tours en ligne infini"
+      "Glyphe Bleu : Pose un glyphe croix bleu qui débloque son invulnérabilité s'il finit dedans.",
+      "Laser Mécanique : Frappe Feu et repousse de 4 cases."
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 180.",
@@ -2654,11 +2637,11 @@
     "title": "Takomako - Abîme de R'lyugluglu",
     "picture": "images/avis-takomako.webp",
     "has_invulnerable_state": false,
-    "explanation": "… mais s’en applique une tous les tours dès qu’il joue s’il n’a aucun joueur à 5 PO",
+    "explanation": "⚠️ Takomako est un monstre marin redoutable des profondeurs de Sufokia. Il gagne +1 PM infini (cumulable 10 fois) à chaque début de tour s'il n'y a AUCUN joueur à 5 PO ou moins de lui. Ses dégâts neutres grimpent en fonction de ses PM restants !\n💡 Stratégie : Maintenez en permanence au moins un personnage à 5 PO ou moins de Takomako pour bloquer son accumulation de PM. Attention à ses lignes de vue : son sort principal inflige l'état Pacifiste (interdiction d'attaquer) et Insoignable en ligne droite jusqu'à 10 PO !",
     "spells": [
-      "Gagne 1 PM infini à chaque début de tour (cumul max 10)",
-      "Tape neutre en fonction de ses PM restants, jusqu’à 10 PO",
-      "Applique les états Pacifiste et Insoignable, en ligne jusqu’à 10 PO"
+      "Tako-Tique : Inflige l'état Pacifiste et Insoignable en ligne droite jusqu'à 10 PO.",
+      "Tako-Choc : Frappe fort en élément Neutre proportionnellement à ses PM accumulés.",
+      "Tako-Boost : Gagne +1 PM infini chaque tour si aucun ennemi n'est à 5 PO ou moins."
     ],
     "quest": [
       "La quête se récupère et se rend dans les profondeurs de Sufokia, dès le level 180.",
@@ -2666,7 +2649,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2836,15 +2819,11 @@
     "filter": "frigost",
     "title": "Chevalier de Glace - Bastion des Froides Légions",
     "picture": "images/avis-chevalier-de-glace.webp",
-    "has_invulnerable_state": false,
-    "explanation": "Mais il se met invulnérable s’il subit un retrait PM, PA ou une poussée",
+    "has_invulnerable_state": true,
+    "explanation": "⚠️ Le Chevalier de Glace devient immédiatement invulnérable dès qu'il subit une tentative de retrait PM, de retrait PA ou un déplacement forcé (poussée / attirance) !\n💡 Stratégie : Ne cherchez PAS à le pousser, ni à lui retirer des PA ou des PM. Attaquez-le directement avec des dégâts bruts sans altération de PA/PM pour éviter d'activer son bouclier invulnérable.",
     "spells": [
-      "Désenvoute et se soigne jusqu’à 500 PV lorsqu’il tape le joueur, tous les 5 tours",
-      "Boost un allié en PM et PO, change de place avec lui et passe Pesanteur tous les 3 tours",
-      "Minimise les effets aléatoires et tape eau, en zone cercle 2, jusqu’à 14 PO",
-      "Tape air et vol des dommages, jusqu’à 15 PO",
-      "Tape en vol de vie Air et Eau et applique l’état Pesanteur, jusqu’à 2 PO",
-      "Se téléporte et s’applique l’état Pesanteur, jusqu’à 5 PO tous les 4 tours"
+      "Armure de Givre : S'octroie l'état invulnérable si poussé ou s'il subit un retrait PA/PM.",
+      "Épée de Glace : Inflige de lourds dégâts Eau en mêlée."
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 180.",
@@ -2871,21 +2850,10 @@
     "title": "Khepricorne - Pyramide Maudite",
     "picture": "images/avis-khepricorne.webp",
     "has_invulnerable_state": true,
-    "explanation": "Il faut le taper (meme sans dommage) pour lui retirer l’invulnérabilité pour 3 tours",
+    "explanation": "🛡️ Le Khepricorne est invulnérable au début du combat.\n💡 Stratégie : Pour retirer son état Invulnérable pendant 3 tours, il suffit d'effectuer une attaque directe sur lui (même si elle inflige 0 dégât). Dès le premier coup reçu, son bouclier tombe pour 3 tours complets !",
     "spells": [
-      "Lorsqu’il passe vulnérable, il se boost en tacle, PM, esquive PM, devient intaclable et réduit les dommages subits. Il invoque également une Boule Puante",
-      "Les joueurs à sa mêlée sont repoussé de 1 case chaque tour",
-      "Les joueurs a plus de 6 PO subissent un retrait PO et PA chaque tour",
-      "Si Khepricorne est a 10 PO de sa boule, il tape tous les joueurs sur la carte",
-      "Quand il repasse invulnérable, il tue sa boule et occasion des dommages feu en zone cercle 2 autour d’elle",
-      "Invulnérable :",
-      "Tape neutre en mêlée et vole 1 PA",
-      "Tape feu et vole des statistiques, jusqu’à 10 PO",
-      "Vulnérable :",
-      "Tape terre et applique l’état Pesanteur en ligne infinie de la Boule, la pousse de 28 cases",
-      "Attire la boule de 20 cases et pose un piège qui met l’état Pesanteur, retire de la fuite, de l’esquive PM et des PM",
-      "Echange de place avec la Boule ce qui le soigne de 10% de ses PV. Il tape air et retire des PM en zone cercle 3 autour de lui",
-      "Il peut également invoquer des Boulettes Puantes qui tape eau, dévoile les invisible, applique de l’érosion et soigne ses alliés"
+      "Corne Sacrée : Frappe Terre et vole de la vie au CàC.",
+      "Coquille d'Ambre : Débloque son invulnérabilité dès qu'il subit n'importe quel coup."
     ],
     "quest": [
       "La quête se récupère et se rend à Saharach, dès le level 180.",
