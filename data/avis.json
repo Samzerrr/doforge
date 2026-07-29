@@ -17,7 +17,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "sam-sagaz",
@@ -38,7 +48,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "maitre-boulet",
@@ -64,7 +88,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "frakacia-leukocytine",
@@ -90,7 +124,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "les-guman",
@@ -116,7 +160,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "roub-ignolles",
@@ -142,7 +196,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "bouss-baybe",
@@ -168,7 +232,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "ogivol-scalarcin",
@@ -189,7 +263,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "brumen-tinctorias",
@@ -210,7 +298,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "marzwel-le-gobelin",
@@ -236,7 +338,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "nono-le-wobot",
@@ -262,7 +374,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "gadoo",
@@ -288,7 +410,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "qil-bil",
@@ -314,7 +446,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "armada-l-invincible",
@@ -335,7 +477,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "aermyne",
@@ -361,7 +517,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "tournade",
@@ -387,7 +553,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "musha-l-oni",
@@ -413,7 +589,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "dragodingo",
@@ -439,7 +625,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "tyranne-la-terrible",
@@ -465,7 +661,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "degolas",
@@ -491,7 +697,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "simbadas",
@@ -517,7 +733,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "rok-gnorok",
@@ -543,7 +769,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "maxi-malle",
@@ -569,7 +805,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "carlita-de-l-aguerfelde",
@@ -595,7 +841,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "naganita",
@@ -621,7 +877,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "prince-marchand",
@@ -647,7 +913,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "trukipik",
@@ -673,7 +949,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "gobrechaun",
@@ -696,7 +982,25 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "bouflouth",
@@ -722,7 +1026,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "morblok",
@@ -748,7 +1062,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "vashkiwi",
@@ -774,7 +1102,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "nenuflor-tilotus",
@@ -800,7 +1138,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "padgref-demoel",
@@ -826,7 +1174,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "jerart-dupaindur",
@@ -852,7 +1214,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "panteroz",
@@ -872,7 +1244,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "ali-grothor",
@@ -894,7 +1280,25 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "roi-camole",
@@ -920,7 +1324,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "monsieur-pingouin",
@@ -946,7 +1364,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "amy-l-empoisonneuse",
@@ -972,7 +1400,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "katigrou",
@@ -998,7 +1440,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "darma",
@@ -1024,7 +1480,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "fojumo",
@@ -1050,7 +1516,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "aigripoil",
@@ -1076,7 +1552,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "mogligli",
@@ -1102,7 +1588,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "fantomayte",
@@ -1128,7 +1624,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "zatoishwan",
@@ -1154,7 +1660,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "glandalf-l-aigri",
@@ -1180,7 +1700,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "vengeuse-masquee",
@@ -1206,7 +1736,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "anatak-diskedor",
@@ -1232,7 +1772,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "yechti",
@@ -1260,7 +1810,25 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "ka-youloud",
@@ -1286,7 +1854,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "crasper",
@@ -1312,7 +1890,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "hin",
@@ -1338,7 +1926,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "fuji-givrefoux",
@@ -1364,7 +1962,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "shushu-debruk-sayl",
@@ -1386,7 +1998,25 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "guerrier-du-ko",
@@ -1412,7 +2042,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "dremoan",
@@ -1433,7 +2073,25 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "carter-le-pillard",
@@ -1455,7 +2113,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "mouchame",
@@ -1481,7 +2153,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "sans-visage",
@@ -1503,7 +2185,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "viti-glourson",
@@ -1530,7 +2226,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "predagob",
@@ -1556,7 +2266,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "flasho",
@@ -1582,7 +2302,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "docteur-eggob",
@@ -1608,7 +2338,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "culbutoeuf",
@@ -1634,7 +2374,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "hyperscampe",
@@ -1657,7 +2411,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "homard-medali",
@@ -1679,7 +2447,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "gein",
@@ -1700,7 +2478,25 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "atcham",
@@ -1721,7 +2517,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "glourdorak",
@@ -1744,7 +2554,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "psikopompe",
@@ -1768,7 +2592,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "mekamouth",
@@ -1793,7 +2631,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "takomako",
@@ -1814,7 +2666,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "ganos",
@@ -1840,7 +2702,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "sicogne",
@@ -1866,7 +2738,21 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "grand-kongoku",
@@ -1892,7 +2778,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "voldelor",
@@ -1918,7 +2814,21 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "chevalier-de-glace",
@@ -1942,7 +2852,17 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "khepricorne",
@@ -1973,7 +2893,25 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "fantome-braideur",
@@ -1999,7 +2937,17 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "comte-harebourg",
@@ -2020,7 +2968,25 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": true
+    "has_os_mechanic": true,
+    "challenges": [
+      {
+        "name": "⚠️ Mécanique d'OS",
+        "description": "Respecter impérativement la stratégie pour éviter la mort instantanée d'un ou plusieurs alliés."
+      },
+      {
+        "name": "🛡️ Débourrage d'invulnérabilité",
+        "description": "Effectuer l'action spécifique décrite dans la stratégie pour retirer l'état invulnérable du monstre."
+      },
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   },
   {
     "slug": "buldalazred",
@@ -2046,6 +3012,16 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": false,
+    "challenges": [
+      {
+        "name": "📜 Capture d'Avis",
+        "description": "Vaincre l'Avis de recherche pour valider la quête de traque et empocher la prime."
+      },
+      {
+        "name": "⚔️ Combat d'Équipe",
+        "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
+      }
+    ]
   }
 ]
