@@ -154,12 +154,25 @@
     // 3. Spells & Abilities Section
     if (item.spells && item.spells.length > 0) {
       elements.spellsSection.style.display = "block";
-      elements.spellsContent.innerHTML = item.spells.map((spell, index) => `
-        <li class="spell-item">
-          <div class="spell-number">${index + 1}</div>
-          <div class="spell-text">${formatRichText(spell)}</div>
-        </li>
-      `).join("");
+      elements.spellsContent.innerHTML = item.spells.map((spell, index) => {
+        let title = "";
+        let desc = "";
+        if (typeof spell === "object" && spell !== null) {
+          title = spell.name || spell.title || "";
+          desc = spell.description || spell.text || "";
+        } else {
+          desc = String(spell);
+        }
+        return `
+          <li class="spell-item">
+            <div class="spell-number">${index + 1}</div>
+            <div class="spell-text">
+              ${title ? `<strong style="color: var(--accent-primary); display: block; margin-bottom: 4px;">${escapeHtml(title)}</strong>` : ""}
+              ${formatRichText(desc)}
+            </div>
+          </li>
+        `;
+      }).join("");
     } else {
       elements.spellsSection.style.display = "none";
     }
@@ -226,6 +239,9 @@
 
   function formatRichText(text) {
     if (!text) return "";
+    if (typeof text !== "string") {
+      text = String(text);
+    }
     if (text.startsWith("{") && text.includes('"blocks"')) {
       try {
         const parsed = JSON.parse(text);
