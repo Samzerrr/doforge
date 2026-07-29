@@ -29,9 +29,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Zombie",
       "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Spécial : Lâche mes côtes",
+      "Duo"
     ]
   },
   {
@@ -64,9 +65,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : Mauvaise graine"
     ]
   },
   {
@@ -99,9 +98,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : Passer l'éponge"
     ]
   },
   {
@@ -138,9 +135,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Prudent",
+      "Blitzkrieg",
+      "Spécial : Un Mulou dans la Bergerie",
+      "Duo"
     ]
   },
   {
@@ -173,9 +171,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Versatile",
-      "Duo (20 tours)"
+      "Zombie",
+      "Mains propres",
+      "Spécial : Dorée, mi fa sol",
+      "Duo"
     ]
   },
   {
@@ -208,9 +207,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Statue",
+      "Versatile",
+      "Spécial : Bécotam",
+      "Duo",
+      "Compagnon : Rats… au sens propre ou au figuré"
     ]
   },
   {
@@ -243,9 +244,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Empêtrement d'esprit entêtant"
     ]
   },
   {
@@ -278,9 +277,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Nomade",
       "Premier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Spécial : Désillusion",
+      "Duo",
+      "Compagnon : Revenus d’outre-tombe"
     ]
   },
   {
@@ -317,9 +318,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Collant",
       "Dernier",
-      "Statue",
-      "Duo (20 tours)"
+      "Spécial : La ligne interdite",
+      "Duo"
     ]
   },
   {
@@ -399,9 +401,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Dernier",
-      "Duo (20 tours)"
+      "Misanthrope",
+      "Premier",
+      "Spécial : Tombés sous le charme",
+      "Duo",
+      "Compagnon : Les pandaliens"
     ]
   },
   {
@@ -442,9 +446,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
+      "Nomade",
       "Premier",
-      "Duo (20 tours)"
+      "Spécial : Ouverture facile",
+      "Duo",
+      "Compagnon : Compagnons, quel est votre métier ?"
     ]
   },
   {
@@ -481,9 +487,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Prudent",
+      "Versatile",
+      "Spécial : Enlisement larvaire",
+      "Duo"
     ]
   },
   {
@@ -520,9 +527,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Hardi",
+      "Blitzkrieg",
+      "Spécial : Collé-serré",
+      "Duo",
+      "Compagnon : Les z’autres"
     ]
   },
   {
@@ -558,9 +567,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Zombie",
+      "Mains propres",
+      "Spécial : Kwakwa ? Kwapoussée !",
+      "Duo"
     ]
   },
   {
@@ -597,9 +607,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
       "Dernier",
-      "Duo (20 tours)"
+      "Prudent",
+      "Spécial : Vigilance forestière",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -636,9 +648,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Hardi",
+      "Blitzkrieg",
+      "Spécial : Mené à la cawotte",
+      "Duo"
     ]
   },
   {
@@ -679,9 +692,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Zombie",
       "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : Rituel de survie",
+      "Duo"
     ]
   },
   {
@@ -713,9 +727,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Versatile",
-      "Duo (20 tours)"
+      "Duel",
+      "Prudent",
+      "Spécial : Touche pas à mon blop",
+      "Duo"
     ]
   },
   {
@@ -871,9 +886,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Dernier",
-      "Duo (20 tours)"
+      "Spécial : De véritables craqu'"
     ]
   },
   {
@@ -906,9 +919,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Focus",
+      "Hardi",
+      "Spécial : Sortir de sa coquille",
+      "Duo"
     ]
   },
   {
@@ -941,9 +955,7 @@
     "useful_for_emeraude": true,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : A fond les boulons"
     ]
   },
   {
@@ -984,9 +996,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Mains propres",
+      "Zombie",
+      "Spécial : À portée de dard",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -1039,9 +1053,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : On ne peut la Nyée"
     ]
   },
   {
@@ -1082,9 +1094,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Spécial : Distance respectueuse"
     ]
   },
   {
@@ -1125,9 +1135,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Saute-pirate"
     ]
   },
   {
@@ -1164,9 +1172,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Spécial : Chacun son tour de magie"
     ]
   },
   {
@@ -1198,9 +1204,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Faut pas pousser les cochons dans la confiture d'orties"
     ]
   },
   {
@@ -1237,9 +1241,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : À la cool"
     ]
   },
   {
@@ -1284,9 +1286,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Meulou y es-tu ?"
     ]
   },
   {
@@ -1322,9 +1322,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : Animal totem"
     ]
   },
   {
@@ -1356,9 +1354,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : Spectacle de marionnettes"
     ]
   },
   {
@@ -1395,9 +1391,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Spécial : Échapper au fisk"
     ]
   },
   {
@@ -1430,9 +1424,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Dernier",
+      "Circulez !",
+      "Spécial : Les yeux aussi gros que le ventre",
+      "Duo"
     ]
   },
   {
@@ -1463,9 +1458,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Ras le boule"
     ]
   },
   {
@@ -1506,9 +1499,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Collant",
       "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Maître Corbac sur un arbre perché",
+      "Duo"
     ]
   },
   {
@@ -1545,8 +1539,10 @@
     "has_os_mechanic": false,
     "challenges": [
       "Premier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Hardi",
+      "Spécial : La taille du rat",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -1612,9 +1608,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Sac à pupuces"
     ]
   },
   {
@@ -1656,8 +1650,9 @@
     "has_os_mechanic": false,
     "challenges": [
       "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Hardi",
+      "Spécial : On lui pèlera le bourgeon",
+      "Duo"
     ]
   },
   {
@@ -1693,9 +1688,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : Touche pas à mes blops"
     ]
   },
   {
@@ -1726,9 +1719,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Versatile",
-      "Duo (20 tours)"
+      "Misanthrope",
+      "Mains propres",
+      "Spécial : Garde emplumée",
+      "Duo"
     ]
   },
   {
@@ -1784,9 +1778,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      "Spécial : Parcimonie royale"
     ]
   },
   {
@@ -1922,9 +1914,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : L'heure tourne"
     ]
   },
   {
@@ -1960,9 +1950,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : Truchement"
     ]
   },
   {
@@ -1999,9 +1987,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Blitzkrieg",
+      "Duel",
+      "Spécial : Guerilla",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2038,9 +2028,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Dernier",
-      "Duo (20 tours)"
+      "Spécial : Sortie de ring"
     ]
   },
   {
@@ -2067,9 +2055,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Nomade",
+      "Prudent",
+      "Spécial : Le jeu de la Dame",
+      "Duo"
     ]
   },
   {
@@ -2104,9 +2093,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Statue",
+      "Versatile",
+      "Spécial : Se faire des kouïs en or",
+      "Duo"
     ]
   },
   {
@@ -2154,9 +2144,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Spécial : Enchaînemou"
     ]
   },
   {
@@ -2189,9 +2177,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Prendre racine"
     ]
   },
   {
@@ -2239,9 +2225,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Spécial : Privilège royal"
     ]
   },
   {
@@ -2270,9 +2254,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Prudent",
+      "Dernier",
+      "Spécial : Vents contraires",
+      "Duo"
     ]
   },
   {
@@ -2312,9 +2297,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Collant",
+      "Prudent",
+      "Spécial : Raviver la flamme",
+      "Duo"
     ]
   },
   {
@@ -2354,9 +2340,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Spécial : Hamrack'n roll"
     ]
   },
   {
@@ -2433,9 +2417,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (20 tours)"
+      "Hardi",
+      "Liberté",
+      "Spécial : Diagonale du vide",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2467,9 +2453,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Dernier",
+      "Statue",
+      "Spécial : Hellémentaire",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2509,9 +2497,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : Une paire d'impairs"
     ]
   },
   {
@@ -2538,9 +2524,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Circulez !",
       "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : Tofu-phobie",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2643,9 +2631,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Duo (20 tours)"
+      "Premier",
+      "Hardi",
+      "Spécial : Crocs à crocs",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2676,9 +2666,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : Duel et pique"
     ]
   },
   {
@@ -2706,9 +2694,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
       "Premier",
-      "Duo (20 tours)"
+      "Hardi",
+      "Spécial : Une lanterne dans la nuit",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2775,9 +2765,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
+      "Premier",
       "Zombie",
-      "Duo (20 tours)"
+      "Spécial : On ne touche pas",
+      "Duo"
     ]
   },
   {
@@ -2814,9 +2805,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Spécial : C'est très vague !"
     ]
   },
   {
@@ -2855,9 +2844,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Focus",
       "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Spécial : La lumière ne fut jamais",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -2888,9 +2879,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Conquérant",
+      "Collant",
+      "Spécial : Bombzerman",
+      "Duo"
     ]
   },
   {
@@ -2942,9 +2934,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : Pas dans mes pattes"
     ]
   },
   {
@@ -2976,9 +2966,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Désigné Volontaire",
-      "Premier",
-      "Duo (20 tours)"
+      "Spécial : Un projet tentaculaire"
     ]
   },
   {
@@ -3019,9 +3007,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Spécial : Baston équitable"
     ]
   },
   {
@@ -3090,9 +3076,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Versatile",
-      "Duo (20 tours)"
+      "Collant",
+      "Dernier",
+      "Spécial : Mycologie",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3137,9 +3125,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (20 tours)"
+      "Circulez !",
+      "Misanthrope",
+      "Spécial : Relation toxique",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3373,9 +3363,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Liberté",
+      "Premier",
+      "Spécial : Nos amies les bêtes",
+      "Duo"
     ]
   },
   {
@@ -3406,9 +3397,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (20 tours)"
+      "Dernier",
+      "Versatile",
+      "Spécial : Antioxydant",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3452,9 +3445,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      "Nomade",
+      "Collant",
+      "Spécial : Attention, sol glissant",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3494,9 +3489,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Misanthrope",
+      "Barbare",
+      "Spécial : Brikolère",
+      "Duo"
     ]
   },
   {
@@ -3536,9 +3532,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Prudent",
+      "Nomade",
+      "Spécial : Dur à cuir",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3578,9 +3576,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Prudent",
+      "Dernier",
+      "Spécial : Alchi-pludent",
+      "Duo"
     ]
   },
   {
@@ -3704,9 +3703,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (40 tours)"
+      "Dernier",
+      "Mystique",
+      "Spécial : Voyez, il y a du monde",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3754,9 +3755,9 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
       "Premier",
-      "Duo (40 tours)"
+      "Statue",
+      "Spécial : Pingrerie"
     ]
   },
   {
@@ -3792,9 +3793,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Collant",
       "Premier",
-      "Zombie",
-      "Duo (40 tours)"
+      "Spécial : La vie est une chausse-trappe",
+      "Score 200 :",
+      "Trio"
     ]
   },
   {
@@ -3834,9 +3837,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Barbare",
       "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : Qui dit boum ?",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3877,9 +3882,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Hardi",
+      "Focus",
+      "Spécial : Heure de la mort",
+      "Score 200 :",
+      "Trio"
     ]
   },
   {
@@ -3917,9 +3924,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (40 tours)"
+      "liberté",
+      "Prudent",
+      "Spécial : Les bons comptes font les bons ennemis",
+      "Trio"
     ]
   },
   {
@@ -3955,9 +3963,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (40 tours)"
+      "Blitzkrieg",
+      "Prudent",
+      "Spécial : Parfum de mutinerie",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -3993,9 +4003,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Prudent",
+      "Hardi",
+      "Spécial : Chaises musicales",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4031,9 +4043,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Spécial : Chasse aux coquillages"
     ]
   },
   {
@@ -4071,9 +4081,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Focus",
       "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : Système pyramidal",
+      "Duo"
     ]
   },
   {
@@ -4110,9 +4121,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
+      "Prudent",
       "Premier",
-      "Duo (40 tours)"
+      "Spécial : Qu'est-ce qu'elle a ma goule ?",
+      "Score 200:",
+      "Duo"
     ]
   },
   {
@@ -4158,9 +4171,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Liberté",
+      "Focus",
+      "Spécial : Aux portes d'Externam",
+      "Duo"
     ]
   },
   {
@@ -4217,9 +4231,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : La mort sait attendre"
     ]
   },
   {
@@ -4256,9 +4268,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : La mort sait attendre"
     ]
   },
   {
@@ -4295,8 +4305,10 @@
     "has_os_mechanic": true,
     "challenges": [
       "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      "Liberté",
+      "Spécial : Manque de nimpatience",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4329,9 +4341,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
+      "Dernier",
       "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Spécial : Lunatique",
+      "score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4368,9 +4382,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Collant",
+      "Mains propres",
+      "Spécial : Immunité collective",
+      "Duo"
     ]
   },
   {
@@ -4410,8 +4425,10 @@
     "has_os_mechanic": true,
     "challenges": [
       "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Misanthrope",
+      "Spécial : Arsenal total",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4449,9 +4466,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Duo (40 tours)"
+      "Focus",
+      "Versatile",
+      "Spécial : Bain de foule",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4489,9 +4508,12 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (40 tours)"
+      "Hardi",
+      "Score 200 &raquo;",
+      "Mains propres",
+      "Spécial : Abjecte opulence",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4510,9 +4532,9 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (50 tours)"
+      "Liberté",
+      "Hardi",
+      "Quatuor"
     ]
   },
   {
@@ -4549,9 +4571,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Hardi",
+      "Mains propres",
+      "Spécial : Régence d'encre",
+      "Trio"
     ]
   },
   {
@@ -4588,9 +4611,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (40 tours)"
+      "Prudent",
+      "Mains propres",
+      "Spécial : Régence de papier",
+      "Trio"
     ]
   },
   {
@@ -4629,9 +4653,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      "Hardi",
+      "Mains propres",
+      "Spécial : Gros Bras",
+      "Duo"
     ]
   },
   {
@@ -4664,9 +4689,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Zombie",
       "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Spécial : Jusqu'à l'Aurore",
+      "Duo"
     ]
   },
   {
@@ -4704,9 +4730,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Collant",
+      "Mains propres",
+      "Spécial : Cible facile",
+      "Score 200 :",
+      "Duo"
     ]
   },
   {
@@ -4739,9 +4767,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Duo (40 tours)"
+      "Nomade",
+      "En ligne de mire",
+      "Spécial : Autelière",
+      "Trio"
     ]
   },
   {
@@ -4772,9 +4801,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
       "Premier",
-      "Duo (40 tours)"
+      "Hardi",
+      "Spécial : Dernier",
+      "Trio"
     ]
   },
   {
@@ -4869,9 +4899,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      "Chrono",
+      "Hardi",
+      "Blitzkrieg",
+      "Spécial",
+      "Duo"
     ]
   },
   {
@@ -4939,9 +4971,11 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (20 tours)"
+      "Chrono",
+      "Nomade",
+      "Hardi",
+      "Spécial",
+      "Duo"
     ]
   },
   {
@@ -5212,9 +5246,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      "Uchronisme",
+      "Barbare",
+      "Misanthrope",
+      "Survivant"
     ]
   },
   {
@@ -5243,9 +5278,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (20 tours)"
+      "Uchronisme",
+      "Statue",
+      "Mains propres",
+      "Survivant"
     ]
   },
   {
@@ -5272,9 +5308,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      "Uchronisme",
+      "Élémentaire",
+      "Versatile",
+      "Survivant"
     ]
   },
   {
@@ -5492,9 +5529,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Uchronisme",
+      "Mains propres",
       "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      "Survivant"
     ]
   },
   {
@@ -5530,9 +5568,10 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
+      "Uchronisme",
+      "Hardi",
       "Premier",
-      "Duo (40 tours)"
+      "Survivant"
     ]
   },
   {
@@ -5563,9 +5602,7 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      "Sel)"
     ]
   },
   {
