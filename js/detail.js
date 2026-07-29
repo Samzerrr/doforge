@@ -167,9 +167,16 @@
     // 3.5 Challenges / Succès Section
     if (type === "donjon" && item.challenges && item.challenges.length > 0) {
       elements.challengesSection.style.display = "block";
-      elements.challengesContent.innerHTML = item.challenges.map(c => `
-        <span class="challenge-tag">🎯 ${escapeHtml(c)}</span>
-      `).join("");
+      elements.challengesContent.innerHTML = item.challenges.map(c => {
+        const cName = typeof c === 'string' ? c : c.name;
+        const cDesc = typeof c === 'string' ? '' : (c.description || '');
+        return `
+          <div class="challenge-card">
+            <div class="challenge-title">🎯 ${escapeHtml(cName)}</div>
+            ${cDesc ? `<div class="challenge-desc">${escapeHtml(cDesc)}</div>` : ''}
+          </div>
+        `;
+      }).join("");
     } else {
       elements.challengesSection.style.display = "none";
     }

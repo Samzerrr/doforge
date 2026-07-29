@@ -29,10 +29,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : Lâche mes côtes",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Lâche mes côtes",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -65,10 +77,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : Mauvaise graine",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Mauvaise graine",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -101,10 +125,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Spécial : Passer l'éponge",
-      "Duo (20 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Passer l'éponge",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -141,10 +177,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Prudent",
-      "Blitzkrieg",
-      "Spécial : Un Mulou dans la Bergerie",
-      "Duo (20 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Spécial : Un Mulou dans la Bergerie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -177,10 +225,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Mains propres",
-      "Spécial : Dorée, mi fa sol",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Dorée, mi fa sol",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -213,10 +273,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Versatile",
-      "Spécial : Bécotam",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Bécotam",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -249,10 +321,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -285,10 +369,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Nomade",
-      "Premier",
-      "Spécial : Désillusion",
-      "Duo (20 tours)"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Désillusion",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -325,10 +421,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Collant",
-      "Dernier",
-      "Spécial : La ligne interdite",
-      "Duo (20 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : La ligne interdite",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -369,10 +477,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Nomade",
-      "Premier",
-      "Spécial : Dirige mais mal rédige",
-      "Duo (20 tours)"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Dirige mais mal rédige",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -409,10 +529,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Misanthrope",
-      "Premier",
-      "Spécial : Tombés sous le charme",
-      "Duo (20 tours)"
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Tombés sous le charme",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -453,10 +585,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Nomade",
-      "Premier",
-      "Spécial : Ouverture facile",
-      "Duo (20 tours)"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Ouverture facile",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -493,10 +637,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Prudent",
-      "Versatile",
-      "Spécial : Enlisement larvaire",
-      "Duo (20 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Enlisement larvaire",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -533,10 +689,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardi",
-      "Blitzkrieg",
-      "Spécial : Collé-serré",
-      "Duo (20 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Spécial : Collé-serré",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -572,10 +740,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Mains propres",
-      "Spécial : Kwakwa ? Kwapoussée !",
-      "Duo"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Kwakwa ? Kwapoussée !",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -612,10 +792,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Prudent",
-      "Spécial : Vigilance forestière",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Vigilance forestière",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -652,10 +844,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Hardi",
-      "Blitzkrieg",
-      "Spécial : Mené à la cawotte",
-      "Duo (20 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Spécial : Mené à la cawotte",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -696,10 +900,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : Rituel de survie",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Rituel de survie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -731,10 +947,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Duel",
-      "Prudent",
-      "Spécial : Touche pas à mon blop",
-      "Duo (20 tours)"
+      {
+        "name": "Duel",
+        "description": "Chaque personnage ne peut cibler qu'un seul et même ennemi pendant tout le combat."
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Touche pas à mon blop",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -767,10 +995,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Dernier",
-      "Spécial : Gelée royale",
-      "Duo (20 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Gelée royale",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -819,10 +1059,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : Nelween sans fureur",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Nelween sans fureur",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -849,10 +1101,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Gourlo au tonneau",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Gourlo au tonneau",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -893,10 +1157,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Dernier",
-      "Spécial : De véritables craqu'",
-      "Duo (20 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : De véritables craqu'",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -929,10 +1205,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Focus",
-      "Hardi",
-      "Spécial : Sortir de sa coquille",
-      "Duo (20 tours)"
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Sortir de sa coquille",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -965,10 +1253,22 @@
     "useful_for_emeraude": true,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : À fond les boulons",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : À fond les boulons",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1009,10 +1309,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Mains propres",
-      "Zombie",
-      "Spécial : À portée de dard",
-      "Duo (20 tours)"
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : À portée de dard",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1065,10 +1377,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Spécial : Piège de soie",
-      "Duo (20 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Piège de soie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1109,10 +1433,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Spécial : Écorce séculaire",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Écorce séculaire",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1153,10 +1489,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Pusillanime",
-      "Spécial : Vieux canaillou",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Vieux canaillou",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1193,10 +1541,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Spécial : Grand spectacle",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Grand spectacle",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1228,10 +1588,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Faut pas pousser les cochons dans la confiture d'orties",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Faut pas pousser les cochons dans la confiture d'orties",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1268,10 +1640,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Nomade",
-      "Spécial : Bouftou des cavernes",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Bouftou des cavernes",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1316,10 +1700,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Morsure de la nuit",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Morsure de la nuit",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1355,10 +1751,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Marteau magique",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Marteau magique",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1390,10 +1798,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : Coup de théâtre",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Coup de théâtre",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1430,10 +1850,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Spécial : Poisson d'avril",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Poisson d'avril",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1466,10 +1898,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Griffes d'acier",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Griffes d'acier",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1500,10 +1944,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1544,10 +2000,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Collant",
-      "Premier",
-      "Spécial : Maître Corbac sur un arbre perché",
-      "Duo"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Maître Corbac sur un arbre perché",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -1583,10 +2051,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Spécial : Peste blanche",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Peste blanche",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1622,10 +2102,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Pusillanime",
-      "Spécial : Peste noire",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Peste noire",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1653,10 +2145,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1697,10 +2201,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Hardi",
-      "Spécial : On lui pèlera le bourgeon",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : On lui pèlera le bourgeon",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1736,10 +2252,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Touche pas à mes blops",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Touche pas à mes blops",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1770,10 +2298,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Misanthrope",
-      "Mains propres",
-      "Spécial : Garde emplumée",
-      "Duo (20 tours)"
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Garde emplumée",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1829,10 +2369,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Parcimonie royale",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Parcimonie royale",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -1869,10 +2421,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Plumes au vent",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Plumes au vent",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1903,10 +2467,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Spécial : Élevage de dragons",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Élevage de dragons",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1937,10 +2513,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Beauté fatale",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Beauté fatale",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -1971,10 +2559,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2010,10 +2610,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Spécial : Truchement",
-      "Duo (20 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Truchement",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2050,11 +2662,26 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Blitzkrieg",
-      "Duel",
-      "Spécial : Guerilla",
-      "score 200 :",
-      "Duo"
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Duel",
+        "description": "Chaque personnage ne peut cibler qu'un seul et même ennemi pendant tout le combat."
+      },
+      {
+        "name": "Spécial : Guerilla",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "score 200 :",
+        "description": "Atteindre un score de 200 pendant le combat."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -2091,10 +2718,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Dernier",
-      "Spécial : Sortie de ring",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Sortie de ring",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2121,10 +2760,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Nomade",
-      "Prudent",
-      "Spécial : Le jeu de la Dame",
-      "Duo"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Le jeu de la Dame",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -2159,10 +2810,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Versatile",
-      "Spécial : Se faire des kouïs en or",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Se faire des kouïs en or",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2210,10 +2873,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Spécial : Enchaînemou",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Enchaînemou",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2246,10 +2921,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2297,10 +2984,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Privilège royal",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Privilège royal",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -2329,10 +3028,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Prudent",
-      "Dernier",
-      "Spécial : Vents contraires",
-      "Duo (20 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Vents contraires",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2372,10 +3083,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Collant",
-      "Prudent",
-      "Spécial : Raviver la flamme",
-      "Duo (20 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Raviver la flamme",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2415,10 +3138,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Hamrack'n roll",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Hamrack'n roll",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -2458,10 +3193,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Versatile",
-      "Spécial : Ratatouille",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Ratatouille",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2496,10 +3243,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Hardi",
-      "Liberté",
-      "Spécial : Diagonale du vide",
-      "Duo (20 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Spécial : Diagonale du vide",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2531,10 +3290,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Statue",
-      "Spécial : Hellémentaire",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Hellémentaire",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2574,10 +3345,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : Une paire d'impairs",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Une paire d'impairs",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -2604,10 +3387,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Circulez !",
-      "Premier",
-      "Spécial : Tofu-phobie",
-      "Duo (20 tours)"
+      {
+        "name": "Circulez !",
+        "description": "Les ennemis ne doivent jamais être alignés (même ligne ou même colonne) entre eux."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Tofu-phobie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2663,10 +3458,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Obsidienne pure",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Obsidienne pure",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -2711,10 +3518,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Hardi",
-      "Spécial : Crocs à crocs",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Crocs à crocs",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2745,10 +3564,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2776,10 +3607,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Hardi",
-      "Spécial : Une lanterne dans la nuit",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Une lanterne dans la nuit",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2815,10 +3658,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Kami et Yomi",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Kami et Yomi",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -2847,10 +3702,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Spécial : On ne touche pas",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : On ne touche pas",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2887,10 +3754,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2929,10 +3808,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Focus",
-      "Premier",
-      "Spécial : La lumière ne fut jamais",
-      "Duo (20 tours)"
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : La lumière ne fut jamais",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -2963,10 +3854,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Conquérant",
-      "Collant",
-      "Spécial : Bombzerman",
-      "Duo (20 tours)"
+      {
+        "name": "Conquérant",
+        "description": "Tuer au moins un ennemi par tour à partir du tour 2."
+      },
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Spécial : Bombzerman",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3018,10 +3921,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Spécial : Pas dans mes pattes",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Pas dans mes pattes",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3053,10 +3968,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Désigné Volontaire",
-      "Premier",
-      "Spécial : Un projet tentaculaire",
-      "Duo (20 tours)"
+      {
+        "name": "Désigné Volontaire",
+        "description": "Un seul et même personnage doit infliger tous les dégâts au boss."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Un projet tentaculaire",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3097,10 +4024,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Baston équitable",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Baston équitable",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3169,10 +4108,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Collant",
-      "Dernier",
-      "Spécial : Mycologie",
-      "Duo (20 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Mycologie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3217,10 +4168,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Circulez !",
-      "Misanthrope",
-      "Spécial : Relation toxique",
-      "Duo (20 tours)"
+      {
+        "name": "Circulez !",
+        "description": "Les ennemis ne doivent jamais être alignés (même ligne ou même colonne) entre eux."
+      },
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Spécial : Relation toxique",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3264,10 +4227,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Professeur Xa",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Professeur Xa",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3295,10 +4270,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Dernier",
-      "Zombie",
-      "Spécial : Nourrice glacée",
-      "Duo (40 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Nourrice glacée",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3344,10 +4331,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Forage intensif",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Forage intensif",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3391,10 +4390,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : Miel mortel",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Miel mortel",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3427,10 +4438,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Spécial : Ombre et lumière",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Spécial : Ombre et lumière",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3459,10 +4482,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Liberté",
-      "Premier",
-      "Spécial : Nos amies les bêtes",
-      "Duo (20 tours)"
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Nos amies les bêtes",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3493,10 +4528,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Versatile",
-      "Spécial : Antioxydant",
-      "Duo (20 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Antioxydant",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -3540,10 +4587,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Nomade",
-      "Collant",
-      "Spécial : Attention, sol glissant",
-      "Duo (40 tours)"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Spécial : Attention, sol glissant",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3583,10 +4642,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Misanthrope",
-      "Barbare",
-      "Spécial : Brikolère",
-      "Duo (40 tours)"
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Barbare",
+        "description": "Ne taper qu'au corps à corps (portée 1). Les sorts à distance sont interdits."
+      },
+      {
+        "name": "Spécial : Brikolère",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3626,10 +4697,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Prudent",
-      "Nomade",
-      "Spécial : Dur à cuir",
-      "Duo (40 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Dur à cuir",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3669,10 +4752,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Prudent",
-      "Dernier",
-      "Spécial : Alchi-pludent",
-      "Duo (40 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Alchi-pludent",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3712,10 +4807,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Tour de cadran",
-      "Duo (50 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Tour de cadran",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (50 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 50 tours."
+      }
     ]
   },
   {
@@ -3734,10 +4841,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardiesse",
-      "Premier",
-      "Spécial : Double peine",
-      "Duo (50 tours)"
+      {
+        "name": "Hardiesse",
+        "description": "Ne pas utiliser le même sort deux tours de suite."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Double peine",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (50 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 50 tours."
+      }
     ]
   },
   {
@@ -3798,10 +4917,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Mystique",
-      "Spécial : Voyez, il y a du monde",
-      "Duo (40 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Mystique",
+        "description": "Ne taper qu'à distance (portée > 1). Les attaques au corps à corps sont interdites."
+      },
+      {
+        "name": "Spécial : Voyez, il y a du monde",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3849,10 +4980,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Spécial : Pingrerie",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Pingrerie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3888,10 +5031,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Collant",
-      "Premier",
-      "Spécial : La vie est une chausse-trappe",
-      "Trio (40 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : La vie est une chausse-trappe",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3931,10 +5086,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Barbare",
-      "Statue",
-      "Spécial : Qui dit boum ?",
-      "Duo (40 tours)"
+      {
+        "name": "Barbare",
+        "description": "Ne taper qu'au corps à corps (portée 1). Les sorts à distance sont interdits."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Qui dit boum ?",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -3975,10 +5142,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardi",
-      "Focus",
-      "Spécial : Heure de la mort",
-      "Trio (40 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Spécial : Heure de la mort",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4016,10 +5195,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Liberté",
-      "Prudent",
-      "Spécial : Les bons comptes font les bons ennemis",
-      "Trio (40 tours)"
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Les bons comptes font les bons ennemis",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4055,10 +5246,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Blitzkrieg",
-      "Prudent",
-      "Spécial : Parfum de mutinerie",
-      "Duo (40 tours)"
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Spécial : Parfum de mutinerie",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4094,10 +5297,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Prudent",
-      "Hardi",
-      "Spécial : Chaises musicales",
-      "Duo (40 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Chaises musicales",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4133,10 +5348,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Spécial : Chasse aux coquillages",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Spécial : Chasse aux coquillages",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4174,10 +5401,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Focus",
-      "Statue",
-      "Spécial : Système pyramidal",
-      "Duo (40 tours)"
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Système pyramidal",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4214,10 +5453,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Prudent",
-      "Premier",
-      "Spécial : Qu'est-ce qu'elle a ma goule ?",
-      "Duo (40 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Qu'est-ce qu'elle a ma goule ?",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4263,10 +5514,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Liberté",
-      "Focus",
-      "Spécial : Aux portes d'Externam",
-      "Duo (40 tours)"
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Spécial : Aux portes d'Externam",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4323,10 +5586,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : La mort sait attendre",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : La mort sait attendre",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4363,10 +5638,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : La mort sait attendre",
-      "Duo (40 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : La mort sait attendre",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4402,10 +5689,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Liberté",
-      "Spécial : Manque de nimpatience",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Spécial : Manque de nimpatience",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4438,10 +5737,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Dernier",
-      "Statue",
-      "Spécial : Lunatique",
-      "Duo (40 tours)"
+      {
+        "name": "Dernier",
+        "description": "Tuer le gardien de donjon (boss) en dernier, après tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Lunatique",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4478,10 +5789,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Collant",
-      "Mains propres",
-      "Spécial : Immunité collective",
-      "Duo (40 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Immunité collective",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4520,10 +5843,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Misanthrope",
-      "Spécial : Arsenal total",
-      "Duo (40 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Spécial : Arsenal total",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4561,10 +5896,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Focus",
-      "Versatile",
-      "Spécial : Bain de foule",
-      "Duo (40 tours)"
+      {
+        "name": "Focus",
+        "description": "Ne taper qu'un seul ennemi par tour. Changer de cible d'un tour à l'autre est autorisé."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Spécial : Bain de foule",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4602,10 +5949,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardi",
-      "Mains propres",
-      "Spécial : Abjecte opulence",
-      "Duo (40 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Abjecte opulence",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4624,10 +5983,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Liberté",
-      "Hardi",
-      "Spécial : Tempête céleste",
-      "Quatuor (50 tours)"
+      {
+        "name": "Liberté",
+        "description": "Ne pas être au contact d'un ennemi au début de son tour (sauf tour 1)."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Tempête céleste",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Quatuor (50 tours)",
+        "description": "Vaincre le donjon avec 4 personnages maximum en moins de 50 tours."
+      }
     ]
   },
   {
@@ -4664,10 +6035,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardi",
-      "Mains propres",
-      "Spécial : Régence d'encre",
-      "Trio (40 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Régence d'encre",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4704,10 +6087,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Prudent",
-      "Mains propres",
-      "Spécial : Régence de papier",
-      "Trio (40 tours)"
+      {
+        "name": "Prudent",
+        "description": "Ne pas subir plus de 50% de ses PV max en un seul coup."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Régence de papier",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4746,10 +6141,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Hardi",
-      "Mains propres",
-      "Spécial : Gros Bras",
-      "Duo (40 tours)"
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Gros Bras",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4782,10 +6189,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Spécial : Jusqu'à l'Aurore",
-      "Duo (40 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Jusqu'à l'Aurore",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4823,10 +6242,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Collant",
-      "Mains propres",
-      "Spécial : Cible facile",
-      "Duo (40 tours)"
+      {
+        "name": "Collant",
+        "description": "Terminer chaque tour au contact (case adjacente) d'un allié."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Spécial : Cible facile",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4859,10 +6290,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Nomade",
-      "En ligne de mire",
-      "Spécial : Autelière",
-      "Trio (40 tours)"
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "En ligne de mire",
+        "description": "Tous les dégâts doivent être infligés en ligne (pas en diagonale)."
+      },
+      {
+        "name": "Spécial : Autelière",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4893,10 +6336,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Hardi",
-      "Spécial : Sommeil éternel",
-      "Trio (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial : Sommeil éternel",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Trio (40 tours)",
+        "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4952,9 +6407,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -4991,11 +6455,26 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Chrono",
-      "Hardi",
-      "Blitzkrieg",
-      "Spécial",
-      "Duo"
+      {
+        "name": "Chrono",
+        "description": "Terminer le combat dans le temps imparti."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Blitzkrieg",
+        "description": "Terminer le combat en moins de 19 tours."
+      },
+      {
+        "name": "Spécial",
+        "description": "Réussir ce défi pendant le combat."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -5028,9 +6507,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (20 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5063,11 +6551,26 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Chrono",
-      "Nomade",
-      "Hardi",
-      "Spécial",
-      "Duo"
+      {
+        "name": "Chrono",
+        "description": "Terminer le combat dans le temps imparti."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Spécial",
+        "description": "Réussir ce défi pendant le combat."
+      },
+      {
+        "name": "Duo",
+        "description": "Vaincre le donjon avec 2 personnages maximum."
+      }
     ]
   },
   {
@@ -5100,9 +6603,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5134,10 +6646,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Pusillanime",
-      "Premier",
-      "Spécial : Faux inévitable",
-      "Duo (40 tours)"
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Faux inévitable",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5175,10 +6699,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Statue",
-      "Spécial : Sceau tellurique",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Spécial : Sceau tellurique",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5211,10 +6747,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Spécial : Énergie cristalline",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Spécial : Énergie cristalline",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5243,9 +6791,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5275,9 +6832,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5311,9 +6877,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5341,10 +6916,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Uchronisme",
-      "Barbare",
-      "Misanthrope",
-      "Survivant"
+      {
+        "name": "Uchronisme",
+        "description": "Terminer le combat avant la fin du chrono imparti."
+      },
+      {
+        "name": "Barbare",
+        "description": "Ne taper qu'au corps à corps (portée 1). Les sorts à distance sont interdits."
+      },
+      {
+        "name": "Misanthrope",
+        "description": "Aucun allié ne doit terminer son tour adjacent à un autre allié."
+      },
+      {
+        "name": "Survivant",
+        "description": "Aucun allié ne doit mourir pendant le combat."
+      }
     ]
   },
   {
@@ -5373,10 +6960,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Uchronisme",
-      "Statue",
-      "Mains propres",
-      "Survivant"
+      {
+        "name": "Uchronisme",
+        "description": "Terminer le combat avant la fin du chrono imparti."
+      },
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Survivant",
+        "description": "Aucun allié ne doit mourir pendant le combat."
+      }
     ]
   },
   {
@@ -5403,10 +7002,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Uchronisme",
-      "Élémentaire",
-      "Versatile",
-      "Survivant"
+      {
+        "name": "Uchronisme",
+        "description": "Terminer le combat avant la fin du chrono imparti."
+      },
+      {
+        "name": "Élémentaire",
+        "description": "Infliger des dégâts uniquement dans l'élément le plus faible du boss."
+      },
+      {
+        "name": "Versatile",
+        "description": "Infliger des dégâts dans les 4 éléments (Feu, Eau, Terre, Air) au cours du combat."
+      },
+      {
+        "name": "Survivant",
+        "description": "Aucun allié ne doit mourir pendant le combat."
+      }
     ]
   },
   {
@@ -5443,9 +7054,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5494,9 +7114,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Nomade",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Nomade",
+        "description": "Utiliser tous ses PM à chaque tour. Attention au tacle qui fait perdre des PM !"
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5529,9 +7158,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Zombie",
-      "Premier",
-      "Duo (20 tours)"
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5554,9 +7192,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5584,9 +7231,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Statue",
-      "Premier",
-      "Duo (40 tours)"
+      {
+        "name": "Statue",
+        "description": "Ne pas utiliser de PM pendant tout le combat. Rester immobile."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   },
   {
@@ -5624,10 +7280,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Uchronisme",
-      "Mains propres",
-      "Premier",
-      "Survivant"
+      {
+        "name": "Uchronisme",
+        "description": "Terminer le combat avant la fin du chrono imparti."
+      },
+      {
+        "name": "Mains propres",
+        "description": "Ne pas utiliser d'arme pendant tout le combat. Uniquement des sorts."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Survivant",
+        "description": "Aucun allié ne doit mourir pendant le combat."
+      }
     ]
   },
   {
@@ -5663,10 +7331,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Uchronisme",
-      "Hardi",
-      "Premier",
-      "Survivant"
+      {
+        "name": "Uchronisme",
+        "description": "Terminer le combat avant la fin du chrono imparti."
+      },
+      {
+        "name": "Hardi",
+        "description": "Le personnage avec le plus bas niveau doit porter le coup fatal au boss."
+      },
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Survivant",
+        "description": "Aucun allié ne doit mourir pendant le combat."
+      }
     ]
   },
   {
@@ -5697,10 +7377,22 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
-      "Premier",
-      "Pusillanime",
-      "Spécial : Défi du Boss",
-      "Duo (20 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Pusillanime",
+        "description": "Ne pas terminer son tour au contact (case adjacente) d'un ennemi."
+      },
+      {
+        "name": "Spécial : Défi du Boss",
+        "description": "Succès spécial unique à ce donjon. Consultez le guide du boss pour les détails."
+      },
+      {
+        "name": "Duo (20 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
+      }
     ]
   },
   {
@@ -5742,9 +7434,18 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": true,
     "challenges": [
-      "Premier",
-      "Zombie",
-      "Duo (40 tours)"
+      {
+        "name": "Premier",
+        "description": "Tuer le gardien de donjon (boss) en premier, avant tous les autres monstres."
+      },
+      {
+        "name": "Zombie",
+        "description": "Utiliser exactement 1 PM par tour de jeu. Ni plus, ni moins."
+      },
+      {
+        "name": "Duo (40 tours)",
+        "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
+      }
     ]
   }
 ]
