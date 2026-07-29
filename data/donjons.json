@@ -7,10 +7,16 @@
     "picture": "images/boss-crypte-de-kardorim.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Kardorim est le premier vrai boss pour beaucoup d'aventuriers ! 🛡️ Il possède des résistances correctes pour son niveau.\n⚠️ Il tape principalement Neutre et Terre au corps-à-corps.\n💡 La stratégie est simple : éliminez d'abord les Chafers qui l'accompagnent pour éviter de vous faire encercler, puis concentrez vos attaques sur Kardorim en restant à distance si possible.",
     "spells": [
-      "Il ne tape uniquement qu’en mêlée",
-      "Invoque un Kardorib tous les 6 tours, qui tape en mêlée et pousse de 2 cases"
+      {
+        "name": "Frappe Squelettique",
+        "description": "Inflige des dégâts Terre et Neutre au corps-à-corps."
+      },
+      {
+        "name": "Invocation Chafer",
+        "description": "Invoque un petit Chafer pour l'aider au combat."
+      }
     ],
     "quests": [
       {
@@ -31,10 +37,16 @@
     "picture": "images/boss-grange-du-tournesol-affame.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Tournesol Affamé est une créature vorace des champs ! 🌻\n⚠️ Il peut se soigner en attaquant, ce qui prolonge le combat s'il touche plusieurs cibles.\n💡 Évitez de rester groupés pour limiter son vol de vie en zone. Éliminez les Pissenlits et Roses Obscures en priorité pour réduire les dégâts subis.",
     "spells": [
-      "Il ne tape uniquement qu’en mêlée et en vol de vie",
-      "Invoque un monstre du donjon aléatoire tous les 6 tours"
+      {
+        "name": "Morsure du Soleil",
+        "description": "Vole de la vie dans l'élément Neutre au contact."
+      },
+      {
+        "name": "Racines Entravantes",
+        "description": "Retire des PM aux cibles proches."
+      }
     ],
     "quests": [
       {
@@ -55,11 +67,16 @@
     "picture": "images/boss-chateau-ensable.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Mob l'Éponge est le maître de la plage ! 🏖️\n⚠️ Il tape dans l'élément Eau et peut infliger des dégâts à mi-distance.\n💡 Il est très vulnérable aux dégâts Terre et Feu. Gardez vos distances pour limiter ses capacités de frappe et méfiez-vous des Pichons qui peuvent booster leurs alliés.",
     "spells": [
-      "Il ne tape uniquement qu’en ligne à 9 PO, sans ligne de vue et en vol de vie",
-      "Se soigne un tour sur deux",
-      "Débuff en zone autour de lui un tour sur quatre"
+      {
+        "name": "Jet d'Éponge",
+        "description": "Inflige des dégâts Eau à moyenne portée."
+      },
+      {
+        "name": "Gonflement",
+        "description": "Augmente sa vitalité et ses dégâts temporairement."
+      }
     ],
     "quests": [
       {
@@ -80,10 +97,16 @@
     "picture": "images/boss-cour-du-bouftou-royal.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Bouftou Royal est un classique incontournable ! 🐑\n⚠️ Il dispose d'une forte capacité de déplacement grâce à son sort de charge et tape très fort au contact.\n💡 Ne restez pas en ligne avec lui pour éviter sa charge. Tuez-le rapidement ou soignez votre tank, car il appliquera l'état Pesanteur qui bloque les téléportations.",
     "spells": [
-      "Il ne tape uniquement qu’en mêlée",
-      "Il soigne ses alliés jusqu’à 6 PO"
+      {
+        "name": "Morsure du Bouftou Royal",
+        "description": "Inflige de lourds dégâts Neutre au contact."
+      },
+      {
+        "name": "Charge Cornue",
+        "description": "Se rapproche rapidement en ligne et applique l'état Pesanteur."
+      }
     ],
     "quests": [
       {
@@ -108,12 +131,16 @@
     "picture": "images/boss-donjon-des-scarafeuilles.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Scarabosse Doré contrôle la colonie des Scarafeuilles ! 🪲\n⚠️ Il peut invoquer d'autres Scarafeuilles et augmenter considérablement ses propres résistances ou celles de ses alliés.\n💡 Prévoyez des attaques dans plusieurs éléments pour contourner ses boucliers élémentaires et tapez-le fort quand il n'a pas ses boosts.",
     "spells": [
-      "Il ne tape uniquement qu’en ligne à 3 PO maximum",
-      "Il se soigne tous les 3 tours",
-      "Il invoque un Scarafeuille Immature tous les 5 tours",
-      "Il retire 6 PO et 2 PM sur toute la map tous les 4 tours"
+      {
+        "name": "Carapace Dorée",
+        "description": "Augmente fortement les résistances dans un élément aléatoire."
+      },
+      {
+        "name": "Frappe du Scarabosse",
+        "description": "Inflige des dégâts Terre et repousse la cible."
+      }
     ],
     "quests": [
       {
@@ -134,10 +161,16 @@
     "picture": "images/boss-donjon-des-tofus.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Batofu est le protecteur masqué des Tofus ! 🦇\n⚠️ Il est extrêmement mobile, tape à distance (élément Air) et invoque des Tofus en permanence.\n💡 Les Tofus peuvent rapidement saturer le terrain. Utilisez des sorts de zone pour nettoyer les invocations tout en endommageant le Batofu. Retirez-lui des PM pour l'attraper facilement.",
     "spells": [
-      "Il peut pousser de 2 cases",
-      "Il invoque un Tofu Noir tous les 5 tours"
+      {
+        "name": "Lancer de Plumes",
+        "description": "Inflige des dégâts Air à distance."
+      },
+      {
+        "name": "Bat-Invocation",
+        "description": "Invoque un Tofu Maléfique ou un Tofu Ventripotent."
+      }
     ],
     "quests": [
       {
@@ -188,10 +221,16 @@
     "picture": "images/boss-donjon-des-squelettes.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Chafer Rönin est un maître d'armes redoutable ! ⚔️\n⚠️ Il tape Neutre et Air, et a la fâcheuse tendance à retirer des PA à ses cibles, ce qui peut ruiner vos combos.\n💡 Maintenez-le à distance autant que possible. Ses alliés Chafers peuvent être ressuscités par d'autres monstres, assurez-vous de contrôler le terrain.",
     "spells": [
-      "Il peut retirer 1 PM en tapant jusqu’à 6 PO",
-      "Il crée des illusions de lui même chaque tour (sauf s’il est pesanteur)"
+      {
+        "name": "Coup de Katana",
+        "description": "Frappe en Neutre au contact avec une chance de vol de vie."
+      },
+      {
+        "name": "Entaille Spirituelle",
+        "description": "Dégâts Air et retrait de PA à moyenne distance."
+      }
     ],
     "quests": [
       {
@@ -212,10 +251,16 @@
     "picture": "images/boss-cache-de-kankreblath.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Kankreblath est le seigneur des araknes ! 🕷️\n⚠️ Il tape Terre et place des pièges invisibles sur la carte. Si vous marchez dedans, vous subirez de lourds dégâts.\n💡 Jouez de manière statique ou surveillez bien ses déplacements pour deviner l'emplacement des pièges. Désenvoûtez vos alliés si nécessaire.",
     "spells": [
-      "Il ne tape qu’en mêlée ou en zone vole de vie de 3 cases autour de lui",
-      "Soit il se téléporte, se rend invisible ou invoque un monstre du donjon, une fois tous les 3 tours"
+      {
+        "name": "Toile Engluante",
+        "description": "Retrait de PM et dégâts Terre."
+      },
+      {
+        "name": "Piège de Kankreblath",
+        "description": "Pose un piège mortel invisible infligeant de lourds dégâts Terre."
+      }
     ],
     "quests": [
       {
@@ -240,11 +285,16 @@
     "picture": "images/boss-academie-des-gobs.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Directeur Grunob gère cette académie d'une main de fer ! 📚\n⚠️ Il booste ses alliés Gobelins et Bworks tout en tapant Feu et Terre.\n💡 Éliminez rapidement les Gobelins qui profitent de ses boosts pour éviter d'être submergé de dégâts. Le boss en lui-même est plutôt vulnérable si isolé.",
     "spells": [
-      "Les ennemis augmentent les dommages de leurs alliés de 5% s’ils sont à moins de 3 cases en fin de tour",
-      "Il boost ses alliés de 2 PM une fois tous les 2 tours",
-      "Il invoque un Dagobert qui tape et retire des PA"
+      {
+        "name": "Punition Académique",
+        "description": "Inflige des dégâts Feu et Terre à distance."
+      },
+      {
+        "name": "Boost Gobelin",
+        "description": "Donne des PA et de la Puissance à un allié."
+      }
     ],
     "quests": [
       {
@@ -273,11 +323,16 @@
     "picture": "images/boss-donjon-des-bworks.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "La Bworkette ne plaisante pas avec les intrus ! 💥\n⚠️ Elle tape extrêmement fort au corps-à-corps dans l'élément Neutre et invoque des Cybworks.\n💡 Fuyez le corps-à-corps à tout prix ! Prévoyez des classes capables de la repousser ou de la bloquer, pendant que vos dégâts à distance s'occupent d'elle.",
     "spells": [
-      "Elle soigne ses alliés en zone tout en tapant ses ennemis",
-      "Elle peut redonner 50% de la vie d’un mob tous les 6 tours",
-      "Elle boost les dommages tous les 4 tours"
+      {
+        "name": "Baffe Bwork",
+        "description": "Dégâts massifs Neutre au contact."
+      },
+      {
+        "name": "Appel de Cybwork",
+        "description": "Invoque un redoutable Cybwork sur le terrain."
+      }
     ],
     "quests": [
       {
@@ -302,10 +357,16 @@
     "picture": "images/boss-donjon-des-forgerons.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Coffre des Forgerons est la récompense ultime du donjon ! 💰\n⚠️ Ce boss est atypique : il tape Neutre en volant de la vie, ce qui lui permet de durer très longtemps.\n💡 Les attaques de zone et l'érosion sont vos meilleurs alliés. Faites attention aux monstres de la salle qui tapent fort à courte portée.",
     "spells": [
-      "Il vole de la vie et des PA en mêlée",
-      "Il tape sur toute la map en fonction de sa vitalité manquante, tout en se boostant en dommage"
+      {
+        "name": "Pièce Sonnante",
+        "description": "Vol de vie dans l'élément Neutre."
+      },
+      {
+        "name": "Fermeture Éclair",
+        "description": "Gagne un bouclier et repousse les ennemis proches."
+      }
     ],
     "quests": [
       {
@@ -334,11 +395,16 @@
     "picture": "images/boss-donjon-des-larves.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "La Shin Larve est le joyau des profondeurs ! 🐛\n⚠️ Elle passe son temps à se transformer et à se booster tout en tapant dans les éléments Neutre et Terre.\n💡 Ses invocations de Larves peuvent vite être gênantes à cause de leurs renvois de dommages ou retraits PA/PM. Nettoyez le terrain et concentrez vos dégâts.",
     "spells": [
-      "Elle ne tape qu’en mêlée tout en retirant des PA et poussant de 4 cases",
-      "Elle retire 6 PM à ses ennemis et boost ses alliés de 4 PA sur toute la map tous les 3 tours",
-      "Elle invoque une larve du donjon tous les 2 tours"
+      {
+        "name": "Morsure Terrestre",
+        "description": "Inflige des dégâts Terre au contact."
+      },
+      {
+        "name": "Mue Brillante",
+        "description": "Se soigne et gagne des résistances élémentaires."
+      }
     ],
     "quests": [
       {
@@ -363,11 +429,16 @@
     "picture": "images/boss-grotte-hesque.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Corailleur Magistral règne sur la plage de corail ! 🌊\n⚠️ Attention à son cycle : tous les 5 tours, il gagne 12 PA et 400 Puissance. S'il vous attrape en mêlée pendant ce tour, c'est la mort assurée (OS) !\n💡 Gardez vos distances, retirez-lui des PM et surveillez attentivement le compteur de tours. Jouez la sécurité lors de ses tours de boost.",
     "spells": [
-      "Tous les 5 tours, il se retire 3 PM pour se boost de 12 PA et 400 puissance",
-      "Il peut taper jusqu’à 5 PO en réduisant l’agilité de la cible",
-      "Tape en vol de vie air puis tue la cible, en mêlée."
+      {
+        "name": "Coup de Corail",
+        "description": "Dégâts Air en mêlée."
+      },
+      {
+        "name": "Magistralité",
+        "description": "Tous les 5 tours : +12 PA, +400 Puissance pour 1 tour. Mortelle en mêlée !"
+      }
     ],
     "quests": [
       {
@@ -425,10 +496,16 @@
     "picture": "images/boss-refuge-sylvestre.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Rakoopeur est le crabe géant protecteur ! 🦀\n⚠️ Il possède une épaisse carapace et tape fort en Eau et Neutre.\n💡 Le combat se gagne à l'usure. Visez ses faiblesses élémentaires et ne vous laissez pas coincer par ses invocations.",
     "spells": [
-      "Il retire 10% de résistance par frappe (-30% cumulés max) et tape a 6 PO maximum",
-      "Il peut se TP et donner du bouclier a ses alliés tous les 3 tours"
+      {
+        "name": "Pince Coupante",
+        "description": "Dégâts Neutre au corps-à-corps."
+      },
+      {
+        "name": "Jet d'Eau",
+        "description": "Inflige des dégâts Eau à distance."
+      }
     ],
     "quests": [
       {
@@ -453,12 +530,16 @@
     "picture": "images/boss-chateau-du-wa-wabbit.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Wa Wabbit est une légende de l'île des Wabbits ! 👑\n⚠️ Il frappe à distance (Air) et au contact (Terre), et s'entoure en permanence de ses fidèles Wabbits.\n💡 Il a tendance à se cacher derrière ses invocations. Des sorts sans ligne de vue ou des dégâts de zone facilitent grandement l'affrontement.",
     "spells": [
-      "Tape neutre jusqu'à 11 PO.",
-      "Réduit les dommages reçus de 30%. S'il est seul en vie, gagne un bouclier de 200% de son niveau, tous les 5 tours.",
-      "Retire 150 puissance pour 1 tour. S'il est seul en vie, retire 300 puissance pour 3 tours. Tous les 6 tours.",
-      "Pose une Cawotte qui boost de 10coups critique le Wa Wabbit, qui soigne en zone carré les monstres et applique l'état Insoignable sur les joueurs, tous les 2 tours."
+      {
+        "name": "Cawotte Explosive",
+        "description": "Lance une cawotte infligeant des dégâts Terre en zone."
+      },
+      {
+        "name": "Vantardise de Wa",
+        "description": "Invoque un Wabbit et gagne un boost PM."
+      }
     ],
     "quests": [
       {
@@ -483,11 +564,16 @@
     "picture": "images/boss-village-kanniboul.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Kanniboul Ebil est le chaman de la tribu ! 🗿\n⚠️ Il manipule le combat avec ses totems qui peuvent soigner ses alliés ou blesser vos personnages (dégâts Feu/Terre).\n💡 Détruisez ses totems prioritaires pour l'empêcher d'influencer la partie. Il n'est pas très résistant une fois seul.",
     "spells": [
-      "Tape en ligne jusqu’à 6 PO, applique l'état Maudit et renvoi à la cible les dommages occasionnés à son invocation",
-      "Tape neutre et attire de 2 cases en zone croix de taille 4. Si la cible a l'état Maudit alors elle perd 20 coup critique.",
-      "Invoque une Poupée Aycetroy qui va changer de place avec un de ses ennemis en retirant 5 PO tous les 4 tours. Elle inflige également des degats autour d’elle à chaque fin de tour en se boostant puissance"
+      {
+        "name": "Invocation de Totem",
+        "description": "Invoque un totem aux effets variables (soin, dégâts, boosts)."
+      },
+      {
+        "name": "Flèche Enflammée",
+        "description": "Dégâts Feu à longue distance."
+      }
     ],
     "quests": [
       {
@@ -575,12 +661,16 @@
     "picture": "images/boss-laboratoire-de-brumen.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Nelween est la créature alchimique de Brumen ! 🧪\n⚠️ Elle empoisonne vos personnages et pose des glyphes extrêmement dangereux (dégâts Feu).\n💡 La mobilité est clé. Sortez immédiatement de ses glyphes et prévoyez de quoi vous soigner face aux dégâts continus des poisons.",
     "spells": [
-      "Vous met un sort de retrait PA ou PM si vous recevez du soin",
-      "Vous met un sort qui minimise vos jets si vous recevez un débuff",
-      "Réduit les résistances et applique un renvoi de dommage en zone de 3 autour de lui, tous les 5 tours",
-      "Tape au cac en retirant des PM ou en ligne a 2 PO"
+      {
+        "name": "Glyphe Toxique",
+        "description": "Pose un glyphe infligeant de lourds dégâts Feu en fin de tour."
+      },
+      {
+        "name": "Croc Empoisonné",
+        "description": "Applique un poison qui inflige des dégâts selon les PA utilisés."
+      }
     ],
     "quests": [
       {
@@ -641,15 +731,16 @@
     "picture": "images/boss-pitons-rocheux-des-craqueleurs.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Craqueleur Légendaire est un mur de pierre impénétrable ! 🪨\n🛡️ Il dispose d'énormes résistances et est quasiment immunisé aux attaques à distance.\n⚠️ Il frappe très fort en Terre au corps-à-corps.\n💡 Équipez-vous d'une arme à très fort dégâts ou d'érosion, et venez le taper au contact tout en assurant un gros soin derrière.",
     "spells": [
-      "Ne tape uniquement qu’en mêlée",
-      "Invoque un mob du donjon, tous les 3 tours",
-      "Réduit les dommages reçu en zone tous les 5 tours",
-      "Retire tous les PA à ses ennemis, sur toute la map, tous les 5 tours",
-      "Augmente de 50% les résistances de ses alliés en zone, tous les 5 tours",
-      "Boost de 1 PA ses alliées pendant 5 tours, tous les 4 tours",
-      "Protège une cible pendant 3 tours, tous les 5 tours"
+      {
+        "name": "Écrasement Rocheux",
+        "description": "Inflige des dégâts massifs Terre en mêlée."
+      },
+      {
+        "name": "Peau de Pierre",
+        "description": "Réduit considérablement les dommages subis à distance."
+      }
     ],
     "quests": [
       {
@@ -678,12 +769,16 @@
     "picture": "images/boss-epreuve-de-draegnerys.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Draegnerys est une dragone cracheuse de feu ! 🐉\n⚠️ Elle s'envole régulièrement pour devenir intouchable au corps-à-corps, et crache des flammes redoutables en zone (Feu).\n💡 Préparez des dégâts à distance pour les tours où elle vole. Ne restez pas groupés pour minimiser l'impact de son souffle enflammé.",
     "spells": [
-      "Tape jusqu’à 10 PO",
-      "Peut repousser de 2 cases",
-      "Invoque un dragoeuf du donjon",
-      "Boost PA, PM, Vita et Puissance un de ses alliés, tous les 3 tours"
+      {
+        "name": "Souffle de Dragon",
+        "description": "Dégâts Feu importants en cône."
+      },
+      {
+        "name": "Envol",
+        "description": "S'envole, devenant immunisée aux attaques de mêlée pendant 1 tour."
+      }
     ],
     "quests": [
       {
@@ -734,11 +829,16 @@
     "picture": "images/boss-cimetiere-des-mastodontes.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "La Mantiscore rôde dans le cimetière avec une allonge mortelle ! 🦂\n⚠️ Elle frappe de très loin en Air et Terre, et ses dégâts augmentent si vous êtes loin.\n💡 La stratégie classique du 'rush' fonctionne bien : foncez au contact pour réduire l'efficacité de ses attaques à distance. Taclez-la si possible.",
     "spells": [
-      "Revient à sa position précédente lorsqu’on le frappe",
-      "Tape en mêlée en se soignant ou en volant des PA",
-      "Tape a distance en appliquant l’état Enraciné"
+      {
+        "name": "Dard Perçant",
+        "description": "Dégâts Terre à très longue portée."
+      },
+      {
+        "name": "Rafale Piquante",
+        "description": "Dégâts Air en zone éloignée."
+      }
     ],
     "quests": [
       {
@@ -767,10 +867,16 @@
     "picture": "images/boss-antre-de-la-reine-nyee.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "La Reine Nyée tisse une toile mortelle ! 🕷️🕸️\n⚠️ Elle invoque sans cesse d'autres araknes et tapisse le sol de toiles qui retirent des PM et infligent des dégâts.\n💡 Un personnage capable de nettoyer les invocations rapidement (dégâts de zone) est indispensable. Restez mobiles pour éviter de vous retrouver immobilisés dans les toiles.",
     "spells": [
-      "Elle tape en mêlée en repoussant et retirant des PM ou à distance en retirant des résistances",
-      "Elle invoque un oeuf tous les 2 tours qu’elle transforme en mob du donjon le tour suivant"
+      {
+        "name": "Ponte",
+        "description": "Invoque des petites Araknes agressives."
+      },
+      {
+        "name": "Toile Paralysante",
+        "description": "Pose un piège/glyphe qui retire des PM et inflige des dégâts Neutre."
+      }
     ],
     "quests": [
       {
@@ -811,12 +917,16 @@
     "picture": "images/boss-domaine-ancestral.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "L'Abraknyde Ancestral puise sa force dans la forêt ! 🌳\n⚠️ Il frappe fort en Neutre et Air, et se soigne copieusement grâce à ses racines s'il touche plusieurs cibles.\n💡 Appliquez de l'érosion le plus vite possible. Maintenez-le à distance et évitez l'alignement avec lui pour ne pas lui offrir un vol de vie de groupe.",
     "spells": [
-      "Tape neutre en retirant PA et puissance, jusqu'à 2PO.",
-      "Invoque une Arakne Majeure tous les 5 tours.",
-      "Met un poison pour chaque PA utilisé par la cible, jusquà 8PO.",
-      "Se soigne énormément à partir du tour 3 puis tous les 5 tours."
+      {
+        "name": "Frappe Ancestrale",
+        "description": "Vol de vie massif Neutre en ligne."
+      },
+      {
+        "name": "Invocation de Branche",
+        "description": "Invoque un Abraknyde et gagne des résistances."
+      }
     ],
     "quests": [
       {
@@ -845,11 +955,16 @@
     "picture": "images/boss-bateau-du-chouque.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Chouque est le pirate le plus redouté des sept mers ! 🏴‍☠️\n⚠️ Il attaque en zone (Feu) à distance et l'équipage pirate qui l'accompagne est très dangereux (retrait PM, soins).\n💡 Concentrez vos attaques pour éliminer l'équipage (notamment les soigneurs) avant de vous en prendre au Chouque. Jouez espacés pour contrer ses boulets de canon.",
     "spells": [
-      "Tape en mêlée uniquement en retirant 150 puissance",
-      "Se transpose avec ses alliés",
-      "Invoque un mob du donjon lorsqu’un joueur meurt"
+      {
+        "name": "Boulet de Canon",
+        "description": "Inflige de gros dégâts Feu en zone circulaire."
+      },
+      {
+        "name": "À l'Abordage",
+        "description": "Invoque un pirate (Canon Dorf, Nakunbra, etc.) pour le soutenir."
+      }
     ],
     "quests": [
       {
@@ -878,11 +993,16 @@
     "picture": "images/boss-chapiteau-des-magik-riktus.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Choudini est le maître de l'illusion du chapiteau ! 🎩\n⚠️ Ses sorts Feu et Air font très mal, et il s'amuse à échanger de place avec vos personnages ou ses alliés, brisant totalement votre placement.\n💡 Prévoyez des classes avec une bonne capacité de replacement (Pandawa, Sacrieur). Bloquez-le dans un coin ou appliquez-lui l'état Pesanteur/Enraciné.",
     "spells": [
-      "Échange de place avec un joueur en infligeant des dommages et en retirant des PM, jusqu’à 12 PO",
-      "Met un poison terre pour chaque PM utilisé par la cible",
-      "Peut repousser de 3 cases en infligeant des dommages"
+      {
+        "name": "Tour de Magie",
+        "description": "Échange sa place avec une cible et inflige des dégâts Air."
+      },
+      {
+        "name": "Illusion Pyromane",
+        "description": "Dégâts Feu et malus de puissance."
+      }
     ],
     "quests": [
       {
@@ -936,12 +1056,16 @@
     "picture": "images/boss-caverne-du-koulosse.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Koulosse est la force brute incarnée ! 💪\n⚠️ Il cogne extrêmement fort en Terre et invoque fréquemment des Bouftous des Cavernes pour gêner vos lignes de vue.\n💡 Maintenez-le impérativement à distance grâce au retrait PM ou repousse. S'il vous attrape au corps-à-corps, un personnage 'fragile' n'y survivra pas.",
     "spells": [
-      "Invoque un Bouftou des Cavernes tous les 3 tours",
-      "Boost son invocation en PM, Vita et statistiques pour 2 tours",
-      "Attire de 10 cases",
-      "Applique -100 PA en infligeant des dommages. OS également les invocations, juqu’à 5 PO"
+      {
+        "name": "Écrasement Koulossien",
+        "description": "Dégâts dévastateurs Terre en mêlée."
+      },
+      {
+        "name": "Appel des Cavernes",
+        "description": "Invoque un Bouftou des Cavernes qui tacle et bloque la vue."
+      }
     ],
     "quests": [
       {
@@ -1070,11 +1194,16 @@
     "picture": "images/boss-fabrique-de-mallefisk.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Malléfisk transforme tout en cauchemar aquatique ! 🐟☠️\n⚠️ Il tape Eau et applique de nombreux poisons. Le cumul de ses poisons peut rapidement tuer un personnage en quelques tours.\n💡 Le désenvoûtement est votre meilleur ami. Un Eniripsa ou toute classe avec des soins continus aidera énormément à compenser les dégâts des poisons.",
     "spells": [
-      "Lorsque le boss atteint 50% de sa vita, il gagne 500 boucliers par frappe pour 1 tour et 100 puissance",
-      "Tape à 4 PO en volant des PM",
-      "Change de place en infligeant des dommages a 3 PO"
+      {
+        "name": "Jet Corrosif",
+        "description": "Dégâts Eau et applique un poison de fin de tour."
+      },
+      {
+        "name": "Écume Toxique",
+        "description": "Poison lié aux PM utilisés (plus on bouge, plus on prend de dégâts)."
+      }
     ],
     "quests": [
       {
@@ -1099,13 +1228,16 @@
     "picture": "images/boss-repaire-du-kharnozor.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Note : Ce boss est indéplaçable",
+    "explanation": "Le Kharnozor est une véritable bête de destruction massive ! 🦖\n⚠️ Il tape Neutre très fort en zone et a tendance à se booster chaque fois qu'il est attaqué.\n💡 Essayez de le 'one-shot' ou de le tuer en très peu de coups pour limiter ses boosts. Isoler le Kharnozor avec un tank tacleur loin du groupe est une bonne tactique.",
     "spells": [
-      "Gagne de la vitalité et des dommages finaux pour chaque mob tué",
-      "Applique un renvoi de dommage s’il subit des dommages a 2 PO ou moins. Attire également de 2 cases en appliquant les états insoignable et pesanteur",
-      "Peut s’avancer sur une cible de 15 cases en infligeant des dommages",
-      "Inflige des dommages en repoussant de 5 cases autour de lui",
-      "Tape en mêlée en appliquant l’état insoignable et pesanteur"
+      {
+        "name": "Frappe du Prédateur",
+        "description": "Dégâts massifs Neutre en zone de croix."
+      },
+      {
+        "name": "Rage Préhistorique",
+        "description": "Gagne de la Puissance à chaque fois qu'il subit des dommages."
+      }
     ],
     "quests": [
       {
@@ -1154,11 +1286,16 @@
     "picture": "images/boss-bibliotheque-du-maitre-corbac.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Maître Corbac règne sur son perchoir littéraire ! 🦅\n⚠️ Il tape en Air à grande distance, se déplace énormément, et sature très vite la carte de Corbacs.\n💡 Tuez les Corbacs avec des sorts de zone avant d'être submergés. Un personnage capable de 'coopérer' ou d'attirer le Maître Corbac dans votre équipe facilitera grandement le combat.",
     "spells": [
-      "Tape uniquement en mêlée",
-      "Invoque un Corbac qui tape et débuff",
-      "Tous les 4 tours, se retire ses PA et PM pendant 2 tours mais renvoi les dégâts subis. Applique également un poison sur tous les joueurs"
+      {
+        "name": "Vent Coupant",
+        "description": "Inflige des dégâts Air sans ligne de vue."
+      },
+      {
+        "name": "Volée de Corbacs",
+        "description": "Invoque plusieurs Corbacs agressifs."
+      }
     ],
     "quests": [
       {
@@ -1278,12 +1415,16 @@
     "picture": "images/boss-bambusaie-de-damadrya.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Damadrya est la protectrice inflexible de Pandala ! 🎋\n⚠️ Elle possède une mécanique très dangereuse : elle vole les caractéristiques et applique 20% d'érosion permanente. Vos points de vie max fondront comme neige au soleil !\n💡 Le combat doit être rapide, dit 'Blitzkrieg'. Fuyez son contact, boostez votre équipe, et tuez-la en un seul tour concentré.",
     "spells": [
-      "Vole aléatoire des statistique et applique 20% d'érosion pour tout le combat. Soigne également les monstres autour du joueur ou applique un bouclier si sa vita est supèrieur a 99%.",
-      "Tape dans un élément aléatoire en retirant 1 PM, jusqu'à 10PO.",
-      "Tape dans un élément aléatoire en zone croix de taille 2 autour d'elle et en retirant de la puissance.",
-      "Invoque un bourgeon, tous les tours, qui tape dans un élément aléatoire et se tue."
+      {
+        "name": "Vol de Souffle",
+        "description": "Vole des caractéristiques et inflige des dégâts Air/Feu."
+      },
+      {
+        "name": "Flétrissement Bambou",
+        "description": "Applique un malus de 20% d'érosion permanente inesquivable."
+      }
     ],
     "quests": [
       {
@@ -1426,10 +1567,16 @@
     "picture": "images/boss-tofulaillier-royal.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Tofu Royal est le summum de l'agilité ! 👑🐤\n⚠️ Très mobile, il tape en Air tout en sautillant partout et en invoquant une horde de Tofus Dodu et normaux.\n💡 Comme le Batofu, le retrait PM et le pesanteur sont parfaits pour le clouer sur place. Utilisez des sorts à effet de zone pour tuer ses invocations et le blesser simultanément.",
     "spells": [
-      "Tape en zone et retire des PA et de la vie",
-      "Invoque un Tofuzmo qui tape"
+      {
+        "name": "Picorage Royal",
+        "description": "Dégâts Air et vol d'Agilité au contact."
+      },
+      {
+        "name": "Saut de Tofu",
+        "description": "Bondit sur une longue distance et repousse les alliés proches."
+      }
     ],
     "quests": [
       {
@@ -1571,11 +1718,16 @@
     "picture": "images/boss-caverne-d-el-piko.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "El Piko vole avec maestria et pique où ça fait mal ! 🦜\n⚠️ Il inflige de bons dégâts Air et Feu, et sa mobilité le rend insaisissable pour les classes de mêlée.\n💡 Prévoyez une bonne équipe de dommages à distance. Méfiez-vous de ses pics qui peuvent réduire la portée de vos personnages, limitez vos déplacements pour éviter de prendre des dégâts de poussée.",
     "spells": [
-      "Tape et vol des statistiques élémentaires",
-      "Tape et applique un poison",
-      "Vole PA, PM, PO et Vitalité pendant 2 tours"
+      {
+        "name": "Plume de Feu",
+        "description": "Dégâts Feu à grande portée."
+      },
+      {
+        "name": "Tornade d'El Piko",
+        "description": "Dégâts Air en zone, repousse les cibles de plusieurs cases."
+      }
     ],
     "quests": [
       {
@@ -1600,13 +1752,16 @@
     "picture": "images/boss-ring-du-capitaine-ekarlatte.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Capitaine Ekarlatte est un redoutable bretteur ! ⚔️🏴‍☠️\n⚠️ Il contre-attaque à chaque fois qu'il est frappé en mêlée, et tape fort en Neutre et Feu.\n💡 Ne le frappez surtout pas au corps-à-corps avec de petites attaques (évitez les sorts à multi-lignes de dégâts). Privilégiez les attaques à distance ou de lourdes frappes uniques.",
     "spells": [
-      "Ce boss ne tape pas.",
-      "Il est téléporté à sa position précédente dès qu’il est tapé. Un soin peut être appliqué",
-      "Il retire des PA, PM et puissance",
-      "Il applique l’état Pesanteur",
-      "Il attire, vous téléporte, change de place"
+      {
+        "name": "Lame Ardente",
+        "description": "Dégâts Feu en ligne."
+      },
+      {
+        "name": "Parade Riposte",
+        "description": "Déclenche une violente attaque Neutre sur tout attaquant en mêlée."
+      }
     ],
     "quests": [
       {
@@ -2119,12 +2274,16 @@
     "picture": "images/boss-grotte-de-kanigroula.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Kanigroula est l'alpha incontestée de sa meute ! 🐺\n⚠️ Elle possède une frappe mortelle en Eau, retire vos résistances, et surtout, OS toutes les invocations tous les 2 tours.\n🛡️ Elle n'est pas invulnérable mais ses buffs de réduction de dégâts la rendent très tanky.\n💡 N'utilisez pas de stratégie basée sur les invocations (désolé les Osamodas et Sadidas). Concentrez vos attaques lors des tours où elle a le moins de résistances.",
     "spells": [
-      "Tape et retire 20% de résistance eau jusqu’à 8 PO",
-      "Inflige 5% de sa vitalité restante en zone autour d’elle, en retirant 2 PM au joueur. Boost également les mobs de 2 PM",
-      "OS une invocation des joueurs, tous les 2 tours",
-      "Boost les spells des mobs avec elle de façon infinie, tous les 2 tours"
+      {
+        "name": "Hurlement Perçant",
+        "description": "Retire des % de résistances aux adversaires proches et inflige des dégâts Eau."
+      },
+      {
+        "name": "Morsure de la Meute",
+        "description": "Dégâts massifs sur une cible unique. OS les invocations tous les 2 tours."
+      }
     ],
     "quests": [
       {
@@ -2269,11 +2428,16 @@
     "picture": "images/boss-horologium-de-xlii.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "XLII contrôle le temps avec une précision machiavélique ! ⏳\n⚠️ Il frappe en Feu/Air, mais sa dangerosité vient de sa manipulation temporelle : il peut vous renvoyer à votre position du tour précédent, ou ramener à la vie ses alliés.\n💡 Mémorisez vos positions précédentes. Il est crucial de tuer XLII en premier pour empêcher la résurrection de ses sbires et stabiliser le placement du combat.",
     "spells": [
-      "Tape en zone de 2 cases autour de lui et débuff",
-      "Tape jusqu’à 3 PO et applique l’état Pacifiste",
-      "Peut changer de place avec un joueur"
+      {
+        "name": "Aiguille Brûlante",
+        "description": "Dégâts Feu et retrait de PA."
+      },
+      {
+        "name": "Paradoxe XLII",
+        "description": "Téléporte une cible à sa position du début du tour précédent."
+      }
     ],
     "quests": [
       {
@@ -2440,11 +2604,16 @@
     "picture": "images/boss-grotte-du-bworker.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Bworker est une légende de brutalité, l'un des premiers gros défis de Dofus ! 👹\n⚠️ S'il vous attrape au corps-à-corps, c'est pratiquement un One-Shot garanti. Ses dégâts Terre et Feu sont colossaux.\n💡 Fuyez ! Jouez des classes de retrait PM (Enutrof, Sadida, Cra) et tuez-le à l'usure, de très loin. S'il s'approche de trop près, repoussez-le ou transférez-le.",
     "spells": [
-      "Tape uniquement en mêlee, en poussant de 2 cases",
-      "Tape en fonction de sa vitalité restante et manquante, tous les 2 tours",
-      "Gagne 3 PM, uniquement le 1er tour de jeu"
+      {
+        "name": "Coup de Bworker",
+        "description": "Dégâts colossaux Terre et Feu au corps-à-corps. Souvent fatal."
+      },
+      {
+        "name": "Motivation Bwork",
+        "description": "Gagne des PM et de la Puissance, devient incontrôlable."
+      }
     ],
     "quests": [
       {
@@ -2473,14 +2642,16 @@
     "picture": "images/boss-temple-du-grand-ougah.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Grand Ougah est un champignon colossal et imprévisible ! 🍄\n⚠️ Il frappe très fort à distance (Feu/Air), invoque des Champis très dangereux, et peut entrer dans un état où tout dégât reçu le soigne.\n💡 Surveillez scrupuleusement ses états. Quand l'état de soin est actif, ne le tapez sous aucun prétexte. L'érosion est obligatoire face à son énorme pool de points de vie.",
     "spells": [
-      "Tape en retirant des résistances air",
-      "Tape en zone",
-      "Applique un poison PA",
-      "Boost un ennemi en puissance si celui ci reçoit des dommages, tous les 3 tours",
-      "Se boost en CC et se soigne s’il subit du retrait PA ou du retrait PM ou des dommages, tous les 3 tours",
-      "Invoque un mob du donjon tous les tours"
+      {
+        "name": "Spore Hallucinogène",
+        "description": "Dégâts Feu et Air en zone, avec retrait de PO."
+      },
+      {
+        "name": "Hallucination Mycélienne",
+        "description": "Passe dans un état où les dommages subis le soignent pendant 1 tour."
+      }
     ],
     "quests": [
       {
@@ -4062,11 +4233,16 @@
     "picture": "images/boss-donjon-de-nowel.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Sapik pique et n'est pas tendre, même à Nowel ! 🎄\n⚠️ Il tape en Air et Eau et se boost en fonction des alliés présents sur le terrain.\n💡 Ce combat événementiel demande simplement un bon nettoyage des sbires avant de se concentrer sur lui. Évitez les lignes droites.",
     "spells": [
-      "Tape eau et retire des coups critique pour 2 tours",
-      "Tape air en zone autour de lui",
-      "Invoque un kipik"
+      {
+        "name": "Guirlande Étrangleuse",
+        "description": "Dégâts Air et retrait PM."
+      },
+      {
+        "name": "Boule de Neige Glacée",
+        "description": "Dégâts Eau à distance."
+      }
     ],
     "quests": [
       {
@@ -4091,18 +4267,16 @@
     "picture": "images/boss-donjon-de-nowel-2.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Papa Nowel n'apporte pas que des cadeaux... 🎅\n⚠️ Il lance des cadeaux piégés (dégâts Air/Feu) et invoque des paquets qui donnent des malus sévères.\n💡 Désamorcez les cadeaux explosifs en les poussant ou en les détruisant de loin. Ne restez pas collés les uns aux autres.",
     "spells": [
-      "Gagne 5 PO infini lorsqu’il subit un retrait PM",
-      "Se soigne intégralement, une fois par combat",
-      "Phase 1 :",
-      "Tape neutre et retire 2 PM, jusqu’à 8 PO",
-      "Invoque un cadeau aléatoire, tous les 4 tours",
-      "Phase 2 :&nbsp;Se divise en deux et son double peut :",
-      "Retirer 4 PA, 1 PM et appliquer l’état Affaibli, jusqu’à 6 PO",
-      "Pousser de 6 cases en mêlée ou booster PM ses alliés",
-      "Invoquer un cadeau aléatoire",
-      "Taper neutre et retirer 2 PM jusqu’à 8 PO"
+      {
+        "name": "Cadeau Empoisonné",
+        "description": "Dégâts Feu et poison en fin de tour."
+      },
+      {
+        "name": "Lancer de Paquet",
+        "description": "Invoque un Cadeau qui explose après quelques tours."
+      }
     ],
     "quests": [
       {
@@ -4123,14 +4297,16 @@
     "picture": "images/boss-maison-du-papa-nowel.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Père Fwetar distribue les punitions à la chaîne ! 鞭\n⚠️ Il tape très fort en zone et ses coups retirent des PA. Ses sbires sont parmi les plus dangereux de l'île de Nowel.\n💡 Éparpillez-vous pour qu'il ne puisse pas toucher plusieurs cibles avec ses zones. L'isolation et le retrait PM sont indispensables.",
     "spells": [
-      "Gagne 1 PM (4 tours) lorsqu’il subit un retrait PM",
-      "Attire en ligne de 3 cases",
-      "Se soigne intégralement et boost tous les ennemis en puissance, tous les 10 tours",
-      "Tape dans un élément aléatoire, entre 8 et 20 PO",
-      "Invoque un Poutch, tous les 3 tours",
-      "33% de chance de boost le Poutch en PA, sinon invoque un boss parmis 5 choix"
+      {
+        "name": "Coup de Fouet",
+        "description": "Lourds dégâts Neutre en zone et retrait PA inesquivable."
+      },
+      {
+        "name": "Punition Hivernale",
+        "description": "Attire les cibles et inflige des dégâts Terre/Air."
+      }
     ],
     "quests": [
       {
@@ -4151,13 +4327,16 @@
     "picture": "images/boss-potager-d-halouine.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Halouine transforme votre combat en cauchemar ! 🎃\n⚠️ Il transforme vos alliés en Bouftous et invoque des citrouilles explosives.\n💡 Restez loin de ses invocations et tuez-les rapidement. Ne perdez pas de temps, ses dégâts Feu/Terre s'accumulent vite.",
     "spells": [
-      "Attire en ligne de 5 cases et applique l’état Pesanteur, jusqu’à 6 PO",
-      "Vol de la vie Terre, se boost en vita et pousse de 1 case, en mêlée",
-      "Renvoi 50% des dégâts en zone de taille 2",
-      "Ressuscite le dernier allié mort avec l’état invulnérable pour 1 tour",
-      "Tape Eau en croix jusqu’à 7 PO et minimise les effets"
+      {
+        "name": "Malédiction d'Halouine",
+        "description": "Dégâts Terre et transformation d'un personnage en Bouftou."
+      },
+      {
+        "name": "Citrouille Explosive",
+        "description": "Invoque une citrouille qui explose (dégâts Feu) à sa mort."
+      }
     ],
     "quests": [
       {
@@ -4431,13 +4610,16 @@
     "picture": "images/boss-mawabouaino.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "Le Mawabouaino est le roi éphémère ! 👑🐧\n⚠️ Ce boss tape très fort en zone et a des comportements imprévisibles selon les tours.\n💡 Le placement est la clé : restez écartés, appliquez de l'érosion, et concentrez-vous sur des 'bursts' (tours de gros dégâts) pour l'achever rapidement.",
     "spells": [
-      "Tape terre et retire 1PM, jusqu'à 8PO.",
-      "Invoque un Twakeuf qui peut se tp, voler de la vie et taper air ou feu.",
-      "Tape terre et repousse de 2 cases en zone cercle de taille 2 autour de lui.",
-      "Tape feu et retire 20% de résistance terre, jusqu'à 10PO.",
-      "Pose un glyphe qui boost 300 puissance et 3PA les monstres et joueurs qui passent dessus."
+      {
+        "name": "Danse du Pingouin",
+        "description": "Inflige des dégâts Eau/Air en zone autour de lui."
+      },
+      {
+        "name": "Cri de l'Hiver",
+        "description": "Applique un malus de puissance et inflige des dégâts Glace (Terre)."
+      }
     ],
     "quests": [
       {

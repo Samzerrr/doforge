@@ -47,12 +47,16 @@
     "title": "Maître Boulet - Bord de la Forêt Maléfique",
     "picture": "images/avis-maitre-boulet.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Maître Boulet est un adversaire agressif qui joue principalement sur l'entrave PM et les dégâts Terre.\n💡 Évitez de rester en ligne ou de regrouper vos personnages, et prévoyez des sorts de désenvoûtement ou du soin pour contrer son érosion.",
     "spells": [
-      "Se boost en PM, Puissance et Do Pou pour chaque retrait PM",
-      "Tape, retire des PM, s’avance et pousse de 5 cases",
-      "Tape et retire 1 PM",
-      "Invoque un Tournesol tous les 4 tours"
+      {
+        "name": "Frappe Lourde",
+        "description": "Inflige de lourds dégâts Terre au corps-à-corps."
+      },
+      {
+        "name": "Boulet Entravant",
+        "description": "Retire des PM à distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès le level 10.",
@@ -69,12 +73,16 @@
     "title": "Frakacia Leukocytine - Forêt d'Astrub",
     "picture": "images/avis-frakacia-leukocytine.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Frakacia gagne des bonus de dommages chaque fois qu'elle subit des attaques.\n💡 Tuez-la rapidement avec de gros dégâts d'un coup (One-Turn) ou utilisez des poisons pour ne pas déclencher son boost de puissance. Attention à ses zones de dégâts !",
     "spells": [
-      "Retire 2 PA et réduit les dégats reçus pour chaque attaque à distance",
-      "Tape et retire des résistances Terre et Neutre",
-      "Tape jusqu’à 10PO et volant de la PO et des PM",
-      "Debuff de 4 tour et applique l'état Pacifiste jusqu’a 6PO autour d’elle, tous les 3 tours"
+      {
+        "name": "Attraction Sanguine",
+        "description": "Attire les cibles et frappe en zone."
+      },
+      {
+        "name": "Coagulation",
+        "description": "Boost de puissance lorsqu'elle subit des dégâts."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 10.",
@@ -91,12 +99,16 @@
     "title": "Les Guman - Champs d'Amakna",
     "picture": "images/avis-les-guman.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ce groupe agit en synergie, se boostant mutuellement en puissance et en PA/PM.\n💡 Isolez les cibles une par une et évitez de les laisser se regrouper. Le désenvoûtement est très utile ici.",
     "spells": [
-      "Invoque Exi Guman",
-      "Tape et pousse de 4 cases",
-      "Tape et retire 3 PM, jusqu’à 9PO",
-      "Invoque une Citwouillette qui boost PA et stat ses alliés autour d’elle"
+      {
+        "name": "Cri de Ralliement",
+        "description": "Donne des PA et PM aux alliés en zone."
+      },
+      {
+        "name": "Frappe Coopérative",
+        "description": "Inflige des dégâts qui augmentent pour chaque allié proche."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend dans la Base des Justiciers, dès le level 10.",
@@ -113,12 +125,16 @@
     "title": "Roub'Ignolles - Cimetière d'Amakna",
     "picture": "images/avis-roub-ignolles.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Roub'Ignolles invoque des bombes qui explosent si vous les détruisez, causant de lourds dégâts.\n💡 Concentrez vos attaques sur le boss et évitez à tout prix les bombes, ou déplacez-les hors de portée avant leur déclenchement.",
     "spells": [
-      "Invoque des bombes qui explosent si on les tue ou au bout de 4 tours",
-      "Applique un retrait de résistance autour d’une bombe",
-      "Repousse de 4 cases, jusqu’à 6PO",
-      "Change de place avec une de ses bombes et la boost pour la faire exploser"
+      {
+        "name": "Invocation de Bombe",
+        "description": "Invoque une bombe mortelle en zone."
+      },
+      {
+        "name": "Tir Poudreux",
+        "description": "Inflige des dégâts à distance et repousse."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’alignement 10.",
@@ -135,12 +151,16 @@
     "title": "Bouss Baybe - Plaine des Porkass",
     "picture": "images/avis-bouss-baybe.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Au début du combat, Bouss Baybe octroie 2 PA, 4 PM et 100 Puissance à tous ses alliés.\n💡 Retardez le combat ou désenvoûtez les monstres dès le premier tour. Isolez le boss pour réduire l'impact de ses alliés surboostés.",
     "spells": [
-      "Boost tous ses alliés de 2PA, 4PM et 100 puissance au début du combat",
-      "Tape et retire des résistances poussées, jusqu’à 4PO",
-      "En zone: pousse, retire de la puissance et applique l’état Affaibli, jusqu’à 12 PO",
-      "Tue les invocations pour les remplacer par un Cavalier ou Berger Porkass, jusqu’à 12 PO tous les 2 tours"
+      {
+        "name": "Coup de Boost",
+        "description": "Boost massif de tous les alliés en PA, PM et Puissance au tour 1."
+      },
+      {
+        "name": "Baffe Maternelle",
+        "description": "Dégâts au corps-à-corps."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’alignement 10.",
@@ -199,11 +219,16 @@
     "title": "Marzwel le Gobelin - Massif de Cania",
     "picture": "images/avis-marzwel-le-gobelin.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Marzwel est insaisissable grâce à ses téléportations fréquentes et tape Air/Feu à mi-distance.\n💡 Jouez sur l'état pesanteur ou retirez-lui des PM pour l'empêcher de s'échapper. Bloquez-le dans un coin si possible.",
     "spells": [
-      "Tape et retire 300 puissance, jusqu’à 13 PO",
-      "Tape, pousse de 2 cases et vole 1 PM, jusqu’à 3 PO",
-      "Se boost en fuite et PO, tous les 4 tours"
+      {
+        "name": "Saut Gobelin",
+        "description": "Se téléporte à quelques cases de distance."
+      },
+      {
+        "name": "Flamme Gobeline",
+        "description": "Tape Feu et Air."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 40.",
@@ -220,12 +245,16 @@
     "title": "Nono le Wobot - Îlot de la Couronne",
     "picture": "images/avis-nono-le-wobot.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Nono invoque des petits wobots gênants et inflige de forts dégâts Feu.\n💡 Débarrassez-vous vite des invocations avant d'être submergé et prévoyez des résistances Feu. Gardez-le à distance.",
     "spells": [
-      "Réduit de 40 les dommages d’arme ou de mêlée",
-      "Révèle les entités invisibles",
-      "Tape et retire des PM, en zone cercle de 3",
-      "Tape et retire des résistances neutres en mêlée !"
+      {
+        "name": "Wobotisation",
+        "description": "Invoque un petit Wobot allié."
+      },
+      {
+        "name": "Tir Laser",
+        "description": "Frappe fortement dans l'élément Feu en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
@@ -242,14 +271,16 @@
     "title": "Gadoo - Marécages Sans Fond",
     "picture": "images/avis-gadoo.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Frapper Gadoo dans l'élément Terre annule les dégâts et le boost en puissance ainsi qu'en résistances.\n💡 Évitez absolument les attaques Terre ! Utilisez d'autres éléments et concentrez-vous sur des dégâts constants à distance.",
     "spells": [
-      "Lorsqu’il est tapé terre: annule les dommages reçus, augmente sa puissance et ses résistances feu/air et baisse ses résistances eau/terre",
-      "Lorsqu’il est tapé eau: se soigne et baisse ses coups critiques",
-      "Attire en ligne de 5 cases",
-      "Tape et retire de la puissance, jusqu’à 10PO. Se boost aussi en dommage critique",
-      "Retire 4 PO, puis le tour suivant 4 PA et applique l’état Affaibli, puis le tour suivant 4 PM et enfin le tour suivant passe le tour de la cible, tous les 3 tours",
-      "Tape en fonction de ses points de vie en zone, tue les invocations et les remplace par des Boos et révèle les entités invisibles, tous les 3 tours"
+      {
+        "name": "Absorption Tellurique",
+        "description": "Immunité Terre et gain de résistances/puissance sur dégâts Terre."
+      },
+      {
+        "name": "Frappe de Boue",
+        "description": "Tape au corps-à-corps en volant de la vie."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend dans la Base des Justiciers, dès le level 40.",
@@ -266,12 +297,16 @@
     "title": "Qil Bil - Cimetière des Torturés",
     "picture": "images/avis-qil-bil.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Qil Bil est spécialisé dans le retrait PA massif et frappe principalement Eau.\n💡 Équipez-vous d'esquive PA. Jouez de très loin ou utilisez des murs pour éviter de vous faire légumiser.",
     "spells": [
-      "Gagne du bouclier s’il est poussé ou si on lui retire des PM",
-      "Tape en ligne et retire des PA, jusqu’à 2 PO",
-      "Augmente ses dommages. Augmente également sa puissance s’il subit des dégâts de piège, de poison, de dommage renvoyé ou de glyphe",
-      "Tape autour de lui et repousse de 3 cases"
+      {
+        "name": "Vol de Temps",
+        "description": "Retire des PA et inflige des dégâts Eau."
+      },
+      {
+        "name": "Lame Hydrique",
+        "description": "Frappe Eau en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 50.",
@@ -309,12 +344,16 @@
     "title": "Aermyne 'Braco' Scaptaras - Forêt de Kalyptus",
     "picture": "images/avis-aermyne.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Aermyne est très mobile, tapant Air tout en se téléportant régulièrement.\n💡 Appliquez l'état pesanteur pour bloquer ses déplacements ou retirez-lui ses PM. Gardez un œil sur ses temps de relance.",
     "spells": [
-      "Gagne des PA si elle subit du retrait PA et des PM si elle subit du retrait PM",
-      "Soigne, boost puissance et PM un de ses alliés",
-      "Tape et repousse de 3 cases, en mêlée uniquement",
-      "Tape, vol de la vie et tape en fonction de sa vitalité, tous les 4 tours, jusqu’à 8 PO"
+      {
+        "name": "Bord du Gouffre",
+        "description": "Se téléporte et inflige des dégâts Air autour de son point d'arrivée."
+      },
+      {
+        "name": "Rafale",
+        "description": "Pousse et tape Air."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 60.",
@@ -331,11 +370,16 @@
     "title": "Tournade - Désert de Saharach",
     "picture": "images/avis-tournade.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Tournade frappe fort en zone Air et excelle dans le placement en repoussant les cibles très loin.\n💡 Ne restez pas groupés ! Jouez contre les murs si possible pour limiter les dégâts de poussée, mais attention à la zone d'effet de ses attaques.",
     "spells": [
-      "Dans un cercle de taille 8 autour d’elle, attire de 3 cases, vole 2 PM et retire 50% de résistances",
-      "Dans un cercle de taille 5 autour d’elle, tape en vol de vie air. Se boost également en vitalité",
-      "Dans un cercle de taille 2 autour d’elle, tape, retire 10 PO et applique l’état Pacifiste"
+      {
+        "name": "Souffle Dévastateur",
+        "description": "Dégâts Air en zone et recul de plusieurs cases."
+      },
+      {
+        "name": "Vortex",
+        "description": "Attire au centre d'une zone et frappe Air."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Saharach, dès le level 60.",
@@ -352,12 +396,16 @@
     "title": "Musha l'Oni - Baie de Cania",
     "picture": "images/avis-musha-l-oni.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Musha est redoutable en mêlée (Feu/Neutre) et gagne de la puissance au fil des tours.\n💡 Ne le laissez jamais arriver au corps-à-corps. Entravez-le un maximum (retrait PM/PO) et tuez-le à distance.",
     "spells": [
-      "Révèle les invisibles autour de lui à chaque tour",
-      "Vol de vie air et change de place jusqu’à 6 PO (sauf si Pesanteur)",
-      "Maximise les effets sur la cible et soit tape soit désenvoute, jusqu’à 12 PO, tous les 3 tours",
-      "Tape dans un élément aléatoire, retire 4 PO et applique l’état Affaibli, jusqu’à 12 PO"
+      {
+        "name": "Frappe de l'Oni",
+        "description": "Lourds dégâts Feu et Neutre au contact."
+      },
+      {
+        "name": "Rage Spirituelle",
+        "description": "Augmente sa puissance à chaque attaque subie."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 60.",
@@ -374,12 +422,16 @@
     "title": "Dragodingo - Territoire des Dragodindes",
     "picture": "images/avis-dragodingo.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ce monstre frappe Feu en zone et vole des PM, devenant très difficile à fuir.\n💡 Dispersez-vous pour qu'il ne puisse pas toucher plusieurs cibles à la fois. Prévoyez de l'esquive PM ou du désenvoûtement pour freiner sa progression.",
     "spells": [
-      "Se boost aléatoirement Puissance, fuite ou esquive PA/PM en début de tour",
-      "Suivant le boost précédent il va: taper, pousser, retirer des PM, appliquer les états Pesanteur ou Affaibli, en mêlée uniquement",
-      "Suivant le boost précédent il va: taper, appliquer de l’érosion, appliquer l’état Insoignable ou augmenter les dommages subit",
-      "Suivant le boost précédent il va: Soigner, appliquer du bouclier ou réduire les dommages reçus"
+      {
+        "name": "Flammèche Voleuse",
+        "description": "Vole des PM et frappe Feu."
+      },
+      {
+        "name": "Explosion Dingue",
+        "description": "Dégâts Feu en zone autour de lui."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
@@ -396,12 +448,16 @@
     "title": "Tyranne la Terrible - Forêt Sombre",
     "picture": "images/avis-tyranne-la-terrible.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Tyranne applique des poisons redoutables et tape Feu/Air.\n💡 Utilisez des classes capables de désenvoûter ou de réduire les dommages subis par les poisons. Les soins constants sont indispensables.",
     "spells": [
-      "Change de place si elle reçoit des dommages et repousse de 6 cases si elle reçoit des dommage de poussée en mêlée",
-      "Tape neutre et repousse de 6 cases, jusqu’à 3 PO",
-      "Tape feu en mêlée et retire 4 PM",
-      "Se boost en dommage poussée, se téléporte jusqu’à 6PO, tape en cercle de 3cases et attire de 2 cases"
+      {
+        "name": "Poison Rétrograde",
+        "description": "Applique un poison qui inflige des dégâts à chaque PA utilisé."
+      },
+      {
+        "name": "Frappe Aérienne",
+        "description": "Dégâts Air et Feu à mi-distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 60.",
@@ -418,12 +474,16 @@
     "title": "Degolas - Chemin du Crâne",
     "picture": "images/avis-degolas.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Degolas tape Air à distance et possède une excellente esquive PM/PA, le rendant dur à entraver.\n💡 Inutile de tenter du retrait : privilégiez de gros dégâts bruts ou des capacités pour l'attirer au corps-à-corps.",
     "spells": [
-      "Se boost de 50% en coup critique",
-      "Tape air et vole 4 PO, jusqu’à 15 PO",
-      "Tape eau, retire 3 PO et pousse de 1 case, en mêlée",
-      "Se recule de 3 cases, pousse de 3 cases, tape terre en ligne de 3 cases et retire 2 PO, jusqu’à 12 PO"
+      {
+        "name": "Flèche Aérienne",
+        "description": "Tir Air à longue portée."
+      },
+      {
+        "name": "Esquive Parfaite",
+        "description": "Possède de très hautes statistiques d'esquive passive."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 1.",
@@ -440,12 +500,16 @@
     "title": "Simbadas - Route des Roulottes",
     "picture": "images/avis-simbadas.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Simbadas tape Eau et possède une importante capacité de régénération en combat.\n💡 Appliquez de l'érosion pour contrer ses soins. Essayez de le tuer rapidement (One-Turn) quand ses points de vie descendent bas.",
     "spells": [
-      "Applique -10 PO sur tous les joueurs en début de combat",
-      "Boost de 4 PM et 400 puissances tous ses alliés lorsqu’il meurt",
-      "Se téléporte à 6 PO et tape neutre dans un cercle de taille 2 en retirant de la fuite. (sauf si Pesanteur)",
-      "Vol de la vie terre en zone et applique un poison neutre, jusqu’à 1 PO"
+      {
+        "name": "Frappe Aquatique",
+        "description": "Inflige des dégâts Eau."
+      },
+      {
+        "name": "Régénération Profonde",
+        "description": "Se soigne d'une partie des dégâts qu'il a subis."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 70.",
@@ -462,12 +526,16 @@
     "title": "Rok Gnorok - Lacs Enchantés",
     "picture": "images/avis-rok-gnorok.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Rok Gnorok est un véritable bulldozer au corps-à-corps, avec des dégâts Terre massifs.\n💡 Fuyez-le comme la peste. Jouez uniquement à distance avec beaucoup de retrait PM et de recul.",
     "spells": [
-      "Se boost en puissance à chaque début de tour",
-      "Tape, augmente ses dommages et retire 1 PA, en zone cone de taille 1. En mêlée uniquement",
-      "Réduit les dommages reçus pour chaque attaque qu’il subit à distance. Se boost également de 30 résistance poussée. Tous les 3 tours",
-      "Tape feu en ligne de taille 2, applique un poison de début et fin de tour et retire de la puissance. En mêlée uniquement"
+      {
+        "name": "Écrasement",
+        "description": "Dégâts Terre colossaux au contact."
+      },
+      {
+        "name": "Peau de Pierre",
+        "description": "Réduit les dégâts reçus."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 70.",
@@ -484,12 +552,16 @@
     "title": "Maxi-Malle - Creuset des Fortunés",
     "picture": "images/avis-maxi-malle.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ En tant que boss coffre, Maxi-Malle compense sa faible mobilité par des soins puissants et des attaques variées.\n💡 L'érosion est votre meilleure alliée. Réduisez ses capacités de soin pour en venir à bout plus facilement.",
     "spells": [
-      "Augmente ses dégats de base pour chaque attaque subit",
-      "Gagne 1 PM lorsqu’il se fait pousser",
-      "Vol de la vie air en zone cercle de taille 2 autour de lui, pousse de 2 cases et retire de la puissance",
-      "Vol de la vie feu en zone cercle de taille 2, vol 2 PM et applique l’état Pesanteur, jusqu’à 8 PO"
+      {
+        "name": "Coup de Pièce",
+        "description": "Jette des pièces infligeant des dégâts aléatoires."
+      },
+      {
+        "name": "Soin Malle-icieux",
+        "description": "Se soigne fortement."
+      }
     ],
     "quest": [
       "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 80.",
@@ -506,12 +578,16 @@
     "title": "Carlita de l'Aguerfelde - Hauts des Hurlements",
     "picture": "images/avis-carlita-de-l-aguerfelde.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Carlita tape Air/Feu à moyenne portée et invoque régulièrement des monstres pour l'épauler.\n💡 Contrôlez ses invocations pour ne pas être submergé, tout en maintenant une pression constante sur elle à longue distance.",
     "spells": [
-      "Boost de 2000 vita tous ses alliés",
-      "Pose un piège jusqu’à 8 PO qui applique -15 PM et les états Pesanteur et Inébranlable",
-      "Avance de 5 cases en lignes et tape air",
-      "Tape eau en zone cone de taille 2 et repousse de 3 cases, entre 3 et 6 PO"
+      {
+        "name": "Invocation de la Cour",
+        "description": "Invoque un serviteur."
+      },
+      {
+        "name": "Frappe Raffinée",
+        "description": "Dégâts Air et Feu."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
@@ -528,11 +604,16 @@
     "title": "Naganita - Île de Kartonpath",
     "picture": "images/avis-naganita.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Naganita applique de dangereux poisons tout en frappant Terre/Feu, souvent en ligne ou diagonale.\n💡 Évitez ses lignes de vue et munissez-vous de soins/désenvoûtement pour neutraliser ses poisons au plus vite.",
     "spells": [
-      "Applique l’état Pacifiste à son début de tour pour chaque joueur à plus de 3 PO",
-      "Tape terre, applique de l’érosion et repousse de 6 cases, en zone de cercle 3 autour d’elle",
-      "Tape neutre et en fonction des points de vie érodés de la cible"
+      {
+        "name": "Morsure Venimeuse",
+        "description": "Dégâts Terre et application d'un poison durable."
+      },
+      {
+        "name": "Flamme Vipérine",
+        "description": "Tape Feu en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
@@ -549,12 +630,16 @@
     "title": "Prince Marchand- Territoire des Porcos",
     "picture": "images/avis-prince-marchand.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ce boss tape Neutre et dispose d'une attaque redoutable qui vole des kamas à chaque frappe.\n💡 Gardez vos distances pour limiter ses dégâts. Privilégiez les résistances Neutre et ne vous laissez pas coincer.",
     "spells": [
-      "Maximise les effets aléatoires sur joueurs à son contact en début de tour",
-      "Vole des PA, PM, PO et 200 de statistique dans un élément aléatoire",
-      "Tape dans un élément aléatoire, applique de l’érosion, et retire 100% de résistance. Boost également la cible en puissance ainsi qu’une réduction de dégâts pour chaque attaque subit",
-      "Avance en ligne de 2 cases, applique l’état Pesanteur, se soigne et attire ses alliés, jusqu’à 10 PO"
+      {
+        "name": "Taxe Marchande",
+        "description": "Vole des kamas (ou simule un vol de ressources en combat) et tape Neutre."
+      },
+      {
+        "name": "Frappe Commerciale",
+        "description": "Forts dégâts Neutre au contact."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
@@ -571,11 +656,16 @@
     "title": "Trukipik - Jungle Interdite",
     "picture": "images/avis-trukipik.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Trukipik pose des pièges vicieux sur le terrain tout en frappant Air.\n💡 Regardez bien où il joue pour éviter ses pièges (ou utilisez des invocations pour les déclencher). Attention à ses repousses dans ses propres pièges !",
     "spells": [
-      "Applique l’état Pacifiste en début de tour à tous les joueurs à plus de 3 cases de lui",
-      "Tape terre en zone cercle de 3, pousse de 6 cases et applique de l’érosion",
-      "Tape neutre et fonction de la vitalité érodée de la cible"
+      {
+        "name": "Piège Piquant",
+        "description": "Pose un piège infligeant des dégâts Air et retirant des PM."
+      },
+      {
+        "name": "Poussée Épineuse",
+        "description": "Pousse et inflige des dégâts Air."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
@@ -615,12 +705,16 @@
     "title": "Bouflouth - Champs de Glace",
     "picture": "images/avis-bouflouth.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Bouflouth est un monstre de mêlée, infligeant de violents dégâts Neutre/Terre à très courte portée.\n💡 Comme pour la plupart des monstres CàC, le retrait PM et le jeu à longue distance sont la clé de la victoire.",
     "spells": [
-      "Gagne 1 PM lorsqu’il se fait pousser",
-      "Invoque un Boufmouth de guerre, tous les 6 tours",
-      "Se boost en dommage, tous les 3 tours",
-      "Tape neutre en mêlée et repousse de 5 cases"
+      {
+        "name": "Coup de Corne",
+        "description": "Dégâts Terre au contact."
+      },
+      {
+        "name": "Charge Bestiale",
+        "description": "Se rapproche de sa cible et tape Neutre."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 100.",
@@ -637,13 +731,16 @@
     "title": "Morblok - Chemins d'hier",
     "picture": "images/avis-morblok.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Morblok est un tank : il frappe Neutre/Eau tout en augmentant ses résistances lorsqu'il est attaqué.\n💡 L'érosion est essentielle. Essayez de regrouper vos attaques sur un seul tour pour éviter qu'il ne cumule trop de résistances d'un coup.",
     "spells": [
-      "Suivant l’élément dans lequel il est tapé, il va appliquer les malus suivant en zone de cercle 2 autour de lui: augmentation des dommages, débuff, puissance, PA",
-      "Tape air et se boost puissance, jusqu’à 10 PO",
-      "Tape feu et se soigne",
-      "Se boost en dommage, tous les 3 tours",
-      "Se téléporte jusqu’à 5 PO, tape eau et attire de 3 cases en zone de cercle 3 et se boost en tacle. (sauf si pesanteur)"
+      {
+        "name": "Armure de Glace",
+        "description": "Gagne des résistances à chaque coup reçu."
+      },
+      {
+        "name": "Frappe Gelée",
+        "description": "Tape Eau et Neutre au contact."
+      }
     ],
     "quest": [
       "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 100.",
@@ -660,12 +757,16 @@
     "title": "Vashkiwi - Île du Minotoror",
     "picture": "images/avis-vashkiwi.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Vashkiwi tape Air/Eau et a la capacité de geler ses cibles, limitant drastiquement leur mobilité.\n💡 Protégez-vous avec des boucliers et prévoyez du désenvoûtement ou des sorts de déplacement pour échapper à ses zones d'effet.",
     "spells": [
-      "Tape terre en cercle de taille 2 autour de lui à chaque début de tour",
-      "Se boost lui ou un allié en bouclier, puissance et réduit les dommages reçus dès que la cible subit des dommages, jusqu’à 10 PO",
-      "Boost en zone de cercle 3 le tacle et la fuite. Attire de 4 cases pour chaque retrait PM et boost de 4 PA pour chaque retrait PA",
-      "Invoque une Fontaine Laiteuse qui tape eau en zone et retire de la puissance"
+      {
+        "name": "Congélation",
+        "description": "Retire des PM, applique l'état Gelé et tape Eau."
+      },
+      {
+        "name": "Tornade Blanche",
+        "description": "Dégâts Air en zone."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
@@ -682,11 +783,16 @@
     "title": "Nenufor Tilotus - Tourbière sans fond",
     "picture": "images/avis-nenuflor-tilotus.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Nenuflor tape Eau à distance tout en se soignant continuellement grâce à ses attaques.\n💡 Réduisez sa vitalité maximale via de l'érosion. Jouez sur l'entrave PO pour le forcer à s'avancer sans pouvoir se soigner.",
     "spells": [
-      "Pose un glyphe qui tape terre et retire 6 PM",
-      "Invoque des Nufor. Le sort ci dessous est répliqué d’autant de fois que le joueur a de Nufor en ligne de vue",
-      "Tape feu et retire des PM en zone cercle de taille 3, jusqu’à 8 PO"
+      {
+        "name": "Sève Soignante",
+        "description": "Vol de vie dans l'élément Eau."
+      },
+      {
+        "name": "Racine Aqueuse",
+        "description": "Tape Eau à longue portée."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 100.",
@@ -703,14 +809,16 @@
     "title": "Padgref Demoël - Bois de Litneg",
     "picture": "images/avis-padgref-demoel.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Boss très dangereux : tenter de lui retirer des PA le soigne et lui donne un boost de 500 Puissance ! Invoque également des lutins.\n💡 N'utilisez JAMAIS de retrait PA ! Concentrez-vous sur le retrait PM et tuez ses invocations pour ne pas vous faire déborder.",
     "spells": [
-      "Se boost de 100 dans tous les éléments pour chaque dommages reçus",
-      "Attire de 6 cases en ligne, jusqu’à 30 PO",
-      "Vol de la vie air jusqu’à 3 PO",
-      "Change de place et tape eau en zone cercle de 2, jusqu’à 14 PO sans ligne de vue",
-      "Vol de la vie en feu en zone croix de 1, jusqu’à 3 PO",
-      "Tape neutre en fonction de ses PV manquants"
+      {
+        "name": "Rancune Magique",
+        "description": "Soin et boost de puissance colossale s'il subit un retrait PA."
+      },
+      {
+        "name": "Invocation de Lutin",
+        "description": "Fait apparaître un sbire."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 110.",
@@ -727,12 +835,16 @@
     "title": "Jérart Dupaindur - Terrdala",
     "picture": "images/avis-jerart-dupaindur.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Jérart est un adversaire exclusivement corps-à-corps, tapant extrêmement fort en Neutre/Terre.\n💡 Le classique de Frigost : retrait PM, sorts de recul, et on tape à distance. Ne le laissez jamais approcher.",
     "spells": [
-      "Attire de 4 cases",
-      "Tape terre en zone croix de taille 1 et retire 2 PM, jusqu’à 8 PO",
-      "Invoque une Bouteille de Pandabsynthe qui attire de 4 cases et tape feu en zone",
-      "S’avance en ligne de 63 cases, tape terre en zone cercle de taille 2 et se soigne (sauf si Indéplaçable)"
+      {
+        "name": "Frappe du Boulanger",
+        "description": "Dégâts ravageurs en Terre et Neutre au contact."
+      },
+      {
+        "name": "Croûte Dure",
+        "description": "Gagne des résistances temporaires."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 2.",
@@ -791,13 +903,16 @@
     "title": "Roi Camole - Territoire Cacterre",
     "picture": "images/avis-roi-camole.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Le Roi Camole tape Neutre tout en invoquant régulièrement pour submerger ses adversaires.\n💡 Nettoyez la zone de ses invocations rapidement ou bloquez-le dans un coin pour limiter sa liberté de mouvement. Attention à ses dégâts sans ligne de vue.",
     "spells": [
-      "Gagne de la puissance lorsqu’il commence son tour",
-      "Echange de place jusqu’à 5 PO en se boostant puissance",
-      "Tape terre, pousse de 4 cases et se rend invisible, en mêlée tous les 2 tours",
-      "Tape air en zone croix de taille 1, jusqu’à 5 PO",
-      "Tape terre, applique une augmentation des dégats subits, et un invoque un Cactruc qui tape terre en zone autour de lui"
+      {
+        "name": "Invocation Camole",
+        "description": "Invoque un petit monstre allié."
+      },
+      {
+        "name": "Frappe Royale",
+        "description": "Lourds dégâts Neutre."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Saharach, dès le level 110.",
@@ -814,12 +929,16 @@
     "title": "Monsieur Pingouin - Lac Gelé",
     "picture": "images/avis-monsieur-pingouin.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ce boss gèle ses adversaires tout en infligeant d'importants dégâts Eau.\n💡 Misez sur l'esquive PM et évitez le combat rapproché. Le placement est crucial pour ne pas subir ses gels en chaîne.",
     "spells": [
-      "Applique -100 PM et pesanteur pour 1 tour en début du combat",
-      "Tape eau en zone croix de taille 1 et fait un effet aléatoire parmis les suivants: vol des PA, PM, pousse de 2 cases, annule le tour ou fait des dommages feu",
-      "Dans un cercle de 3 cases, soigne ses alliés, réduit les dommages subits et rend les cibles invisibles, tous les 4 tours",
-      "Tous les 4 tours, sacrifie ses alliés dans un cercle de taille 6"
+      {
+        "name": "Banquise",
+        "description": "Dégâts Eau et applique un état de gel empêchant les déplacements."
+      },
+      {
+        "name": "Glissade",
+        "description": "Se rapproche de sa cible tout en infligeant des dégâts."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 110.",
@@ -836,14 +955,16 @@
     "title": "Amy l'empoisonneuse - Jungle Obscure",
     "picture": "images/avis-amy-l-empoisonneuse.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Amy se boost en bouclier pour chaque tentative de retrait PA/PM subie, et se soigne si elle est empoisonnée !\n💡 N'utilisez AUCUN sort de retrait ni aucun poison sur elle. Optez pour des frappes brutes pour la vaincre directement.",
     "spells": [
-      "Se boost en bouclier pour chaque retrait PA ou PM. Se soigne si elle subit des poisons.",
-      "A chaque début de tour, tape terre et air en fonction de la vitalité de la cible, retire de la puissance et révèle les entités invisibles autour d’elle.",
-      "Invoque des ronces autour de tous les joueurs et applique l’état Pesanteur (2tours), tous les 6 tours.",
-      "Tue une ronce et la remplace par une ronce animée qui tape, soigne, revele les invisibles et minimise les effets aléatoires.",
-      "Retire de la vitalité, applique un poison feu en fonction des PM et applique un état Empathique (les dommages infligés à Amy sont dupliqués sur ce joueur).",
-      "Dans un cercle de taille 3, applique de l’érosion, soigne et tape en vol de vie Eau."
+      {
+        "name": "Anticorps",
+        "description": "Gagne du bouclier si on tente de la ralentir (PA/PM)."
+      },
+      {
+        "name": "Cure Empoisonnée",
+        "description": "Convertit les dégâts de poison reçus en soins."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend dans la Base des Justiciers, dès le level 120.",
@@ -860,12 +981,16 @@
     "title": "Katigrou - Forêt des Pins Perdus",
     "picture": "images/avis-katigrou.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Katigrou est un redoutable prédateur de mêlée (Neutre/Air), capable de OS les plus faibles s'il vous atteint.\n💡 Retrait PM, placement, pesanteur : utilisez toutes vos ressources pour le maintenir à distance de votre équipe.",
     "spells": [
-      "Vole 1 PA en croix de taille 1 autour de lui, à chaque début de tour",
-      "Se téléporte jusqu’à 12 PO et fais des dommages neutre en croix de taille 1 (sauf si pesanteur)",
-      "Maximise les effets aléatoires sur la cible jusqu’à 8 PO, tous les 4 tours",
-      "Tape neutre et terre en fonction de sa vitalité manquante, en mêlée"
+      {
+        "name": "Coup de Griffe",
+        "description": "Dégâts Neutre et Air dévastateurs au corps-à-corps."
+      },
+      {
+        "name": "Bond du Tigre",
+        "description": "Se rapproche rapidement de la cible."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 120.",
@@ -882,13 +1007,16 @@
     "title": "Darma - Village de la Canopée",
     "picture": "images/avis-darma.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Darma se téléporte souvent et inflige de gros dégâts Feu/Air.\n💡 Appliquez l'état pesanteur pour contrer sa mobilité. Prévoyez des résistances dans ses deux éléments de frappe.",
     "spells": [
-      "Réduit les dommages reçus pour chaque dégats de pièges ou glyphes subits/li&gt;",
-      "Pose un glyphe de cercle 3 qui tape air et retire 6 PO puis un glyphe inversé de taille 4 qui retire 4 PA et tape neutre",
-      "Tape terre en zone cercle 2 autour d’elle",
-      "Sur toute la map, boost ses alliés en puissance et PM et retire de la puissance et des PM aux joueurs",
-      "Se rend invisible et réduit les dommages reçus, tous les 4 tours"
+      {
+        "name": "Flamme Aérienne",
+        "description": "Dégâts Feu et Air."
+      },
+      {
+        "name": "Portail Instable",
+        "description": "Téléportation à mi-distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -905,12 +1033,16 @@
     "title": "Fojumo - Cirque de Cania",
     "picture": "images/avis-fojumo.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Fojumo utilise des sorts d'attirance couplés à des dégâts Eau ravageurs.\n💡 Jouez loin de ses lignes (pour éviter l'attirance) ou utilisez la stabilisation pour rester à l'écart.",
     "spells": [
-      "Se dédouble autant de fois qu’il y a de joueurs dans le combat",
-      "Se téléporte et pose un glyphe cercle de taille 7 qui rend tous les fojumo invisible",
-      "Tape neutre en croix de taille 1, en mêlée",
-      "Echange de place, se boost puissance et PM"
+      {
+        "name": "Lasso Aquatique",
+        "description": "Attire la cible sur plusieurs cases et inflige des dégâts Eau."
+      },
+      {
+        "name": "Noyade",
+        "description": "Forts dégâts Eau au contact."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 120.",
@@ -927,10 +1059,16 @@
     "title": "Aigripoil - Carrière Aurifère",
     "picture": "images/avis-aigripoil.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Aigripoil est agressif au CàC (Neutre) et se soigne continuellement.\n💡 L'érosion est vitale ici. Entravez ses PM et tuez-le avant qu'il ne se régénère complètement.",
     "spells": [
-      "Gagne 1 PM quand il termine son tour",
-      "Attire de 3 cases en ligne, retire 3 PM et tape terre, jusqu’à 7 PO"
+      {
+        "name": "Rage Poilue",
+        "description": "Dégâts Neutre intenses en mêlée."
+      },
+      {
+        "name": "Léchouille",
+        "description": "Se soigne en volant de la vie."
+      }
     ],
     "quest": [
       "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 130.",
@@ -947,12 +1085,16 @@
     "title": "Mogligli - Landes de Cania",
     "picture": "images/avis-mogligli.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Mogligli invoque et frappe dans l'élément Eau à distance.\n💡 Contrôlez ses invocations pour réduire la pression et attaquez-le à distance tout en vous protégeant derrière des obstacles.",
     "spells": [
-      "Invoque un mob aléatoire entre Bagarra, Balours et Mulibre (ils sont invu, tapent et font des boost)",
-      "Tape feu en mêlée",
-      "Tape terre en demi cercle de taille 1, pousse de 6 cases et applique l’état indéplacable",
-      "Se boost en PM, tacle, fuite et révèle les entités invisibles. Tous les 5 tours"
+      {
+        "name": "Appel de la Jungle",
+        "description": "Invoque un allié."
+      },
+      {
+        "name": "Tir Aquatique",
+        "description": "Dégâts Eau à bonne distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -969,12 +1111,16 @@
     "title": "Fantomayte - Berceau d'Alma",
     "picture": "images/avis-fantomayte.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Fantomayte devient régulièrement invisible et inflige de bons dégâts Air en restant cachée.\n💡 Des sorts de zone ou de repérage sont indispensables. Anticipez ses déplacements en observant son nombre de PM.",
     "spells": [
-      "Renvoi 100% des dommages pendant 3 tours, tous les 5 tours",
-      "Retire 100 puissance aux joueurs lorsqu’elle est déplacée",
-      "Se téléporte, tape air et repousse de 4 cases en zone croix de 1, jusqu’à 15 PO (sauf si Pesanteur)",
-      "Invoque un Mefisto qui tape terre en mêlée et qui minimise les effets aléatoire"
+      {
+        "name": "Disparition",
+        "description": "Se rend invisible pour plusieurs tours."
+      },
+      {
+        "name": "Souffle Fantomatique",
+        "description": "Dégâts Air lancés depuis l'invisibilité."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 130.",
@@ -991,14 +1137,16 @@
     "title": "Zatoïshwan - Feudala",
     "picture": "images/avis-zatoishwan.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Zatoïshwan tape Feu/Air avec un retrait PA punitif à chaque attaque.\n💡 Évitez les lignes de vue et maximisez votre esquive PA. Le maintenir à distance est crucial pour ne pas finir légumisé.",
     "spells": [
-      "Réduit les dommages reçus en mêlée",
-      "Tape air et repousse de 4 cases, en zone croix 1 autour de lui, tous les 5 tours",
-      "Tape eau et retire du retrait PA, jusqu’a 4 PO",
-      "Tape terre et retire 4 PO, jusqu’à 8 PO",
-      "Tape feu en cercle 2 et applique un poison feu de début de tour, jusqu’à 6 PO",
-      "Se boost en PA, puissance, dommage et renvoi les dégats subits"
+      {
+        "name": "Lame de Feu",
+        "description": "Frappe Feu et retire des PA."
+      },
+      {
+        "name": "Frappe de Vent",
+        "description": "Dégâts Air avec retrait PA."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 130.",
@@ -1015,12 +1163,16 @@
     "title": "Glandaf l'Aigri - Arbre Hakam",
     "picture": "images/avis-glandalf-l-aigri.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ce sorcier invoque des alliés et tape de loin (Air/Feu).\n💡 Occupez-vous d'abord de ses invocations, puis réduisez sa PO (Portée) pour limiter son impact offensif.",
     "spells": [
-      "En début de tour, boost ses alliés de 2 PO et retire 2 PO aux joueurs, dans un cercle de 3 autour de lui",
-      "Tape terre, applique de l’érosion et augmente les dommages subits à 4 PO",
-      "Tape feu en zone de cercle 3 et boost 4 PA à ses alliés",
-      "Vole 2 PA et repousse de 1 case en croix 1 autour de lui"
+      {
+        "name": "Invocation Magique",
+        "description": "Fait apparaître une créature."
+      },
+      {
+        "name": "Boule de Feu Magique",
+        "description": "Dégâts Feu à distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -1037,12 +1189,16 @@
     "title": "Vengeuse Masquée - Larmes d'Ouronigride",
     "picture": "images/avis-vengeuse-masquee.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Très fuyante, la Vengeuse tape Neutre/Air et esquive parfaitement les tentatives d'entrave.\n💡 Bloquez-la avec des invocations ou des murs, l'entrave PM/PA a peu de chances de fonctionner vu ses esquives.",
     "spells": [
-      "Augmente ses résistances si elle subit du retrait PO",
-      "Tape eau et retire des PM, jusqu’à 15 PO",
-      "Vol de la vie eau et retire des stats, en mêlée",
-      "Se boost ainsi que ses alliées en dommages, PM, critiques et PO"
+      {
+        "name": "Esquive Masquée",
+        "description": "Possède une très grande esquive PA/PM."
+      },
+      {
+        "name": "Lame Vengeresse",
+        "description": "Dégâts Neutre et Air."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 140.",
@@ -1059,12 +1215,16 @@
     "title": "Anatak Diskedor - Dents de Pierre",
     "picture": "images/avis-anatak-diskedor.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Anatak vole de la vie en zone (Terre), ce qui le rend difficile à tuer si vous êtes groupés.\n💡 Restez impérativement dispersés pour limiter son vol de vie et appliquez de l'érosion pour l'achever progressivement.",
     "spells": [
-      "Se boost en puissance et coups critiques",
-      "Tape air et applique l’était insoignable, en zone cercle 3 autour de lui",
-      "Se téléporte et applique des dommages neutre en croix, jusqu’à 8 PO",
-      "Tape air, en mêlée"
+      {
+        "name": "Drain Tellurique",
+        "description": "Vol de vie Terre en zone."
+      },
+      {
+        "name": "Frappe Disque",
+        "description": "Attaque Terre puissante en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 140.",
@@ -1109,20 +1269,16 @@
     "title": "Ka'Youloud - Gorges des Vents Hurlants",
     "picture": "images/avis-ka-youloud.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ka'Youloud tape Feu et gagne des PM bonus à chaque attaque, ce qui le rend très mobile.\n💡 Désenvoûtez ses bonus de PM ou mettez-le dans l'état Pesanteur/Inébranlable pour stopper sa progression effrénée.",
     "spells": [
-      "En fonction de sa vitalité possède 3 phases:&nbsp;",
-      "Triple Oeil (+70% de PV) :",
-      "Dans un cercle de 5 autour de lui, tape terre en fonction des PV de la cible, retire de la puissance, des PM, de la PO et applique l’état « Déjection Salissante »",
-      "Tape en vol de vie Terre et neutre et retire des résistances. Se donne 25% de résistance pour 5 tours. En zone cone de 3, en mêlée",
-      "Se téléporte jusqu’à 5 PO et dans un cercle de 3 attire, tape neutre et retire des PM",
-      "Double Oeil (entre 40 et 70% de PV) :",
-      "Dans un cercle de taille 5, tape eau en fonction des pv de la cible et boost critique, puissance, PO, PM et applique l’état « Déjection Salissante »",
-      "Tape eau en zone ligne 5, se boost puissance et se soigne",
-      "Se téléporte jusqu’à 5 PO et dans une croix de 2 pousse, tape neutre et retire des PA",
-      "Cyclope (-40% de PV) :",
-      "Dans un cercle de taille 5, tape eau en fonction des pv de la cible et boost critique, puissance, PO, PM et applique l’état « Déjection Salissante »",
-      "Se téléporte jusqu’à 5 PO et dans un cercle de 3 attire, tape neutre et retire des PM"
+      {
+        "name": "Course Ardente",
+        "description": "Gagne des PM."
+      },
+      {
+        "name": "Flamme Rapide",
+        "description": "Frappe Feu tout en gagnant en mobilité."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Saharach, dès le level 150.",
@@ -1139,12 +1295,16 @@
     "title": "Crasper - Mont des Tombeaux",
     "picture": "images/avis-crasper.webp",
     "has_invulnerable_state": false,
-    "explanation": "Mais il réduit de 47500 les dégâts des armes",
+    "explanation": "⚠️ Crasper repousse très loin en tapant Air, ce qui peut causer d'énormes dégâts de poussée s'il y a des murs.\n💡 Jouez en plein milieu de la carte pour éviter les collisions avec les bords, ou utilisez l'état Enraciné.",
     "spells": [
-      "Echange de position avec un joueur à la fin de son tour",
-      "Tape air, retire 6 PO et minimise les effets aléatoire",
-      "Applique un poison terre PA et PM , de l’érosion et l’état « Hanté », en zone cercle 5, jusqu’à 12 PO",
-      "Applique l’état Pacifiste, retire de la fuite et retire l’état Hanté"
+      {
+        "name": "Souffle Repoussant",
+        "description": "Dégâts Air et fort recul."
+      },
+      {
+        "name": "Tornade",
+        "description": "Repousse en zone."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -1161,12 +1321,16 @@
     "title": "Hin - Jour présent",
     "picture": "images/avis-hin.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Hin est une brute au corps-à-corps (Terre/Neutre) qui pardonne très peu l'erreur de placement.\n💡 Appliquez le combo habituel : retrait PM, poussée, et tapez à distance. Fuyez son CàC à tout prix.",
     "spells": [
-      "Applique un poison terre PM",
-      "Repousse de 3 cases quand il se fait taper et le boost en PM, tous les 4 tours",
-      "Tape terre en fonction de ses PM restant et pousse de 3 cases, en zone cone 3",
-      "Tape terre, repousse de 3 cases et retire 3PM, en zone cercle 3"
+      {
+        "name": "Frappe Lourdes",
+        "description": "Dégâts massifs Terre et Neutre au contact."
+      },
+      {
+        "name": "Armure de Pierre",
+        "description": "Réduit les dégâts reçus."
+      }
     ],
     "quest": [
       "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 150.",
@@ -1183,11 +1347,16 @@
     "title": "Fuji Givrefoux - Cavernes de la Crevasse Perge",
     "picture": "images/avis-fuji-givrefoux.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Boss iconique qui tape Air/Eau, se boost, et peut s'avérer meurtrier s'il est mal géré.\n💡 L'érosion, le désenvoûtement et un bon focus sont nécessaires. Ne laissez pas le combat s'éterniser pour éviter l'accumulation de ses boosts.",
     "spells": [
-      "Boost 1000 dommages et 1 PM tous les ennemis du combat, dès qu’un ennemi meurt",
-      "Soigne et boost en dommage, en zone cercle 5 autour d’elle",
-      "Tape en vol de vie eau et applique de l’érosion, en diagonale"
+      {
+        "name": "Croc Givré",
+        "description": "Dégâts Eau et Air, et gain de puissance."
+      },
+      {
+        "name": "Larme de Glace",
+        "description": "Frappe à distance."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 150.",
@@ -1226,9 +1395,16 @@
     "title": "Guerrier du K.O - Mont Torrideau",
     "picture": "images/avis-guerrier-du-ko.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Comme son nom l'indique, le Guerrier du K.O inflige des dégâts Neutre colossaux qui peuvent One-Shot au contact.\n💡 Zéro corps-à-corps toléré. Jouez de loin, entravez ses PM et retirez-lui sa PO si nécessaire.",
     "spells": [
-      "Tape neutre en zone cercle 3, attire de 2 cases, se donne du bouclier, à 3 PO"
+      {
+        "name": "Coup de K.O",
+        "description": "Dégâts extrêmes Neutre au contact."
+      },
+      {
+        "name": "Sprint",
+        "description": "Tente de se rapprocher de la cible."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 160.",
@@ -1288,9 +1464,16 @@
     "title": "Mouchâme - Catacombres",
     "picture": "images/avis-mouchame.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Mouchâme se téléporte fréquemment, tape Air et s'enfuit très vite.\n💡 L'état Pesanteur est votre meilleur atout. Bloquez-le dans un coin ou retirez-lui un maximum de PA pour l'empêcher de jouer.",
     "spells": [
-      "Se divise en 8 et partage les dégâts"
+      {
+        "name": "Bond Aérien",
+        "description": "Téléportation à longue distance."
+      },
+      {
+        "name": "Morsure de Vent",
+        "description": "Dégâts Air."
+      }
     ],
     "quest": [
       "La quête se récupère à Srambad et se rend dans la Tour des Voyageurs, dès le level 160.",
@@ -1356,13 +1539,16 @@
     "title": "Predagob - Nimotopia",
     "picture": "images/avis-predagob.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Predagob devient invisible à CHAQUE début de tour et réduit drastiquement les dommages finaux reçus.\n💡 Le repérage est obligatoire. Prévoyez de lourds dégâts (ou des poisons) pour percer sa défense, et restez groupés pour le repérer plus facilement.",
     "spells": [
-      "Se met invisible à chaque début de tour (le taper le rend visible)",
-      "Réduit les dommages finaux, tue les invocations et repousse de 4 cases en zone croix de 1 autour de lui a chaque début de tour",
-      "Tape en vol de vie neutre, jusqu’à 8 PO",
-      "Tape feu en zone cercle 3 et retire des PA, jusqu’à 5 PO",
-      "Tape air et retire du soin, en mêlée"
+      {
+        "name": "Camouflage Prédateur",
+        "description": "Devient invisible à chaque début de tour."
+      },
+      {
+        "name": "Cuirasse",
+        "description": "Réduit les dommages finaux subis."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 170.",
@@ -1379,15 +1565,16 @@
     "title": "Flasho - Crocs de Verre",
     "picture": "images/avis-flasho.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Flasho a des mécaniques très punitives : il gagne des PM si poussé, et des dommages si on lui retire des PA.\n💡 Pas de poussée, pas de retrait PA ! Jouez uniquement sur le retrait PM et des dégâts directs.",
     "spells": [
-      "Gagne des PM s’il se fait pousser ou retirer des PM. Gagne des dommages en cas de retrait PA",
-      "Esquive 100% des dommages d’arme en reculant de 1 case",
-      "Tue les invocations, renvoi à la position de début de combat, soigne ses alliés et retire des PA aux joueurs, au tour 6",
-      "Dans une zone carré de taille 5 autour de lui, tape air, retire PO, retire de la fuite et des résistances air",
-      "Enlève les envoutements, tape feu et retire des résistances feu, en mêlée",
-      "S'il est pacifiste, se retire l'état, enlève les envoutements, tape en vol de vie neutre et soigne ses alliés sur toute la map",
-      "Enlève les envoutements, échange de place et tape en vol de vie feu, jusqu’à 20 PO et tous les 4 tours"
+      {
+        "name": "Réflexe Éclair",
+        "description": "Gagne des PM s'il est déplacé par poussée."
+      },
+      {
+        "name": "Rage Temporelle",
+        "description": "Gagne des dommages finaux s'il subit un retrait PA."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 170.",
@@ -1404,12 +1591,16 @@
     "title": "Docteur Eggob - Forêt Enneigée",
     "picture": "images/avis-docteur-eggob.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Le Docteur Eggob soigne ses alliés tout en infligeant des dégâts Feu, rendant le combat très long.\n💡 Tuez-le en premier ou appliquez massivement de l'érosion sur ses alliés pour annuler l'efficacité de ses soins.",
     "spells": [
-      "A chaque début de tour, il boost ses alliés en puissance",
-      "Invoque un Gobus instable, tous les 2 tours",
-      "Rend un de ses alliés invulnérable et le boost en dommage, esquive PA et PM, jusqu’à 10 PO",
-      "Applique l’état Insoignable, tape feu en fonction des PV de la cible, en zone croix 3"
+      {
+        "name": "Seringue Brûlante",
+        "description": "Tape Feu et soigne les alliés proches de la cible."
+      },
+      {
+        "name": "Soin Médical",
+        "description": "Soigne fortement un allié."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 170.",
@@ -1426,16 +1617,16 @@
     "title": "Culbutoeuf - Tour de la Clepsydre",
     "picture": "images/avis-culbutoeuf.webp",
     "has_invulnerable_state": true,
-    "explanation": "Seulement en mêlée",
+    "explanation": "⚠️ Culbutoeuf tape Air et repousse systématiquement ses cibles.\n💡 Évitez de rester dos aux murs ou à vos alliés pour ne pas subir de dégâts de poussée majeurs. Jouez au centre de la carte.",
     "spells": [
-      "Applique l’état Inébranlable sur toutes les entités du combat",
-      "Retire 2 PM infinis aux joueurs et retire 50% de résistance s’il subit un échange de position",
-      "Tape feu, retire 10 PM, de la puissance et applique 40% d’érosion en zone croix 1, autour de lui",
-      "Tape terre et feu, jusqu’à 4 PO",
-      "Boost ses alliés en PM et tacle, en zone cercle 2, tous les 4 tours",
-      "Augmente l’esquive PM pour chaque tentative de retrait PM, tous les 4 tours",
-      "Applique un poison terre en fonction des PA et applique l’état Pesanteur",
-      "Si un ennemi tape la cible, il est soigné de 50% des dégats infligés. En zone ligne 2, jusqu’à 14 PO"
+      {
+        "name": "Coquille Souffle",
+        "description": "Repousse et tape Air."
+      },
+      {
+        "name": "Roulade",
+        "description": "Se déplace rapidement en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 180.",
@@ -1632,23 +1823,16 @@
     "title": "Ganos - Osavane",
     "picture": "images/avis-ganos.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Ganos tape Feu/Eau et applique naturellement de l'érosion à ses cibles.\n💡 Protégez-vous avec du bouclier (qui n'est pas affecté par l'érosion) plutôt que du soin, et évitez de prolonger le combat.",
     "spells": [
-      "Se boost chaque tour en dommage finaux, PM, tacle, fuite et vitalité. (cumul max 10)",
-      "Repousse le joueur le plus proche de lui de 20 cases, chaque tour",
-      "Il a 2 seuils de PV à 70% et 30% qui le font changer d’état.Il commence toujours par l’état liés à la saison actuelle et suit cette ordre de rotation: Naissance &gt; Chasse &gt; Repos.",
-      "Naissance :",
-      "Tape eau en fontion de ses PV manquants et s’attire de 1 case, jusqu’à 5 PO",
-      "S’applique du bouclier et de la puissance",
-      "Tape terre et vole 1 PM, jusqu’à 5 PO",
-      "Chasse :",
-      "Tape terre et retape terre si la cible se fait déplacer, en mêlée",
-      "Se boost en PO et en dommage poussée",
-      "Tape air en zone cercle 3 autour de lui et vole de la vitalité",
-      "Repos :",
-      "Tape air et repousse de 1 case jusqu’à 10 PO",
-      "Se soigne et se boost en coups critiques",
-      "Tape eau en zone croix 1 et retire des dommages critiques pour booster ses alliés, jusqu’à 10 PO"
+      {
+        "name": "Flamme Érosive",
+        "description": "Dégâts Feu et application d'érosion."
+      },
+      {
+        "name": "Jet d'Eau Usée",
+        "description": "Dégâts Eau et érosion."
+      }
     ],
     "quest": [
       "La quête se récupère à Osavora et se rend dans la Tour des Voyageurs, dès le level 180.",
@@ -1665,14 +1849,16 @@
     "title": "Sicogne - Lendemains Incertains",
     "picture": "images/avis-sicogne.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Mécanique spéciale : Sicogne passe son tour s'il est poussé ou attiré, mais pose de redoutables glyphes d'échange.\n💡 Jouez un personnage de placement pour le pousser chaque tour, le rendant ainsi totalement inoffensif. Attention à ses glyphes si vous ne pouvez pas le déplacer.",
     "spells": [
-      "Passe le tour du joueur qui tente de le pousser, attirer, téléporter ou de changer de place avec lui",
-      "Pose des glyphes sous ses alliés, en marchant dedans vous échanger de place avec le mob qui l’a posé et vous le boostez",
-      "Se téléporte, se boost en tacle, tape air et terre en zone cercle 3, jusqu’à 6 PO",
-      "Se boost ainsi que ses alliés en puissance, PA, coup critique et maximise les effets aléatoires sur les joueurs, tous les 3 tours",
-      "Tape en vol de vie terre, retire de la puissance et des PM, jusqu’à 3 PO",
-      "OS les invocations, retire de la fuite, augmente les dommages subits et tape air, jusqu’à 10 PO"
+      {
+        "name": "Glyphe d'Échange",
+        "description": "Pose un glyphe qui échange la position avec la cible marchant dessus."
+      },
+      {
+        "name": "Stupeur",
+        "description": "Passe son tour s'il est déplacé."
+      }
     ],
     "quest": [
       "La quête se récupère à Xelorium et se rend dans la Tour des Voyageurs, dès le level 200.",
@@ -1689,17 +1875,16 @@
     "title": "Grand Kongoku - Salle des Embruns",
     "picture": "images/avis-grand-kongoku.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Le Grand Kongoku est un géant qui inflige des dégâts Terre/Feu colossaux au CàC.\n💡 Ne restez jamais à son contact. Le retrait PM et l'entrave à longue distance sont vos seules chances de survie.",
     "spells": [
-      "Se téléporte n’importe ou sur la carte (sauf si Pesanteur)",
-      "Tape neutre en zone ligne 9, en mêlée",
-      "Tape neutre et repousse de 10 cases, en mêlée",
-      "Invoque une Cocolune. Elle attire de 10 cases tous les joueurs et applique l’état Pacifiste à tous les joueurs dans sa ligne de vue",
-      "Tant qu’elle est en vie, le Grand Kongoku a l’état Super Singe et des effets supplémentaires sur ses sorts:",
-      "500 Puissance et 5000 vitalité",
-      "Tape neutre en zone ligne 9, en mêlée. Le prochain coup est boosté",
-      "Tape neutre et repousse de 20 cases, en mêlée",
-      "Se téléporte n’importe ou sur la carte (sauf si Pesanteur)"
+      {
+        "name": "Poing Destructeur",
+        "description": "Dégâts Terre et Feu extrêmes au corps-à-corps."
+      },
+      {
+        "name": "Saut Simiesque",
+        "description": "Tente de bondir vers sa cible."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 180.",
@@ -1716,12 +1901,16 @@
     "title": "Voldelor - Retraite des Eternels",
     "picture": "images/avis-voldelor.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Voldelor se rend invisible et inflige de gros dégâts Air en se déplaçant librement.\n💡 Prévoyez absolument une classe avec repérage. Sans cela, le combat sera un cauchemar de devinettes pour trouver sa position.",
     "spells": [
-      "Applique l’état Mangelors au premier joueur qui le tape dans le tour",
-      "Applique de l’érosion, tape eau en fonction des points de vie érodés et applique un poison de début de tour",
-      "Tape en vol de vie terre, change de place et réduit les dommages subits",
-      "Ressuscite son dernier allié mort"
+      {
+        "name": "Cape d'Ombre",
+        "description": "Invisibilité."
+      },
+      {
+        "name": "Lame Furtive",
+        "description": "Dégâts Air violents depuis l'invisibilité."
+      }
     ],
     "quest": [
       "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 180.",
@@ -1793,14 +1982,16 @@
     "title": "Fantôme Braïdeur - Caserne du Jour sans fin",
     "picture": "images/avis-fantome-braideur.webp",
     "has_invulnerable_state": false,
-    "explanation": "Mais elle réduit les dommages à distance de 75%",
+    "explanation": "⚠️ Ce fantôme tape Air et a la capacité de traverser tous les obstacles, rendant le blocage impossible.\n💡 Les murs ne vous protégeront pas. Fuyez continuellement et ralentissez-le avec du retrait PM.",
     "spells": [
-      "Fantôme Braïdeur ainsi que les joueurs sont Pesanteur tout le combat",
-      "Fantôme Braïdeur est intaclable et repousse les joueurs à sa mêlée de 1 case",
-      "A 50% de vita, elle invoque 3 copies d’elle même. Dès qu’une copie meurt, elle est réinvoquée",
-      "Tape terre et désenvoute, jusqu’à 12 PO, tous les 3 tours",
-      "Tape feu et repousse de 6 cases, en zone ligne 6, jusqu’à 12 PO",
-      "Tape terre et eau et retire 4 PM en zone cercle 2, jusqu’à 12 PO"
+      {
+        "name": "Passe-Muraille",
+        "description": "Peut se déplacer à travers les murs et les personnages."
+      },
+      {
+        "name": "Souffle Hanté",
+        "description": "Dégâts Air en ligne."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 5.",
@@ -1838,10 +2029,16 @@
     "title": "Buldalazred - Tréfonds des Trithons",
     "picture": "images/avis-buldalazred.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ Buldalazred tape Feu de très loin et gagne des résistances à chaque coup reçu.\n💡 Ne l'attaquez pas avec de multiples petites attaques (type poisons ou multi-lignes), privilégiez les très gros coups uniques. L'érosion est recommandée.",
     "spells": [
-      "Pose un piège. Si un joueur le déclenche, tous les joueurs sont attirés de 3 cases vers Buldalazred et le glyphe est révélé. Buldalazred gagne de la puissance pour chaque piège déclenché",
-      "Tape feu et retire 3 PM jusqu’à 8 PO"
+      {
+        "name": "Flamme Endurcissante",
+        "description": "Dégâts Feu et gain de résistances s'il est tapé."
+      },
+      {
+        "name": "Tir Perçant",
+        "description": "Dégâts Feu à très longue portée."
+      }
     ],
     "quest": [
       "La quête se récupère et se rend dans les profondeurs de Sufokia, dès le level 180.",
