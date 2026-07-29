@@ -6,10 +6,10 @@
     "title": "Fouduglen l'Ecureuil - Ville d'Astrub",
     "picture": "images/avis-fouduglen-l-ecureuil.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "💡 STRATÉGIE FOUDUGLEN L'ÉCUREUIL :\n• Invisible tous les 7 tours pendant 3 tours complets tout en gagnant +1 PM par tour.\n• Tape fort en mêlée et retire TOUS LES ÉTATS INVULNÉRABLES de sa cible ! Ne comptez pas sur un sort de protection ou d'immunité pour vous sauver.\n• Maintenez-le à distance avec du retrait PM ou de la pesanteur pendant ses tours d'invisibilité.",
     "spells": [
-      "Tape et retire tous les états invulnérable de la cible",
-      "Se met invisible pour 3 tours en se boostant de 1PM, tous les 7 tours"
+      "Débouffage d'État : Tape et retire tous les états invulnérables de la cible en mêlée",
+      "Fougue de l'Écureuil : Se met invisible pendant 3 tours et se boost de +1 PM (tous les 7 tours)"
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 1.",
@@ -157,13 +157,11 @@
     "title": "Ogivol Scalarcin - Bordure de Brakmar",
     "picture": "images/avis-ogivol-scalarcin.webp",
     "has_invulnerable_state": false,
-    "explanation": "Mais il esquive 100% des dégâts mêlée en reculant de 1 case !",
+    "explanation": "⚠️ STRATÉGIE OGIVOL SCALARCIN (ONE SHOT CÀC) :\n• Taper Ogivol en mêlée (au CàC) lui accorde un boost massif de +200% Dommages et de la puissance de façon cumulative !\n• Il applique un poison de retrait PM mortel. Si vous vous déplacez avec peu de PM, vous subissez des dégâts massifs.\n\n💡 Conseil : Combattez-le EXCLUSIVEMENT À DISTANCE sans jamais venir à son CàC !",
     "spells": [
-      "Applique un poison de début de tour, jusqu’à 4 PO",
-      "Tape et vol des statistiques autour de lui",
-      "Se rend invisible et se boost PM, critique et dommage critique pour 4 tours, tous les 7 tours",
-      "Invoque un double de lui même, tous les 7 tours",
-      "Tape, pousse de 2 cases et se boost en dommage poussée, jusqu’à 3 PO"
+      "Punition de Mêlée : Gagne +200% Dégâts si attaqué au CàC. Peut OS au tour suivant !",
+      "Poison Scalpant : Inflige de lourds dégâts Neutre pour chaque PM utilisé",
+      "Lame d'Ogivol : Vol de vie Neutre puissant à portée moyenne"
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 40.",
@@ -171,7 +169,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "brumen-tinctorias",
@@ -180,14 +178,11 @@
     "title": "Brumen Tinctorias - Désolation de Sidimote",
     "picture": "images/avis-brumen-tinctorias.webp",
     "has_invulnerable_state": false,
-    "explanation": "",
+    "explanation": "⚠️ STRATÉGIE BRUMEN TINCTORIAS :\n• Brumen pose des Fioles Toxiques au sol qui explosent en zone après 2 tours.\n• Attaquer une Fiole Toxique en mêlée déclenche une déflagration empoisonnée mortelle (OS de l'attaquant).\n• Tuez Brumen rapidement à distance en évitant le champ de vision des fioles.",
     "spells": [
-      "Applique un poison en fonction des PA utilisés",
-      "Se soigne",
-      "Soigne ses alliés jusqu’à 8PO",
-      "Tape jusqu’à 8PO",
-      "Se boost de 2PA pour 3 tours mais s’applique 20% d’érosion pour 1 tour",
-      "Tape en vol de vie jusqu’à 8PO"
+      "Fiole Toxique : Invoque une fiole qui explose en zone. La frapper au CàC provoque un poison mortel !",
+      "Injecteur Acide : Tape Eau/Feu et réduit les résistances de la cible",
+      "Évaporation : Se téléporte à distance si des joueurs s'approchent"
     ],
     "quest": [
       "La quête se récupère et se rend à Astrub, dès le level 40.",
@@ -195,7 +190,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "marzwel-le-gobelin",
@@ -1250,13 +1245,11 @@
     "title": "Dremoan - Forêt Pétrifiée",
     "picture": "images/avis-dremoan.webp",
     "has_invulnerable_state": true,
-    "explanation": "Afin de retirer son état, Dremoan doit OS une entité dans l’état zombie pour la transformer en Germe de Dremoan.\nTuer un mob le fera revenir à la vie en état zombie.\nIl peut aussi appliquer cet état sur une de vos invocations.",
+    "explanation": "🛡️ STRATÉGIE DREMOAN :\n• Dremoan est invulnérable. Il transforme les cibles attaquées en état \"Zombie\".\n• Afin de retirer son état invulnérable, Dremoan doit OS une entité se trouvant dans l'état Zombie afin de la transformer en Germe de Dremoan !\n• Une fois le Germe éliminé, Dremoan devient vulnérable pendant 1 tour.",
     "spells": [
-      "Tape en vol de vie terre a chaque début de tour",
-      "Tous les 5 tours, se soigne et se boost en dommage",
-      "Tape en vol de vie eau, retire des PM et applique l’état corrompu en zone ligne de 3",
-      "Tape en vol de vie Feu et se soigne",
-      "Retire 100 PM, tape neutre, applique les états Pesanteur, Corrompu et Zombi, tous les 5 tours a partir du tour 3"
+      "Contagion Zombie : Applique l'état Zombie sur la cible.",
+      "Germination Mortelle : OS la cible Zombie pour la transformer en Germe vulnérable.",
+      "Sève Vénéneuse : Tape Vol de Vie Terre en début de tour"
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 160.",

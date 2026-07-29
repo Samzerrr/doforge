@@ -907,10 +907,11 @@
     "picture": "images/boss-antre-du-dragon-cochon.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "⚠️ POISON MORDANT (\"Écrasement de tête\") :\nLe Dragon Cochon lance au tour 1 (puis tous les 5 tours) un poison dévastateur sur l'un des joueurs. Pour chaque PA dépensé sous ce poison, le joueur subit d'immenses dégâts Terre !\n\n💡 Stratégie recommandée :\n• Lorsqu'un joueur subit le poison, il doit IMPÉRATIVEMENT PASSER SES PA (ou passer son tour) pendant 2 tours sous peine de mourir instantanément.\n• Le Dragon Cochon retire 10 PM à distance et repousse de 6 cases en mêlée. Gardez le à distance avec du retrait PM ou de la pesanteur.\n• Tuez les cochons accompagnateurs rapidement pour éviter l'accumulation de retraits PA/PM.",
     "spells": [
-      "Tape uniquement en mêlée, en retirant des PA ou poussant de 6 cases",
-      "Retire 10 PM a une cible tous les 2 tours"
+      "Écrasement de Tête : Applique un poison mortel pendant 2 tours (dégâts Terre massifs par PA utilisé). PASSER SON TOUR !",
+      "Assommoir : Tape uniquement en mêlée, retire des PA et repousse de 6 cases",
+      "Paralysie Cochonne : Retire 10 PM à une cible à distance (tous les 2 tours)"
     ],
     "quests": [
       {
@@ -925,7 +926,7 @@
     "capture": "100",
     "useful_for_ocre": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "caverne-du-koulosse",
@@ -1007,12 +1008,11 @@
     "picture": "images/boss-arbre-de-moon.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il faut placer un totem élémentaire dans le glyphe correspondant pour retirer les résistances de cet élément au Moon.\nPour déplacer un totem, il faut le taper en ligne dans le même élément que celui-ci. Il sera alors déplacé jusqu’à votre cac.",
+    "explanation": "⚠️ STRATÉGIE MOON :\n• Le Moon invoque des Totems et se met invulnérable.\n• Pour lui retirer son invulnérabilité : poussez le Moon sur la case d'un Totem correspondant à la couleur demandée.\n• Son Marteau de Moon tape extrêmement fort à distance !",
     "spells": [
-      "Tape jusqu’à 8 PO en retirant PA, PM et PO",
-      "Téléporte les joueurs en zone autour de lui en infligeant des dommages",
-      "Invoque un Darkli Moon qui va poser 1 totem chaque tour. Les Totems sont détruit automatiquement tous les 5 tours",
-      "A noter: taper le Darkli Moon vous change de place avec celui ci mais boost le Moon de 100 puissance"
+      "Marteau de Moon : Dégâts massifs Air à très longue portée",
+      "Totem de Couleur : Condition d'invulnérabilité",
+      "Bananerie : Pousse et retire des PM"
     ],
     "quests": [
       {
@@ -1031,7 +1031,7 @@
     "capture": "100",
     "useful_for_ocre": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "theatre-de-dramak",
@@ -1345,11 +1345,10 @@
     "picture": "images/boss-centre-du-labyrinthe-du-minotoror.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "💡 STRATÉGIE MINOTOROR :\n• Le Minotoror tape très fort en mêlée et repousse de plusieurs cases.\n• Il se soigne et gagne des PM lorsqu'il subit des retraits de PA/PM. Préférez le tacle direct ou le retrait de portée !",
     "spells": [
-      "Tape uniquement en mêlée en repoussant de 6 cases",
-      "Invoque un Tofu, tous les tours, qui tape",
-      "Boost ses invocations en vitalité et dommage"
+      "Meuglement : Tape Neutre en zone CàC et repousse",
+      "Labyrinthe : Se soigne et se boost en PM si entravé"
     ],
     "quests": [
       {
@@ -1374,12 +1373,11 @@
     "picture": "images/boss-serre-du-royalmouth.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il faut le pousser pour lui enlever l’état pour 1 tour (l’attirer ne marche pas)",
+    "explanation": "🛡️ DÉBLOCAGE DE L'INVULNÉRABILITÉ :\nLe Royalmouth est invulnérable. Pour débloquer son état pour 1 tour :\n• Infligez-lui des DOMMAGES DE POUSSÉE.\n\n⚠️ ATTENTION ONE SHOT :\n• Ne le poussez JAMAIS lorsqu'il est au contact direct d'un de vos alliés ! Si le Royalmouth subit des dommages de poussée en étant au CàC d'un joueur, ce joueur est OS instantanément !",
     "spells": [
-      "Tape Feu en mêlée et en vol de vie.",
-      "Invoque aléatoirement un mob du donjon et se boost PM, Dommages Subis, Coup Critique et Dommages Critiques ou Puissance en fonction du mob, tous les 3 tours.",
-      "Tape eau, attire de 3 cases et retire 1 PM, en zone croix de taille 3 autour de lui.",
-      "Gagne 4 PM lorsqu’il est délock"
+      "Glace Éternelle : Invulnérabilité passive. Se débloque par dommages de poussée.",
+      "Mouth de Cœur : Tape Eau/Terre en zone CàC et se soigne",
+      "Poussée Glacée : OS l'allier s'il est poussé contre lui"
     ],
     "quests": [
       {
@@ -1418,7 +1416,7 @@
     "capture": "150",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "tofulaillier-royal",
@@ -1456,13 +1454,10 @@
     "picture": "images/boss-antre-du-crocabulia.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "💡 STRATÉGIE CROCABULIA :\n• Invoque des Dragoeufs et tape en zone souffle de feu en forme de cône.\n• Bloquez sa ligne de vue et réduisez sa portée pour neutraliser ses attaques principales.",
     "spells": [
-      "Tape Air, pousse de 3 cases et se boost en puissance jusqu'à 6PO.",
-      "Tape feu en ligne et en cône de taille 4 jusqu'à 10 PO.",
-      "Comme tous les mobs du donjon, invoque une Coquille si aucune n’est sur le terrain",
-      "Tape terre et échange de place avec la cible, jusqu'à 4 PO, une fois tous les 2 tours.",
-      "Tape terre en cercle de taille 5 autour de lui, gagne 2 PA et de la puissance par joueur dans la zone."
+      "Souffle Dragon : Dégâts Feu de zone en cône",
+      "Appel des Dragoeufs : Invoque des alliés dragoeufs"
     ],
     "quests": [
       {
@@ -1487,11 +1482,10 @@
     "picture": "images/boss-repaire-du-skeunk.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Cependant la poupée affamée soignera à 100% tous les mobs du combat. Il faudra donc la tuer en premier.\nElle mourra toute seule lorsqu’elle atteindra 8 PA et gagnera 1PA par invocation mangée à sa mêlée.",
+    "explanation": "💡 STRATÉGIE SKEUNK :\n• Accompagné de ses 4 Poupées (Sadida). La Poupée Affamée vole tous les PM et la Poupée Soignante guérit le Skeunk.\n• Tuez en priorité la Poupée Soignante puis le Skeunk à distance.",
     "spells": [
-      "Tape en zone",
-      "Soigne, débuff et boost PA ses alliés",
-      "Retire 4 PM tous les 10 tours"
+      "Poupée Affamée : Retire tous les PM",
+      "Poupée Soignante : Soigne le Skeunk à 100%"
     ],
     "quests": [
       {
@@ -1514,13 +1508,12 @@
     "boss_name": "Fraktale",
     "filter": "niveaux-101-150",
     "picture": "images/boss-megalithe-de-fraktale.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Mais il y a une mécanique : si l’Auroraire avance dans le sens des aiguilles d’une montre, vous pouvez taper. Si elle avance en sens inverse, vous soignez à la place de taper.\nPour savoir comment faire avancer l’Auroraire, retenez ce qui suit :\nSi Fraktale a + de 50% de sa vie alors elle doit être à + de 4 PO de l’Auroraire\nSi Fraktale a – de 50% de sa vie alors elle doit être à – de 4 PO de l’Auroraire",
+    "explanation": "💡 STRATÉGIE FRAKTALE :\n• Fraktale attire et téléporte les joueurs selon ses vagues d'heures.\n• Pour débloquer son état invulnérable, vous devez la taper dans l'élément indiqué par sa jauge horaire tout en évitant d'être sur sa ligne en fin de tour.",
     "spells": [
-      "Tape jusqu’à 4 PO en fonction de ses PM restants",
-      "Tape en vol de vie autour d’elle, tous les 5 tours",
-      "Réduit les dommages reçu de 30%"
+      "Jauge Horaire : Alterne l'élément de vulnérabilité",
+      "Horlogerie : Tape Eau/Air et attire en ligne"
     ],
     "quests": [
       {
@@ -1694,11 +1687,11 @@
     "picture": "images/boss-clairiere-du-chene-mou.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "💡 STRATÉGIE CHÊNE MOU :\n• Invoque une Branche Soignante (qui le soigne à 100%) et une Branche Invocatrice.\n• Éliminez la Branche Soignante en PRIORITÉ ABSOLUE avant de vous attaquer au Chêne Mou.",
     "spells": [
-      "Tape sans ligne de vue en retirant des PA",
-      "Tape en vol de vie soit en poussant, soit en attirant",
-      "Se boost aléatoirement en puissance, PO ou coups critiques, tous les 4 tours"
+      "Écorce Protectrice : Réduit les dégâts reçus",
+      "Attraction Racine : Tape fort Terre et attire les cibles",
+      "Invocation Branche : Invoque la Branche Soignante"
     ],
     "quests": [
       {
@@ -1769,15 +1762,11 @@
     "picture": "images/boss-excavation-du-mansot-royal.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Un joueur doit subir du soin en mêlée du boss pour lui retirer l’état pour 6 tours",
+    "explanation": "🛡️ DÉBLOCAGE DU MANSOT ROYAL :\n• Le Mansot Royal est invulnérable. Pour lui retirer son invulnérabilité pendant 1 tour, vous devez lui infliger des DOMMAGES DE POUSSÉE (en le poussant contre un mur ou une entité).\n⚠️ ATTENTION ONE SHOT :\n• Ne le poussez jamais lorsqu'il est au contact d'un joueur, sous peine d'OS le joueur immédiatement !",
     "spells": [
-      "Si un joueur se soigne en mêlée d’un autre joueur, alors ils subissent des dommages.",
-      "Si le boss est déplacé, les attaques des joueurs passent en vol de vie.",
-      "Il gagne de la vitalité, 1 PM et 10% de dommages finaux pour chaque ennemis tué.",
-      "Tape en vol de vie eau et change de place avec la cible, jusqu'à 2PO.",
-      "Tape feu en fonction de sa vie manquante.",
-      "Si invulnérable, peut se booster de 2PM et 30fuite. Si vulnérable, se donne 200% de son niveau en bouclier.",
-      ""
+      "Mansatire : Tape Eau à distance et pousse de 2 cases",
+      "Glissade : Inflige des dommages de poussée massifs",
+      "Glace Royale : Rendu vulnérable après dommages de poussée"
     ],
     "quests": [
       {
@@ -1808,7 +1797,7 @@
     "capture": "150",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "dojo-du-vent",
@@ -1881,11 +1870,11 @@
     "picture": "images/boss-epave-du-grolandais-violent.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il invoque un Hamrack. Celui ci doit aller à sa mêlée pour delock le Ben le Ripate.\nUne tentative de retrait PM sur le Hamrack le boost en PM, rendant le délock plus facile.",
+    "explanation": "💡 STRATÉGIE BEN LE RIPATE :\n• Ben le Ripate invoque un Hamrak au tour 1. Pour lui enlever son état invulnérable, faites exploser le Hamrak au contact de Ben le Ripate !\n• Évitez de rester aligné avec le boss et nettoyez les monstres pirates pour limiter le retrait PM.",
     "spells": [
-      "Tape Eau en vol de vie, en mêlée.",
-      "Tape feu en fonction de sa vitalité manquante, attire de 3 cases, en croix de taille 4 autour de lui.",
-      "Soigne un monstre et augmente sa puissance, entre 3 et 10PO."
+      "Canonade : Tape Feu en zone à longue portée",
+      "Hamrak : Invoque un tonneau explosif débloquant l'invulnérabilité",
+      "Sabordage : Tape fort Neutre/Terre en CàC"
     ],
     "quests": [
       {
@@ -1953,16 +1942,12 @@
     "boss_name": "Phossile",
     "filter": "niveaux-101-150 expeditions",
     "picture": "images/boss-galerie-du-phossile.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "💡 STRATÉGIE PHOSSILE :\n• Le Phossile gagne 100% de résistance dans l'élément dans lequel il est attaqué.\n• Alternez les éléments d'attaque (par exemple Feu puis Terre puis Eau) pour contourner ses boucliers rotatifs !",
     "spells": [
-      "Boost en bouclier et 1PM lorsque un joueur termine à plus de 8 PO d’un ennemis.",
-      "Boost en bouclier les monstres dans un cercle de taille 4 autour de lui.",
-      "Tape eau et attire de 2 cases jusqu'à 7PO, en ligne.",
-      "Tape feu et retire 2 tours d'envoutement, en mêlée.",
-      "Tape neutre en fonction de sa vitalité érodée",
-      "Tape terre et repousse de 2 cases, jusqu'à 5PO, en ligne."
+      "Fossilisation : Gagne 100% de résistance dans l'élément subit",
+      "Coup de Pioche : Tape Neutre en zone CàC"
     ],
     "quests": [
       {
@@ -2020,11 +2005,11 @@
     "picture": "images/boss-canopee-du-kimbo.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Pour descendre ses résistances, il faut placer le Kimbo sur les glyphes du Disciple (ce dernier les pose au début de son tour).\nLe disciple pose des glyphes en fonction de l’élément de frappe sur le Kimbo :\nFeu/Air: le disciple pose un glyphe sur toutes les cases a une distance paire de lui-même (0,2,4,6,…)\nTerre/Eau: le disciple pose un glyphe sur toutes les cases a une distance impaire de lui-même (1,3,5,7,…).",
+    "explanation": "⚠️ MÉCANIQUE DES GLYPHES PAIR / IMPAIR (ONE SHOT) :\nLe Kimbo pose des glyphes mortels sur toute la carte. La forme du glyphe dépend de l'élément dans lequel le Kimbo est frappé :\n• Attaque PAIR (Feu / Eau) : Glyphe en cercle autour des cases de portée PAIR.\n• Attaque IMPAIR (Terre / Air) : Glyphe sur les cases de portée IMPAIR.\n\n💡 Stratégie recommandée :\n• Ne déplacez pas le Kimbo et placez tous vos personnages uniquement sur les cases SÛRES du glyphe en fin de tour.\n• Toute entité finissant son tour sur une case glyphée est OS (One Shot) instantanément !",
     "spells": [
-      "Invoque un Disciple du Kimbo, qui permet de le délock",
-      "Tape en vol de vie et pousse de 2 cases",
-      "Se téléporte jusqu’à 8 PO (sauf si pesanteur)"
+      "Glyphe Mortel : Couvre le terrain d'un glyphe mortel selon l'élément subit. OS quiconque finit dessus !",
+      "Kimbocorne : Tape très fort en mêlée et repousse l'attaquant",
+      "Discobole : Invoque un Discobole qui déplace les joueurs et perturbe le placement sur les glyphes"
     ],
     "quests": [
       {
@@ -2047,7 +2032,7 @@
     "capture": "190",
     "useful_for_ocre": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "salle-du-minotot",
@@ -2057,13 +2042,10 @@
     "picture": "images/boss-salle-du-minotot.webp",
     "has_invulnerable_state": false,
     "has_special_strat": false,
-    "explanation": "Note : ce boss est accompagné du&nbsp;Minotoror",
+    "explanation": "⚠️ STRATÉGIE MINOTOT :\n• Accompatgné du Minotoror. Le Minotot échange de place avec ses cibles à chaque attaque.\n• Attention à son sort d'éjection mortelle si vous êtes bloqué contre un mur au CàC !",
     "spells": [
-      "Tape, repousse et invoque des Tofu Lancé qui tapent",
-      "Tape en volant des PA a 4 PO",
-      "Retire 100 PA, empoisonne, pousse, se boost PM et Agilité, tous les 3 tours, en mêlée",
-      "Se boost de 1 PA tous les tours",
-      "À 15 PA, il applique un énorme soin de début de tour sur ses alliés et lui même"
+      "Échange Totémique : Échange de position à chaque frappe",
+      "Frappe de Totem : Dégâts massifs Feu/Terre en CàC"
     ],
     "quests": [
       {
@@ -2074,7 +2056,7 @@
     "capture": "190",
     "useful_for_ocre": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "hypogee-de-l-obsidiantre",
@@ -2084,12 +2066,11 @@
     "picture": "images/boss-hypogee-de-l-obsidiantre.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Un joueur doit être repoussé à sa mêlée pour enlever l’état invulnérable. Les invocations ne comptent pas.\nFonctionne avec des sorts pour s’auto-pousser (escapade du Feca, nausée du Panda, etc…)",
+    "explanation": "🛡️ DÉBLOCAGE DE L'INVULNÉRABILITÉ :\nL'Obsidiantre est invulnérable au début du combat. Pour retirer son état invulnérable pendant 1 tour :\n• Infligez-lui des DOMMAGES DE POUSSÉE (en le poussant contre un obstacle, un mur ou un joueur/invocation).\n\n⚠️ DANGER GLYPHES DE LAVE (ONE SHOT) :\n• L'Obsidiantre pose des glyphes de lave mortels au sol. Tout joueur qui marche ou finit dans le glyphe subit des dégâts érosifs massifs et peut être OS en un coup !",
     "spells": [
-      "Tape feu en vol de vie, en ligne, jusqu'à 10 PO.",
-      "Tape terre en fonction de sa vie manquante en échangeant de place, jusqu’à 3 PO.",
-      "Se soigne et se boost dommage lorsqu’un mob est poussé à sa mêlée.",
-      "S'il est vulnérable, peut ressusciter un monstre mort."
+      "Obsidienne : État invulnérable passif. Désactivé pour 1 tour après des dommages de poussée.",
+      "Lave Fondue : Pose un glyphe de lave qui OS / inflige de lourds dégâts d'érosion",
+      "Éruption : Tape en zone à longue portée et attire vers les glyphes"
     ],
     "quests": [
       {
@@ -2128,7 +2109,7 @@
     "capture": "190",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "grotte-de-kanigroula",
@@ -2229,11 +2210,11 @@
     "picture": "images/boss-cavernes-givrefoux.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Le Yomi doit être tapé avec une arme, en étant en ligne du boss.\nLe Yokaï doit être poussé en diagonale du boss.\nCe boss est également présent dans le donjon&nbsp;Cavernes Nourricières.",
+    "explanation": "🛡️ DÉBLOCAGE DU TENGU GIVREFOUX :\n• Le Tengu est invulnérable. Pour enlever son état invulnérable pendant 1 tour :\n 1. Déclenchez l'état du Kami Givrefoux (le taper dans son élément de prédilection au CàC du Tengu).\n 2. Déclenchez l'état du Yomi Givrefoux.\n⚠️ Taper le Tengu s'il n'est pas prêt à être débloqué augmente ses dommages de manière exponentielle !",
     "spells": [
-      "Invoque un Yokai ou un Yomi, tous les 3 tours",
-      "Tape en mêlée uniquement, en fonction de sa vitalité restante et en appliquant de l’érosion",
-      "Attire en ligne de 3 cases, tous les 3 tours"
+      "Givrerie : Tape Air/Eau à grande portée",
+      "Permutation : Permute de place et applique de la pesanteur",
+      "Fureur Givrée : Boost de dommages massifs si mal attaqué"
     ],
     "quests": [
       {
@@ -2252,7 +2233,7 @@
     "capture": "190",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "boyau-du-pere-ver",
@@ -2381,13 +2362,11 @@
     "picture": "images/boss-antre-du-korriandre.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il invoque une Sporakne. Celle ci doit terminer son tour sur un glyphe d'un joueur pour enlever l'invulnérabilité du boss.\nChaque ligne de dégâts effectué sur la Sporakne lui retire 1PM.\n",
+    "explanation": "⚠️ RÈGLES DE SURVIE ET ONE SHOT :\nLe Korriandre est l'un des boss les plus punitifs du jeu. Il possède 3 règles d'OS absolu :\n1. Ne JAMAIS marcher sur les glyphes de brume noire laissés au sol (OS immédiat).\n2. Ne JAMAIS laisser mourir une invocation sur le terrain (la mort d'une invocation OS toute l'équipe !).\n3. Taper le Korriandre déplace les joueurs en ligne avec lui.\n\n💡 Stratégie recommandée :\n• Tuez les monstres accompagnateurs rapidement en évitant les glyphes au sol.\n• Évitez d'invoquer sauf si vous êtes 100% sûr que l'invocation ne mourra pas.",
     "spells": [
-      "Le boss gagne 1PM et 200 puissance lorsqu'il n'est plus Invulnérable.",
-      "Tape uniquement en mêlee",
-      "Tape eau en fonction de sa vitalité manquante, retire de la fuite et attire de 3 cases. Jusqu'à 4PO.",
-      "S'il est invulnérable: invoque une Sporakne. Elle pousse d’1 case et repousse en ligne si elle est elle même poussée",
-      "S'il est vulnérable: se téléporte jusqu'à 3PO, une fois tous les 2 tours."
+      "Brume Nécrotique : Pose des glyphes mortels au sol. Marcher dedans = OS !",
+      "Pacte Mortel : Si une invocation meurt, toute l'équipe est OS instantanément.",
+      "Spore Toxique : Tape fort Air/Eau à distance et retire des PM"
     ],
     "quests": [
       {
@@ -2422,7 +2401,7 @@
     "capture": "190",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "antre-du-kralamoure-geant",
@@ -2432,9 +2411,11 @@
     "picture": "images/boss-antre-du-kralamoure-geant.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Lorsque ses 4 tentacules ont tapé, le boss perd ses 900% de résistances le tour suivant.\nIl invoque une tentacule différente suivant l’élément dans lequel il est frappé.\nIl est conseillé de suivre l’ordre d’invocation suivant : Eau – Feu – Terre – Air\nLa tentacule eau passe tour en zone marteau.",
+    "explanation": "🛡️ DÉBLOCAGE DU KRALAMOURE GÉANT :\nLe Kralamoure Géant est invulnérable au centre de la carte. Pour l'ouvrir (retirer l'invulnérabilité pendant 1 tour) :\n1. Placez un joueur au CàC d'un Tentacule Primaire.\n2. Poussez le tentacule pour qu'il frappe le Kralamoure.\n3. Le Kralamoure s'ouvre et devient vulnérable à tous les éléments pendant 1 tour.\n\n⚠️ ATTENTION ONE SHOT :\nLorsqu'il s'ouvre, le Kralamoure lance une attaque mortelle en zone croix illimitée sur toute la ligne/colonne du centre. Écartez tous les joueurs des lignes centrales avant de l'ouvrir !",
     "spells": [
-      "Si le Krala est invulnérable il débuff, retire des PM et tape en vol de vie sur toute la map"
+      "Carapace Invulnérable : Immunité totale aux dégâts tant qu'il n'est pas ouvert.",
+      "Grande Ouverture : S'ouvre pour 1 tour mais lance une attaque OS en ligne globale.",
+      "Tentaculaisons : Les tentacules tapent et retirent des PA/PM massifs"
     ],
     "quests": [
       {
@@ -2449,7 +2430,7 @@
     "capture": "non-capturable",
     "useful_for_ocre": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "grotte-du-bworker",
@@ -2598,17 +2579,11 @@
     "picture": "images/boss-caverne-du-kolosso.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Une invocation doit le taper pour lui retirer son état invulnérable pour 1 tour",
+    "explanation": "🛡️ DÉBLOCAGE DU KOLOSSO :\n• Le Kolosso est accompagné du Professeur Xa. Taper le Kolosso le soigne !\n• Pour rendre le Kolosso vulnérable pendant 1 tour : désenvoûtez-le lorsqu'il est sous l'effet du sort du Professeur Xa ou tuez d'abord le Professeur Xa.",
     "spells": [
-      "Tape terre en mêlée en zone de cône infini.",
-      "Attire de 2 cases et soigne les monstres. Si le Kolosso est seul, il attire alors les joueurs et applique insoignable, de 2 à 3PO, en ligne.",
-      "Se boost en dommage finaux s’il subit des dégâts en mêlée, tous les 3tours.",
-      "Si le Professeur Xa meurt, il gagne 1PM, 200 puissance et tape en vole de vie eau et retire 30 fuite, jusqu'à 8PO.",
-      "Il est accompagné d’un sous boss, le Professeur Xa, qui n’est pas invulnérable",
-      "Il tape en ligne en retirant des PA jusqu’à 3 PO",
-      "Il empêche les soins (mais pas le vol de vie ou les soins en % de la vita max)",
-      "Il applique un sort qui, pour chaque ligne de dégât, boost de 100 dommages un ennemi mais soigne en zone de 5 un joueur, tous les 2 tours",
-      "Il réssuscite un ennemi mort, tous les 3 tours"
+      "Lourdeur : Tape Terre très fort et retire du tacle",
+      "Protection du Professeur : Rendu invulnérable et soigné si attaqué",
+      "Coup de Poing : Tape Neutre en zone CàC"
     ],
     "quests": [
       {
@@ -2713,11 +2688,11 @@
     "picture": "images/boss-antichambre-du-glourseleste.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Il faut lui faire une frappe en mêlée pour lui retirer son état invulnérable.\nCependant, cela repoussera tous les joueurs en ligne jusqu’à 5PO du boss de 4 cases.",
+    "explanation": "⚠️ STRATÉGIE ET INTERDICTIONS DU GLOURSÉLESTE :\nLe Glourséleste est invulnérable. Pour lui retirer son invulnérabilité :\n1. Poussez-le, attirez-le ou déplacez-le.\n⚠️ INTERDICTIONS STRICTES :\n• Ne retirez jamais de PA/PM au Glourséleste (OS l'attaquant !).\n• Ne le tapez pas dans l'élément Neutre ou Terre.\n• Ne finissez jamais votre tour au CàC du Glourséleste.",
     "spells": [
-      "Il réinvoque tous les mobs s’il se fait déplacer ou s’il subit du retrait PM ou PO",
-      "Tape en vol de vie et en changeant de place, en ligne jusqu’à 5 PO",
-      "Tape en mêlée en fonction de sa vitalité manquante"
+      "Grosse Bafferie : OS l'attaquant s'il subit du retrait PA/PM",
+      "Miel Mortel : Applique un poison d'érosion géant",
+      "Gloursitude : Devient vulnérable quand déacé"
     ],
     "quests": [
       {
@@ -2744,7 +2719,7 @@
     "capture": "190",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "pyramide-d-ombre",
@@ -2838,13 +2813,11 @@
     "picture": "images/boss-forgefroide-de-missiz-frizz.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Lorsqu’un joueur termine un déplacement, il repousse les ennemis de 1 case en ligne ou en diagonale jusqu’à 6 PO.\nRepousser un ennemi lui enlève son invulnérabilité.\nChaque tour, un congère apparait autour du joueur. En marchant dedans, le joueur est soigné et est déplacé de 1 case supplémentaire, permettant le delock.\nLe delock peut se faire par des sorts d’auto-poussée (escapade du Feca, nausée du Panda,…).\nCe boss est également présent dans le&nbsp;Donjon du Comte",
+    "explanation": "🛡️ INVULNÉRABILITÉ ET ONE SHOT :\n• Missiz Frizz est invulnérable. Pour retirer son état, infligez-lui des dommages de poussée.\n⚠️ ATTENTION : Tout personnage qui subit des dommages de poussée (contre un mur ou un obstacle) sous l'effet de son sort est OS (One Shot) immédiatement !",
     "spells": [
-      "Inflige des dommages et de l’érosion si un joueur subit des dommages de poussée",
-      "Tape en vol de vie jusqu’à 4 PO",
-      "Tape en fonction de la vie érodée du joueur et applique de l’érosion et l’état Intaclable, jusqu’à 8 PO",
-      "Se boost de 3 PM si elle subit du retrait PM, tous les 3 tours",
-      "Attire de 6 cases en ligne ou en diagonale quand elle est frappée"
+      "Stase Glacée : Invulnérabilité. Désactivée par dommages de poussée.",
+      "Frimas Mortel : Les dommages de poussée subis par les joueurs provoquent la mort instantanée.",
+      "Glace Noire : Tape fort Feu/Eau et applique de l'érosion"
     ],
     "quests": [
       {
@@ -2881,11 +2854,11 @@
     "picture": "images/boss-transporteur-de-sylargh.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Lorsqu’un ennemi est tué, il est réinvoqué par le prochain ennemi qui joue. Tuer à nouveau cet ennemi zombie délock le boss s’il est entre 5 et 10 PO.\nTuer un zombie applique l’état Pacifiste à tous les joueurs qui ont 90% ou plus de vitalité. Cela effectue également des dommages en zone de 5 autour du zombie tué.\nCe boss est également présent dans le&nbsp;Donjon du Comte",
+    "explanation": "🛡️ DÉBLOCAGE ET RESSUSCITATION :\n• Sylargh ressuscite les monstres tués avec 100% de leur vitalité.\n• Pour débloquer son état invulnérable, il faut tuer un monstre ressuscité.\n\n⚠️ ATTENTION ONE SHOT :\n• Être taclé ou finir au CàC d'un monstre ressuscité par Sylargh OS le joueur instantanément !",
     "spells": [
-      "Tape en ligne jusqu’à 3 PO en débuffant et retirant de la fuite",
-      "Tape jusqu’à 10 PO et applique des dégâts supplémentaire si le joueur subit des dommages en mêlée",
-      "Boost de 500 dommages et 200 tacle tous les 2 tours"
+      "Necromancie : Ressuscite les alliés morts.",
+      "Contact Mortel : Être taclé par un monstre ressuscité = OS.",
+      "Marteau de Sylargh : Tape fort Terre et retire de la fuite"
     ],
     "quests": [
       {
@@ -2918,11 +2891,11 @@
     "picture": "images/boss-salons-prives-de-klime.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Des dommages de poussés doivent être réalisés en poussant un joueur ou une invocation sur le boss pour retirer son invulnérabilité, à partir du T3 uniquement.\nÀ partir du tour 2, ne pas finir sur un glyphe blanc applique l’état Pacifiste.\nCe boss est également présent dans le&nbsp;Donjon du Comte",
+    "explanation": "🛡️ GLISSADE ET GLYPHE MORTEL :\n• Le terrain du Klime est recouvert de glace. À la fin de chaque tour, les personnages glissent dans la direction de leur déplacement.\n⚠️ ATTENTION : Finir son tour sur la case la plus extérieure du plateau (le bord du glyphe) provoque la mort instantanée (OS) !",
     "spells": [
-      "Attire de 6 cases et applique un poison feu, jusqu'à 7 PO en ligne.",
-      "Tape feu, puis air en vol de vie, puis neutre en fonction de sa vitalité manquante, en mêlée.",
-      "S’il est délock, il rollback les ennemis en les boostant tacle et dommages. Il retire 6 PM à un joueur si un ennemi change de place avec lui."
+      "Patinage : Fait glisser les joueurs à la fin de leur tour.",
+      "Bordure Mortelle : Finir sur la bordure de la carte = OS.",
+      "Ciseaux de Tailleur : Tape Air/Neutre à longue portée"
     ],
     "quests": [
       {
@@ -2953,18 +2926,13 @@
     "boss_name": "Nileza",
     "filter": "niveaux-191-200",
     "picture": "images/boss-laboratoire-de-nileza.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Taper le boss effectue un changement de place avec celui ci. Il renvoie également les dommages en zones de 2 autour de sa case d’arrivée.\nCela peut taper les ennemis.\nIl peut appliquer l’état Pacifiste :\nAu tour 3 à plus de 11 PO, ainsi qu’un malus fuite\nAu tour 5 à plus de 9 PO, ainsi qu’un malus tacle\nAu tour 7 à plus de 7 PO, ainsi que l’état Pesanteur\nTous les tours impair à partir du tour 9 à plus de 5 PO, ainsi que l’état Insoignable\nCe boss est également présent dans le&nbsp;Donjon du Comte",
+    "explanation": "⚠️ RÈGLES DE DISTANCE ET ALCHIMIE (OS) :\n• Taper Nileza à moins de 4 PO soigne Nileza à 100% de sa vitalité et OS tous les alliés situés en zone CàC !\n• Taper Nileza à plus de 9 PO renvoie les dégâts subis sur tous les joueurs !",
     "spells": [
-      "En fonction de ses PV, le joueur subis des effets à chaque ligne de dégâts effectuée sur le boss:",
-      "Si +75% de PV, le joueur gagne 1% de dommages finaux mais perd 2% de résistance.",
-      "Entre 75% et 40% de PV, le joueur gagne 10% de soins finaux mais subis des dommages neutre s'il soigne.",
-      "Si -40% de PV, il gagne 30coups critique mais perd 1PM.",
-      "Lors d'un changement de position, le boss pose un glyphe infini qui tape neutre en fonction de sa vitalité érodée.",
-      "Tape eau, puis terre en fonction de sa vitalité manquante et repousse de 3 cases, jusqu'à 12PO, en ligne.",
-      "Tape feu en vol de vie et change de place à 2 PO (sauf si pesanteur).",
-      "Recoit du soin et des dommages s’il est frappé en mêlée, une fois tous les 3 tours."
+      "Potion Explosive : Taper à moins de 4 PO = Soin 100% du boss + OS de l'attaquant.",
+      "Reflet Chimique : Taper à plus de 9 PO = Renvoi de dégâts sur toute l'équipe.",
+      "Alchimie Toxique : Tape Eau/Feu et retire des PA"
     ],
     "quests": [
       {
@@ -2997,11 +2965,11 @@
     "picture": "images/boss-donjon-du-comte.webp",
     "has_invulnerable_state": true,
     "has_special_strat": true,
-    "explanation": "En le tapant les tours pairs, il est téléporté symétriquement par rapport au joueur.\nS’il change de place avec une entité, il est délock.",
+    "explanation": "🌀 CONFUSION TEMPORELLE DU COMTE HAREBOURG :\nLe Comte modifie la direction de lancement des sorts selon le tour :\n• Tour 1 & 5 (PI/2) : Vos sorts partent à 90° de la direction visée.\n• Tour 2 & 6 (PI) : Vos sorts partent à 180° (derrière vous !).\n• Tour 3 & 7 (3PI/2) : Vos sorts partent à 270°.\n• Tour 4 & 8 (2PI) : Les sorts partent normalement.\n\n⚠️ Calculer mal vos angles peut tuer ou OS vos alliés !",
     "spells": [
-      "Tape en ligne jusqu’à 14 PO en fonction de sa vitalité manquante et renvoi à la position de début de tour",
-      "S’il est invulnérable, tape en vol de vie et en retirant des PA, jusqu’à 4 PO",
-      "S’il est vulnérable, tape en zone de 5, jusqu’à 6 PO. Crée des illusions du Comte"
+      "Confusion Temporelle : Pivote les attaques de 90°, 180° ou 270°",
+      "Comptage : Tape très fort Neutre/Air et retire des PM",
+      "Carnage du Temps : Dégâts colossaux si mal calculé"
     ],
     "quests": [
       {
@@ -3106,15 +3074,13 @@
     "boss_name": "Roi Nidas",
     "filter": "niveaux-191-200",
     "picture": "images/boss-palais-du-roi-nidas.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "",
+    "explanation": "⚠️ LE BOUFTOUTON ET LA VAGUE MORTELLE :\n• Le Roi Nidas invoque un Bouftouton doré qui avance vers les joueurs.\n• Si le Bouftouton touche le bord de la carte ou meurt de manière non contrôlée, TOUTE L'ÉQUIPE EST OS INSTANTANÉMENT !\n• Repoussez et soignez le Bouftouton tout en éliminant les vagues de monstres.",
     "spells": [
-      "Invoque une Boubourse: quand elle atteint 1PV elle passe dans le camp allié pour 2 tours. Si elle est alliée, elle octroie 500 boucliers aux joueurs, sinon elle boost en puissance et coup critique les ennemis.",
-      "Si la boubourse est dans le camp du Nidas, il tape terre et change de place avec la cible, de 5 à 10PO, tous les 2 tours.",
-      "Tape feu en zone croix diagonale de taille 1 et eau en fonction de sa vitalité érodée, jusqu’à 5 PO.",
-      "Tape air et débuff en zone cercle de taille 2, jusqu’à 5 PO.",
-      "Tape neutre, attire de 6 cases et change de place, jusqu'à 6PO."
+      "Servitude Dorée : Le Bouftouton doit rester en vie et hors des bords sous peine d'OS global.",
+      "Lingot Létal : Tape fort Feu/Terre à grande portée",
+      "Imposition Royale : Boost la puissance de tous les monstres"
     ],
     "quests": [
       {
@@ -3153,12 +3119,13 @@
     "boss_name": "Reine des Voleurs",
     "filter": "niveaux-191-200",
     "picture": "images/boss-trone-de-la-cour-sombre.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Dans ce donjon, un joueur invoque des bombes à 2 PO, chaque tour.\nElles explosent à la fin du tour suivant. Les joueurs sont OS s’ils sont en ligne avec.\nUne bombe en ligne avec une autre la fait exploser aussi\nUne bombe en diagonale avec une qui explose devient bleu, celles-ci soignent les joueurs en ligne quand elles explosent\nLes mobs prennent des dommages des bombes mais pas la Reine des Voleurs\nExemple d’un placement simple pour ne pas être gêné des bombes à gauche",
+    "explanation": "⚠️ BOMBES ET COMPTE À REBOURS MORTEL :\n• La Reine des Voleurs invoque des bombes géantes avec un compte à rebours.\n• L'explosion d'une bombe mal désamorcée ou mal déplacée inflige des dommages mortels (OS) en zone géante.\n• Restez toujours hors de la ligne de vue directe du boss lors de son tour d'attaque majeur.",
     "spells": [
-      "Tape en mêlée en fonction de ses PM restants. Applique un poison PM",
-      "Place un glyphe qui rend invisible toutes les entités à l’intérieur"
+      "Poudre Noire : Invoque des bombes mortelles.",
+      "Détonation Royale : Fait exploser les bombes et OS les joueurs en zone.",
+      "Coup de Dague Sombre : Tape Neutre/Air et retire de l'esquive PM"
     ],
     "quests": [
       {
@@ -3187,11 +3154,11 @@
     "picture": "images/boss-ventre-de-la-baleine.webp",
     "has_invulnerable_state": true,
     "has_special_strat": true,
-    "explanation": "Le Protozoreur doit avoir l’état Infection pendant 10 tours pour mourir.\nCet état s’obtient en mettant le Protozoreur dans son glyphe violet.\nIl faut donc mettre le Protozoreur dans un glyphe 5 fois, un tour sur deux.\nIl possède l’état Indéplaçable durant tous le combat mais s’avance jusqu’au joueur lors de la première frappe du tour et si le joueur est en ligne uniquement.",
+    "explanation": "⚠️ PROTOZORREUR ET ÉROSION MORTELLE :\n• Le Protozorreur applique 100% d'érosion sur les cibles touchées.\n• Tous les 3 tours, il déclenche un sort qui OS les invocations et inflige des dégâts basés directement sur la vitalité érodée des joueurs !",
     "spells": [
-      "Tape à 10 PO",
-      "Tape en retirant PA et PM, jusqu’à 2 PO",
-      "Tous les 3 tours, OS les invocations, applique de l’érosion et tape en fonction des points de vie érodés de la cible"
+      "Érosion Abyssale : Réduit la vitalité maximale des joueurs à 1 HP.",
+      "Peste Interne : Inflige des dégâts mortels basés sur l'érosion subie.",
+      "Nettoyage Parasitaire : OS toutes les invocations sur le terrain"
     ],
     "quests": [
       {
@@ -3328,13 +3295,13 @@
     "boss_name": "Larve de Koutoulou",
     "filter": "niveaux-191-200 expeditions",
     "picture": "images/boss-temple-de-koutoulou.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Cependant, taper un mob change de place avec l’entité la plus proche.\nChanger 2 fois de place avec le même mob le rend invulnérable.\nChanger 2 fois de place avec le même joueur augmente son état de folie.\nRappel des états de folie :\nFolie 2 : 100% des dégâts que le joueur effectue sont renvoyés à ses alliés en zone de 2 autour de lui\nFolie 4 : Soins reçu x50%\nFolie 6 : Dommage Subis x100%",
+    "explanation": "⚠️ FOLIE ET DÉMENCE DU KOUTOULOU :\n• Chaque attaque reçue ou portée augmente la jauge de Folie des joueurs.\n• Arrivé à 100% de Folie, le joueur devient dément, attaque ses propres alliés et meurt au tour suivant (OS) !",
     "spells": [
-      "Téléporte à sa mêlée chaque joueur en ligne de vue avec elle au début de son tour",
-      "Tape en mêlée uniquement",
-      "Change de place avec un mob, 2 fois par tour, jusqu’à 6 PO"
+      "Appel de Cthulhu : Augmente la jauge de Folie",
+      "Démence Absolue : Prise de contrôle et OS du joueur dément",
+      "Attaque tentaculaire : Tape Eau/Air à longue portée"
     ],
     "quests": [
       {
@@ -3353,7 +3320,7 @@
     "capture": "non-capturable",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "palais-de-dantinea",
@@ -3361,13 +3328,13 @@
     "boss_name": "Dantinéa",
     "filter": "niveaux-191-200 expeditions",
     "picture": "images/boss-palais-de-dantinea.webp",
-    "has_invulnerable_state": false,
+    "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Cependant les dommages sont réduits de 50% tant que le Grokillage qu’elle invoque et qui vous est associé n’est pas tué.",
+    "explanation": "⚠️ STRATÉGIE DANTINÉA :\n• Dantinéa invoque des Trithons et pose des coquillages toxiques.\n• Taper Dantinéa attire tous les joueurs vers elle. Ne finissez pas au CàC d'un coquillage toxique (OS immédiat) !",
     "spells": [
-      "Tape jusqu’à 3 PO",
-      "Tape en zone 3 autour d’elle",
-      "Change de place avec un Grokillage jusqu’à 6 PO, tous les 2 tours"
+      "Attraction Abyssale : Taper Dantinéa attire les joueurs vers les pièges mortels",
+      "Coquillage Toxique : Glyphe mortel au sol",
+      "Trithonerie : Tape Eau/Feu et retire des PA"
     ],
     "quests": [
       {
@@ -3386,7 +3353,7 @@
     "capture": "non-capturable",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false
+    "has_os_mechanic": true
   },
   {
     "slug": "chambre-de-tal-kasha",
@@ -4211,10 +4178,11 @@
     "picture": "images/boss-caverne-de-cire-momore.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "Pour lui infliger des dommages, il faut être à&nbsp;2 PO&nbsp;de lui.\nIl possède un seuil à 80% de ses points de vie.\nEntrer dans la zone de 2 PO fait perdre 1 PM, mais ce PM est récupéré en sortant de la zone.\nLe frapper à distance attire le joueur de 2 cases.\nLe frapper en mêlée réduit son tacle et augmente la fuite du joueur.",
+    "explanation": "⚠️ CIRE MOMORE - L'INDESTRUCTIBLE (ONE SHOT) :\n• Cire Momore est un boss événementiel d'une puissance extrême.\n• Il avance inexorablement vers les joueurs. Toute entité qui finit son tour à portée de son attaque est OS (One Shot) sans aucune possibilité de résurrection !\n• La clé du combat est la fuite et la gestion des interrupteurs de la salle.",
     "spells": [
-      "Tape feu en zone jusqu’à 2 PO et applique de l’érosion",
-      "Tape feu sans ligne de vue en vol de vie et applique un poison jusqu’à 12 PO"
+      "Faux Inexorable : Attaque au CàC qui OS 100% des cibles sans exception.",
+      "Marche de Cire : Avance inévitablement vers les joueurs.",
+      "Aura de Condamnation : Applique 100% d'érosion et bloque les soins"
     ],
     "quests": [
       {
