@@ -369,9 +369,9 @@
     "useful_for_emeraude": false,
     "has_os_mechanic": false,
     "challenges": [
+      "Nomade",
       "Premier",
-      "Mains propres",
-      "Spécial : Examen de passage",
+      "Spécial : Dirige mais mal rédige",
       "Duo (20 tours)"
     ]
   },
@@ -821,7 +821,7 @@
     "challenges": [
       "Zombie",
       "Premier",
-      "Spécial : Alchimie pure",
+      "Spécial : Nelween sans fureur",
       "Duo (20 tours)"
     ]
   },
@@ -851,7 +851,7 @@
     "challenges": [
       "Premier",
       "Nomade",
-      "Spécial : Pirates des Caraïbes",
+      "Spécial : Gourlo au tonneau",
       "Duo (20 tours)"
     ]
   },
@@ -2665,7 +2665,7 @@
     "challenges": [
       "Premier",
       "Pusillanime",
-      "Spécial : Poussée magique",
+      "Spécial : Obsidienne pure",
       "Duo (40 tours)"
     ]
   },
