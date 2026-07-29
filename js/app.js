@@ -304,8 +304,8 @@
               <span class="icon">🏰</span> ${item.name}
             </div>
             ${item.challenges && item.challenges.length > 0 ? `
-              <div class="card-challenges-preview" style="margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap;">
-                ${item.challenges.slice(0, 3).map(c => `<span style="font-size: 0.72rem; padding: 2px 7px; background: rgba(245, 158, 11, 0.12); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 10px; font-weight: 600;">🎯 ${c}</span>`).join("")}
+              <div class="card-challenges-preview" style="margin-top: 8px; display: flex; gap: 4px; flex-wrap: wrap;">
+                ${item.challenges.map(c => `<span style="font-size: 0.72rem; padding: 2px 7px; background: rgba(245, 158, 11, 0.12); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 10px; font-weight: 600;">🎯 ${c}</span>`).join("")}
               </div>
             ` : ""}
           </div>
