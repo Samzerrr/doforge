@@ -14,6 +14,8 @@
     explanationContent: document.getElementById("explanation-content"),
     spellsSection: document.getElementById("spells-section"),
     spellsContent: document.getElementById("spells-content"),
+    challengesSection: document.getElementById("challenges-section"),
+    challengesContent: document.getElementById("challenges-content"),
     questSection: document.getElementById("quest-section"),
     questContent: document.getElementById("quest-content"),
     extraSection: document.getElementById("extra-section"),
@@ -160,6 +162,16 @@
       `).join("");
     } else {
       elements.spellsSection.style.display = "none";
+    }
+
+    // 3.5 Challenges / Succès Section
+    if (type === "donjon" && item.challenges && item.challenges.length > 0) {
+      elements.challengesSection.style.display = "block";
+      elements.challengesContent.innerHTML = item.challenges.map(c => `
+        <span class="challenge-tag">🎯 ${escapeHtml(c)}</span>
+      `).join("");
+    } else {
+      elements.challengesSection.style.display = "none";
     }
 
     // 4. Quests & Rewards Section
