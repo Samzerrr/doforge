@@ -144,7 +144,7 @@
     }
 
     // 2. Explanation / Strategy Section
-    if (item.explanation && item.explanation.trim() && !item.has_invulnerable_state) {
+    if (item.explanation && item.explanation.trim()) {
       elements.explanationSection.style.display = "block";
       elements.explanationContent.innerHTML = formatRichText(item.explanation);
     } else {
