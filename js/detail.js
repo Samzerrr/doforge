@@ -51,6 +51,11 @@
     await loadDetail(type, slug);
   });
 
+  function normalizeText(str) {
+    if (!str) return "";
+    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w]/g, "").trim();
+  }
+
   async function loadDetail(type, slug) {
     try {
       let dataFile = "data/avis.json";
@@ -61,7 +66,12 @@
       if (!response.ok) throw new Error("Fichier de données introuvable.");
 
       const dataList = await response.json();
-      const item = dataList.find(d => d.slug === slug);
+      const reqSlugNorm = normalizeText(slug);
+
+      const item = dataList.find(d => {
+        if (!d.slug) return false;
+        return d.slug === slug || normalizeText(d.slug) === reqSlugNorm || normalizeText(d.name) === reqSlugNorm;
+      });
 
       if (!item) {
         showError(`Monstre "${slug}" non trouvé dans la base de données.`);
@@ -127,11 +137,13 @@
       badgesHtml += `<span class="badge badge-ocre">🟡 Dofus Ocre</span>`;
     }
     if (item.legendary_hunt_exist) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-legendary">👑 Chasse Légendaire</span>`;
+      badgesHtml += `<span class="badge badge-legendary">👑 Chasse Légendaire</span>`;
     }
     if (item.capture) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-zone">📦 Capture Niv. ${item.capture}</span>`;
+      badgesHtml += `<span class="badge badge-zone">📦 Capture Niv. ${item.capture}</span>`;
     }
+
+    elements.mobBadges.innerHTML = badgesHtml;
 
     // 1. Invulnerability Alert
     if (item.has_invulnerable_state) {
@@ -152,7 +164,20 @@
     }
 
     // 2. Explanation / Strategy Section
-    if (item.explanation && item.explanation.trim()) {
+    if (type === "mob") {
+      elements.explanationSection.style.display = "block";
+      const headerTitle = elements.explanationSection.querySelector(".section-title");
+      if (headerTitle) headerTitle.textContent = "Fiche & Caractéristiques du Monstre";
+      elements.explanationContent.innerHTML = formatRichText(
+        `👾 **${escapeHtml(item.name)}** est un monstre ordinaire du bestiaire de Dofus.\n\n` +
+        `📍 **Zone d'apparition principales** : ${escapeHtml(item.subarea || "Monde des Douze")}\n` +
+        `⭐ **Tranche de Niveau** : ${escapeHtml(item.level_range)}\n\n` +
+        `📊 **Statistiques de combat** :\n` +
+        `- **Points de Vie (PV)** : ${escapeHtml(item.hp)}\n` +
+        `- **Points d'Action (PA)** : ${item.pa}\n` +
+        `- **Points de Mouvement (PM)** : ${item.pm}`
+      );
+    } else if (item.explanation && item.explanation.trim()) {
       elements.explanationSection.style.display = "block";
       elements.explanationContent.innerHTML = formatRichText(item.explanation);
     } else {
