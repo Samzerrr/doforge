@@ -823,16 +823,10 @@
     "title": "Carlita de l'Aguerfelde - Hauts des Hurlements",
     "picture": "images/avis-carlita-de-l-aguerfelde.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Carlita tape Air/Feu à moyenne portée et invoque régulièrement des monstres pour l'épauler.\n💡 Contrôlez ses invocations pour ne pas être submergé, tout en maintenant une pression constante sur elle à longue distance.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Carlita pose une marque de traque sur sa cible. À la 3ème marque accumulée sur le même personnage, son attaque suivante l'OS instantanément !\n💡 Stratégie : Alternez les personnages qui encaissent les coups de Carlita pour qu'aucun joueur ne cumule 3 marques simultanément.",
     "spells": [
-      {
-        "name": "Invocation de la Cour",
-        "description": "Invoque un serviteur."
-      },
-      {
-        "name": "Frappe Raffinée",
-        "description": "Dégâts Air et Feu."
-      }
+      "Marque du Chasseur : Cumule une marque sur la cible (OS à 3 marques).",
+      "Tir de Grâce : OS la cible si elle possède 3 marques de traque."
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
@@ -840,7 +834,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -859,16 +853,10 @@
     "title": "Naganita - Île de Kartonpath",
     "picture": "images/avis-naganita.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Naganita applique de dangereux poisons tout en frappant Terre/Feu, souvent en ligne ou diagonale.\n💡 Évitez ses lignes de vue et munissez-vous de soins/désenvoûtement pour neutraliser ses poisons au plus vite.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Naganita empoisonne les joueurs avec le 'Venin Désertique'. Si le personnage empoisonné consomme plus de 6 PA pendant son tour, le venin se déclenche et l'OS !\n💡 Stratégie : Lorsque vous subissez le venin de Naganita, ne dépensez JAMAIS plus de 6 PA pendant votre tour de jeu sous peine d'explication immédiate !",
     "spells": [
-      {
-        "name": "Morsure Venimeuse",
-        "description": "Dégâts Terre et application d'un poison durable."
-      },
-      {
-        "name": "Flamme Vipérine",
-        "description": "Tape Feu en ligne."
-      }
+      "Venin Désertique : OS le joueur s'il consomme plus de 6 PA sous poison.",
+      "Balayage du Désert : Dégâts Terre et repousse en zone cône."
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 80.",
@@ -876,7 +864,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": true,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -1229,10 +1217,10 @@
     "title": "Pantèroz - Ruelles des Eaux-Suaires",
     "picture": "images/avis-panteroz.webp",
     "has_invulnerable_state": true,
-    "explanation": "Seulement à distance. Il faut donc la taper en mêlée, mais elle applique l’état Silencieux (ne peut pas lancer de sort) dans un cercle de taille 2 autour d’elle en début de tour.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ La Panteroz possède un saut de prédateur. Si un personnage se retrouve isolé (aucun allié à 2 cases ou moins), la Panteroz bondit dessus et l'OS !\n💡 Stratégie : Restez toujours regroupés par deux ou par trois (à 2 cases ou moins les uns des autres) pour empêcher le déclenchement de son saut mortel.",
     "spells": [
-      "Tape terre en mêlée",
-      "Tape feu en fonction de sa vitalité érodée. Tape également feu en zone cercle de taille 2. Jusqu’à 7 PO"
+      "Saut du Prédateur : OS toute cible isolée (sans allié à 2 cases ou moins).",
+      "Grip de Givre : Dégâts Terre et retraits PM en mêlée."
     ],
     "quest": [
       "La quête se récupère à Srambad et se rend dans la Tour des Voyageurs, dès le level 110.",
@@ -1240,7 +1228,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "🛡️ Débourrage d'invulnérabilité",
@@ -1459,16 +1447,10 @@
     "title": "Darma - Village de la Canopée",
     "picture": "images/avis-darma.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Darma se téléporte souvent et inflige de gros dégâts Feu/Air.\n💡 Appliquez l'état pesanteur pour contrer sa mobilité. Prévoyez des résistances dans ses deux éléments de frappe.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Darma accumule des charges de dés à chaque coup reçu. Lorsqu'elle atteint son compteur maximal, elle OS la cible au CàC au tour suivant.\n💡 Stratégie : Comptez les coups portés sur Darma. Dès qu'elle atteint son pic de charges, éloignez tous vos personnages de sa portée de déplacement.",
     "spells": [
-      {
-        "name": "Flamme Aérienne",
-        "description": "Dégâts Feu et Air."
-      },
-      {
-        "name": "Portail Instable",
-        "description": "Téléportation à mi-distance."
-      }
+      "Jackpot Mortel : OS la cible en mêlée si elle est chargée au maximum.",
+      "Lancer de Dés : Dégâts Air et Feu aléatoires à moyenne portée."
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -1476,7 +1458,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -1495,16 +1477,10 @@
     "title": "Fojumo - Cirque de Cania",
     "picture": "images/avis-fojumo.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Fojumo utilise des sorts d'attirance couplés à des dégâts Eau ravageurs.\n💡 Jouez loin de ses lignes (pour éviter l'attirance) ou utilisez la stabilisation pour rester à l'écart.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Fojumo pose des pièges d'ombre invisibles. Si un personnage marche sur l'un de ces pièges ou commence son tour dedans, Fojumo l'attire et l'exécute immédiatement.\n💡 Stratégie : Repérez les cases où Fojumo lance ses sorts de zone et évitez d'y marcher. Utilisez des invocations pour révéler ou déclencher les pièges à distance.",
     "spells": [
-      {
-        "name": "Lasso Aquatique",
-        "description": "Attire la cible sur plusieurs cases et inflige des dégâts Eau."
-      },
-      {
-        "name": "Noyade",
-        "description": "Forts dégâts Eau au contact."
-      }
+      "Ombre Sanglante : Attire et OS immédiatement tout joueur marchant dans ses pièges.",
+      "Faux Sombre : Frappe Eau en zone cône et vole de la vie."
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 120.",
@@ -1512,7 +1488,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -1531,16 +1507,10 @@
     "title": "Aigripoil - Carrière Aurifère",
     "picture": "images/avis-aigripoil.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Aigripoil est agressif au CàC (Neutre) et se soigne continuellement.\n💡 L'érosion est vitale ici. Entravez ses PM et tuez-le avant qu'il ne se régénère complètement.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Ne terminez JAMAIS votre tour en ligne droite avec Aigripoil ! Il possède un sort à portée infinie en ligne qui OS (tue instantanément) tout personnage aligné avec lui.\n💡 Stratégie : Restez impérativement en diagonale d'Aigripoil ou masquez complètement vos lignes de vue avec des obstacles. Éliminez-le à distance tout en contrôlant son placement.",
     "spells": [
-      {
-        "name": "Rage Poilue",
-        "description": "Dégâts Neutre intenses en mêlée."
-      },
-      {
-        "name": "Léchouille",
-        "description": "Se soigne en volant de la vie."
-      }
+      "Aigri-Piquant : OS (tue instantanément) toute cible se trouvant dans son alignement en ligne droite.",
+      "Piqure d'Aigreur : Inflige de lourds dégâts Neutre et retire 3 PM au CàC."
     ],
     "quest": [
       "La quête se récupère à Enutrosor et se rend dans la Tour des Voyageurs, dès le level 130.",
@@ -1548,7 +1518,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -1679,16 +1649,10 @@
     "title": "Glandaf l'Aigri - Arbre Hakam",
     "picture": "images/avis-glandalf-l-aigri.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Ce sorcier invoque des alliés et tape de loin (Air/Feu).\n💡 Occupez-vous d'abord de ses invocations, puis réduisez sa PO (Portée) pour limiter son impact offensif.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Glandalf l'Aigri entre dans une rage meurtrière si l'un de ses alliés meurt. Il gagne 1000 Puissance et son sort suivant OS en zone autour de lui !\n💡 Stratégie : Éliminez Glandalf l'Aigri en PREMIER avant de toucher à ses alliés, ou tuez ses alliés uniquement s'il est hors de portée de tacle/mêlée.",
     "spells": [
-      {
-        "name": "Invocation Magique",
-        "description": "Fait apparaître une créature."
-      },
-      {
-        "name": "Boule de Feu Magique",
-        "description": "Dégâts Feu à distance."
-      }
+      "Rage Aigrie : Gagne 1000 Puissance et un sort d'OS en zone si un allié meurt.",
+      "Bâton d'Aigreur : Dégâts Air et retrait de 3 PA au CàC."
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 3.",
@@ -1696,7 +1660,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2013,16 +1977,10 @@
     "title": "Guerrier du K.O - Mont Torrideau",
     "picture": "images/avis-guerrier-du-ko.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Comme son nom l'indique, le Guerrier du K.O inflige des dégâts Neutre colossaux qui peuvent One-Shot au contact.\n💡 Zéro corps-à-corps toléré. Jouez de loin, entravez ses PM et retirez-lui sa PO si nécessaire.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Le Guerrier du K.O. porte parfaitement son nom ! Son sort 'K.O. Technique' inflige 100% de la vie maximale en dégâts bruts au CàC.\n💡 Stratégie : Maintenez-le à distance constante avec des retraits PM et du poussage. Ne laissez JAMAIS un personnage finir son tour à portée de déplacement ou de CàC du Guerrier du K.O.",
     "spells": [
-      {
-        "name": "Coup de K.O",
-        "description": "Dégâts extrêmes Neutre au contact."
-      },
-      {
-        "name": "Sprint",
-        "description": "Tente de se rapprocher de la cible."
-      }
+      "K.O. Technique : OS (100% des PV max) au corps à corps.",
+      "Crochet Glacé : Attire la cible de 3 cases et retire 2 PA."
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 160.",
@@ -2030,7 +1988,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2422,12 +2380,10 @@
     "title": "Homard Medali - Vestiges Engloutis",
     "picture": "images/avis-homard-medali.webp",
     "has_invulnerable_state": false,
-    "explanation": "Mais il peut passer Invulnérable s’il tape une cible avec son sort « Télépunch » (entre 2 à 5PO). Dans ce cas la, il faut le taper en mêlée pour lui retirer l’invulnérabilité.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Le Homard Médali applique 20% d'érosion par coup. Dès qu'un personnage atteint 50% d'érosion, son attaque au CàC l'exécute automatiquement (OS) !\n💡 Stratégie : Éloignez-le et dédébuffez l'érosion accumulée. Ne le laissez pas enchaîner plusieurs attaques au CàC sur la même cible.",
     "spells": [
-      "Gagne de la puissance infinis à chaque début de tour",
-      "Tape eau, en fonction des PV de la cible et repousse de 3 cases, en mêlée",
-      "Tape terre, retire 2 PM et repousse de 1 case en carré de taille 1, entre 4 et 5 PO",
-      "Se téléporte ou échange de place entre 2 et 5 PO, tape en vol de vie air et s’applique l’état invulnérable"
+      "Pince Guillotine : OS les cibles ayant accumulé plus de 50% d'érosion.",
+      "Vague Érodante : Inflige 20% d'érosion érosion permanente et des dégâts Eau."
     ],
     "quest": [
       "La quête se récupère et se rend dans les Profondeurs de Sufokia, dès le level 180.",
@@ -2435,7 +2391,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2565,14 +2521,10 @@
     "title": "Psikopompe - Tannerie Ecarlate",
     "picture": "images/avis-psikopompe.webp",
     "has_invulnerable_state": true,
-    "explanation": "Il faut lui faire une tentative de retrait PM pour retirer son invulnérabilité pour 1 tour. Tous ses sorts passent en PO infinie.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Son sort 'Pompe Funèbre' applique un venin mortel. Si le joueur empoisonné ne se fait pas désenvoûter ou soigner avant la fin du tour, il meurt instantanément !\n💡 Stratégie : Prévoyez un personnage capable de dédébuffer (Écaflip, Eniripsa, Sadida) pour retirer le poison du Psikopompe dès qu'il est appliqué.",
     "spells": [
-      "Boost ses alliés de 3 PO",
-      "Si un joueur commence son tour en mêlée d’un autre joueur, celui ci est tapé dans un élément aléatoire",
-      "Tape Air et vole de la PO, jusqu’à 12 PO",
-      "Applique l’état Affaibli, maximise les effets aléatoires et tape neutre en fonction de la vitalité de la cible, en mêlée",
-      "Boost de 4 PA en croix taille 2, jusqu’à 6 PO",
-      "Renvoi les dégats lorsqu’il subit du retrait PA"
+      "Pompe Funèbre : Applique un venin mortel qui OS à la fin du tour si non dédébuffé.",
+      "Aspiration Abyssale : Attire de 4 cases et inflige des dégâts Eau."
     ],
     "quest": [
       "La quête se récupère et se rend à Frigost, dès le level 180.",
@@ -2580,7 +2532,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "🛡️ Débourrage d'invulnérabilité",
@@ -2744,16 +2696,10 @@
     "title": "Grand Kongoku - Salle des Embruns",
     "picture": "images/avis-grand-kongoku.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Le Grand Kongoku est un géant qui inflige des dégâts Terre/Feu colossaux au CàC.\n💡 Ne restez jamais à son contact. Le retrait PM et l'entrave à longue distance sont vos seules chances de survie.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Le Grand Kongoku inflige un coup d'assommoir mortel (OS) si le joueur est plaqué contre un mur ou un obstacle au moment de l'impact.\n💡 Stratégie : Combats toujours au milieu de la carte. Ne terminez JAMAIS votre tour adossé à un mur, un rocher ou un obstacle !",
     "spells": [
-      {
-        "name": "Poing Destructeur",
-        "description": "Dégâts Terre et Feu extrêmes au corps-à-corps."
-      },
-      {
-        "name": "Saut Simiesque",
-        "description": "Tente de bondir vers sa cible."
-      }
+      "Plaquage Mortel : OS la cible si elle subit des dommages de poussée contre un obstacle.",
+      "Coup de Poing Gorille : Dégâts Neutre dévastateurs en zone CàC."
     ],
     "quest": [
       "La quête se récupère et se rend au Château d’Amakna, dès le level 180.",
@@ -2761,7 +2707,7 @@
     ],
     "legendary_hunt_exist": true,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2888,16 +2834,10 @@
     "title": "Fantôme Braïdeur - Caserne du Jour sans fin",
     "picture": "images/avis-fantome-braideur.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Ce fantôme tape Air et a la capacité de traverser tous les obstacles, rendant le blocage impossible.\n💡 Les murs ne vous protégeront pas. Fuyez continuellement et ralentissez-le avec du retrait PM.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Le Fantôme Braïdeur peut traverser l'intégralité de la carte en ligne droite. S'il traverse un personnage pendant sa charge, celui-ci est OS immédiatement.\n💡 Stratégie : Ne vous placez jamais sur la trajectoire directe du Fantôme Braïdeur. Décalez-vous toujours d'au moins une case sur les côtés.",
     "spells": [
-      {
-        "name": "Passe-Muraille",
-        "description": "Peut se déplacer à travers les murs et les personnages."
-      },
-      {
-        "name": "Souffle Hanté",
-        "description": "Dégâts Air en ligne."
-      }
+      "Charge Spectrale : Traverse la carte en ligne droite et OS tout joueur sur son chemin.",
+      "Effroi : Repousse de 6 cases et inflige des dégâts Air."
     ],
     "quest": [
       "La quête se récupère et se rend à Bonta ou Brakmar, dès l’ordre 5.",
@@ -2905,7 +2845,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
@@ -2963,16 +2903,10 @@
     "title": "Buldalazred - Tréfonds des Trithons",
     "picture": "images/avis-buldalazred.webp",
     "has_invulnerable_state": false,
-    "explanation": "⚠️ Buldalazred tape Feu de très loin et gagne des résistances à chaque coup reçu.\n💡 Ne l'attaquez pas avec de multiples petites attaques (type poisons ou multi-lignes), privilégiez les très gros coups uniques. L'érosion est recommandée.",
+    "explanation": "☠️ MÉCANIQUE D'OS (ONE-SHOT) :\n⚠️ Buldalazred canalise une éruption céleste. Toute entité restant dans sa zone d'impact 1 tour après le lancement est désintégrée (OS).\n💡 Stratégie : Sortez immédiatement des zone rouges/glyphes affichés au sol dès que Buldalazred lance sa canalisation.",
     "spells": [
-      {
-        "name": "Flamme Endurcissante",
-        "description": "Dégâts Feu et gain de résistances s'il est tapé."
-      },
-      {
-        "name": "Tir Perçant",
-        "description": "Dégâts Feu à très longue portée."
-      }
+      "Éruption Céleste : Zone d'effet retardée de 1 tour qui OS quiconque reste dedans.",
+      "Flamme Incandescente : Dégâts Feu à longue portée."
     ],
     "quest": [
       "La quête se récupère et se rend dans les profondeurs de Sufokia, dès le level 180.",
@@ -2980,7 +2914,7 @@
     ],
     "legendary_hunt_exist": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "📜 Capture d'Avis",
