@@ -3,13 +3,15 @@
 
   // State
   let state = {
-    activeTab: "avis", // 'avis', 'donjons', 'songes'
+    activeTab: "avis", // 'avis', 'donjons', 'songes', 'mobs'
     activeFilterAvis: "all",
     activeFilterDonjons: "all",
     activeFilterSonges: "all",
+    activeFilterMobs: "all",
     searchQuery: "",
     avisData: [],
-    donjonsData: []
+    donjonsData: [],
+    mobsData: []
   };
 
   // DOM Elements
@@ -21,15 +23,19 @@
     countAvis: document.getElementById("count-avis"),
     countDonjons: document.getElementById("count-donjons"),
     countSonges: document.getElementById("count-songes"),
+    countMobs: document.getElementById("count-mobs"),
     gridAvis: document.getElementById("grid-avis"),
     gridDonjons: document.getElementById("grid-donjons"),
     gridSonges: document.getElementById("grid-songes"),
+    gridMobs: document.getElementById("grid-mobs"),
     panelAvis: document.getElementById("panel-avis"),
     panelDonjons: document.getElementById("panel-donjons"),
     panelSonges: document.getElementById("panel-songes"),
+    panelMobs: document.getElementById("panel-mobs"),
     filtersAvis: document.getElementById("filters-avis"),
     filtersDonjons: document.getElementById("filters-donjons"),
     filtersSonges: document.getElementById("filters-songes"),
+    filtersMobs: document.getElementById("filters-mobs"),
     toast: document.getElementById("toast"),
     tabBtns: document.querySelectorAll(".tab-btn"),
     navLinks: document.querySelectorAll(".nav-link")
@@ -144,6 +150,17 @@
       });
     }
 
+    if (elements.filtersMobs) {
+      elements.filtersMobs.querySelectorAll(".filter-pill").forEach(pill => {
+        pill.addEventListener("click", () => {
+          elements.filtersMobs.querySelector(".filter-pill.active")?.classList.remove("active");
+          pill.classList.add("active");
+          state.activeFilterMobs = pill.dataset.filter;
+          render();
+        });
+      });
+    }
+
     elements.searchInput.addEventListener("input", (e) => {
       state.searchQuery = normalizeText(e.target.value);
       render();
@@ -152,7 +169,7 @@
 
   function handleUrlHash() {
     const hash = window.location.hash.replace("#", "");
-    if (hash === "donjons" || hash === "avis" || hash === "songes") {
+    if (hash === "donjons" || hash === "avis" || hash === "songes" || hash === "mobs") {
       switchTab(hash);
     }
   }
@@ -168,28 +185,17 @@
       link.classList.toggle("active", link.dataset.tabTarget === tab);
     });
 
-    if (tab === "avis") {
-      elements.panelAvis.style.display = "block";
-      elements.panelDonjons.style.display = "none";
-      if (elements.panelSonges) elements.panelSonges.style.display = "none";
-      elements.filtersAvis.style.display = "block";
-      elements.filtersDonjons.style.display = "none";
-      if (elements.filtersSonges) elements.filtersSonges.style.display = "none";
-    } else if (tab === "donjons") {
-      elements.panelAvis.style.display = "none";
-      elements.panelDonjons.style.display = "block";
-      if (elements.panelSonges) elements.panelSonges.style.display = "none";
-      elements.filtersAvis.style.display = "none";
-      elements.filtersDonjons.style.display = "block";
-      if (elements.filtersSonges) elements.filtersSonges.style.display = "none";
-    } else if (tab === "songes") {
-      elements.panelAvis.style.display = "none";
-      elements.panelDonjons.style.display = "none";
-      if (elements.panelSonges) elements.panelSonges.style.display = "block";
-      elements.filtersAvis.style.display = "none";
-      elements.filtersDonjons.style.display = "none";
-      if (elements.filtersSonges) elements.filtersSonges.style.display = "block";
-    }
+    // Reset panel displays
+    elements.panelAvis.style.display = tab === "avis" ? "block" : "none";
+    elements.panelDonjons.style.display = tab === "donjons" ? "block" : "none";
+    if (elements.panelSonges) elements.panelSonges.style.display = tab === "songes" ? "block" : "none";
+    if (elements.panelMobs) elements.panelMobs.style.display = tab === "mobs" ? "block" : "none";
+
+    // Reset filter displays
+    elements.filtersAvis.style.display = tab === "avis" ? "block" : "none";
+    elements.filtersDonjons.style.display = tab === "donjons" ? "block" : "none";
+    if (elements.filtersSonges) elements.filtersSonges.style.display = tab === "songes" ? "block" : "none";
+    if (elements.filtersMobs) elements.filtersMobs.style.display = tab === "mobs" ? "block" : "none";
 
     render();
   }
@@ -198,9 +204,10 @@
     try {
       elements.loading.style.display = "flex";
 
-      const [resAvis, resDonjons] = await Promise.all([
+      const [resAvis, resDonjons, resMobs] = await Promise.all([
         fetch("data/avis.json"),
-        fetch("data/donjons.json")
+        fetch("data/donjons.json"),
+        fetch("data/mobs.json").catch(() => null)
       ]);
 
       if (!resAvis.ok || !resDonjons.ok) {
@@ -209,17 +216,22 @@
 
       state.avisData = await resAvis.json();
       state.donjonsData = await resDonjons.json();
+      state.mobsData = resMobs && resMobs.ok ? await resMobs.json() : [];
 
       elements.countAvis.textContent = state.avisData.length;
       elements.countDonjons.textContent = state.donjonsData.length;
       if (elements.countSonges) {
         elements.countSonges.textContent = state.avisData.length + state.donjonsData.length;
       }
+      if (elements.countMobs) {
+        elements.countMobs.textContent = state.mobsData.length;
+      }
 
       elements.loading.style.display = "none";
       buildGridAvis();
       buildGridDonjons();
       buildGridSonges();
+      buildGridMobs();
       render();
 
     } catch (err) {
@@ -382,7 +394,6 @@
     if (!elements.gridSonges) return;
     elements.gridSonges.innerHTML = "";
 
-    // Combine Donjons and Avis for Songes Infinis
     const combined = [
       ...state.donjonsData.map(d => ({ ...d, _type: 'donjon' })),
       ...state.avisData.map(a => ({ ...a, _type: 'avis' }))
@@ -451,6 +462,59 @@
     });
   }
 
+  function buildGridMobs() {
+    if (!elements.gridMobs) return;
+    elements.gridMobs.innerHTML = "";
+
+    state.mobsData.forEach((item) => {
+      const card = document.createElement("article");
+      card.className = "mob-card";
+      card.dataset.slug = item.slug;
+      card.dataset.type = "mob";
+      card.dataset.filter = item.filter || "";
+      card.dataset.search = normalizeText(`${item.name} ${item.subarea} ${item.level_range}`);
+
+      const lvlBadge = item.level_range;
+
+      card.innerHTML = `
+        <div class="card-image-wrapper">
+          ${getImageHtml(item.picture, item.name)}
+          <span class="badge badge-level">⭐ ${lvlBadge}</span>
+        </div>
+        <div class="card-body">
+          <div>
+            <h3 class="card-title">${item.name}</h3>
+            <div class="card-subtitle">
+              <span class="icon">🗺️</span> ${item.subarea}
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 6px; display: flex; gap: 10px;">
+              <span>❤️ ${item.hp}</span>
+              <span>⚡ ${item.pa} PA / ${item.pm} PM</span>
+            </div>
+          </div>
+          <div class="card-actions" style="margin-top: 12px;">
+            <button class="btn-action btn-copy" data-name="${escapeHtml(item.name)}">
+              📋 Copier nom
+            </button>
+          </div>
+        </div>
+      `;
+
+      card.addEventListener("click", (e) => {
+        if (e.target.closest(".btn-action")) return;
+        window.location.href = `detail.html?type=mob&slug=${item.slug}`;
+      });
+
+      const btnCopy = card.querySelector(".btn-copy");
+      btnCopy.addEventListener("click", (e) => {
+        e.stopPropagation();
+        copyToClipboard(item.name);
+      });
+
+      elements.gridMobs.appendChild(card);
+    });
+  }
+
   function render() {
     let container;
     let activeFilter;
@@ -461,9 +525,12 @@
     } else if (state.activeTab === "donjons") {
       container = elements.gridDonjons;
       activeFilter = state.activeFilterDonjons;
-    } else {
+    } else if (state.activeTab === "songes") {
       container = elements.gridSonges;
       activeFilter = state.activeFilterSonges;
+    } else {
+      container = elements.gridMobs;
+      activeFilter = state.activeFilterMobs;
     }
 
     if (!container) return;

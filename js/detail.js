@@ -53,7 +53,10 @@
 
   async function loadDetail(type, slug) {
     try {
-      const dataFile = type === "donjon" ? "data/donjons.json" : "data/avis.json";
+      let dataFile = "data/avis.json";
+      if (type === "donjon") dataFile = "data/donjons.json";
+      if (type === "mob") dataFile = "data/mobs.json";
+
       const response = await fetch(dataFile);
       if (!response.ok) throw new Error("Fichier de données introuvable.");
 
@@ -78,7 +81,7 @@
     elements.detailContent.style.display = "block";
 
     const itemName = type === "donjon" ? (item.boss_name || item.name) : item.name;
-    document.title = `${itemName} - Stratégie Dofus | Dofus Mobs`;
+    document.title = `${itemName} - Fiche Monstre | Dofus Mobs`;
 
     // Monster Icon / Image
     if (item.picture) {
@@ -88,35 +91,40 @@
         <div class="detail-mob-img-wrapper">
           <img src="${safePic}" alt="${safeName}" class="detail-mob-img"
             onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';">
-          <div class="detail-mob-icon" style="display:none;">${getRandomIcon(itemName)}</div>
-        </div>
-      `;
+          <span style="display:none; font-size: 4rem;">${getRandomIcon(itemName)}</span>
+        </div>`;
     } else {
-      elements.mobIcon.className = "detail-mob-icon";
-      elements.mobIcon.textContent = getRandomIcon(itemName);
+      elements.mobIcon.innerHTML = `<span style="font-size: 4rem;">${getRandomIcon(itemName)}</span>`;
     }
 
-    // Title & Location
     elements.mobTitle.textContent = itemName;
-    if (type === "donjon") {
-      elements.mobLocation.innerHTML = `🏰 Donjon : <strong>${item.name}</strong> (${item.filter || ""})`;
-    } else {
-      elements.mobLocation.innerHTML = `📍 Zone : <strong>${item.title || item.filter}</strong>`;
-    }
+
+    const locText = type === "donjon" ? item.name : (item.subarea || item.title || item.filter);
+    elements.mobLocation.innerHTML = `<span class="icon">${type === "donjon" ? '🏰' : '🗺️'}</span> ${escapeHtml(locText)}`;
 
     // Badges
-    elements.mobBadges.innerHTML = "";
-    if (item.has_invulnerable_state) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-invulnerable">🛡️ État Invulnérable</span>`;
+    let badgesHtml = "";
+    if (type === "mob") {
+      badgesHtml += `<span class="badge badge-level">⭐ ${escapeHtml(item.level_range)}</span>`;
+      badgesHtml += `<span class="badge badge-zone">❤️ ${escapeHtml(item.hp)}</span>`;
+      badgesHtml += `<span class="badge badge-zone">⚡ ${item.pa} PA / ${item.pm} PM</span>`;
+    } else {
+      if (item.filter) {
+        badgesHtml += `<span class="badge badge-zone">📍 ${escapeHtml(item.filter)}</span>`;
+      }
+      if (item.has_invulnerable_state) {
+        badgesHtml += `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>`;
+      }
+      if (item.has_os_mechanic) {
+        badgesHtml += `<span class="badge badge-os">☠️ One Shot</span>`;
+      }
     }
-    if (item.has_os_mechanic) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-os">☠️ Mécanique OS</span>`;
-    }
+    
     if (item.useful_for_emeraude) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-emeraude">💚 Dofus Émeraude</span>`;
+      badgesHtml += `<span class="badge badge-emeraude">💚 Dofus Émeraude</span>`;
     }
     if (item.useful_for_ocre) {
-      elements.mobBadges.innerHTML += `<span class="badge badge-ocre">🟡 Dofus Ocre</span>`;
+      badgesHtml += `<span class="badge badge-ocre">🟡 Dofus Ocre</span>`;
     }
     if (item.legendary_hunt_exist) {
       elements.mobBadges.innerHTML += `<span class="badge badge-legendary">👑 Chasse Légendaire</span>`;

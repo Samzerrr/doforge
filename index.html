@@ -30,6 +30,7 @@
         <a href="#avis" class="nav-link active" data-tab-target="avis">Avis de Recherche</a>
         <a href="#donjons" class="nav-link" data-tab-target="donjons">Boss & Donjons</a>
         <a href="#songes" class="nav-link" data-tab-target="songes">🌌 Songes Infinis</a>
+        <a href="#mobs" class="nav-link" data-tab-target="mobs">👾 Bestiaire</a>
       </nav>
     </div>
   </header>
@@ -37,7 +38,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-badge">✨ Base de Données Tactiques & Stratégies</div>
-    <h1 class="hero-title">Avis de Recherche, Boss & Songes Dofus</h1>
+    <h1 class="hero-title">Avis, Boss & Bestiaire Dofus</h1>
     <p class="hero-subtitle">Accédez immédiatement aux guides synthétisés, fiches de sorts, mécaniques de vulnérabilité et informations de quêtes.</p>
     
     <!-- Tabs -->
@@ -53,6 +54,10 @@
       <button class="tab-btn" data-tab="songes">
         <span class="tab-icon">🌌</span> Songes Infinis
         <span class="tab-count" id="count-songes">0</span>
+      </button>
+      <button class="tab-btn" data-tab="mobs">
+        <span class="tab-icon">👾</span> Bestiaire
+        <span class="tab-count" id="count-mobs">0</span>
       </button>
     </div>
   </section>
@@ -120,6 +125,18 @@
       </div>
     </div>
 
+    <!-- Filters Panel for Bestiaire -->
+    <div id="filters-mobs" class="filters-panel" style="display: none;">
+      <div class="filters-row">
+        <button class="filter-pill active" data-filter="all">Tous les Monstres (1 471)</button>
+        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 - 200 (THL)</button>
+        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 - 190</button>
+        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 - 150</button>
+        <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 - 100</button>
+        <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 - 50</button>
+      </div>
+    </div>
+
     <div class="results-count" id="results-count">Affichage de 0 résultat(s)</div>
   </section>
 
@@ -144,6 +161,11 @@
     <!-- Songes Grid -->
     <div id="panel-songes" class="tab-panel" style="display: none;">
       <div class="cards-grid" id="grid-songes"></div>
+    </div>
+
+    <!-- Mobs Grid -->
+    <div id="panel-mobs" class="tab-panel" style="display: none;">
+      <div class="cards-grid" id="grid-mobs"></div>
     </div>
 
     <!-- No Results Message -->
