@@ -29,6 +29,7 @@
       <nav class="header-nav">
         <a href="#avis" class="nav-link active" data-tab-target="avis">Avis de Recherche</a>
         <a href="#donjons" class="nav-link" data-tab-target="donjons">Boss & Donjons</a>
+        <a href="#songes" class="nav-link" data-tab-target="songes">🌌 Songes Infinis</a>
       </nav>
     </div>
   </header>
@@ -36,7 +37,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-badge">✨ Base de Données Tactiques & Stratégies</div>
-    <h1 class="hero-title">Avis de Recherche & Boss Dofus</h1>
+    <h1 class="hero-title">Avis de Recherche, Boss & Songes Dofus</h1>
     <p class="hero-subtitle">Accédez immédiatement aux guides synthétisés, fiches de sorts, mécaniques de vulnérabilité et informations de quêtes.</p>
     
     <!-- Tabs -->
@@ -49,6 +50,10 @@
         <span class="tab-icon">👑</span> Boss de Donjons
         <span class="tab-count" id="count-donjons">0</span>
       </button>
+      <button class="tab-btn" data-tab="songes">
+        <span class="tab-icon">🌌</span> Songes Infinis
+        <span class="tab-count" id="count-songes">0</span>
+      </button>
     </div>
   </section>
 
@@ -57,7 +62,7 @@
     <!-- Search Bar -->
     <div class="search-wrapper">
       <span class="search-icon">🔍</span>
-      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un monstre, un boss, un donjon ou une zone..." autocomplete="off">
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un monstre, un boss, un donjon ou un avis..." autocomplete="off">
     </div>
 
     <!-- Filters Panel for Avis -->
@@ -99,6 +104,22 @@
       </div>
     </div>
 
+    <!-- Filters Panel for Songes Infinis -->
+    <div id="filters-songes" class="filters-panel" style="display: none;">
+      <div class="filters-row">
+        <button class="filter-pill active" data-filter="all">Tous (Boss + Avis)</button>
+        <button class="filter-pill" data-filter="os">☠️ Mécanique OS</button>
+        <button class="filter-pill" data-filter="boss_only">👑 Boss de Donjon</button>
+        <button class="filter-pill" data-filter="avis_only">📜 Avis de Recherche</button>
+      </div>
+      <div class="filters-row">
+        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 - 200 (THL)</button>
+        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 - 190</button>
+        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 - 150</button>
+        <button class="filter-pill" data-filter="niveaux-1-100">Niv. 1 - 100</button>
+      </div>
+    </div>
+
     <div class="results-count" id="results-count">Affichage de 0 résultat(s)</div>
   </section>
 
@@ -118,6 +139,11 @@
     <!-- Donjons Grid -->
     <div id="panel-donjons" class="tab-panel" style="display: none;">
       <div class="cards-grid" id="grid-donjons"></div>
+    </div>
+
+    <!-- Songes Grid -->
+    <div id="panel-songes" class="tab-panel" style="display: none;">
+      <div class="cards-grid" id="grid-songes"></div>
     </div>
 
     <!-- No Results Message -->
