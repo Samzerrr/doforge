@@ -1664,4 +1664,121 @@ a:hover {
   font-size: 0.95rem;
 }
 
+/* ===== EQUIPMENT CATALOG STYLES ===== */
+.equipment-card {
+  border-color: var(--border-subtle);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.equipment-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-forge);
+  box-shadow: 0 10px 30px rgba(255, 100, 0, 0.2);
+}
+
+.equip-image-wrapper {
+  position: relative;
+  height: 160px;
+  background: radial-gradient(circle at center, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.95));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.equip-img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
+  transition: transform 0.25s ease;
+}
+
+.equipment-card:hover .equip-img {
+  transform: scale(1.1);
+}
+
+.badge-level-200 {
+  background: rgba(245, 158, 11, 0.25);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  font-weight: 700;
+}
+
+.badge-type-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(4px);
+}
+
+.equip-effects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+  font-size: 0.82rem;
+  max-height: 140px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.effect-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+
+.effect-item.stat-pa {
+  color: #fcd34d;
+  font-weight: 700;
+}
+
+.effect-item.stat-pm {
+  color: #c084fc;
+  font-weight: 700;
+}
+
+.effect-item.stat-po {
+  color: #6ee7b7;
+  font-weight: 700;
+}
+
+.effect-item.stat-negative {
+  color: #f87171;
+}
+
+.equip-weapon-bar {
+  display: flex;
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.equip-weapon-stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.equip-weapon-stat strong {
+  color: var(--text-primary);
+}
+
+
 

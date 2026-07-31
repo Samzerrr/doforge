@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Équipements, Armes & Dofus | DOFORGE</title>
+  <meta name="description" content="Base de données complète des Équipements Dofus : Armes, Armures, Bijoux, Dofus, Trophées, Familiers et leurs statistiques détaillées.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="equipements" data-nav-section="equipements">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="favicon.svg" alt="DOFORGE Logo" class="logo-img" width="28" height="28">
+        </div>
+        <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
+      </a>
+      <nav class="header-nav" id="site-nav"></nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero-home">
+    <div class="hero-badge">💎 Encyclopédie des Équipements — Dofus 2.0 & 3.0</div>
+    <h1 class="hero-title">Équipements & Armes</h1>
+    <p class="hero-subtitle">Consultez la base de données des équipements, armes, Dofus, trophées et familiers avec leurs statistiques réelles et conditions.</p>
+  </section>
+
+  <!-- Controls & Filters Section -->
+  <section class="controls-section">
+    
+    <!-- Category Tabs -->
+    <div id="filters-equipment-cat" class="filters-row" style="margin-bottom: var(--space-md); justify-content: center;">
+      <button class="filter-pill active" data-cat="all">🌟 Tous les Équipements</button>
+      <button class="filter-pill" data-cat="weapon">⚔️ Armes</button>
+      <button class="filter-pill" data-cat="armor">🛡️ Armures (Cape, Chapeau...)</button>
+      <button class="filter-pill" data-cat="jewelry">💍 Bijoux (Amulette, Anneau)</button>
+      <button class="filter-pill" data-cat="dofus_trophy">🥚 Dofus & Trophées</button>
+      <button class="filter-pill" data-cat="pet">🐾 Familiers & Montiliers</button>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-wrapper">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un équipement, arme, Dofus, statistique (ex: Voile d'Encre, +1 PA, Force)..." autocomplete="off">
+    </div>
+
+    <!-- Level Range & Stat Filters -->
+    <div id="filters-equipment-level" class="filters-row" style="margin-top: var(--space-md);">
+      <span style="font-size: 0.85rem; color: var(--text-muted); align-self: center; margin-right: 6px;">Niveau :</span>
+      <button class="filter-pill active" data-level="all">Tous</button>
+      <button class="filter-pill" data-level="200">Niv. 200</button>
+      <button class="filter-pill" data-level="150-199">Niv. 150 - 199</button>
+      <button class="filter-pill" data-level="100-149">Niv. 100 - 149</button>
+      <button class="filter-pill" data-level="50-99">Niv. 50 - 99</button>
+      <button class="filter-pill" data-level="1-49">Niv. 1 - 49</button>
+    </div>
+
+    <!-- Stat Quick Filters -->
+    <div id="filters-equipment-stat" class="filters-row" style="margin-top: var(--space-sm);">
+      <span style="font-size: 0.85rem; color: var(--text-muted); align-self: center; margin-right: 6px;">Bonus :</span>
+      <button class="filter-pill" data-stat="pa">⚡ +1 PA</button>
+      <button class="filter-pill" data-stat="pm">🏃 +1 PM</button>
+      <button class="filter-pill" data-stat="po">🎯 +1 PO</button>
+      <button class="filter-pill" data-stat="crit">💥 Critiques</button>
+      <button class="filter-pill" data-stat="invo">🐣 Invocations</button>
+      <button class="filter-pill" data-stat="force">🪨 Force</button>
+      <button class="filter-pill" data-stat="intel">🔥 Intel</button>
+      <button class="filter-pill" data-stat="chance">💧 Chance</button>
+      <button class="filter-pill" data-stat="agi">🌪️ Agilité</button>
+    </div>
+
+    <div id="results-count" class="results-count">Chargement du catalogue des équipements...</div>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="cards-section">
+    <div id="loading" class="loading-container">
+      <div class="loading-spinner"></div>
+      <p>Chargement des équipements...</p>
+    </div>
+
+    <div id="grid-equipements" class="cards-grid"></div>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">Aucun équipement ne correspond à votre recherche !</div>
+    </div>
+  </section>
+
+  <!-- Toast -->
+  <div class="toast-container">
+    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

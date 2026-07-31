@@ -58,23 +58,31 @@
 
   async function loadDetail(type, slug) {
     try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const idParam = urlParams.get("id");
+
       let dataFile = "data/avis.json";
       if (type === "donjon") dataFile = "data/donjons.json";
       if (type === "mob") dataFile = "data/mobs.json";
+      if (type === "equipment") dataFile = "data/equipements.json";
 
       const response = await fetch(dataFile);
       if (!response.ok) throw new Error("Fichier de données introuvable.");
 
       const dataList = await response.json();
-      const reqSlugNorm = normalizeText(slug);
 
       const item = dataList.find(d => {
+        if (type === "equipment") {
+          if (idParam) return String(d.ankama_id) === String(idParam);
+          return d.slug === slug || String(d.ankama_id) === String(slug);
+        }
         if (!d.slug) return false;
+        const reqSlugNorm = normalizeText(slug);
         return d.slug === slug || normalizeText(d.slug) === reqSlugNorm || normalizeText(d.name) === reqSlugNorm;
       });
 
       if (!item) {
-        showError(`Monstre "${slug}" non trouvé dans la base de données.`);
+        showError(`Élément "${slug || idParam}" non trouvé dans la base de données.`);
         return;
       }
 
@@ -82,7 +90,7 @@
 
     } catch (err) {
       console.error(err);
-      showError("Erreur lors de la récupération des données du monstre.");
+      showError("Erreur lors de la récupération des données.");
     }
   }
 
@@ -91,7 +99,94 @@
     elements.detailContent.style.display = "block";
 
     const itemName = type === "donjon" ? (item.boss_name || item.name) : item.name;
-    document.title = `${itemName} - Fiche Monstre | DOFORGE`;
+    document.title = `${itemName} - Fiche DOFORGE`;
+
+    if (type === "equipment") {
+      const hdPic = item.hd_url || item.icon_url;
+      elements.mobIcon.innerHTML = `
+        <div class="detail-mob-img-wrapper" style="background: radial-gradient(circle, rgba(30,41,59,0.9), rgba(15,23,42,0.95)); padding: 20px;">
+          <img src="${hdPic}" alt="${escapeHtml(itemName)}" class="detail-mob-img" style="max-height: 220px;"
+            onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';">
+          <span style="display:none; font-size: 5rem;">💎</span>
+        </div>`;
+
+      elements.mobTitle.textContent = itemName;
+      elements.mobLocation.innerHTML = `<span class="icon">🏷️</span> ${escapeHtml(item.type)}`;
+
+      elements.mobBadges.innerHTML = `
+        <span class="badge ${item.level === 200 ? 'badge-level-200' : 'badge-level'}">⭐ Niveau ${item.level}</span>
+        <span class="badge badge-zone">🎒 ${item.pods} Pods</span>
+        ${item.is_weapon ? `<span class="badge badge-os">⚔️ Arme</span>` : ''}
+      `;
+
+      if (item.description) {
+        elements.explanationSection.style.display = "block";
+        elements.explanationSection.querySelector(".section-title").innerHTML = "📜 Description & Histoire";
+        elements.explanationContent.innerHTML = `<p style="font-style: italic; color: var(--text-secondary); line-height: 1.6;">${escapeHtml(item.description).replace(/\n/g, '<br>')}</p>`;
+      } else {
+        elements.explanationSection.style.display = "none";
+      }
+
+      // Effects / Stats
+      elements.spellsSection.style.display = "block";
+      elements.spellsSection.querySelector(".section-title").innerHTML = "✨ Statistiques & Effets de l'Équipement";
+
+      if (item.effects && item.effects.length > 0) {
+        const effectsList = item.effects.map(e => {
+          let cls = "spell-card";
+          let statColor = "var(--text-primary)";
+          if (e.text.includes("PA") && !e.text.includes("retrait")) statColor = "#fcd34d";
+          else if (e.text.includes("PM") && !e.text.includes("retrait")) statColor = "#c084fc";
+          else if (e.text.includes("Portée")) statColor = "#6ee7b7";
+          else if (e.text.startsWith("-")) statColor = "#f87171";
+
+          return `
+            <div class="${cls}" style="border-left: 4px solid ${statColor}; padding: 12px 16px;">
+              <span style="font-size: 1.05rem; font-weight: 600; color: ${statColor};">✦ ${escapeHtml(e.text)}</span>
+            </div>
+          `;
+        }).join("");
+        elements.spellsContent.innerHTML = `<div class="spells-grid">${effectsList}</div>`;
+      } else {
+        elements.spellsContent.innerHTML = "<p>Aucune statistique particulière.</p>";
+      }
+
+      // Weapon Stats & Conditions
+      let extraHtml = "";
+      if (item.is_weapon && item.weapon_stats) {
+        extraHtml += `
+          <div class="strategy-box" style="margin-bottom: var(--space-md);">
+            <h4 style="color: var(--accent-primary); margin-bottom: 8px;">⚔️ Caractéristiques de l'Arme</h4>
+            <ul style="list-style: none; display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.92rem;">
+              <li><strong>Coût PA :</strong> ⚡ ${item.weapon_stats.ap_cost} PA</li>
+              <li><strong>Portée :</strong> 🎯 ${item.weapon_stats.range?.min} à ${item.weapon_stats.range?.max} PO</li>
+              <li><strong>Coup Critique :</strong> 💥 1/${item.weapon_stats.crit_probability} (+${item.weapon_stats.crit_bonus} doms)</li>
+              <li><strong>Utilisations / tour :</strong> 🔄 ${item.weapon_stats.max_cast_per_turn}</li>
+              <li><strong>Mains :</strong> ${item.weapon_stats.is_two_handed ? '🙌 Arme à 2 mains' : '✋ Arme à 1 main'}</li>
+            </ul>
+          </div>
+        `;
+      }
+
+      if (item.conditions && item.conditions.length > 0) {
+        extraHtml += `
+          <div class="strategy-box">
+            <h4 style="color: #fbbf24; margin-bottom: 8px;">🔒 Conditions d'Équipement</h4>
+            <p style="font-size: 0.92rem; color: var(--text-secondary);">${escapeHtml(JSON.stringify(item.conditions))}</p>
+          </div>
+        `;
+      }
+
+      if (extraHtml) {
+        elements.extraSection.style.display = "block";
+        elements.extraSection.querySelector(".section-title").innerHTML = "⚙️ Caractéristiques & Conditions";
+        elements.extraContent.innerHTML = extraHtml;
+      } else {
+        elements.extraSection.style.display = "none";
+      }
+
+      return;
+    }
 
     // Monster Icon / Image
     if (item.picture) {

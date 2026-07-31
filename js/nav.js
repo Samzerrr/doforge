@@ -3,6 +3,7 @@
 
   const NAV_HTML = `
     <a href="index.html" class="nav-link" data-nav="home">Accueil</a>
+    <a href="equipements.html" class="nav-link" data-nav="equipements">💎 Équipements</a>
     <div class="nav-dropdown">
       <a href="bestiaires.html" class="nav-link nav-dropdown-trigger" data-nav="bestiaires">
         👾 Bestiaires <span class="nav-chevron" aria-hidden="true">▾</span>
@@ -24,6 +25,7 @@
       const page = (window.location.pathname.split("/").pop() || "index.html").toLowerCase();
       const map = {
         "index.html": { section: "home" },
+        "equipements.html": { section: "equipements" },
         "bestiaires.html": { section: "bestiaires" },
         "avis.html": { section: "bestiaires", child: "avis" },
         "donjons.html": { section: "bestiaires", child: "donjons" },
@@ -33,8 +35,12 @@
 
       if (page === "detail.html") {
         const type = new URLSearchParams(window.location.search).get("type");
-        section = "bestiaires";
-        child = type === "donjon" ? "donjons" : type === "mob" ? "mobs" : "avis";
+        if (type === "equipment") {
+          section = "equipements";
+        } else {
+          section = "bestiaires";
+          child = type === "donjon" ? "donjons" : type === "mob" ? "mobs" : "avis";
+        }
       } else if (map[page]) {
         section = map[page].section;
         child = map[page].child;

@@ -3,15 +3,19 @@
 
   // State
   let state = {
-    activeTab: "avis", // 'avis', 'donjons', 'songes', 'mobs'
+    activeTab: "avis", // 'avis', 'donjons', 'songes', 'mobs', 'equipements'
     activeFilterAvis: "all",
     activeFilterDonjons: "all",
     activeFilterSonges: "all",
     activeFilterMobs: "all",
+    equipmentCat: "all",
+    equipmentLevel: "all",
+    equipmentStat: null,
     searchQuery: "",
     avisData: [],
     donjonsData: [],
     mobsData: [],
+    equipmentsData: [],
     songesGridBuilt: false
   };
 
@@ -219,15 +223,23 @@
       }
     });
 
+    // Search Equipments
+    (state.equipmentsData || []).forEach(item => {
+      const norm = normalizeText(`${item.name} ${item.type} ${item.level}`);
+      if (norm.includes(query)) {
+        matches.push({ type: "equipment", id: item.ankama_id, name: item.name, sub: `${item.type} • Niv. ${item.level}`, slug: item.slug, pic: item.icon_url, badge: "💎 Équipement" });
+      }
+    });
+
     if (matches.length === 0) {
       elements.homeSearchResults.style.display = "block";
-      elements.homeSearchResults.innerHTML = `<div class="dropdown-item no-match">Aucun monstre trouvé pour "${escapeHtml(query)}"</div>`;
+      elements.homeSearchResults.innerHTML = `<div class="dropdown-item no-match">Aucun résultat trouvé pour "${escapeHtml(query)}"</div>`;
       return;
     }
 
     elements.homeSearchResults.style.display = "block";
     elements.homeSearchResults.innerHTML = matches.slice(0, 10).map(m => `
-      <a href="detail.html?type=${m.type}&slug=${m.slug}" class="dropdown-item">
+      <a href="detail.html?type=${m.type}&${m.type === 'equipment' ? 'id=' + m.id : 'slug=' + m.slug}" class="dropdown-item">
         <div class="dropdown-thumb">
           ${m.pic ? `<img src="${encodeURI(m.pic)}" alt="${escapeHtml(m.name)}" />` : `<span>${getRandomIcon(m.name)}</span>`}
         </div>
@@ -243,6 +255,7 @@
   async function loadAllData() {
     try {
       const isSongesPage = state.activeTab === "songes";
+      const isEquipmentsPage = document.body.dataset.page === "equipements" || Boolean(document.getElementById("grid-equipements"));
       const needMobs = Boolean(elements.gridMobs)
         || document.body.classList.contains("home-page")
         || document.body.classList.contains("bestiaires-hub-page")
@@ -258,11 +271,16 @@
       if (needMobs) {
         fetches.push(fetch("data/mobs.json").catch(() => null));
       }
+      if (isEquipmentsPage || document.body.classList.contains("home-page")) {
+        fetches.push(fetch("data/equipements.json").catch(() => null));
+      }
 
       const results = await Promise.all(fetches);
       const resAvis = results[0];
       const resDonjons = results[1];
-      const resMobs = needMobs ? results[2] : null;
+      let idx = 2;
+      const resMobs = needMobs ? results[idx++] : null;
+      const resEquips = (isEquipmentsPage || document.body.classList.contains("home-page")) ? results[idx] : null;
 
       if (!resAvis.ok || !resDonjons.ok) {
         throw new Error("Erreur de chargement des fichiers de données JSON.");
@@ -271,6 +289,7 @@
       state.avisData = await resAvis.json();
       state.donjonsData = await resDonjons.json();
       state.mobsData = resMobs && resMobs.ok ? await resMobs.json() : [];
+      state.equipmentsData = resEquips && resEquips.ok ? await resEquips.json() : [];
 
       if (elements.countAvisBadge) elements.countAvisBadge.textContent = `${state.avisData.length} Avis`;
       if (elements.countDonjonsBadge) elements.countDonjonsBadge.textContent = `${state.donjonsData.length} Donjons`;
@@ -288,6 +307,7 @@
         state.songesGridBuilt = true;
       }
       if (elements.gridMobs) buildGridMobs();
+      if (document.getElementById("grid-equipements")) buildGridEquipements();
       
       render();
 
@@ -565,7 +585,158 @@
     });
   }
 
+  function buildGridEquipements() {
+    const grid = document.getElementById("grid-equipements");
+    if (!grid) return;
+    grid.innerHTML = "";
+
+    const cat = state.equipmentCat || "all";
+    const levelFilter = state.equipmentLevel || "all";
+    const statFilter = state.equipmentStat || null;
+    const query = state.searchQuery || "";
+
+    const filtered = (state.equipmentsData || []).filter(item => {
+      if (cat !== "all" && item.category_group !== cat) return false;
+
+      if (levelFilter === "200" && item.level !== 200) return false;
+      if (levelFilter === "150-199" && (item.level < 150 || item.level > 199)) return false;
+      if (levelFilter === "100-149" && (item.level < 100 || item.level > 149)) return false;
+      if (levelFilter === "50-99" && (item.level < 50 || item.level > 99)) return false;
+      if (levelFilter === "1-49" && item.level > 49) return false;
+
+      if (statFilter) {
+        const effectsText = item.effects.map(e => e.text.toLowerCase()).join(" ");
+        if (statFilter === "pa" && !effectsText.includes("pa")) return false;
+        if (statFilter === "pm" && !effectsText.includes("pm")) return false;
+        if (statFilter === "po" && !effectsText.includes("portée")) return false;
+        if (statFilter === "crit" && !effectsText.includes("critique")) return false;
+        if (statFilter === "invo" && !effectsText.includes("invocation")) return false;
+        if (statFilter === "force" && !effectsText.includes("force")) return false;
+        if (statFilter === "intel" && !effectsText.includes("intelligence")) return false;
+        if (statFilter === "chance" && !effectsText.includes("chance")) return false;
+        if (statFilter === "agi" && !effectsText.includes("agilité")) return false;
+      }
+
+      if (query) {
+        const fullText = normalizeText(`${item.name} ${item.type} ${item.level} ${item.effects.map(e => e.text).join(" ")}`);
+        if (!fullText.includes(query)) return false;
+      }
+
+      return true;
+    });
+
+    if (elements.resultsCount) {
+      elements.resultsCount.textContent = `Affichage de ${filtered.length} équipement${filtered.length > 1 ? "s" : ""}`;
+    }
+
+    if (elements.noResults) {
+      elements.noResults.style.display = filtered.length === 0 ? "block" : "none";
+    }
+
+    filtered.slice(0, 100).forEach(item => {
+      const card = document.createElement("article");
+      card.className = "mob-card equipment-card";
+      
+      const levelBadgeClass = item.level === 200 ? "badge-level-200" : "badge-level";
+      
+      const weaponBar = item.is_weapon && item.weapon_stats ? `
+        <div class="equip-weapon-bar">
+          <div class="equip-weapon-stat">⚡ <strong>${item.weapon_stats.ap_cost} PA</strong></div>
+          <div class="equip-weapon-stat">🎯 <strong>${item.weapon_stats.range?.min}-${item.weapon_stats.range?.max} PO</strong></div>
+          <div class="equip-weapon-stat">💥 <strong>1/${item.weapon_stats.crit_probability}</strong></div>
+        </div>
+      ` : "";
+
+      const effectsHtml = item.effects.map(e => {
+        let cls = "effect-item";
+        if (e.text.includes("PA") && !e.text.includes("retrait")) cls += " stat-pa";
+        else if (e.text.includes("PM") && !e.text.includes("retrait")) cls += " stat-pm";
+        else if (e.text.includes("Portée")) cls += " stat-po";
+        else if (e.text.startsWith("-")) cls += " stat-negative";
+        return `<div class="${cls}">✦ ${escapeHtml(e.text)}</div>`;
+      }).join("");
+
+      card.innerHTML = `
+        <div class="equip-image-wrapper">
+          <img src="${item.icon_url}" alt="${escapeHtml(item.name)}" class="equip-img" loading="lazy" onError="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';" />
+          <span style="display:none; font-size:3rem;">💎</span>
+          <span class="badge ${levelBadgeClass}" style="position:absolute; top:8px; right:8px;">Niv. ${item.level}</span>
+          <span class="badge-type-tag">${escapeHtml(item.type)}</span>
+        </div>
+        <div class="card-body">
+          <div>
+            <h3 class="card-title">${escapeHtml(item.name)}</h3>
+            ${weaponBar}
+            <div class="equip-effects-list">
+              ${effectsHtml || '<div class="effect-item" style="color:var(--text-muted);">Aucun effet statistique.</div>'}
+            </div>
+          </div>
+          <div class="card-footer" style="margin-top: 12px;">
+            <button class="btn-action btn-copy" title="Copier le nom">📋 Copier</button>
+            <a href="detail.html?type=equipment&id=${item.ankama_id}" class="btn-action btn-detail" style="background: linear-gradient(135deg, #06b6d4, #0284c7); color:#fff; border:none;">Détails →</a>
+          </div>
+        </div>
+      `;
+
+      card.querySelector(".btn-copy").addEventListener("click", (e) => {
+        e.stopPropagation();
+        copyToClipboard(item.name);
+      });
+
+      grid.appendChild(card);
+    });
+  }
+
+  function setupEquipmentFilters() {
+    const catContainer = document.getElementById("filters-equipment-cat");
+    const levelContainer = document.getElementById("filters-equipment-level");
+    const statContainer = document.getElementById("filters-equipment-stat");
+
+    if (catContainer) {
+      catContainer.addEventListener("click", (e) => {
+        const btn = e.target.closest(".filter-pill");
+        if (!btn) return;
+        catContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        state.equipmentCat = btn.dataset.cat;
+        buildGridEquipements();
+      });
+    }
+
+    if (levelContainer) {
+      levelContainer.addEventListener("click", (e) => {
+        const btn = e.target.closest(".filter-pill");
+        if (!btn) return;
+        levelContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        state.equipmentLevel = btn.dataset.level;
+        buildGridEquipements();
+      });
+    }
+
+    if (statContainer) {
+      statContainer.addEventListener("click", (e) => {
+        const btn = e.target.closest(".filter-pill");
+        if (!btn) return;
+        if (btn.classList.contains("active")) {
+          btn.classList.remove("active");
+          state.equipmentStat = null;
+        } else {
+          statContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.equipmentStat = btn.dataset.stat;
+        }
+        buildGridEquipements();
+      });
+    }
+  }
+
   function render() {
+    if (document.body.dataset.page === "equipements" || document.getElementById("grid-equipements")) {
+      buildGridEquipements();
+      return;
+    }
+
     let container;
     let activeFilter;
 
@@ -613,7 +784,7 @@
     }
 
     if (elements.resultsCount) {
-      elements.resultsCount.textContent = `Affichage de ${visibleCount} résultat(s)`;
+      elements.resultsCount.textContent = `Affichage de ${visibleCount} élément${visibleCount > 1 ? "s" : ""}`;
     }
 
     if (elements.noResults) {
