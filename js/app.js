@@ -179,6 +179,8 @@
         }
       });
     });
+
+    setupEquipmentFilters();
   }
 
   function ensureSongesDatabaseReady() {
@@ -698,40 +700,40 @@
     const statContainer = document.getElementById("filters-equipment-stat");
 
     if (catContainer) {
-      catContainer.addEventListener("click", (e) => {
-        const btn = e.target.closest(".filter-pill");
-        if (!btn) return;
-        catContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        state.equipmentCat = btn.dataset.cat;
-        buildGridEquipements();
+      catContainer.querySelectorAll(".filter-pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          catContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.equipmentCat = btn.dataset.cat;
+          buildGridEquipements();
+        });
       });
     }
 
     if (levelContainer) {
-      levelContainer.addEventListener("click", (e) => {
-        const btn = e.target.closest(".filter-pill");
-        if (!btn) return;
-        levelContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        state.equipmentLevel = btn.dataset.level;
-        buildGridEquipements();
+      levelContainer.querySelectorAll(".filter-pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          levelContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.equipmentLevel = btn.dataset.level;
+          buildGridEquipements();
+        });
       });
     }
 
     if (statContainer) {
-      statContainer.addEventListener("click", (e) => {
-        const btn = e.target.closest(".filter-pill");
-        if (!btn) return;
-        if (btn.classList.contains("active")) {
-          btn.classList.remove("active");
-          state.equipmentStat = null;
-        } else {
-          statContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-          state.equipmentStat = btn.dataset.stat;
-        }
-        buildGridEquipements();
+      statContainer.querySelectorAll(".filter-pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          if (btn.classList.contains("active")) {
+            btn.classList.remove("active");
+            state.equipmentStat = null;
+          } else {
+            statContainer.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            state.equipmentStat = btn.dataset.stat;
+          }
+          buildGridEquipements();
+        });
       });
     }
   }
