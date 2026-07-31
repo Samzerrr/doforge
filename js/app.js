@@ -20,22 +20,18 @@
     noResults: document.getElementById("no-results"),
     resultsCount: document.getElementById("results-count"),
     searchInput: document.getElementById("search-input"),
-    countAvis: document.getElementById("count-avis"),
-    countDonjons: document.getElementById("count-donjons"),
-    countSonges: document.getElementById("count-songes"),
-    countMobs: document.getElementById("count-mobs"),
+    countAvisBadge: document.getElementById("count-avis-badge"),
+    countDonjonsBadge: document.getElementById("count-donjons-badge"),
+    countMobsBadge: document.getElementById("count-mobs-badge"),
     gridAvis: document.getElementById("grid-avis"),
     gridDonjons: document.getElementById("grid-donjons"),
     gridSonges: document.getElementById("grid-songes"),
     gridMobs: document.getElementById("grid-mobs"),
-    panelAvis: document.getElementById("panel-avis"),
-    panelDonjons: document.getElementById("panel-donjons"),
-    panelSonges: document.getElementById("panel-songes"),
-    panelMobs: document.getElementById("panel-mobs"),
     filtersAvis: document.getElementById("filters-avis"),
     filtersDonjons: document.getElementById("filters-donjons"),
     filtersSonges: document.getElementById("filters-songes"),
     filtersMobs: document.getElementById("filters-mobs"),
+    homeSearchResults: document.getElementById("home-search-results"),
     toast: document.getElementById("toast"),
     tabBtns: document.querySelectorAll(".tab-btn"),
     navLinks: document.querySelectorAll(".nav-link")
@@ -57,11 +53,7 @@
     "niveaux-51-100": "Niv. 51-100",
     "niveaux-101-150": "Niv. 101-150",
     "niveaux-151-190": "Niv. 151-190",
-    "niveaux-191-200": "Niv. 191-200",
-    "titans": "Titans",
-    "expeditions": "Expéditions",
-    "anomalies-temporelles": "Anomalies",
-    "raids": "Raids"
+    "niveaux-191-200": "Niv. 191-200"
   };
 
   const monsterIcons = ["👹", "👾", "🐉", "💀", "👺", "👻", "🔥", "⚡", "🕸️", "🕷️", "🤖", "⚔️"];
@@ -98,25 +90,19 @@
 
   // Initialize
   document.addEventListener("DOMContentLoaded", async () => {
+    detectPageTab();
     setupEventListeners();
-    handleUrlHash();
     await loadAllData();
   });
 
+  function detectPageTab() {
+    const page = document.body.dataset.page;
+    if (page) {
+      state.activeTab = page;
+    }
+  }
+
   function setupEventListeners() {
-    elements.tabBtns.forEach(btn => {
-      btn.addEventListener("click", () => {
-        switchTab(btn.dataset.tab);
-      });
-    });
-
-    elements.navLinks.forEach(link => {
-      link.addEventListener("click", () => {
-        const tabTarget = link.dataset.tabTarget;
-        if (tabTarget) switchTab(tabTarget);
-      });
-    });
-
     if (elements.filtersAvis) {
       elements.filtersAvis.querySelectorAll(".filter-pill").forEach(pill => {
         pill.addEventListener("click", () => {
@@ -161,48 +147,77 @@
       });
     }
 
-    elements.searchInput.addEventListener("input", (e) => {
-      state.searchQuery = normalizeText(e.target.value);
-      render();
-    });
-  }
-
-  function handleUrlHash() {
-    const hash = window.location.hash.replace("#", "");
-    if (hash === "donjons" || hash === "avis" || hash === "songes" || hash === "mobs") {
-      switchTab(hash);
+    if (elements.searchInput) {
+      elements.searchInput.addEventListener("input", (e) => {
+        state.searchQuery = normalizeText(e.target.value);
+        if (document.body.classList.contains("home-page")) {
+          handleHomeSearch(state.searchQuery);
+        } else {
+          render();
+        }
+      });
     }
   }
 
-  function switchTab(tab) {
-    state.activeTab = tab;
+  function handleHomeSearch(query) {
+    if (!elements.homeSearchResults) return;
 
-    elements.tabBtns.forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.tab === tab);
+    if (!query || query.length < 2) {
+      elements.homeSearchResults.style.display = "none";
+      elements.homeSearchResults.innerHTML = "";
+      return;
+    }
+
+    const matches = [];
+
+    // Search Avis
+    state.avisData.forEach(item => {
+      const norm = normalizeText(`${item.name} ${item.title} ${zoneNames[item.filter] || ""}`);
+      if (norm.includes(query)) {
+        matches.push({ type: "avis", name: item.name, sub: zoneNames[item.filter] || "Avis de recherche", slug: item.slug, pic: item.picture, badge: "🎯 Avis" });
+      }
     });
 
-    elements.navLinks.forEach(link => {
-      link.classList.toggle("active", link.dataset.tabTarget === tab);
+    // Search Donjons
+    state.donjonsData.forEach(item => {
+      const norm = normalizeText(`${item.name} ${item.boss_name} ${levelNames[item.filter] || ""}`);
+      if (norm.includes(query)) {
+        matches.push({ type: "donjon", name: item.boss_name || item.name, sub: item.name, slug: item.slug, pic: item.picture, badge: "👑 Boss" });
+      }
     });
 
-    // Reset panel displays
-    elements.panelAvis.style.display = tab === "avis" ? "block" : "none";
-    elements.panelDonjons.style.display = tab === "donjons" ? "block" : "none";
-    if (elements.panelSonges) elements.panelSonges.style.display = tab === "songes" ? "block" : "none";
-    if (elements.panelMobs) elements.panelMobs.style.display = tab === "mobs" ? "block" : "none";
+    // Search Mobs
+    state.mobsData.forEach(item => {
+      const norm = normalizeText(`${item.name} ${item.subarea || ""}`);
+      if (norm.includes(query)) {
+        matches.push({ type: "mob", name: item.name, sub: item.subarea || `Niv. ${item.level_range}`, slug: item.slug, pic: item.picture, badge: "👾 Monstre" });
+      }
+    });
 
-    // Reset filter displays
-    elements.filtersAvis.style.display = tab === "avis" ? "block" : "none";
-    elements.filtersDonjons.style.display = tab === "donjons" ? "block" : "none";
-    if (elements.filtersSonges) elements.filtersSonges.style.display = tab === "songes" ? "block" : "none";
-    if (elements.filtersMobs) elements.filtersMobs.style.display = tab === "mobs" ? "block" : "none";
+    if (matches.length === 0) {
+      elements.homeSearchResults.style.display = "block";
+      elements.homeSearchResults.innerHTML = `<div class="dropdown-item no-match">Aucun monstre trouvé pour "${escapeHtml(query)}"</div>`;
+      return;
+    }
 
-    render();
+    elements.homeSearchResults.style.display = "block";
+    elements.homeSearchResults.innerHTML = matches.slice(0, 10).map(m => `
+      <a href="detail.html?type=${m.type}&slug=${m.slug}" class="dropdown-item">
+        <div class="dropdown-thumb">
+          ${m.pic ? `<img src="${encodeURI(m.pic)}" alt="${escapeHtml(m.name)}" />` : `<span>${getRandomIcon(m.name)}</span>`}
+        </div>
+        <div class="dropdown-info">
+          <strong class="dropdown-name">${escapeHtml(m.name)}</strong>
+          <span class="dropdown-sub">${escapeHtml(m.sub)}</span>
+        </div>
+        <span class="dropdown-badge badge-${m.type}">${m.badge}</span>
+      </a>
+    `).join("");
   }
 
   async function loadAllData() {
     try {
-      elements.loading.style.display = "flex";
+      if (elements.loading) elements.loading.style.display = "flex";
 
       const [resAvis, resDonjons, resMobs] = await Promise.all([
         fetch("data/avis.json"),
@@ -218,29 +233,28 @@
       state.donjonsData = await resDonjons.json();
       state.mobsData = resMobs && resMobs.ok ? await resMobs.json() : [];
 
-      elements.countAvis.textContent = state.avisData.length;
-      elements.countDonjons.textContent = state.donjonsData.length;
-      if (elements.countSonges) {
-        elements.countSonges.textContent = state.avisData.length + state.donjonsData.length;
-      }
-      if (elements.countMobs) {
-        elements.countMobs.textContent = state.mobsData.length;
-      }
+      if (elements.countAvisBadge) elements.countAvisBadge.textContent = `${state.avisData.length} Avis`;
+      if (elements.countDonjonsBadge) elements.countDonjonsBadge.textContent = `${state.donjonsData.length} Donjons`;
+      if (elements.countMobsBadge) elements.countMobsBadge.textContent = `${state.mobsData.length} Mobs`;
 
-      elements.loading.style.display = "none";
-      buildGridAvis();
-      buildGridDonjons();
-      buildGridSonges();
-      buildGridMobs();
+      if (elements.loading) elements.loading.style.display = "none";
+
+      if (elements.gridAvis) buildGridAvis();
+      if (elements.gridDonjons) buildGridDonjons();
+      if (elements.gridSonges) buildGridSonges();
+      if (elements.gridMobs) buildGridMobs();
+      
       render();
 
     } catch (err) {
       console.error(err);
-      elements.loading.innerHTML = `
-        <div style="color: var(--color-danger); text-align: center;">
-          ❌ Erreur lors du chargement des données.
-        </div>
-      `;
+      if (elements.loading) {
+        elements.loading.innerHTML = `
+          <div style="color: var(--color-danger); text-align: center;">
+            ❌ Erreur lors du chargement des données.
+          </div>
+        `;
+      }
     }
   }
 
@@ -263,6 +277,7 @@
   }
 
   function buildGridAvis() {
+    if (!elements.gridAvis) return;
     elements.gridAvis.innerHTML = "";
 
     state.avisData.forEach((item) => {
@@ -293,19 +308,15 @@
             <div class="card-subtitle">
               <span class="icon">🗺️</span> ${item.title || zoneBadge}
             </div>
-            ${item.challenges && item.challenges.length > 0 ? `
-              <div class="card-challenges-preview" style="margin-top: 8px; display: flex; gap: 4px; flex-wrap: wrap;">
-                ${item.challenges.map(c => {
-                  const cName = typeof c === 'string' ? c : c.name;
-                  return `<span style="font-size: 0.72rem; padding: 2px 7px; background: rgba(59, 130, 246, 0.12); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 10px; font-weight: 600;">🎯 ${escapeHtml(cName)}</span>`;
-                }).join("")}
-              </div>
-            ` : ""}
           </div>
-          <div class="card-actions">
-            <button class="btn-action btn-copy" data-name="${escapeHtml(item.name)}">
-              📋 Copier nom
+
+          <div class="card-footer">
+            <button class="btn-action btn-copy" title="Copier le nom">
+              📋 Copier
             </button>
+            <a href="detail.html?type=avis&slug=${item.slug}" class="btn-action btn-detail">
+              Stratégie →
+            </a>
           </div>
         </div>
       `;
@@ -326,6 +337,7 @@
   }
 
   function buildGridDonjons() {
+    if (!elements.gridDonjons) return;
     elements.gridDonjons.innerHTML = "";
 
     state.donjonsData.forEach((item) => {
@@ -335,42 +347,36 @@
       card.dataset.type = "donjon";
       card.dataset.filter = item.filter;
       card.dataset.ocre = item.useful_for_ocre ? "true" : "false";
-      card.dataset.emeraude = item.useful_for_emeraude ? "true" : "false";
       card.dataset.os = item.has_os_mechanic ? "true" : "false";
-      const mobName = item.boss_name || item.name;
-      card.dataset.search = normalizeText(`${mobName} ${item.name} ${levelNames[item.filter] || ""}`);
+      card.dataset.search = normalizeText(`${item.name} ${item.boss_name} ${levelNames[item.filter] || ""}`);
 
-      const lvlBadge = levelNames[item.filter] || item.filter;
+      const levelBadge = levelNames[item.filter] || item.filter;
 
       card.innerHTML = `
         <div class="card-image-wrapper">
-          ${getImageHtml(item.picture, mobName)}
-          <span class="badge badge-level">⭐ ${lvlBadge}</span>
+          ${getImageHtml(item.picture, item.boss_name || item.name)}
+          <span class="badge badge-level">⭐ ${levelBadge}</span>
           <div class="card-badges">
             ${item.has_invulnerable_state ? `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>` : ""}
             ${item.has_os_mechanic ? `<span class="badge badge-os">☠️ One Shot</span>` : ""}
-            ${item.useful_for_ocre ? `<span class="badge badge-ocre">🥚 Ocre</span>` : ""}
+            ${item.useful_for_ocre ? `<span class="badge badge-ocre">🟡 Ocre</span>` : ""}
           </div>
         </div>
         <div class="card-body">
           <div>
-            <h3 class="card-title">${mobName}</h3>
+            <h3 class="card-title">${item.boss_name || item.name}</h3>
             <div class="card-subtitle">
               <span class="icon">🏰</span> ${item.name}
             </div>
-            ${item.challenges && item.challenges.length > 0 ? `
-              <div class="card-challenges-preview" style="margin-top: 8px; display: flex; gap: 4px; flex-wrap: wrap;">
-                ${item.challenges.map(c => {
-                  const cName = typeof c === 'string' ? c : c.name;
-                  return `<span style="font-size: 0.72rem; padding: 2px 7px; background: rgba(245, 158, 11, 0.12); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 10px; font-weight: 600;">🎯 ${escapeHtml(cName)}</span>`;
-                }).join("")}
-              </div>
-            ` : ""}
           </div>
-          <div class="card-actions">
-            <button class="btn-action btn-copy" data-name="${escapeHtml(mobName)}">
-              📋 Copier nom
+
+          <div class="card-footer">
+            <button class="btn-action btn-copy" title="Copier le nom">
+              📋 Copier
             </button>
+            <a href="detail.html?type=donjon&slug=${item.slug}" class="btn-action btn-detail">
+              Guide Donjon →
+            </a>
           </div>
         </div>
       `;
@@ -383,7 +389,7 @@
       const btnCopy = card.querySelector(".btn-copy");
       btnCopy.addEventListener("click", (e) => {
         e.stopPropagation();
-        copyToClipboard(mobName);
+        copyToClipboard(item.boss_name || item.name);
       });
 
       elements.gridDonjons.appendChild(card);
@@ -394,55 +400,51 @@
     if (!elements.gridSonges) return;
     elements.gridSonges.innerHTML = "";
 
-    const combined = [
-      ...state.donjonsData.map(d => ({ ...d, _type: 'donjon' })),
-      ...state.avisData.map(a => ({ ...a, _type: 'avis' }))
+    const combinedData = [
+      ...state.donjonsData.map(d => ({ ...d, _type: "donjon", _displayName: d.boss_name || d.name })),
+      ...state.avisData.map(a => ({ ...a, _type: "avis", _displayName: a.name }))
     ];
 
-    combined.forEach((item) => {
-      const isBoss = item._type === "donjon";
-      const mobName = isBoss ? (item.boss_name || item.name) : item.name;
-      const subtitle = isBoss ? item.name : (item.title || zoneNames[item.filter] || item.filter);
-      const lvlText = isBoss ? (levelNames[item.filter] || item.filter) : (zoneNames[item.filter] || "Avis de recherche");
+    combinedData.sort((a, b) => a._displayName.localeCompare(b._displayName));
 
+    combinedData.forEach((item) => {
       const card = document.createElement("article");
       card.className = "mob-card songe-card";
       card.dataset.slug = item.slug;
       card.dataset.type = item._type;
-      card.dataset.filter = item.filter || "";
+      card.dataset.filter = item.filter || "all";
       card.dataset.os = item.has_os_mechanic ? "true" : "false";
-      card.dataset.search = normalizeText(`${mobName} ${subtitle} ${lvlText}`);
+      card.dataset.search = normalizeText(`${item._displayName} ${item.name || ""} songe`);
+
+      const typeBadge = item._type === "donjon"
+        ? `<span class="badge badge-cat-boss">👑 Boss</span>`
+        : `<span class="badge badge-cat-avis">📜 Avis</span>`;
 
       card.innerHTML = `
         <div class="card-image-wrapper">
-          ${getImageHtml(item.picture, mobName)}
-          <span class="badge ${isBoss ? 'badge-cat-boss' : 'badge-cat-avis'}">
-            ${isBoss ? '👑 Boss' : '📜 Avis'}
-          </span>
+          ${getImageHtml(item.picture, item._displayName)}
+          <span class="badge badge-level">🌌 Songe Infini</span>
           <div class="card-badges">
+            ${typeBadge}
             ${item.has_invulnerable_state ? `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>` : ""}
             ${item.has_os_mechanic ? `<span class="badge badge-os">☠️ One Shot</span>` : ""}
           </div>
         </div>
         <div class="card-body">
           <div>
-            <h3 class="card-title">${mobName}</h3>
+            <h3 class="card-title">${item._displayName}</h3>
             <div class="card-subtitle">
-              <span class="icon">${isBoss ? '🏰' : '🗺️'}</span> ${subtitle}
+              <span class="icon">🌀</span> ${item._type === "donjon" ? `Donjon: ${item.name}` : `Zone: ${zoneNames[item.filter] || item.filter}`}
             </div>
-            ${item.challenges && item.challenges.length > 0 ? `
-              <div class="card-challenges-preview" style="margin-top: 8px; display: flex; gap: 4px; flex-wrap: wrap;">
-                ${item.challenges.slice(0, 3).map(c => {
-                  const cName = typeof c === 'string' ? c : c.name;
-                  return `<span style="font-size: 0.72rem; padding: 2px 7px; background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 10px; font-weight: 600;">🌌 ${escapeHtml(cName)}</span>`;
-                }).join("")}
-              </div>
-            ` : ""}
           </div>
-          <div class="card-actions">
-            <button class="btn-action btn-copy" data-name="${escapeHtml(mobName)}">
-              📋 Copier nom
+
+          <div class="card-footer">
+            <button class="btn-action btn-copy" title="Copier le nom">
+              📋 Copier
             </button>
+            <a href="detail.html?type=${item._type}&slug=${item.slug}" class="btn-action btn-detail">
+              Stratégie Songe →
+            </a>
           </div>
         </div>
       `;
@@ -455,7 +457,7 @@
       const btnCopy = card.querySelector(".btn-copy");
       btnCopy.addEventListener("click", (e) => {
         e.stopPropagation();
-        copyToClipboard(mobName);
+        copyToClipboard(item._displayName);
       });
 
       elements.gridSonges.appendChild(card);
@@ -471,31 +473,34 @@
       card.className = "mob-card";
       card.dataset.slug = item.slug;
       card.dataset.type = "mob";
-      card.dataset.filter = item.filter || "";
-      card.dataset.search = normalizeText(`${item.name} ${item.subarea} ${item.level_range}`);
-
-      const lvlBadge = item.level_range;
+      card.dataset.filter = item.level_range || "all";
+      card.dataset.search = normalizeText(`${item.name} ${item.subarea || ""}`);
 
       card.innerHTML = `
         <div class="card-image-wrapper">
           ${getImageHtml(item.picture, item.name)}
-          <span class="badge badge-level">⭐ ${lvlBadge}</span>
+          <span class="badge badge-level">⭐ Niv. ${item.level_range}</span>
         </div>
         <div class="card-body">
           <div>
             <h3 class="card-title">${item.name}</h3>
             <div class="card-subtitle">
-              <span class="icon">🗺️</span> ${item.subarea}
+              <span class="icon">📍</span> ${item.subarea || "Monde des Douze"}
             </div>
-            <div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 6px; display: flex; gap: 10px;">
-              <span>❤️ ${item.hp}</span>
-              <span>⚡ ${item.pa} PA / ${item.pm} PM</span>
+            <div class="mob-stats-preview" style="font-size: 0.78rem; color: var(--text-secondary); margin-top: 6px; display: flex; gap: 10px;">
+              <span>❤️ ${item.hp} PV</span>
+              <span>⚡ ${item.pa} PA</span>
+              <span>👟 ${item.pm} PM</span>
             </div>
           </div>
-          <div class="card-actions" style="margin-top: 12px;">
-            <button class="btn-action btn-copy" data-name="${escapeHtml(item.name)}">
-              📋 Copier nom
+
+          <div class="card-footer">
+            <button class="btn-action btn-copy" title="Copier le nom">
+              📋 Copier
             </button>
+            <a href="detail.html?type=mob&slug=${item.slug}" class="btn-action btn-detail">
+              Fiche Sorts →
+            </a>
           </div>
         </div>
       `;
@@ -528,7 +533,7 @@
     } else if (state.activeTab === "songes") {
       container = elements.gridSonges;
       activeFilter = state.activeFilterSonges;
-    } else {
+    } else if (state.activeTab === "mobs") {
       container = elements.gridMobs;
       activeFilter = state.activeFilterMobs;
     }
@@ -543,39 +548,13 @@
       const card = cards[i];
       const cardFilter = card.dataset.filter || "";
       const cardSearch = card.dataset.search || "";
-      const cardType = card.dataset.type || "";
-      const isOs = card.dataset.os === "true";
 
       let matchesFilter = false;
 
-      if (state.activeTab === "songes") {
-        if (activeFilter === "all") {
-          matchesFilter = true;
-        } else if (activeFilter === "os") {
-          matchesFilter = isOs;
-        } else if (activeFilter === "boss_only") {
-          matchesFilter = cardType === "donjon";
-        } else if (activeFilter === "avis_only") {
-          matchesFilter = cardType === "avis";
-        } else if (activeFilter === "niveaux-191-200") {
-          matchesFilter = cardFilter === "niveaux-191-200";
-        } else if (activeFilter === "niveaux-151-190") {
-          matchesFilter = cardFilter === "niveaux-151-190";
-        } else if (activeFilter === "niveaux-101-150") {
-          matchesFilter = cardFilter === "niveaux-101-150";
-        } else if (activeFilter === "niveaux-1-100") {
-          matchesFilter = cardFilter === "niveaux-1-50" || cardFilter === "niveaux-51-100";
-        } else {
-          matchesFilter = cardFilter.includes(activeFilter);
-        }
+      if (activeFilter === "all") {
+        matchesFilter = true;
       } else {
-        if (activeFilter === "all") {
-          matchesFilter = true;
-        } else if (activeFilter === "os") {
-          matchesFilter = isOs;
-        } else {
-          matchesFilter = cardFilter.includes(activeFilter);
-        }
+        matchesFilter = cardFilter.includes(activeFilter);
       }
 
       const matchesQuery = query === "" || cardSearch.includes(query);
@@ -588,12 +567,12 @@
       }
     }
 
-    elements.resultsCount.textContent = `Affichage de ${visibleCount} monstre(s)`;
+    if (elements.resultsCount) {
+      elements.resultsCount.textContent = `Affichage de ${visibleCount} résultat(s)`;
+    }
 
-    if (visibleCount === 0) {
-      elements.noResults.classList.add("visible");
-    } else {
-      elements.noResults.classList.remove("visible");
+    if (elements.noResults) {
+      elements.noResults.style.display = visibleCount === 0 ? "block" : "none";
     }
   }
 

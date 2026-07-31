@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOFORGE | Bestiaire, Boss, Avis & Songes Dofus</title>
-  <meta name="description" content="DOFORGE - Forge tactique complète des avis de recherche, boss de donjons, songes infinis et bestiaire Dofus. Stratégies d'invulnérabilité, sorts et succès.">
+  <title>DOFORGE | Forge Tactique & Bestiaire Dofus</title>
+  <meta name="description" content="DOFORGE - Portail et forge tactique complète pour Dofus. Avis de recherche, Boss de donjons, Songes Infinis et Bestiaire avec fiches de sorts et mécaniques d'OS.">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="home-page">
 
   <!-- Header -->
   <header class="site-header">
@@ -29,158 +29,122 @@
         <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
       </a>
       <nav class="header-nav">
-        <a href="#avis" class="nav-link active" data-tab-target="avis">Avis de Recherche</a>
-        <a href="#donjons" class="nav-link" data-tab-target="donjons">Boss & Donjons</a>
-        <a href="#songes" class="nav-link" data-tab-target="songes">🌌 Songes Infinis</a>
-        <a href="#mobs" class="nav-link" data-tab-target="mobs">👾 Bestiaire</a>
+        <a href="index.html" class="nav-link active">Accueil</a>
+        <a href="avis.html" class="nav-link">Avis de Recherche</a>
+        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
+        <a href="songes.html" class="nav-link">🌌 Songes Infinis</a>
+        <a href="bestiaire.html" class="nav-link">👾 Bestiaire</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-badge">🔥 DOFORGE — Forge Tactique & Bestiaire Dofus</div>
+  <!-- Hero Portal Section -->
+  <section class="hero hero-home">
+    <div class="hero-badge">🔥 DOFORGE — Base de Données Tactique & Bestiaire Dofus</div>
     <h1 class="hero-title">Forge des Boss, Avis & Bestiaire Dofus</h1>
-    <p class="hero-subtitle">Accédez immédiatement aux guides synthétisés, fiches de sorts, mécaniques de vulnérabilité et informations de quêtes.</p>
+    <p class="hero-subtitle">Consultez instantanément les fiches de sorts, les mécaniques d’invulnérabilité, les alertes One-Shot et le guide complet des Songes Infinis.</p>
     
-    <!-- Tabs -->
-    <div class="tabs-container">
-      <button class="tab-btn active" data-tab="avis">
-        <span class="tab-icon">🎯</span> Avis de Recherche
-        <span class="tab-count" id="count-avis">0</span>
-      </button>
-      <button class="tab-btn" data-tab="donjons">
-        <span class="tab-icon">👑</span> Boss de Donjons
-        <span class="tab-count" id="count-donjons">0</span>
-      </button>
-      <button class="tab-btn" data-tab="songes">
-        <span class="tab-icon">🌌</span> Songes Infinis
-        <span class="tab-count" id="count-songes">0</span>
-      </button>
-      <button class="tab-btn" data-tab="mobs">
-        <span class="tab-icon">👾</span> Bestiaire
-        <span class="tab-count" id="count-mobs">0</span>
-      </button>
+    <!-- Quick Search Widget -->
+    <div class="home-search-container">
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Rechercher un boss, avis de recherche, monstre ou donjon..." autocomplete="off">
+      </div>
+      <div id="home-search-results" class="home-search-dropdown" style="display: none;"></div>
     </div>
   </section>
 
-  <!-- Controls Section (Search + Filters) -->
-  <section class="controls-section">
-    <!-- Search Bar -->
-    <div class="search-wrapper">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un monstre, un boss, un donjon ou un avis..." autocomplete="off">
-    </div>
+  <!-- Main Category Portal Grid -->
+  <section class="portal-section">
+    <div class="portal-grid">
+      
+      <!-- Card 1: Avis de Recherche -->
+      <a href="avis.html" class="portal-card">
+        <div class="portal-card-header">
+          <div class="portal-icon amber">🎯</div>
+          <span class="portal-badge" id="count-avis-badge">80+ Avis</span>
+        </div>
+        <h2 class="portal-title">Avis de Recherche</h2>
+        <p class="portal-desc">Fiches de traque détaillées, zones d'apparition, tactiques de combat et quêtes d'alignement/recherche.</p>
+        <div class="portal-footer">
+          <span>Accéder aux Avis</span>
+          <span class="portal-arrow">→</span>
+        </div>
+      </a>
 
-    <!-- Filters Panel for Avis -->
-    <div id="filters-avis" class="filters-panel">
-      <div class="filters-row">
-        <button class="filter-pill active" data-filter="all">Tous les Avis</button>
-        <button class="filter-pill" data-filter="os">☠️ Mécanique OS</button>
-      </div>
-      <div class="filters-row">
-        <button class="filter-pill" data-filter="astrub">Astrub</button>
-        <button class="filter-pill" data-filter="chateau-amakna">Château d'Amakna</button>
-        <button class="filter-pill" data-filter="base-justiciers">Base des Justiciers</button>
-        <button class="filter-pill" data-filter="saharach">Saharach</button>
-        <button class="filter-pill" data-filter="frigost">Frigost</button>
-        <button class="filter-pill" data-filter="dimension-divine">Dimension Divine</button>
-        <button class="filter-pill" data-filter="profondeurs-sufokia">Profondeurs de Sufokia</button>
-        <button class="filter-pill" data-filter="alignement">Alignement</button>
-      </div>
-    </div>
+      <!-- Card 2: Boss & Donjons -->
+      <a href="donjons.html" class="portal-card">
+        <div class="portal-card-header">
+          <div class="portal-icon gold">👑</div>
+          <span class="portal-badge" id="count-donjons-badge">144+ Donjons</span>
+        </div>
+        <h2 class="portal-title">Boss & Donjons</h2>
+        <p class="portal-desc">Guides de donjons, états d'invulnérabilité à débloquer, succès officiels et capturabilité pour le Dofus Ocre.</p>
+        <div class="portal-footer">
+          <span>Accéder aux Donjons</span>
+          <span class="portal-arrow">→</span>
+        </div>
+      </a>
 
-    <!-- Filters Panel for Donjons -->
-    <div id="filters-donjons" class="filters-panel" style="display: none;">
-      <div class="filters-row">
-        <button class="filter-pill active" data-filter="all">Tous les Boss</button>
-        <button class="filter-pill" data-filter="os">☠️ Mécanique OS</button>
-      </div>
-      <div class="filters-row">
-        <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 - 50</button>
-        <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 - 100</button>
-        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 - 150</button>
-        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 - 190</button>
-        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 - 200</button>
-      </div>
-      <div class="filters-row">
-        <button class="filter-pill" data-filter="titans">Titans</button>
-        <button class="filter-pill" data-filter="expeditions">Expéditions</button>
-        <button class="filter-pill" data-filter="anomalies-temporelles">Anomalies</button>
-        <button class="filter-pill" data-filter="raids">Raids</button>
-      </div>
-    </div>
+      <!-- Card 3: Songes Infinis -->
+      <a href="songes.html" class="portal-card portal-card-featured">
+        <div class="portal-card-header">
+          <div class="portal-icon purple">🌌</div>
+          <span class="portal-badge badge-featured">Mode Infini</span>
+        </div>
+        <h2 class="portal-title">Songes Infinis</h2>
+        <p class="portal-desc">Guide complet du mode Songe : explications des Paradoxes, Cauchemars et liste filtrable de tous les Boss de Songe.</p>
+        <div class="portal-footer">
+          <span>Découvrir les Songes</span>
+          <span class="portal-arrow">→</span>
+        </div>
+      </a>
 
-    <!-- Filters Panel for Songes Infinis -->
-    <div id="filters-songes" class="filters-panel" style="display: none;">
-      <div class="filters-row">
-        <button class="filter-pill active" data-filter="all">Tous (Boss + Avis)</button>
-        <button class="filter-pill" data-filter="os">☠️ Mécanique OS</button>
-        <button class="filter-pill" data-filter="boss_only">👑 Boss de Donjon</button>
-        <button class="filter-pill" data-filter="avis_only">📜 Avis de Recherche</button>
-      </div>
-      <div class="filters-row">
-        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 - 200 (THL)</button>
-        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 - 190</button>
-        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 - 150</button>
-        <button class="filter-pill" data-filter="niveaux-1-100">Niv. 1 - 100</button>
-      </div>
-    </div>
+      <!-- Card 4: Bestiaire -->
+      <a href="bestiaire.html" class="portal-card">
+        <div class="portal-card-header">
+          <div class="portal-icon green">👾</div>
+          <span class="portal-badge" id="count-mobs-badge">1 471 Mobs</span>
+        </div>
+        <h2 class="portal-title">Bestiaire Complet</h2>
+        <p class="portal-desc">Base de données de 1 471 monstres avec leurs sorts de combat réels (coût PA, portée, dés de dégâts et effets).</p>
+        <div class="portal-footer">
+          <span>Consulter le Bestiaire</span>
+          <span class="portal-arrow">→</span>
+        </div>
+      </a>
 
-    <!-- Filters Panel for Bestiaire -->
-    <div id="filters-mobs" class="filters-panel" style="display: none;">
-      <div class="filters-row">
-        <button class="filter-pill active" data-filter="all">Tous les Monstres (1 471)</button>
-        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 - 200 (THL)</button>
-        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 - 190</button>
-        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 - 150</button>
-        <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 - 100</button>
-        <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 - 50</button>
-      </div>
-    </div>
-
-    <div class="results-count" id="results-count">Affichage de 0 résultat(s)</div>
-  </section>
-
-  <!-- Cards Grid Section -->
-  <section class="cards-section">
-    <!-- Loading indicator -->
-    <div id="loading" class="loading-container">
-      <div class="loading-spinner"></div>
-      <div class="loading-text">Chargement du bestiaire...</div>
-    </div>
-
-    <!-- Avis Grid -->
-    <div id="panel-avis" class="tab-panel">
-      <div class="cards-grid" id="grid-avis"></div>
-    </div>
-
-    <!-- Donjons Grid -->
-    <div id="panel-donjons" class="tab-panel" style="display: none;">
-      <div class="cards-grid" id="grid-donjons"></div>
-    </div>
-
-    <!-- Songes Grid -->
-    <div id="panel-songes" class="tab-panel" style="display: none;">
-      <div class="cards-grid" id="grid-songes"></div>
-    </div>
-
-    <!-- Mobs Grid -->
-    <div id="panel-mobs" class="tab-panel" style="display: none;">
-      <div class="cards-grid" id="grid-mobs"></div>
-    </div>
-
-    <!-- No Results Message -->
-    <div id="no-results" class="no-results">
-      <div class="no-results-icon">🔍</div>
-      <div class="no-results-text">Aucun monstre ne correspond à votre recherche !</div>
     </div>
   </section>
 
-  <!-- Toast Notification -->
-  <div class="toast-container">
-    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
-  </div>
+  <!-- Features Highlight -->
+  <section class="features-section">
+    <div class="section-container">
+      <h2 class="features-heading">Pourquoi utiliser DOFORGE ?</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <h3>Sorts & Portée Réels</h3>
+          <p>Consultez les détails exacts des sorts de chaque créature : coût en PA, portée en PO et effets élémentaires.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚠️</div>
+          <h3>Alertes One-Shot (OS)</h3>
+          <p>Identifiez immédiatement les attaques mortelles pour adapter le placement et l'esquive de votre équipe.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🛡️</div>
+          <h3>Déblocage d'Invulnérabilité</h3>
+          <p>Explications claires des états invulnérables des Boss et Avis de recherche pour savoir comment les rendre vulnérables.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📜</div>
+          <h3>Succès Officiels Dofus</h3>
+          <p>Liste complète des succès et objectifs de donjons synchronisés pour vous accompagner dans vos quêtes Dofus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="site-footer">

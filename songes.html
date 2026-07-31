@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Songes Infinis | DOFORGE</title>
+  <meta name="description" content="Guide complet des Songes Infinis Dofus : explications du système de Rêves, Paradoxes, Cauchemars et banque de données des Boss.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="songes">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="favicon.svg" alt="DOFORGE Logo" class="logo-img" width="28" height="28">
+        </div>
+        <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="avis.html" class="nav-link">Avis de Recherche</a>
+        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
+        <a href="songes.html" class="nav-link active">🌌 Songes Infinis</a>
+        <a href="bestiaire.html" class="nav-link">👾 Bestiaire</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">🌌 Mode de Jeu Infini — Niveau 200+</div>
+    <h1 class="hero-title">Les Songes Infinis Dofus</h1>
+    <p class="hero-subtitle">Comprenez les mécaniques de Rêves, Paradoxes et Cauchemars, et consultez la base de données des Boss et Avis de Songe.</p>
+  </section>
+
+  <!-- Songes Educational Guide Section -->
+  <section class="songes-guide-section">
+    <div class="section-container">
+      <h2 class="guide-main-heading">🌀 Guide des Mécaniques du Puits des Songes Infinis</h2>
+      
+      <div class="guide-cards-grid">
+        
+        <!-- Card 1: Principes de Base -->
+        <div class="guide-card">
+          <div class="guide-card-icon">🔮</div>
+          <h3>Qu'est-ce que les Songes Infinis ?</h3>
+          <p>Le <strong>Puits des Songes Infinis</strong> est un donjon procédural à étages réservé aux personnages de niveau 200. Vous progressez d'étage en étage (du niveau 200 à 400+).</p>
+          <ul class="guide-list">
+            <li><strong>Difficulté Scalable</strong> : Les PV, dégâts et l'érosion des monstres augmentent à chaque étage franchi.</li>
+            <li><strong>Récompenses Majeures</strong> : Gain de <em>Reflets du Songe</em>, de <em>Runes de Transmutation</em> et de composants de craft légendaires.</li>
+            <li><strong>Magasin du Songe</strong> : Entre chaque salle, dépensez vos Reflets pour acheter des bonus de combat ou des coffres de récompenses.</li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Paradoxes & Cauchemars -->
+        <div class="guide-card guide-card-highlight">
+          <div class="guide-card-icon">💥</div>
+          <h3>Système de Paradoxes & Cauchemars</h3>
+          <p>À chaque étage, 4 choix de salles vous sont proposés avec différents modificateurs de combat :</p>
+          <ul class="guide-list">
+            <li>⚡ <strong>Les Rêves (Combat Standard)</strong> : Combats classiques contre un groupe de monstres mené par un Boss ou un Avis.</li>
+            <li>🌀 <strong>Les Paradoxes (Modificateurs Tactiques)</strong> : Des règles de combat uniques appliquées sur la salle (ex: <em>Attaquer à distance renvoie 30% des dégâts aux alliés</em>, <em>Retirer des PM téléporte le monstre au CàC</em>).</li>
+            <li>👹 <strong>Les Cauchemars (Malus Cumulatifs)</strong> : Des handicaps sévères qui s'accumulent au fil des salles si vous choisissez ces épreuves. Plus le Cauchemar est coriace, plus le gain de Reflets est massif !</li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Conseils Tactiques -->
+        <div class="guide-card">
+          <div class="guide-card-icon">🛡️</div>
+          <h3>Conseils & Stratégies d'Équipe</h3>
+          <p>Pour pousser le plus loin possible dans les Songes Infinis :</p>
+          <ul class="guide-list">
+            <li><strong>Contrôle & Placement</strong> : Privilégiez les classes capable d'entraver les PM (Enutrof, Sadida, Cra) et d'isoler les monstres dangereux.</li>
+            <li><strong>Gestion de l'Érosion</strong> : L'érosion augmente drastiquement à haut étage. Intégrez du soin en pourcentage ou des boucliers (Zobal, Feca).</li>
+            <li><strong>Choix des Salles</strong> : Évitez les combinaisons de Boss qui annulent vos forces (ex: Boss immunisé aux attaques CàC avec une équipe full Iop/Ouginak).</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Songes Database Grid Section -->
+  <section class="controls-section">
+    <h2 class="section-title text-center" style="margin-bottom: var(--space-md); text-align: center;">👑 Banque de Données des Boss de Songe</h2>
+
+    <!-- Search Bar -->
+    <div class="search-wrapper">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un boss de Songe (nom, niveau, invulnérabilité...)" autocomplete="off">
+    </div>
+
+    <!-- Filters by Level Range -->
+    <div id="filters-songes" class="filters-row">
+      <button class="filter-pill active" data-filter="all">Tous les Boss de Songe</button>
+      <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 à 50</button>
+      <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 à 100</button>
+      <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 à 150</button>
+      <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 à 190</button>
+      <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 à 200</button>
+    </div>
+
+    <div id="results-count" class="results-count">Affichage des boss de Songe...</div>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="cards-section">
+    <div id="loading" class="loading-container">
+      <div class="loading-spinner"></div>
+      <p>Chargement des boss des Songes Infinis...</p>
+    </div>
+
+    <div id="grid-songes" class="cards-grid"></div>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">Aucun boss de Songe ne correspond à votre recherche !</div>
+    </div>
+  </section>
+
+  <!-- Toast -->
+  <div class="toast-container">
+    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- App JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

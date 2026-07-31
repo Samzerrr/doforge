@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avis de Recherche | DOFORGE</title>
+  <meta name="description" content="Guide complet des avis de recherche Dofus. Fiches de traque, invulnérabilité, sorts et zones de repérage.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="avis">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="favicon.svg" alt="DOFORGE Logo" class="logo-img" width="28" height="28">
+        </div>
+        <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="avis.html" class="nav-link active">Avis de Recherche</a>
+        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
+        <a href="songes.html" class="nav-link">🌌 Songes Infinis</a>
+        <a href="bestiaire.html" class="nav-link">👾 Bestiaire</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">🎯 Traque & Capture d'Avis de Recherche</div>
+    <h1 class="hero-title">Avis de Recherche Dofus</h1>
+    <p class="hero-subtitle">Consultez la liste complète des cibles à traquer, leurs zones de repérage, mécaniques d'invulnérabilité et quêtes associées.</p>
+  </section>
+
+  <!-- Controls Section -->
+  <section class="controls-section">
+    <!-- Search Bar -->
+    <div class="search-wrapper">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un avis (nom, zone, compétence...)" autocomplete="off">
+    </div>
+
+    <!-- Filters by Zone -->
+    <div id="filters-avis" class="filters-row">
+      <button class="filter-pill active" data-filter="all">Toutes les Zones</button>
+      <button class="filter-pill" data-filter="astrub">Astrub</button>
+      <button class="filter-pill" data-filter="chateau-amakna">Château d'Amakna</button>
+      <button class="filter-pill" data-filter="base-justiciers">Base des Justiciers</button>
+      <button class="filter-pill" data-filter="saharach">Saharach</button>
+      <button class="filter-pill" data-filter="frigost">Frigost</button>
+      <button class="filter-pill" data-filter="dimension-divine">Dimension Divine</button>
+      <button class="filter-pill" data-filter="profondeurs-sufokia">Sufokia</button>
+      <button class="filter-pill" data-filter="alignement">Alignement</button>
+    </div>
+
+    <div id="results-count" class="results-count">Affichage des avis...</div>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="cards-section">
+    <div id="loading" class="loading-container">
+      <div class="loading-spinner"></div>
+      <p>Chargement des avis de recherche...</p>
+    </div>
+
+    <div id="grid-avis" class="cards-grid"></div>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">Aucun avis de recherche ne correspond à votre recherche !</div>
+    </div>
+  </section>
+
+  <!-- Toast -->
+  <div class="toast-container">
+    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- App JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bestiaire Complet | DOFORGE</title>
+  <meta name="description" content="Bestiaire Dofus de 1 471 monstres avec fiches de sorts, coûts PA, portée et dés de dégâts réels.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="mobs">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <img src="favicon.svg" alt="DOFORGE Logo" class="logo-img" width="28" height="28">
+        </div>
+        <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
+      </a>
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="avis.html" class="nav-link">Avis de Recherche</a>
+        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
+        <a href="songes.html" class="nav-link">🌌 Songes Infinis</a>
+        <a href="bestiaire.html" class="nav-link active">👾 Bestiaire</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">👾 1 471 Monstres Référencés</div>
+    <h1 class="hero-title">Bestiaire Dofus</h1>
+    <p class="hero-subtitle">Recherchez n'importe quel monstre ordinaire du Monde des Douze et consultez ses fiches de sorts, ses points de vie, PA/PM et zones d'apparition.</p>
+  </section>
+
+  <!-- Controls Section -->
+  <section class="controls-section">
+    <!-- Search Bar -->
+    <div class="search-wrapper">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un monstre (Larve, Bouftou, Tofu, Abraknyde...)" autocomplete="off">
+    </div>
+
+    <!-- Filters by Level Range -->
+    <div id="filters-mobs" class="filters-row">
+      <button class="filter-pill active" data-filter="all">Tous les Niveaux</button>
+      <button class="filter-pill" data-filter="1-50">Niv. 1 à 50</button>
+      <button class="filter-pill" data-filter="51-100">Niv. 51 à 100</button>
+      <button class="filter-pill" data-filter="101-150">Niv. 101 à 150</button>
+      <button class="filter-pill" data-filter="151-190">Niv. 151 à 190</button>
+      <button class="filter-pill" data-filter="191-200">Niv. 191 à 200</button>
+    </div>
+
+    <div id="results-count" class="results-count">Affichage des monstres...</div>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="cards-section">
+    <div id="loading" class="loading-container">
+      <div class="loading-spinner"></div>
+      <p>Chargement du bestiaire complet...</p>
+    </div>
+
+    <div id="grid-mobs" class="cards-grid"></div>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">Aucun monstre ne correspond à votre recherche !</div>
+    </div>
+  </section>
+
+  <!-- Toast -->
+  <div class="toast-container">
+    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- App JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
