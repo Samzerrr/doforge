@@ -17,7 +17,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home-page">
+<body class="home-page" data-nav-section="home">
 
   <!-- Header -->
   <header class="site-header">
@@ -28,13 +28,7 @@
         </div>
         <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
       </a>
-      <nav class="header-nav">
-        <a href="index.html" class="nav-link active">Accueil</a>
-        <a href="avis.html" class="nav-link">Avis de Recherche</a>
-        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
-        <a href="songes.html" class="nav-link">🌌 Songes Infinis</a>
-        <a href="bestiaire.html" class="nav-link">👾 Bestiaire</a>
-      </nav>
+      <nav class="header-nav" id="site-nav"></nav>
     </div>
   </header>
 
@@ -58,35 +52,21 @@
   <section class="portal-section">
     <div class="portal-grid">
       
-      <!-- Card 1: Avis de Recherche -->
-      <a href="avis.html" class="portal-card">
+      <!-- Card 1: Bestiaires (hub) -->
+      <a href="bestiaires.html" class="portal-card">
         <div class="portal-card-header">
-          <div class="portal-icon amber">🎯</div>
-          <span class="portal-badge" id="count-avis-badge">80+ Avis</span>
+          <div class="portal-icon green">👾</div>
+          <span class="portal-badge">3 Bases</span>
         </div>
-        <h2 class="portal-title">Avis de Recherche</h2>
-        <p class="portal-desc">Fiches de traque détaillées, zones d'apparition, tactiques de combat et quêtes d'alignement/recherche.</p>
+        <h2 class="portal-title">Bestiaires</h2>
+        <p class="portal-desc">Avis de recherche, boss de donjons et bestiaire complet — choisissez votre base depuis le hub.</p>
         <div class="portal-footer">
-          <span>Accéder aux Avis</span>
+          <span>Ouvrir les Bestiaires</span>
           <span class="portal-arrow">→</span>
         </div>
       </a>
 
-      <!-- Card 2: Boss & Donjons -->
-      <a href="donjons.html" class="portal-card">
-        <div class="portal-card-header">
-          <div class="portal-icon gold">👑</div>
-          <span class="portal-badge" id="count-donjons-badge">144+ Donjons</span>
-        </div>
-        <h2 class="portal-title">Boss & Donjons</h2>
-        <p class="portal-desc">Guides de donjons, états d'invulnérabilité à débloquer, succès officiels et capturabilité pour le Dofus Ocre.</p>
-        <div class="portal-footer">
-          <span>Accéder aux Donjons</span>
-          <span class="portal-arrow">→</span>
-        </div>
-      </a>
-
-      <!-- Card 3: Songes Infinis -->
+      <!-- Card 2: Songes Infinis -->
       <a href="songes.html" class="portal-card portal-card-featured">
         <div class="portal-card-header">
           <div class="portal-icon purple">🌌</div>
@@ -96,20 +76,6 @@
         <p class="portal-desc">Guide complet du mode Songe : explications des Paradoxes, Cauchemars et liste filtrable de tous les Boss de Songe.</p>
         <div class="portal-footer">
           <span>Découvrir les Songes</span>
-          <span class="portal-arrow">→</span>
-        </div>
-      </a>
-
-      <!-- Card 4: Bestiaire -->
-      <a href="bestiaire.html" class="portal-card">
-        <div class="portal-card-header">
-          <div class="portal-icon green">👾</div>
-          <span class="portal-badge" id="count-mobs-badge">1 471 Mobs</span>
-        </div>
-        <h2 class="portal-title">Bestiaire Complet</h2>
-        <p class="portal-desc">Base de données de 1 471 monstres avec leurs sorts de combat réels (coût PA, portée, dés de dégâts et effets).</p>
-        <div class="portal-footer">
-          <span>Consulter le Bestiaire</span>
           <span class="portal-arrow">→</span>
         </div>
       </a>
@@ -154,6 +120,7 @@
   </footer>
 
   <!-- App JS -->
+  <script src="js/nav.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

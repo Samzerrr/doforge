@@ -194,6 +194,84 @@ a:hover {
   font-weight: 700;
 }
 
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-chevron {
+  font-size: 0.65rem;
+  opacity: 0.85;
+  transition: transform 0.15s ease;
+}
+
+.nav-dropdown:hover .nav-chevron,
+.nav-dropdown.is-open .nav-chevron,
+.nav-dropdown:focus-within .nav-chevron {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  min-width: 220px;
+  padding: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  z-index: 1100;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown.is-open .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.nav-dropdown-link {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nav-dropdown-link:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+.nav-dropdown-link.active {
+  color: #fff;
+  background: linear-gradient(135deg, #10b981, #059669);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
+  font-weight: 600;
+}
+
+.nav-dropdown-trigger.active {
+  color: #0a0d14;
+  background: linear-gradient(135deg, #ff9e00, #ff5400);
+  box-shadow: 0 0 14px rgba(255, 120, 0, 0.4);
+  font-weight: 700;
+}
+
 /* ===== HERO SECTION ===== */
 .hero {
   padding: 120px var(--space-lg) var(--space-xl);
@@ -1112,6 +1190,22 @@ a:hover {
   gap: var(--space-lg);
 }
 
+.portal-grid-three {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .portal-grid-three {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bestiaires-hub-section {
+  padding-top: 0;
+}
+
 .portal-card {
   position: relative;
   background: var(--bg-card);
@@ -1476,4 +1570,98 @@ a:hover {
 .guide-card-highlight .guide-list li::before {
   color: #c084fc;
 }
+
+/* ===== SUB-NAVIGATION TAB TOGGLE ===== */
+.sub-nav-section {
+  max-width: 1300px;
+  margin: 0 auto var(--space-xl);
+  padding: 0 var(--space-lg);
+  display: flex;
+  justify-content: center;
+}
+
+.sub-nav-container {
+  display: flex;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 6px;
+  border-radius: var(--radius-full);
+  gap: 8px;
+  box-shadow: var(--shadow-card);
+}
+
+.sub-nav-btn {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sub-nav-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+.sub-nav-btn.active {
+  background: linear-gradient(135deg, #a855f7, #7e22ce);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+}
+
+.guide-note {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  background: rgba(168, 85, 247, 0.08);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: var(--radius-md);
+  line-height: 1.55;
+}
+
+.songes-database-panel {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-2xl);
+  border-top: 2px solid rgba(168, 85, 247, 0.35);
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.06) 0%, transparent 320px);
+}
+
+.songes-database-panel[hidden] {
+  display: none !important;
+}
+
+#panel-songes-guide[hidden] {
+  display: none !important;
+}
+
+.songes-database-header {
+  max-width: 1300px;
+  margin: 0 auto var(--space-xl);
+  padding: 0 var(--space-lg);
+  text-align: center;
+}
+
+.songes-database-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.songes-database-lead {
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+}
+
 

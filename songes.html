@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Songes Infinis | DOFORGE</title>
-  <meta name="description" content="Guide complet des Songes Infinis Dofus : explications du système de Rêves, Paradoxes, Cauchemars et banque de données des Boss.">
+  <meta name="description" content="Guide complet des Songes Infinis Dofus 3.6 : explication des modes Rêve, Paradoxe (15 vagues), Cauchemar (vagues infinies) et banque des Boss.">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="songes">
+<body data-page="songes" data-nav-section="songes">
 
   <!-- Header -->
   <header class="site-header">
@@ -28,63 +28,70 @@
         </div>
         <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
       </a>
-      <nav class="header-nav">
-        <a href="index.html" class="nav-link">Accueil</a>
-        <a href="avis.html" class="nav-link">Avis de Recherche</a>
-        <a href="donjons.html" class="nav-link">Boss & Donjons</a>
-        <a href="songes.html" class="nav-link active">🌌 Songes Infinis</a>
-        <a href="bestiaire.html" class="nav-link">👾 Bestiaire</a>
-      </nav>
+      <nav class="header-nav" id="site-nav"></nav>
     </div>
   </header>
 
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-badge">🌌 Mode de Jeu Infini — Niveau 200+</div>
-    <h1 class="hero-title">Les Songes Infinis Dofus</h1>
-    <p class="hero-subtitle">Comprenez les mécaniques de Rêves, Paradoxes et Cauchemars, et consultez la base de données des Boss et Avis de Songe.</p>
+    <h1 class="hero-title">Les Songes Infinis Dofus 3.6</h1>
+    <p class="hero-subtitle">Le guide des mécaniques est indépendant de la banque de boss : deux espaces distincts, un seul onglet pour basculer.</p>
   </section>
 
-  <!-- Songes Educational Guide Section -->
-  <section class="songes-guide-section">
+  <!-- Sub-Navigation Toggle (Séparation Guide / Banque boss) -->
+  <section class="sub-nav-section" aria-label="Navigation Songes">
+    <div class="sub-nav-container">
+      <button type="button" class="sub-nav-btn active" data-songes-panel="guide">
+        <span>📘</span> Guide & Explications 3.6
+      </button>
+      <button type="button" class="sub-nav-btn" data-songes-panel="database">
+        <span>👑</span> Banque des Boss (<span id="count-songes-tab">…</span>)
+      </button>
+    </div>
+  </section>
+
+  <!-- Panel 1: Songes Educational Guide -->
+  <section id="panel-songes-guide" class="songes-guide-section">
     <div class="section-container">
-      <h2 class="guide-main-heading">🌀 Guide des Songes Infinis — Dofus 3.6 (Mise à Jour 2026)</h2>
+      <h2 class="guide-main-heading">🌀 Guide des Mécaniques du Puits des Songes Infinis (MAJ 3.6)</h2>
       
       <div class="guide-cards-grid">
         
-        <!-- Card 1: Format Rogue-like 26 Étages -->
+        <!-- Card 1: Format Rogue-like -->
         <div class="guide-card">
           <div class="guide-card-icon">🎲</div>
           <h3>Format Rogue-like (26 Étages)</h3>
-          <p>Le mode est désormais structuré sous forme d’ascensions fermées <strong>Rogue-like</strong> :</p>
+          <p>Le mode est structuré sous forme d’ascensions fermées de type <strong>Rogue-like</strong> :</p>
           <ul class="guide-list">
-            <li><strong>26 Étages par Run</strong> : Chaque ascension comporte 26 étages répartis en 5 paliers.</li>
-            <li><strong>Mort Définitive & Soins</strong> : En cas de défaite, la run s'arrête net (Permadeath). Tous les personnages sont 100% soignés automatiquement entre chaque salle.</li>
-            <li><strong>Gestion Multi-Runs</strong> : Possibilité de créer et gérer jusqu'à 3 runs simultanées par personnage.</li>
+            <li><strong>26 Étages par Run</strong> : Chaque ascension comporte 26 étages répartis en 5 paliers successifs.</li>
+            <li><strong>Mort Définitive & Soins</strong> : En cas de défaite, la run s'arrête immédiatement (Permadeath). Vos personnages sont 100% soignés automatiquement entre chaque salle.</li>
+            <li><strong>3 Runs Simultanées</strong> : Possibilité de mener jusqu'à 3 runs indépendantes par personnage.</li>
           </ul>
         </div>
 
-        <!-- Card 2: 3 Niveaux d'Intensité (MAJ 3.6) -->
+        <!-- Card 2: 3 Niveaux d'Intensité (MAJ 3.5 — combat final à vagues) -->
         <div class="guide-card guide-card-highlight">
           <div class="guide-card-icon">🔥</div>
-          <h3>Modes d'Intensité (Rêve, Paradoxe, Cauchemar)</h3>
-          <p>La difficulté et la quantité de butin dépendent directement du mode d'intensité choisi :</p>
+          <h3>Modes d'Intensité — Combat final à vagues</h3>
+          <p>Depuis la <strong>MAJ 3.5</strong>, le combat final est un défi à vagues aléatoires (<strong>50 tours</strong> maximum). Chaque intensité fixe le seuil pour <em>valider</em> la run et le plafond de vagues bonus (Bribes de rêve &amp; ladder).</p>
           <ul class="guide-list">
-            <li>🌟 <strong>Rêve (Accompagnement)</strong> : Difficulté accessible pour s'initier. Le combat final ne comporte qu'<strong>1 seule vague</strong>.</li>
-            <li>⚡ <strong>Paradoxe (Difficulté Intermédiaire)</strong> : Le mode le plus prisé pour farmer. Le combat final comporte <strong>3 vagues</strong> successives.</li>
-            <li>👹 <strong>Cauchemar (Défi Ultime)</strong> : Difficulté maximale sans limite. <strong>Vagues infinies</strong> au combat final pour des Reflets et loots d'intensité maximale.</li>
+            <li>🌟 <strong>Rêve (Accompagnement)</strong> : Difficulté accessible pour s'initier. Le combat final se valide en <strong>1 seule vague</strong> (jusqu'à <strong>5 vagues</strong> max si vous continuez pour le bonus).</li>
+            <li>⚡ <strong>Paradoxe (Difficulté Intermédiaire)</strong> : Le mode le plus prisé pour farmer. Validation à partir de <strong>3 vagues</strong>, avec jusqu'à <strong>15 vagues</strong> successives pour pousser les récompenses — ce n'est pas un combat fixe à 3 vagues.</li>
+            <li>👹 <strong>Cauchemar (Défi Ultime)</strong> : Difficulté maximale sans limite. Validation à partir de <strong>3 vagues</strong>, puis <strong>vagues infinies</strong> au combat final pour des Reflets et loots d'intensité maximale.</li>
           </ul>
+          <p class="guide-note">Une fois le seuil de validation atteint, vous pouvez arrêter ou continuer : les vagues supplémentaires ne sont que du bonus (Bribes, classement). PV, érosion, invocations et pièges persistent entre les vagues.</p>
         </div>
 
-        <!-- Card 3: Nouveautés MAJ 3.6 (2026) -->
+        <!-- Card 3: Nouveautés & Ergonomie MAJ 3.6 -->
         <div class="guide-card">
           <div class="guide-card-icon">⚡</div>
-          <h3>Ajustements MAJ 3.6 & Ergonomie</h3>
-          <p>La version <strong>3.6 de Dofus</strong> apporte plusieurs ajustements majeurs pour les Songes :</p>
+          <h3>Nouveautés Dofus 3.6 (2026)</h3>
+          <p>Les ajustements récents apportent une clarté et un confort de jeu accrus :</p>
           <ul class="guide-list">
-            <li><strong>Refonte des Icônes de Sorts</strong> : Distinction visuelle claire des sorts uniques/passifs du Songe via des codes couleur (Rouge & Violet).</li>
-            <li><strong>Équilibrage des Boss Finaux</strong> : Réajustement des combats de boss finaux pour réduire la frustration tout en conservant le challenge.</li>
-            <li><strong>Intégration Recherche de Groupe & Dofudex</strong> : Trouvez des coéquipiers directement via la recherche de groupe dédiée aux Songes Infinis.</li>
+            <li><strong>Visuel des Icônes de Sorts</strong> : Distinction visuelle des sorts uniques et passifs du Songe grâce aux codes couleur (Rouge & Violet).</li>
+            <li><strong>Équilibrage des Combats</strong> : Réajustement des boss finaux pour rendre l'expérience fluide et stratégique sans lourdeur.</li>
+            <li><strong>Recherche de Groupe & Dofudex</strong> : Trouvez des coéquipiers directement via la recherche de groupe dédiée aux Songes.</li>
           </ul>
         </div>
 
@@ -92,43 +99,49 @@
     </div>
   </section>
 
-  <!-- Songes Database Grid Section -->
-  <section class="controls-section">
-    <h2 class="section-title text-center" style="margin-bottom: var(--space-md); text-align: center;">👑 Banque de Données des Boss de Songe</h2>
+  <!-- Panel 2: Banque boss (contenu chargé à la demande, séparé du guide) -->
+  <div id="panel-songes-database" class="songes-database-panel" hidden>
+    <header class="songes-database-header">
+      <h2 class="songes-database-title">👑 Banque des Boss de Songe</h2>
+      <p class="songes-database-lead">Fiches tactiques (donjons &amp; avis) pour préparer vos runs — sans mélanger avec le guide explicatif ci-dessus.</p>
+    </header>
 
-    <!-- Search Bar -->
-    <div class="search-wrapper">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="search-input" class="search-input" placeholder="Rechercher un boss de Songe (nom, niveau, invulnérabilité...)" autocomplete="off">
-    </div>
+    <!-- Controls Section -->
+    <section class="controls-section">
+      <!-- Search Bar -->
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Rechercher un boss de Songe (nom, niveau, invulnérabilité...)" autocomplete="off">
+      </div>
 
-    <!-- Filters by Level Range -->
-    <div id="filters-songes" class="filters-row">
-      <button class="filter-pill active" data-filter="all">Tous les Boss de Songe</button>
-      <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 à 50</button>
-      <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 à 100</button>
-      <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 à 150</button>
-      <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 à 190</button>
-      <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 à 200</button>
-    </div>
+      <!-- Filters by Level Range -->
+      <div id="filters-songes" class="filters-row">
+        <button class="filter-pill active" data-filter="all">Tous les Boss de Songe</button>
+        <button class="filter-pill" data-filter="niveaux-1-50">Niv. 1 à 50</button>
+        <button class="filter-pill" data-filter="niveaux-51-100">Niv. 51 à 100</button>
+        <button class="filter-pill" data-filter="niveaux-101-150">Niv. 101 à 150</button>
+        <button class="filter-pill" data-filter="niveaux-151-190">Niv. 151 à 190</button>
+        <button class="filter-pill" data-filter="niveaux-191-200">Niv. 191 à 200</button>
+      </div>
 
-    <div id="results-count" class="results-count">Affichage des boss de Songe...</div>
-  </section>
+      <div id="results-count" class="results-count">Affichage des boss de Songe...</div>
+    </section>
 
-  <!-- Grid Section -->
-  <section class="cards-section">
-    <div id="loading" class="loading-container">
-      <div class="loading-spinner"></div>
-      <p>Chargement des boss des Songes Infinis...</p>
-    </div>
+    <!-- Grid Section -->
+    <section class="cards-section">
+      <div id="loading" class="loading-container">
+        <div class="loading-spinner"></div>
+        <p>Chargement des boss des Songes Infinis...</p>
+      </div>
 
-    <div id="grid-songes" class="cards-grid"></div>
+      <div id="grid-songes" class="cards-grid"></div>
 
-    <div id="no-results" class="no-results" style="display: none;">
-      <div class="no-results-icon">🔍</div>
-      <div class="no-results-text">Aucun boss de Songe ne correspond à votre recherche !</div>
-    </div>
-  </section>
+      <div id="no-results" class="no-results" style="display: none;">
+        <div class="no-results-icon">🔍</div>
+        <div class="no-results-text">Aucun boss de Songe ne correspond à votre recherche !</div>
+      </div>
+    </section>
+  </div>
 
   <!-- Toast -->
   <div class="toast-container">
@@ -143,6 +156,7 @@
   </footer>
 
   <!-- App JS -->
+  <script src="js/nav.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

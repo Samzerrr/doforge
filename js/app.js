@@ -11,7 +11,8 @@
     searchQuery: "",
     avisData: [],
     donjonsData: [],
-    mobsData: []
+    mobsData: [],
+    songesGridBuilt: false
   };
 
   // DOM Elements
@@ -157,6 +158,30 @@
         }
       });
     }
+
+    // Songes Sub-panel Toggle (Séparation Guide & Banque de données)
+    const songesSubNavBtns = document.querySelectorAll("[data-songes-panel]");
+    const panelGuide = document.getElementById("panel-songes-guide");
+    const panelDb = document.getElementById("panel-songes-database");
+
+    songesSubNavBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.songesPanel;
+        songesSubNavBtns.forEach(b => b.classList.toggle("active", b.dataset.songesPanel === target));
+        if (panelGuide) panelGuide.hidden = target !== "guide";
+        if (panelDb) {
+          panelDb.hidden = target !== "database";
+          if (target === "database") ensureSongesDatabaseReady();
+        }
+      });
+    });
+  }
+
+  function ensureSongesDatabaseReady() {
+    if (!elements.gridSonges || state.songesGridBuilt) return;
+    buildGridSonges();
+    state.songesGridBuilt = true;
+    render();
   }
 
   function handleHomeSearch(query) {
@@ -217,13 +242,27 @@
 
   async function loadAllData() {
     try {
-      if (elements.loading) elements.loading.style.display = "flex";
+      const isSongesPage = state.activeTab === "songes";
+      const needMobs = Boolean(elements.gridMobs)
+        || document.body.classList.contains("home-page")
+        || document.body.classList.contains("bestiaires-hub-page")
+        || Boolean(document.getElementById("count-mobs-badge"));
 
-      const [resAvis, resDonjons, resMobs] = await Promise.all([
+      if (elements.loading && !isSongesPage) elements.loading.style.display = "flex";
+      if (elements.loading && isSongesPage) elements.loading.style.display = "none";
+
+      const fetches = [
         fetch("data/avis.json"),
-        fetch("data/donjons.json"),
-        fetch("data/mobs.json").catch(() => null)
-      ]);
+        fetch("data/donjons.json")
+      ];
+      if (needMobs) {
+        fetches.push(fetch("data/mobs.json").catch(() => null));
+      }
+
+      const results = await Promise.all(fetches);
+      const resAvis = results[0];
+      const resDonjons = results[1];
+      const resMobs = needMobs ? results[2] : null;
 
       if (!resAvis.ok || !resDonjons.ok) {
         throw new Error("Erreur de chargement des fichiers de données JSON.");
@@ -236,12 +275,18 @@
       if (elements.countAvisBadge) elements.countAvisBadge.textContent = `${state.avisData.length} Avis`;
       if (elements.countDonjonsBadge) elements.countDonjonsBadge.textContent = `${state.donjonsData.length} Donjons`;
       if (elements.countMobsBadge) elements.countMobsBadge.textContent = `${state.mobsData.length} Mobs`;
+      if (document.getElementById("count-songes-tab")) {
+        document.getElementById("count-songes-tab").textContent = state.avisData.length + state.donjonsData.length;
+      }
 
       if (elements.loading) elements.loading.style.display = "none";
 
       if (elements.gridAvis) buildGridAvis();
       if (elements.gridDonjons) buildGridDonjons();
-      if (elements.gridSonges) buildGridSonges();
+      if (elements.gridSonges && !isSongesPage) {
+        buildGridSonges();
+        state.songesGridBuilt = true;
+      }
       if (elements.gridMobs) buildGridMobs();
       
       render();
