@@ -423,7 +423,7 @@
       card.innerHTML = `
         <div class="card-image-wrapper">
           ${getImageHtml(item.picture, item._displayName)}
-          <span class="badge badge-level">🌌 Songe Infini</span>
+          <span class="badge badge-zone" style="background: rgba(168, 85, 247, 0.25); color: #e9d5ff; border-color: rgba(168, 85, 247, 0.5);">🌌 Songe Infini</span>
           <div class="card-badges">
             ${typeBadge}
             ${item.has_invulnerable_state ? `<span class="badge badge-invulnerable">🛡️ Invulnérable</span>` : ""}
@@ -442,7 +442,7 @@
             <button class="btn-action btn-copy" title="Copier le nom">
               📋 Copier
             </button>
-            <a href="detail.html?type=${item._type}&slug=${item.slug}" class="btn-action btn-detail">
+            <a href="detail.html?type=${item._type}&slug=${item.slug}" class="btn-action btn-detail" style="background: linear-gradient(135deg, #a855f7, #7e22ce); border: none; color: #fff;">
               Stratégie Songe →
             </a>
           </div>
