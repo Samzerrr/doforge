@@ -1,37 +1,39 @@
-/* === DOFUS MOBS - Style Sheet === */
+/* === DOFORGE - Molten Forge Style Sheet === */
 :root {
-  /* Clean Dofus Theme - Slate Navy & Gold Accent (No Purple) */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --bg-card: #182234;
-  --bg-card-hover: #223048;
+  /* Forge Obsidian & Slate Theme */
+  --bg-primary: #0a0d14;
+  --bg-secondary: #121622;
+  --bg-tertiary: #1b2132;
+  --bg-card: #111520;
+  --bg-card-hover: #181d2c;
 
-  /* Accent Colors - Dofus Gold & Cyan */
-  --accent-primary: #f59e0b;
-  --accent-hover: #d97706;
-  --accent-subtle: rgba(245, 158, 11, 0.12);
+  /* Accent Colors - Molten Gold & Fire Lava Orange */
+  --accent-primary: #ff9e00;
+  --accent-hover: #ff6000;
+  --accent-subtle: rgba(255, 158, 0, 0.15);
+  --accent-glow: rgba(255, 110, 0, 0.35);
 
   /* Semantic Colors */
   --color-danger: #ef4444;
-  --color-danger-bg: rgba(239, 68, 68, 0.12);
+  --color-danger-bg: rgba(239, 68, 68, 0.15);
   --color-success: #10b981;
-  --color-success-bg: rgba(16, 185, 129, 0.12);
+  --color-success-bg: rgba(16, 185, 129, 0.15);
   --color-warning: #f59e0b;
-  --color-warning-bg: rgba(245, 158, 11, 0.12);
+  --color-warning-bg: rgba(245, 158, 11, 0.15);
   --color-cyan: #06b6d4;
-  --color-cyan-bg: rgba(6, 182, 212, 0.12);
+  --color-cyan-bg: rgba(6, 182, 212, 0.15);
 
   /* Text Colors */
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
-  --text-accent: #fbbf24;
+  --text-accent: #ffb703;
 
-  /* Borders */
-  --border-subtle: #29384e;
-  --border-light: #3d506d;
-  --border-accent: #f59e0b;
+  /* Forge Glowing Borders */
+  --border-subtle: #212839;
+  --border-light: #323d57;
+  --border-accent: #ff9e00;
+  --border-forge: rgba(255, 140, 0, 0.4);
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -48,8 +50,8 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.3);
-  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 8px 30px rgba(255, 100, 0, 0.22);
 
   /* Typography */
   --font-display: 'Rowdies', cursive, system-ui;
@@ -108,8 +110,10 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #151d2a;
-  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(10, 13, 20, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-forge);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 1px 15px rgba(255, 100, 0, 0.1);
   padding: 14px 0;
 }
 
@@ -130,22 +134,32 @@ a:hover {
 }
 
 .logo-icon {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: var(--radius-sm);
-  background: var(--accent-primary);
+  background: linear-gradient(135deg, #ffb703, #ff5400);
+  box-shadow: 0 0 16px rgba(255, 120, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
-  color: #0f172a;
+}
+
+.logo-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
 }
 
 .logo-text {
   font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   color: var(--text-primary);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
+}
+
+.logo-highlight {
+  color: #ff6000;
+  text-shadow: 0 0 12px rgba(255, 96, 0, 0.6);
 }
 
 .header-nav {
@@ -168,10 +182,16 @@ a:hover {
   background: var(--bg-tertiary);
 }
 
+.nav-link:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
 .nav-link.active {
-  color: #0f172a;
-  background: var(--accent-primary);
-  font-weight: 600;
+  color: #0a0d14;
+  background: linear-gradient(135deg, #ff9e00, #ff5400);
+  box-shadow: 0 0 14px rgba(255, 120, 0, 0.4);
+  font-weight: 700;
 }
 
 /* ===== HERO SECTION ===== */
@@ -182,14 +202,16 @@ a:hover {
 
 .hero-badge {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 4px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 5px 18px;
   border-radius: var(--radius-full);
-  background: var(--accent-subtle);
-  color: var(--text-accent);
-  border: 1px solid rgba(245, 158, 11, 0.25);
+  background: rgba(255, 140, 0, 0.12);
+  color: #ffb703;
+  border: 1px solid rgba(255, 140, 0, 0.4);
+  box-shadow: 0 0 15px rgba(255, 100, 0, 0.2);
   margin-bottom: var(--space-md);
+  letter-spacing: 0.5px;
 }
 
 .hero-title {
@@ -198,17 +220,16 @@ a:hover {
   color: var(--text-primary);
   margin-bottom: var(--space-sm);
   letter-spacing: -0.5px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subtitle {
   font-size: 1.05rem;
   color: var(--text-secondary);
   max-width: 620px;
-  margin: 0 auto var(--space-md);
+  margin: 0 auto var(--space-lg);
   font-weight: 300;
 }
-
-
 
 /* ===== TABS ===== */
 .tabs-container {
@@ -229,30 +250,33 @@ a:hover {
   background: var(--bg-secondary);
   color: var(--text-secondary);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
 .tab-btn:hover {
-  border-color: var(--border-light);
+  border-color: var(--border-forge);
   color: var(--text-primary);
   background: var(--bg-tertiary);
+  box-shadow: 0 0 12px rgba(255, 100, 0, 0.15);
 }
 
 .tab-btn.active {
-  border-color: var(--accent-primary);
-  background: var(--accent-primary);
-  color: #0f172a;
+  border-color: #ff9e00;
+  background: linear-gradient(135deg, #ff9e00, #ff5400);
+  color: #0a0d14;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(255, 100, 0, 0.45);
 }
 
 .tab-btn .tab-count {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.28);
   padding: 2px 8px;
   border-radius: var(--radius-full);
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* ===== CONTROLS SECTION ===== */
@@ -309,6 +333,20 @@ a:hover {
   margin-bottom: var(--space-sm);
 }
 
+.search-input:focus {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 16px rgba(255, 140, 0, 0.35);
+}
+
+/* Filter Pills */
+.filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: var(--space-sm);
+}
+
 .filter-pill {
   font-family: var(--font-body);
   font-size: 0.82rem;
@@ -319,21 +357,22 @@ a:hover {
   background: var(--bg-secondary);
   color: var(--text-muted);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.2s ease;
   white-space: nowrap;
 }
 
 .filter-pill:hover {
-  border-color: var(--border-light);
+  border-color: var(--border-forge);
   color: var(--text-primary);
   background: var(--bg-tertiary);
 }
 
 .filter-pill.active {
-  border-color: var(--accent-primary);
-  background: var(--accent-subtle);
-  color: var(--text-accent);
-  font-weight: 600;
+  border-color: #ff9e00;
+  background: rgba(255, 158, 0, 0.18);
+  color: #ffb703;
+  font-weight: 700;
+  box-shadow: 0 0 12px rgba(255, 140, 0, 0.25);
 }
 
 .filter-pill.pill-green.active {
@@ -376,18 +415,16 @@ a:hover {
   border: 1px solid var(--border-subtle);
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
 }
 
-
-
 .mob-card:hover {
   transform: translateY(-4px);
-  border-color: var(--border-light);
+  border-color: var(--border-forge);
   background: var(--bg-card-hover);
-  box-shadow: var(--shadow-hover);
+  box-shadow: 0 8px 30px rgba(255, 100, 0, 0.22);
 }
 
 .mob-card.hidden {

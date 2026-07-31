@@ -91,7 +91,7 @@
     elements.detailContent.style.display = "block";
 
     const itemName = type === "donjon" ? (item.boss_name || item.name) : item.name;
-    document.title = `${itemName} - Fiche Monstre | Dofus Mobs`;
+    document.title = `${itemName} - Fiche Monstre | DOFORGE`;
 
     // Monster Icon / Image
     if (item.picture) {
