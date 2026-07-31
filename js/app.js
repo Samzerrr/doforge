@@ -673,10 +673,15 @@
           </div>
           <div class="card-footer" style="margin-top: 12px;">
             <button class="btn-action btn-copy" title="Copier le nom">📋 Copier</button>
-            <a href="detail.html?type=equipment&id=${item.ankama_id}" class="btn-action btn-detail" style="background: linear-gradient(135deg, #06b6d4, #0284c7); color:#fff; border:none;">Détails →</a>
+            <a href="detail.html?type=equipment&id=${item.ankama_id}&slug=${item.slug}" class="btn-action btn-detail" style="background: linear-gradient(135deg, #06b6d4, #0284c7); color:#fff; border:none;">Détails →</a>
           </div>
         </div>
       `;
+
+      card.addEventListener("click", (e) => {
+        if (e.target.closest(".btn-action")) return;
+        window.location.href = `detail.html?type=equipment&id=${item.ankama_id}&slug=${item.slug}`;
+      });
 
       card.querySelector(".btn-copy").addEventListener("click", (e) => {
         e.stopPropagation();

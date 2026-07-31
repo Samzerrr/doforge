@@ -42,13 +42,14 @@
     const urlParams = new URLSearchParams(window.location.search);
     const type = urlParams.get("type");
     const slug = urlParams.get("slug");
+    const id = urlParams.get("id");
 
-    if (!type || !slug) {
+    if (!type || (!slug && !id)) {
       showError("Paramètres invalides dans l'URL.");
       return;
     }
 
-    await loadDetail(type, slug);
+    await loadDetail(type, slug || id);
   });
 
   function normalizeText(str) {
