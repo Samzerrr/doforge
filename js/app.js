@@ -11,6 +11,7 @@
     equipmentCat: "all",
     equipmentLevel: "all",
     equipmentStat: null,
+    buildsClassFilter: "all",
     searchQuery: "",
     avisData: [],
     donjonsData: [],
@@ -163,7 +164,7 @@
       });
     }
 
-    // Songes Sub-panel Toggle (Séparation Guide & Banque de données)
+    // Songes Sub-panel Toggle (Guide / Banque boss)
     const songesSubNavBtns = document.querySelectorAll("[data-songes-panel]");
     const panelGuide = document.getElementById("panel-songes-guide");
     const panelDb = document.getElementById("panel-songes-database");
@@ -343,6 +344,27 @@
     return `<div class="card-mob-icon">${getRandomIcon(name)}</div>`;
   }
 
+  function getCardStrategyHTML(item) {
+    if (!item || !item.explanation || !item.explanation.trim()) return "";
+    const lines = item.explanation.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+    // Prefer lines with bullet points or key icons
+    const keyLines = lines.filter(l =>
+      l.startsWith("•") || l.startsWith("-") || l.startsWith("💡") || l.startsWith("⚠️") || l.startsWith("🛡️") || l.startsWith("☠️")
+    );
+    const preview = (keyLines.length > 0 ? keyLines : lines).slice(0, 3).map(l => escapeHtml(l)).join("<br>");
+    const title = item.has_invulnerable_state
+      ? "🔓 Déblocage Invulnérabilité"
+      : item.has_os_mechanic
+      ? "☠️ Stratégie One-Shot"
+      : "💡 Stratégie & Conseils";
+    return `
+      <div class="card-delock-box">
+        <div class="card-delock-title"><span>${title}</span></div>
+        <div class="card-delock-text">${preview}</div>
+      </div>
+    `;
+  }
+
   function buildGridAvis() {
     if (!elements.gridAvis) return;
     elements.gridAvis.innerHTML = "";
@@ -375,6 +397,7 @@
             <div class="card-subtitle">
               <span class="icon">🗺️</span> ${item.title || zoneBadge}
             </div>
+            ${getCardStrategyHTML(item)}
           </div>
 
           <div class="card-footer">
@@ -389,6 +412,8 @@
       `;
 
       card.addEventListener("click", (e) => {
+        sessionStorage.setItem("last_detail_type", "avis");
+        sessionStorage.setItem("last_detail_slug", item.slug);
         if (e.target.closest(".btn-action")) return;
         window.location.href = `detail.html?type=avis&slug=${item.slug}`;
       });
@@ -435,6 +460,7 @@
             <div class="card-subtitle">
               <span class="icon">🏰</span> ${item.name}
             </div>
+            ${getCardStrategyHTML(item)}
           </div>
 
           <div class="card-footer">
@@ -449,6 +475,8 @@
       `;
 
       card.addEventListener("click", (e) => {
+        sessionStorage.setItem("last_detail_type", "donjon");
+        sessionStorage.setItem("last_detail_slug", item.slug);
         if (e.target.closest(".btn-action")) return;
         window.location.href = `detail.html?type=donjon&slug=${item.slug}`;
       });

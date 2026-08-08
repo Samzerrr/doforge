@@ -1780,5 +1780,579 @@ a:hover {
   color: var(--text-primary);
 }
 
+/* ===== AUTHENTIC DOFUSBOOK LAYOUT STYLING ===== */
+.songes-builds-panel { padding-bottom: var(--space-2xl); }
+
+.builds-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.dofusbook-container {
+  background: #24262b;
+  border: 1px solid #363940;
+  border-radius: var(--radius-md);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  color: #d1d5db;
+  font-family: var(--font-sans);
+}
+
+/* Header */
+.db-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-xl);
+  background: #1c1d21;
+  border-bottom: 1px solid #32353c;
+}
+.db-header-left { display: flex; align-items: center; gap: var(--space-md); }
+.db-class-avatar {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-primary);
+  background: #111827;
+  object-fit: cover;
+}
+.db-build-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #f3f4f6;
+  margin: 0;
+}
+.db-build-sub {
+  font-size: 0.8rem;
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.db-element-badge {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Main 3-Column Layout */
+.db-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr 320px;
+  gap: 12px;
+  padding: 12px;
+  background: #24262b;
+}
+
+/* Common Box Style */
+.db-box {
+  background: #1e2024;
+  border: 1px solid #31343b;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.db-box-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #f59e0b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+/* --- LEFT COLUMN: STATS --- */
+.db-col-left { display: flex; flex-direction: column; gap: 10px; }
+
+.db-primary-chips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  font-size: 0.75rem;
+}
+.db-chip {
+  background: #18191c;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #2a2c32;
+  color: #9ca3af;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.db-chip strong { color: #f3f4f6; }
+
+/* Stats Table (Base / Parcho / Total) */
+.db-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+.db-stats-table th {
+  color: #9ca3af;
+  font-weight: 500;
+  text-align: right;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #2d3037;
+}
+.db-stats-table td {
+  padding: 4px 2px;
+  text-align: right;
+}
+.db-stats-table tr:not(:last-child) td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+.db-stat-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-align: left;
+  font-weight: 600;
+}
+.db-stat-icon { width: 16px; height: 16px; object-fit: contain; }
+.db-stat-total { color: #f3f4f6; font-weight: 700; }
+.db-stat-extra { color: #6b7280; font-size: 0.7rem; }
+
+/* Secondary Stats Grid */
+.db-secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  font-size: 0.73rem;
+}
+.db-sec-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #18191c;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+.db-sec-item strong { color: #f3f4f6; }
+
+/* --- CENTER COLUMN: PAPERDOLL --- */
+.db-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #1b1c20;
+  border: 1px solid #2d3037;
+  border-radius: 6px;
+  padding: 12px 8px;
+  position: relative;
+}
+
+/* Vitals Top Badges */
+.db-vitals-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.db-vital-heart {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 2px solid #f87171;
+  box-shadow: 0 0 12px rgba(220, 38, 38, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.db-badge-pa {
+  background: #1e3a8a; color: #93c5fd; border: 1px solid #3b82f6;
+  font-weight: 800; font-size: 0.85rem; padding: 4px 8px; border-radius: 6px;
+}
+.db-badge-pm {
+  background: #065f46; color: #6ee7b7; border: 1px solid #10b981;
+  font-weight: 800; font-size: 0.85rem; padding: 4px 8px; border-radius: 6px;
+}
+.db-badge-po {
+  background: #78350f; color: #fde047; border: 1px solid #f59e0b;
+  font-weight: 800; font-size: 0.85rem; padding: 4px 8px; border-radius: 6px;
+}
+.db-badge-invoc {
+  background: #581c87; color: #e9d5ff; border: 1px solid #a855f7;
+  font-weight: 800; font-size: 0.85rem; padding: 4px 8px; border-radius: 6px;
+}
+
+/* Paperdoll Stage */
+.db-paperdoll-stage {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0;
+  min-height: 320px;
+  background: #1a1b1f;
+  border-radius: 10px;
+  padding: 16px 10px;
+  border: 1px solid #2a2c32;
+}
+.db-slots-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.db-character-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 280px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* Class symbol emblem as faded watermark behind character */
+.db-character-bg-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  opacity: 0.12;
+  pointer-events: none;
+  filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.3)) grayscale(0.3);
+  z-index: 1;
+  object-fit: contain;
+}
+/* Full character artwork in center, prominent */
+.db-character-sprite {
+  position: relative;
+  z-index: 2;
+  max-height: 260px;
+  max-width: 90%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 8px rgba(245, 158, 11, 0.15));
+}
+
+/* Slot Square Frame */
+.db-slot-frame {
+  width: 54px; height: 54px;
+  background: #111215;
+  border: 1px solid #383b43;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+.db-slot-frame:hover {
+  border-color: #f59e0b;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
+}
+.db-slot-icon {
+  width: 46px; height: 46px;
+  object-fit: contain;
+}
+.db-slot-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.db-slot-frame:hover .db-slot-tooltip { opacity: 1; }
+
+/* Dofus / Trophy Bottom Row */
+.db-dofus-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding-top: 8px;
+  border-top: 1px solid #2d3037;
+}
+
+/* --- RIGHT COLUMN: RESISTANCES & SET BONUSES --- */
+.db-col-right { display: flex; flex-direction: column; gap: 10px; }
+
+/* Resistances Table */
+.db-res-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.db-res-table th {
+  padding-bottom: 4px;
+  color: #9ca3af;
+  font-weight: 600;
+  border-bottom: 1px solid #2d3037;
+}
+.db-res-table td {
+  padding: 3px 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+.db-res-row-name { text-align: left; font-weight: 600; color: #9ca3af; }
+
+/* Set Bonuses Box */
+.db-panoplie-list {
+  display: flex; flex-direction: column; gap: 6px; font-size: 0.74rem;
+}
+.db-panoplie-item {
+  background: #18191c;
+  border: 1px solid #2a2c32;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+.db-panoplie-name {
+  font-weight: 700;
+  color: #84cc16;
+  margin-bottom: 3px;
+}
+.db-panoplie-bonuses {
+  color: #9ca3af;
+  line-height: 1.4;
+}
+
+/* Role description note */
+.db-role-note {
+  font-size: 0.78rem;
+  color: #d1d5db;
+  line-height: 1.45;
+  font-style: italic;
+  background: rgba(245, 158, 11, 0.05);
+  border-left: 3px solid #f59e0b;
+  padding: 6px 10px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Responsive adjustment */
+@media (max-width: 1024px) {
+  .db-layout { grid-template-columns: 1fr; }
+}
+
+/* ===== STRATÉGIE & DÉBLOCAGE INVULNÉRABILITÉ STYLES ===== */
+.card-delock-box {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #fef08a;
+  line-height: 1.45;
+}
+.card-delock-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  color: #f59e0b;
+  font-size: 0.82rem;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.card-delock-text {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Detail Page Strategy Delock Box */
+.detail-delock-banner {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 2px solid var(--accent-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg) var(--space-xl);
+  margin-bottom: var(--space-xl);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.15);
+}
+.detail-delock-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.detail-delock-icon {
+  font-size: 1.8rem;
+}
+.detail-delock-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.detail-delock-body {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.65;
+}
+.delock-step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+.delock-step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--accent-primary);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+.delock-step-invuln {
+  border-left-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+.delock-step-danger {
+  border-left-color: #ef4444;
+  background: rgba(239, 68, 68, 0.08);
+  color: #fca5a5;
+}
+/* Equipment Detail Modal for Builds */
+.item-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(8, 9, 12, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.item-modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.item-modal-box {
+  background: #141519;
+  border: 2px solid #f59e0b;
+  border-radius: 14px;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 30px rgba(245, 158, 11, 0.2);
+  padding: 24px;
+  position: relative;
+  transform: translateY(20px);
+  transition: transform 0.25s ease;
+}
+.item-modal-overlay.active .item-modal-box {
+  transform: translateY(0);
+}
+.item-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #2a2d36;
+  margin-bottom: 16px;
+}
+.item-modal-img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  background: #0f1013;
+  border-radius: 10px;
+  padding: 6px;
+  border: 1px solid #383b45;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+}
+.item-modal-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fef08a;
+  margin-bottom: 4px;
+}
+.item-modal-sub {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.item-modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+.item-modal-close-btn:hover {
+  color: #ef4444;
+}
+.item-modal-effects {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 280px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-right: 4px;
+}
+.item-effect-pill {
+  background: #1c1e24;
+  border-left: 4px solid #f59e0b;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.item-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+
+
+
 
 

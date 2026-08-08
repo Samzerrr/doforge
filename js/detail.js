@@ -39,13 +39,20 @@
   }
 
   document.addEventListener("DOMContentLoaded", async () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const type = urlParams.get("type");
-    const slug = urlParams.get("slug");
-    const id = urlParams.get("id");
+    let urlParams = new URLSearchParams(window.location.search);
+    let type = urlParams.get("type");
+    let slug = urlParams.get("slug");
+    let id = urlParams.get("id");
+
+    // Fallback recovery if clean URLs stripped query parameters
+    if (!type && sessionStorage.getItem("last_detail_type")) {
+      type = sessionStorage.getItem("last_detail_type");
+      slug = sessionStorage.getItem("last_detail_slug");
+      id = sessionStorage.getItem("last_detail_id");
+    }
 
     if (!type || (!slug && !id)) {
-      showError("Paramètres invalides dans l'URL.");
+      showError("Paramètres invalides dans l'URL. Veuillez repasser par la liste ou cliquer sur une fiche.");
       return;
     }
 
@@ -241,14 +248,27 @@
 
     elements.mobBadges.innerHTML = badgesHtml;
 
-    // 1. Invulnerability Alert
+    // 1. Invulnerability Alert & Delock Strategy Banner
     if (item.has_invulnerable_state) {
       elements.invulnerableSection.style.display = "block";
-      if (item.explanation && item.explanation.trim()) {
-        elements.invulnerableText.innerHTML = formatRichText(item.explanation);
-      } else {
-        elements.invulnerableText.textContent = "Ce monstre est invulnérable en début de combat. Suivez les étapes de combat pour lever son immunité.";
-      }
+      const explanationText = item.explanation && item.explanation.trim()
+        ? item.explanation
+        : "Ce monstre commence le combat avec l'état Invulnérable. Suivez la mécanique tactique ci-dessous pour retirer son immunité.";
+
+      elements.invulnerableSection.innerHTML = `
+        <div class="detail-delock-banner">
+          <div class="detail-delock-header">
+            <span class="detail-delock-icon">🔓</span>
+            <div>
+              <h3 class="detail-delock-title">Stratégie & Déblocage d'Invulnérabilité</h3>
+              <p style="font-size: 0.82rem; color: var(--text-secondary); margin: 0;">Mécanique pour lever l'état Invulnérable du monstre</p>
+            </div>
+          </div>
+          <div class="detail-delock-body">
+            ${formatStrategyText(explanationText)}
+          </div>
+        </div>
+      `;
     } else {
       elements.invulnerableSection.style.display = "none";
     }
@@ -259,7 +279,7 @@
       osSection.style.display = item.has_os_mechanic ? "block" : "none";
     }
 
-    // 2. Explanation / Strategy Section
+    // 2. Explanation / Strategy Section — show for ALL bosses and avis
     if (type === "mob") {
       elements.explanationSection.style.display = "block";
       const headerTitle = elements.explanationSection.querySelector(".section-title");
@@ -273,9 +293,12 @@
         `- **Points d'Action (PA)** : ${item.pa}\n` +
         `- **Points de Mouvement (PM)** : ${item.pm}`
       );
-    } else if (item.explanation && item.explanation.trim()) {
+    } else if (item.explanation && item.explanation.trim() && !item.has_invulnerable_state) {
+      // Non-invulnerable bosses/avis: show strategy with a combat banner
       elements.explanationSection.style.display = "block";
-      elements.explanationContent.innerHTML = formatRichText(item.explanation);
+      const headerTitle = elements.explanationSection.querySelector(".section-title");
+      if (headerTitle) headerTitle.innerHTML = "⚔️ Stratégie de Combat";
+      elements.explanationContent.innerHTML = formatStrategyText(item.explanation);
     } else {
       elements.explanationSection.style.display = "none";
     }
@@ -391,6 +414,23 @@
       } catch (e) { /* fallthrough */ }
     }
     return text.replace(/\n/g, "<br>");
+  }
+
+  function formatStrategyText(text) {
+    if (!text) return "";
+    const lines = text.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+    return '<div class="delock-step-list">' + lines.map(line => {
+      let cls = "delock-step-item";
+      let icon = "🔹";
+      if (/DÉBLOCAGE|Invulnérable|🛡️|🔓|invulnérab/i.test(line)) {
+        cls += " delock-step-invuln"; icon = "🔓";
+      } else if (/ATTENTION|ONE.?SHOT|⚠️|☠️|DANGER|OS |mort/i.test(line)) {
+        cls += " delock-step-danger"; icon = "⚠️";
+      } else if (/Stratégie|💡|Conseil|Astuce|Évitez|Privilégiez/i.test(line)) {
+        cls += " delock-step-tip"; icon = "💡";
+      }
+      return `<div class="${cls}"><span>${icon}</span><div>${line}</div></div>`;
+    }).join("") + '</div>';
   }
 
   function showError(msg) {

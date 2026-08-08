@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "pandawa-tank-songes",
+    "class_name": "Pandawa",
+    "class_key": "pandawa",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_12.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_12.png",
+    "build_name": "Pandawa Tank / Placement Unbreakable",
+    "element": "Tank / Tacle 185 / Res 50% All",
+    "level": 200,
+    "primary_stats": {
+      "critique": "15%",
+      "prospection": "120",
+      "initiative": "3200",
+      "puissance": "80",
+      "soins": "0"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 490,
+        "parcho": 100,
+        "total": "5 850"
+      },
+      "sagesse": {
+        "base": 0,
+        "parcho": 100,
+        "total": "180 (340)"
+      },
+      "chance": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "force": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "intelligence": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "agilite": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 45,
+      "retrait_pa": 20,
+      "esquive_pm": 55,
+      "retrait_pm": 20,
+      "fuite": 25,
+      "tacle": 185,
+      "pods": "9 500"
+    },
+    "vitals": {
+      "vitalite": 5850,
+      "pa": 12,
+      "pm": 6,
+      "po": 4,
+      "invoc": 2
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 15,
+        "res_fixe": 35,
+        "res_pct": "50%"
+      },
+      "terre": {
+        "do": 15,
+        "res_fixe": 40,
+        "res_pct": "50%"
+      },
+      "feu": {
+        "do": 15,
+        "res_fixe": 30,
+        "res_pct": "50%"
+      },
+      "eau": {
+        "do": 15,
+        "res_fixe": 35,
+        "res_pct": "50%"
+      },
+      "air": {
+        "do": 15,
+        "res_fixe": 35,
+        "res_pct": "50%"
+      },
+      "res_melee": "15%",
+      "res_distance": "12%",
+      "res_crit": 45,
+      "res_pou": 60
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Dionisdin (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+100 Vitalité",
+          "+40 Tacle",
+          "+15% Résistance Eau",
+          "+10% Résistance Terre"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette de Dionisdin",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/20560-200.png"
+      },
+      "anneau1": {
+        "name": "Alliance",
+        "icon": "https://api.dofusdb.fr/img/items/9027.png"
+      },
+      "anneau2": {
+        "name": "Anneau Volkorne",
+        "icon": "https://api.dofusdb.fr/img/items/10334.png"
+      },
+      "arme": {
+        "name": "Hache du Korriandre",
+        "icon": "https://api.dofusdb.fr/img/items/19061.png"
+      },
+      "chapeau": {
+        "name": "Coiffe du Minotoboule",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/11883-200.png"
+      },
+      "cape": {
+        "name": "Cape de Dionisdin",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/20562-200.png"
+      },
+      "ceinture": {
+        "name": "Ceintacé",
+        "icon": "https://api.dofusdb.fr/img/items/10281.png"
+      },
+      "bottes": {
+        "name": "Bottes de Dionisdin",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/20563-200.png"
+      },
+      "bouclier": {
+        "name": "Bouclier du Strikere",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/22210-200.png"
+      },
+      "familier": {
+        "name": "Pikachu / Cadran Xélor",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/22206-200.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Ivoire",
+        "effect": "-15% dommages subis",
+        "icon": "https://api.dofusdb.fr/img/items/23011.png"
+      },
+      {
+        "name": "Dofus Abyssal",
+        "effect": "+1 PA / +1 PM",
+        "icon": "https://api.dofusdb.fr/img/items/23023.png"
+      },
+      {
+        "name": "Dofus Tacheté",
+        "effect": "+Bouclier à chaque tour",
+        "icon": "https://api.dofusdb.fr/img/items/23008.png"
+      },
+      {
+        "name": "Dofus Émeraude",
+        "effect": "+Bouclier au CàC",
+        "icon": "https://api.dofusdb.fr/img/items/23002.png"
+      },
+      {
+        "name": "Tacleur majeur",
+        "effect": "+32 Tacle",
+        "icon": "https://api.dofusdb.fr/img/items/151081.png"
+      },
+      {
+        "name": "Trompe-la-Mort",
+        "effect": "+160 Vitalité",
+        "icon": "https://api.dofusdb.fr/img/items/82211.png"
+      }
+    ],
+    "role_description": "Pillar incontournable des Songes Infinis : Kiting, portage et blocage des boss avec 185 Tacle et 50% de résistances dans tous les éléments."
+  },
+  {
+    "id": "forgelance-eau-songes",
+    "class_name": "Forgelance",
+    "class_key": "forgelance",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_20.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_20.png",
+    "build_name": "Forgelance Eau / Do Pou / Shield Zone",
+    "element": "Eau / Dommages Poussée / Shield",
+    "level": 200,
+    "primary_stats": {
+      "critique": "38%",
+      "prospection": "210",
+      "initiative": "2800",
+      "puissance": "320",
+      "soins": "0"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 390,
+        "parcho": 100,
+        "total": "4 900"
+      },
+      "sagesse": {
+        "base": 0,
+        "parcho": 100,
+        "total": "180"
+      },
+      "chance": {
+        "base": 300,
+        "parcho": 100,
+        "total": "1 150 (1 310)"
+      },
+      "force": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "intelligence": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "agilite": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 42,
+      "retrait_pa": 18,
+      "esquive_pm": 48,
+      "retrait_pm": 22,
+      "fuite": 65,
+      "tacle": 30,
+      "pods": "8 200"
+    },
+    "vitals": {
+      "vitalite": 4900,
+      "pa": 12,
+      "pm": 6,
+      "po": 5,
+      "invoc": 3
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 35,
+        "res_fixe": 10,
+        "res_pct": "20%"
+      },
+      "terre": {
+        "do": 35,
+        "res_fixe": 10,
+        "res_pct": "22%"
+      },
+      "feu": {
+        "do": 35,
+        "res_fixe": 10,
+        "res_pct": "25%"
+      },
+      "eau": {
+        "do": 145,
+        "res_fixe": 20,
+        "res_pct": "30%"
+      },
+      "air": {
+        "do": 35,
+        "res_fixe": 10,
+        "res_pct": "18%"
+      },
+      "res_melee": "10%",
+      "res_distance": "15%",
+      "res_crit": 30,
+      "res_pou": 180
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Wulan (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+100 Chance",
+          "+40 Dommages Eau",
+          "+20 Dommages Poussée",
+          "+10% Crit"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/1317.png"
+      },
+      "anneau1": {
+        "name": "Amulette de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/1317.png"
+      },
+      "anneau2": {
+        "name": "Pendentif mignon de Koutoulou",
+        "icon": "https://api.dofusdb.fr/img/items/1283.png"
+      },
+      "arme": {
+        "name": "Lance de Wulan",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/24031-200.png"
+      },
+      "chapeau": {
+        "name": "Diadème de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/16643.png"
+      },
+      "cape": {
+        "name": "Diadème de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/16643.png"
+      },
+      "ceinture": {
+        "name": "Ceinture Volkorne",
+        "icon": "https://api.dofusdb.fr/img/items/10333.png"
+      },
+      "bottes": {
+        "name": "Bottes du Sinistrofu",
+        "icon": "https://api.dofusdb.fr/img/items/11239.png"
+      },
+      "bouclier": {
+        "name": "Cadran d'Eau",
+        "icon": "https://api.dofusdb.fr/img/items/82025.png"
+      },
+      "familier": {
+        "name": "Bouloute du Parrain",
+        "icon": "https://api.dofusdb.fr/img/items/18046.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Turquoise",
+        "effect": "+10% Crit / Doms",
+        "icon": "https://api.dofusdb.fr/img/items/23003.png"
+      },
+      {
+        "name": "Dofus des Glaces",
+        "effect": "+25 Doms Fixes",
+        "icon": "https://api.dofusdb.fr/img/items/23005.png"
+      },
+      {
+        "name": "Dofus Abyssal",
+        "effect": "+1 PA / +1 PM",
+        "icon": "https://api.dofusdb.fr/img/items/23023.png"
+      },
+      {
+        "name": "Dofus Pourpre",
+        "effect": "+80 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/23001.png"
+      },
+      {
+        "name": "Pousseur majeur",
+        "effect": "+128 Doms Poussée",
+        "icon": "https://api.dofusdb.fr/img/items/151027.png"
+      },
+      {
+        "name": "Joueur majeur",
+        "effect": "+100 Chance",
+        "icon": "https://api.dofusdb.fr/img/items/151045.png"
+      }
+    ],
+    "role_description": "Excellente synergie de groupe avec la Lance Plante et le sort de Shield de zone. Inflige d'immenses dégâts d'érosion et de poussée tout en protégeant l'équipe."
+  },
+  {
+    "id": "enutrof-eau-retrait-songes",
+    "class_name": "Enutrof",
+    "class_key": "enutrof",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_3.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_3.png",
+    "build_name": "Enutrof Eau / Retrait PM Ultimate",
+    "element": "Eau / Retrait PM -170",
+    "level": 200,
+    "primary_stats": {
+      "critique": "25%",
+      "prospection": "310",
+      "initiative": "2900",
+      "puissance": "210",
+      "soins": "15"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 390,
+        "parcho": 100,
+        "total": "4 650"
+      },
+      "sagesse": {
+        "base": 300,
+        "parcho": 100,
+        "total": "580"
+      },
+      "chance": {
+        "base": 200,
+        "parcho": 100,
+        "total": "1 050 (1 200)"
+      },
+      "force": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "intelligence": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "agilite": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 38,
+      "retrait_pa": 25,
+      "esquive_pm": 62,
+      "retrait_pm": 168,
+      "fuite": 45,
+      "tacle": 15,
+      "pods": "8 000"
+    },
+    "vitals": {
+      "vitalite": 4650,
+      "pa": 12,
+      "pm": 6,
+      "po": 6,
+      "invoc": 4
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 20,
+        "res_fixe": 12,
+        "res_pct": "15%"
+      },
+      "terre": {
+        "do": 20,
+        "res_fixe": 12,
+        "res_pct": "18%"
+      },
+      "feu": {
+        "do": 20,
+        "res_fixe": 12,
+        "res_pct": "20%"
+      },
+      "eau": {
+        "do": 125,
+        "res_fixe": 25,
+        "res_pct": "28%"
+      },
+      "air": {
+        "do": 20,
+        "res_fixe": 12,
+        "res_pct": "15%"
+      },
+      "res_melee": "8%",
+      "res_distance": "18%",
+      "res_crit": 20,
+      "res_pou": 30
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie du Valet Veine (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+30 Retrait PM",
+          "+70 Chance",
+          "+15 Dommages Eau"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Collier du Valet Veinard",
+        "icon": "https://api.dofusdb.fr/img/items/1278.png"
+      },
+      "anneau1": {
+        "name": "Gant du Valet Veinard",
+        "icon": "https://api.dofusdb.fr/img/items/9314.png"
+      },
+      "anneau2": {
+        "name": "Alliance Gloursonne",
+        "icon": "https://api.dofusdb.fr/img/items/9229.png"
+      },
+      "arme": {
+        "name": "Pelle de la Cour Sombre",
+        "icon": "https://api.dofusdb.fr/img/items/8076.png"
+      },
+      "chapeau": {
+        "name": "Coiffe du Minotot",
+        "icon": "https://api.dofusdb.fr/img/items/16151.png"
+      },
+      "cape": {
+        "name": "Cape Souveraine du Roissingue",
+        "icon": "https://api.dofusdb.fr/img/items/17143.png"
+      },
+      "ceinture": {
+        "name": "Gant du Valet Veinard",
+        "icon": "https://api.dofusdb.fr/img/items/9314.png"
+      },
+      "bottes": {
+        "name": "Gant du Valet Veinard",
+        "icon": "https://api.dofusdb.fr/img/items/9314.png"
+      },
+      "bouclier": {
+        "name": "Cadran d'Eau",
+        "icon": "https://api.dofusdb.fr/img/items/82025.png"
+      },
+      "familier": {
+        "name": "Volkorne Prune & d'Or",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/21415-200.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Vulbis",
+        "effect": "+1 PM et 10% dégâts",
+        "icon": "https://api.dofusdb.fr/img/items/23004.png"
+      },
+      {
+        "name": "Dofus Abyssal",
+        "effect": "+1 PA / +1 PM",
+        "icon": "https://api.dofusdb.fr/img/items/23023.png"
+      },
+      {
+        "name": "Entraveur majeur",
+        "effect": "+32 Retrait PM",
+        "icon": "https://api.dofusdb.fr/img/items/151123.png"
+      },
+      {
+        "name": "Engourdisseur majeur",
+        "effect": "+16 Retrait PM",
+        "icon": "https://api.dofusdb.fr/img/items/151024.png"
+      },
+      {
+        "name": "Joueur majeur",
+        "effect": "+100 Chance",
+        "icon": "https://api.dofusdb.fr/img/items/151045.png"
+      },
+      {
+        "name": "Dofus des Glaces",
+        "effect": "+25 Doms Fixes",
+        "icon": "https://api.dofusdb.fr/img/items/23005.png"
+      }
+    ],
+    "role_description": "Maintient tous les monstres et boss de la salle à 0 PM à très longue distance. Clé absolue des runs Paradoxe et Cauchemar haut étage."
+  },
+  {
+    "id": "sacrieur-terre-cac-songes",
+    "class_name": "Sacrieur",
+    "class_key": "sacrieur",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_11.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_11.png",
+    "build_name": "Sacrieur Terre / Vol de vie Berserk",
+    "element": "Terre / CàC / Vol de vie Massive",
+    "level": 200,
+    "primary_stats": {
+      "critique": "35%",
+      "prospection": "180",
+      "initiative": "2600",
+      "puissance": "450",
+      "soins": "0"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 490,
+        "parcho": 100,
+        "total": "5 500"
+      },
+      "sagesse": {
+        "base": 0,
+        "parcho": 100,
+        "total": "180"
+      },
+      "chance": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "force": {
+        "base": 300,
+        "parcho": 100,
+        "total": "1 280 (1 420)"
+      },
+      "intelligence": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "agilite": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 35,
+      "retrait_pa": 15,
+      "esquive_pm": 42,
+      "retrait_pm": 15,
+      "fuite": 58,
+      "tacle": 45,
+      "pods": "9 200"
+    },
+    "vitals": {
+      "vitalite": 5500,
+      "pa": 12,
+      "pm": 6,
+      "po": 2,
+      "invoc": 2
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 135,
+        "res_fixe": 15,
+        "res_pct": "27%"
+      },
+      "terre": {
+        "do": 150,
+        "res_fixe": 22,
+        "res_pct": "25%"
+      },
+      "feu": {
+        "do": 20,
+        "res_fixe": 10,
+        "res_pct": "20%"
+      },
+      "eau": {
+        "do": 20,
+        "res_fixe": 20,
+        "res_pct": "26%"
+      },
+      "air": {
+        "do": 20,
+        "res_fixe": 10,
+        "res_pct": "23%"
+      },
+      "res_melee": "22%",
+      "res_distance": "5%",
+      "res_crit": 35,
+      "res_pou": 40
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Brouce Boulgoure (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+40 Force",
+          "+5% Critique",
+          "-10 Fuite",
+          "+10 Esquive PM",
+          "+20 Prospection"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette de Brouce Boulgoure",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/13444-200.png"
+      },
+      "anneau1": {
+        "name": "Anneau de Brouce",
+        "icon": "https://api.dofusdb.fr/img/items/9249.png"
+      },
+      "anneau2": {
+        "name": "Anneau de Brouce",
+        "icon": "https://api.dofusdb.fr/img/items/9249.png"
+      },
+      "arme": {
+        "name": "Épée de Razof",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/18147-200.png"
+      },
+      "chapeau": {
+        "name": "Chapeau du Comte Razof",
+        "icon": "https://api.dofusdb.fr/img/items/16516.png"
+      },
+      "cape": {
+        "name": "Voile d'encre",
+        "icon": "https://api.dofusdb.fr/img/items/17147.png"
+      },
+      "ceinture": {
+        "name": "Ceinture de Brouce",
+        "icon": "https://api.dofusdb.fr/img/items/10223.png"
+      },
+      "bottes": {
+        "name": "Chaussons du Comte Razof",
+        "icon": "https://api.dofusdb.fr/img/items/11323.png"
+      },
+      "bouclier": {
+        "name": "Bouclier du Captain Amakna",
+        "icon": "https://api.dofusdb.fr/img/items/82014.png"
+      },
+      "familier": {
+        "name": "Kramkram",
+        "icon": "https://api.dofusdb.fr/img/items/121002.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Ocre",
+        "effect": "+1 PA",
+        "icon": "https://api.dofusdb.fr/img/items/23012.png"
+      },
+      {
+        "name": "Dofus Ébène",
+        "effect": "Poison cumulatif par attaque",
+        "icon": "https://api.dofusdb.fr/img/items/23007.png"
+      },
+      {
+        "name": "Dofus Émeraude",
+        "effect": "+Bouclier au CàC",
+        "icon": "https://api.dofusdb.fr/img/items/23002.png"
+      },
+      {
+        "name": "Dofus Pourpre",
+        "effect": "+80 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/23001.png"
+      },
+      {
+        "name": "Enragé majeur",
+        "effect": "+100 Force",
+        "icon": "https://api.dofusdb.fr/img/items/151174.png"
+      },
+      {
+        "name": "Furibond majeur",
+        "effect": "+60 Force",
+        "icon": "https://api.dofusdb.fr/img/items/151033.png"
+      }
+    ],
+    "role_description": "Combattant CàC régénérant d'immenses tranches de PV avec Décimation et Bain de Sang. Profite de la Souffrance pour frapper comme un titan."
+  },
+  {
+    "id": "ecaflip-docrit-songes",
+    "class_name": "Écaflip",
+    "class_key": "ecaflip",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_6.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_6.png",
+    "build_name": "Écaflip Multi-Élément Do Crit / Roulette",
+    "element": "Multi Do Crit 100% / Burst",
+    "level": 200,
+    "primary_stats": {
+      "critique": "85%",
+      "prospection": "240",
+      "initiative": "3100",
+      "puissance": "680",
+      "soins": "20"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 390,
+        "parcho": 100,
+        "total": "4 500"
+      },
+      "sagesse": {
+        "base": 0,
+        "parcho": 100,
+        "total": "180"
+      },
+      "chance": {
+        "base": 100,
+        "parcho": 100,
+        "total": "650"
+      },
+      "force": {
+        "base": 100,
+        "parcho": 100,
+        "total": "680"
+      },
+      "intelligence": {
+        "base": 100,
+        "parcho": 100,
+        "total": "620"
+      },
+      "agilite": {
+        "base": 100,
+        "parcho": 100,
+        "total": "640"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 40,
+      "retrait_pa": 20,
+      "esquive_pm": 45,
+      "retrait_pm": 20,
+      "fuite": 72,
+      "tacle": 25,
+      "pods": "8 400"
+    },
+    "vitals": {
+      "vitalite": 4500,
+      "pa": 12,
+      "pm": 6,
+      "po": 5,
+      "invoc": 3
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 110,
+        "res_fixe": 10,
+        "res_pct": "15%"
+      },
+      "terre": {
+        "do": 110,
+        "res_fixe": 10,
+        "res_pct": "18%"
+      },
+      "feu": {
+        "do": 110,
+        "res_fixe": 10,
+        "res_pct": "15%"
+      },
+      "eau": {
+        "do": 110,
+        "res_fixe": 10,
+        "res_pct": "15%"
+      },
+      "air": {
+        "do": 110,
+        "res_fixe": 10,
+        "res_pct": "15%"
+      },
+      "res_melee": "12%",
+      "res_distance": "12%",
+      "res_crit": 15,
+      "res_pou": 25
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Padgref (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+30% Critique",
+          "+60 Dommages Critiques",
+          "+80 Agilité",
+          "+80 Intelligence"
+        ]
+      },
+      {
+        "name": "Panoplie de Strigide (3 objets)",
+        "bonuses": [
+          "+1 PM",
+          "+100 Puissance",
+          "+50 Dommages Critiques",
+          "+15% Critique"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/1235.png"
+      },
+      "anneau1": {
+        "name": "Anneau de Padgref",
+        "icon": "https://api.dofusdb.fr/img/items/9255.png"
+      },
+      "anneau2": {
+        "name": "Alliance de Strigide",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/14601-200.png"
+      },
+      "arme": {
+        "name": "Arc Volkorne",
+        "icon": "https://api.dofusdb.fr/img/items/2086.png"
+      },
+      "chapeau": {
+        "name": "Coiffe de Padgref",
+        "icon": "https://api.dofusdb.fr/img/items/16349.png"
+      },
+      "cape": {
+        "name": "Cape de Padgref",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/13447-200.png"
+      },
+      "ceinture": {
+        "name": "Ceinture du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/10244.png"
+      },
+      "bottes": {
+        "name": "Bottes du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/11241.png"
+      },
+      "bouclier": {
+        "name": "Quatre-feuilles",
+        "icon": "https://api.dofusdb.fr/img/items/82150.png"
+      },
+      "familier": {
+        "name": "Kokulte",
+        "icon": "https://api.dofusdb.fr/img/items/18091.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Turquoise",
+        "effect": "+10% Crit / Doms",
+        "icon": "https://api.dofusdb.fr/img/items/23003.png"
+      },
+      {
+        "name": "Dofus Vulbis",
+        "effect": "+1 PM et 10% dégâts",
+        "icon": "https://api.dofusdb.fr/img/items/23004.png"
+      },
+      {
+        "name": "Dofus des Glaces",
+        "effect": "+25 Doms Fixes",
+        "icon": "https://api.dofusdb.fr/img/items/23005.png"
+      },
+      {
+        "name": "Dofus Pourpre",
+        "effect": "+80 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/23001.png"
+      },
+      {
+        "name": "Miraculé majeur",
+        "effect": "+320 Vitalité",
+        "icon": "https://api.dofusdb.fr/img/items/151183.png"
+      },
+      {
+        "name": "Nomade",
+        "effect": "+1 PM / +50 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/151257.png"
+      }
+    ],
+    "role_description": "Machine à dégâts critiques dans tous les éléments. Capable de frapper à +3000 par tour et d'offrir des bonus d'équipe avec Roulette et Odorat."
+  },
+  {
+    "id": "autre-build-multi-docrit",
+    "class_name": "Autre classe",
+    "class_key": "autre",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_9.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_9.png",
+    "build_name": "Build Multi Do Crit / Portée Céleste",
+    "element": "Multi Do Crit / Distance",
+    "level": 200,
+    "primary_stats": {
+      "critique": "90%",
+      "prospection": "260",
+      "initiative": "3300",
+      "puissance": "750",
+      "soins": "10"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 390,
+        "parcho": 100,
+        "total": "4 400"
+      },
+      "sagesse": {
+        "base": 0,
+        "parcho": 100,
+        "total": "180"
+      },
+      "chance": {
+        "base": 100,
+        "parcho": 100,
+        "total": "700"
+      },
+      "force": {
+        "base": 100,
+        "parcho": 100,
+        "total": "720"
+      },
+      "intelligence": {
+        "base": 100,
+        "parcho": 100,
+        "total": "680"
+      },
+      "agilite": {
+        "base": 100,
+        "parcho": 100,
+        "total": "700"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 45,
+      "retrait_pa": 22,
+      "esquive_pm": 50,
+      "retrait_pm": 22,
+      "fuite": 80,
+      "tacle": 20,
+      "pods": "8 500"
+    },
+    "vitals": {
+      "vitalite": 4400,
+      "pa": 12,
+      "pm": 6,
+      "po": 6,
+      "invoc": 3
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 120,
+        "res_fixe": 8,
+        "res_pct": "12%"
+      },
+      "terre": {
+        "do": 120,
+        "res_fixe": 8,
+        "res_pct": "15%"
+      },
+      "feu": {
+        "do": 120,
+        "res_fixe": 8,
+        "res_pct": "12%"
+      },
+      "eau": {
+        "do": 120,
+        "res_fixe": 8,
+        "res_pct": "12%"
+      },
+      "air": {
+        "do": 120,
+        "res_fixe": 8,
+        "res_pct": "12%"
+      },
+      "res_melee": "8%",
+      "res_distance": "16%",
+      "res_crit": 10,
+      "res_pou": 20
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Padgref (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+30% Critique",
+          "+60 Dommages Critiques"
+        ]
+      },
+      {
+        "name": "Panoplie de Strigide (3 objets)",
+        "bonuses": [
+          "+1 PM",
+          "+100 Puissance",
+          "+50 Dommages Critiques"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/1235.png"
+      },
+      "anneau1": {
+        "name": "Anneau de Padgref",
+        "icon": "https://api.dofusdb.fr/img/items/9255.png"
+      },
+      "anneau2": {
+        "name": "Alliance de Strigide",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/14601-200.png"
+      },
+      "arme": {
+        "name": "Arc Volkorne",
+        "icon": "https://api.dofusdb.fr/img/items/2086.png"
+      },
+      "chapeau": {
+        "name": "Coiffe de Padgref",
+        "icon": "https://api.dofusdb.fr/img/items/16349.png"
+      },
+      "cape": {
+        "name": "Cape de Padgref",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/13447-200.png"
+      },
+      "ceinture": {
+        "name": "Ceinture du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/10244.png"
+      },
+      "bottes": {
+        "name": "Bottes du Strigide",
+        "icon": "https://api.dofusdb.fr/img/items/11241.png"
+      },
+      "bouclier": {
+        "name": "Quatre-feuilles",
+        "icon": "https://api.dofusdb.fr/img/items/82150.png"
+      },
+      "familier": {
+        "name": "Kokulte",
+        "icon": "https://api.dofusdb.fr/img/items/18091.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Turquoise",
+        "effect": "+10% Crit",
+        "icon": "https://api.dofusdb.fr/img/items/23003.png"
+      },
+      {
+        "name": "Dofus Vulbis",
+        "effect": "+1 PM et 10% dégâts",
+        "icon": "https://api.dofusdb.fr/img/items/23004.png"
+      },
+      {
+        "name": "Dofus des Glaces",
+        "effect": "+25 Doms Fixes",
+        "icon": "https://api.dofusdb.fr/img/items/23005.png"
+      },
+      {
+        "name": "Dofus Pourpre",
+        "effect": "+80 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/23001.png"
+      },
+      {
+        "name": "Dofus Abyssal",
+        "effect": "+1 PA/PM",
+        "icon": "https://api.dofusdb.fr/img/items/23023.png"
+      },
+      {
+        "name": "Dofus Ocre",
+        "effect": "+1 PA",
+        "icon": "https://api.dofusdb.fr/img/items/23012.png"
+      }
+    ],
+    "role_description": "Build universel longue portée ultime. Adapté pour toutes les autres classes souhaitant infliger des dégâts critiques massifs à distance."
+  },
+  {
+    "id": "autre-build-feca-protection",
+    "class_name": "Autre classe",
+    "class_key": "autre",
+    "class_avatar": "https://api.dofusdb.fr/img/breeds/symbol_1.png",
+    "character_img": "https://api.dofusdb.fr/img/breeds/logo_transparent_1.png",
+    "build_name": "Build Support / Shield & Protection Distance",
+    "element": "Eau / Support / Protection",
+    "level": 200,
+    "primary_stats": {
+      "critique": "30%",
+      "prospection": "200",
+      "initiative": "3000",
+      "puissance": "400",
+      "soins": "25"
+    },
+    "base_stats": {
+      "vitalite": {
+        "base": 390,
+        "parcho": 100,
+        "total": "4 800"
+      },
+      "sagesse": {
+        "base": 100,
+        "parcho": 100,
+        "total": "320"
+      },
+      "chance": {
+        "base": 300,
+        "parcho": 100,
+        "total": "1 200"
+      },
+      "force": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "intelligence": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      },
+      "agilite": {
+        "base": 0,
+        "parcho": 100,
+        "total": "100"
+      }
+    },
+    "secondary_stats": {
+      "esquive_pa": 45,
+      "retrait_pa": 20,
+      "esquive_pm": 55,
+      "retrait_pm": 45,
+      "fuite": 60,
+      "tacle": 25,
+      "pods": "8 300"
+    },
+    "vitals": {
+      "vitalite": 4800,
+      "pa": 12,
+      "pm": 6,
+      "po": 6,
+      "invoc": 3
+    },
+    "resistances_dommages": {
+      "neutre": {
+        "do": 30,
+        "res_fixe": 15,
+        "res_pct": "25%"
+      },
+      "terre": {
+        "do": 30,
+        "res_fixe": 15,
+        "res_pct": "25%"
+      },
+      "feu": {
+        "do": 30,
+        "res_fixe": 15,
+        "res_pct": "25%"
+      },
+      "eau": {
+        "do": 155,
+        "res_fixe": 30,
+        "res_pct": "35%"
+      },
+      "air": {
+        "do": 30,
+        "res_fixe": 15,
+        "res_pct": "25%"
+      },
+      "res_melee": "15%",
+      "res_distance": "20%",
+      "res_crit": 25,
+      "res_pou": 35
+    },
+    "panoplies": [
+      {
+        "name": "Panoplie de Wulan (3 objets)",
+        "bonuses": [
+          "+1 PA",
+          "+100 Chance",
+          "+40 Dommages Eau"
+        ]
+      }
+    ],
+    "equipments_slots": {
+      "amulette": {
+        "name": "Amulette de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/1317.png"
+      },
+      "anneau1": {
+        "name": "Amulette de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/1317.png"
+      },
+      "anneau2": {
+        "name": "Pendentif mignon de Koutoulou",
+        "icon": "https://api.dofusdb.fr/img/items/1283.png"
+      },
+      "arme": {
+        "name": "Arc Volkorne",
+        "icon": "https://api.dofusdb.fr/img/items/2086.png"
+      },
+      "chapeau": {
+        "name": "Coiffe du Sinistrofu",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/15852-200.png"
+      },
+      "cape": {
+        "name": "Diadème de Wulan",
+        "icon": "https://api.dofusdb.fr/img/items/16643.png"
+      },
+      "ceinture": {
+        "name": "Bottes du Sinistrofu",
+        "icon": "https://api.dofusdb.fr/img/items/11239.png"
+      },
+      "bottes": {
+        "name": "Bottes de Wulan",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/24030-200.png"
+      },
+      "bouclier": {
+        "name": "Cadran d'Eau",
+        "icon": "https://api.dofusdb.fr/img/items/82025.png"
+      },
+      "familier": {
+        "name": "Volkorne Prune & d'Or",
+        "icon": "https://api.dofusdu.de/dofus2/img/item/21415-200.png"
+      }
+    },
+    "dofus_slots": [
+      {
+        "name": "Dofus Abyssal",
+        "effect": "+1 PA/PM",
+        "icon": "https://api.dofusdb.fr/img/items/23023.png"
+      },
+      {
+        "name": "Dofus des Glaces",
+        "effect": "+25 Dommages Fixes",
+        "icon": "https://api.dofusdb.fr/img/items/23005.png"
+      },
+      {
+        "name": "Dofus Pourpre",
+        "effect": "+80 Puissance",
+        "icon": "https://api.dofusdb.fr/img/items/23001.png"
+      },
+      {
+        "name": "Joueur majeur",
+        "effect": "+100 Chance",
+        "icon": "https://api.dofusdb.fr/img/items/151045.png"
+      },
+      {
+        "name": "Dofus Ivoire",
+        "effect": "-15% dégâts subis",
+        "icon": "https://api.dofusdb.fr/img/items/23011.png"
+      },
+      {
+        "name": "Entraveur majeur",
+        "effect": "+32 Retrait PM",
+        "icon": "https://api.dofusdb.fr/img/items/151123.png"
+      }
+    ],
+    "role_description": "Build support universel axé protection et entrave à distance. Adapté pour toutes les autres classes jouant un rôle de soutien en Songes."
+  }
+]

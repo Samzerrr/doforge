@@ -1,6 +1,15 @@
 (function () {
   "use strict";
 
+  // Unregister any stale ServiceWorker to prevent CSS/JS caching issues
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      registrations.forEach(function (registration) {
+        registration.unregister();
+      });
+    });
+  }
+
   const NAV_HTML = `
     <a href="index.html" class="nav-link" data-nav="home">Accueil</a>
     <a href="equipements.html" class="nav-link" data-nav="equipements">💎 Équipements</a>
