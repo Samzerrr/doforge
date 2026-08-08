@@ -11,6 +11,13 @@
   }
 
   const NAV_HTML = `
+    <div class="nav-search-box">
+      <div class="nav-search-input-wrapper">
+        <span class="nav-search-icon">🔍</span>
+        <input type="text" id="nav-global-search" class="nav-search-input" placeholder="Rechercher un monstre, boss, avis, équipement..." autocomplete="off" aria-label="Recherche rapide">
+      </div>
+      <div id="nav-global-search-results" class="nav-search-results-dropdown" style="display: none;"></div>
+    </div>
     <a href="index.html" class="nav-link" data-nav="home">Accueil</a>
     <a href="equipements.html" class="nav-link" data-nav="equipements">💎 Équipements</a>
     <div class="nav-dropdown">
@@ -94,6 +101,162 @@
     });
   }
 
+  let navSearchCache = null;
+
+  async function loadNavSearchData() {
+    if (navSearchCache) return navSearchCache;
+    try {
+      const [avisRes, donjonsRes, mobsRes, equipRes] = await Promise.all([
+        fetch("data/avis.json").then(r => r.ok ? r.json() : []),
+        fetch("data/donjons.json").then(r => r.ok ? r.json() : []),
+        fetch("data/mobs.json").then(r => r.ok ? r.json() : []),
+        fetch("data/equipements.json").then(r => r.ok ? r.json() : [])
+      ]);
+      navSearchCache = { avis: avisRes, donjons: donjonsRes, mobs: mobsRes, equip: equipRes };
+    } catch (e) {
+      navSearchCache = { avis: [], donjons: [], mobs: [], equip: [] };
+    }
+    return navSearchCache;
+  }
+
+  function normalizeText(str) {
+    if (!str) return "";
+    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  }
+
+  function escapeHtml(str) {
+    if (!str) return "";
+    return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function setupGlobalNavSearch() {
+    const searchInput = document.getElementById("nav-global-search");
+    const resultsContainer = document.getElementById("nav-global-search-results");
+    if (!searchInput || !resultsContainer) return;
+
+    let debounceTimer = null;
+
+    searchInput.addEventListener("input", (e) => {
+      clearTimeout(debounceTimer);
+      const query = normalizeText(e.target.value);
+
+      if (query.length < 2) {
+        resultsContainer.style.display = "none";
+        resultsContainer.innerHTML = "";
+        return;
+      }
+
+      debounceTimer = setTimeout(async () => {
+        const data = await loadNavSearchData();
+        const matches = [];
+
+        // 1. Avis
+        data.avis.forEach(item => {
+          const norm = normalizeText(`${item.name} ${item.title || ''} ${item.filter || ''}`);
+          if (norm.includes(query)) {
+            matches.push({
+              type: "avis",
+              name: item.name,
+              sub: item.title || item.filter || "Avis de recherche",
+              slug: item.slug,
+              pic: item.picture,
+              badgeCls: "nav-badge-avis",
+              badgeLabel: "🎯 Avis"
+            });
+          }
+        });
+
+        // 2. Donjons / Boss
+        data.donjons.forEach(item => {
+          const norm = normalizeText(`${item.name} ${item.boss_name || ''}`);
+          if (norm.includes(query)) {
+            matches.push({
+              type: "donjon",
+              name: item.boss_name || item.name,
+              sub: item.name,
+              slug: item.slug,
+              pic: item.picture,
+              badgeCls: "nav-badge-donjon",
+              badgeLabel: "👑 Boss"
+            });
+          }
+        });
+
+        // 3. Mobs
+        data.mobs.forEach(item => {
+          const norm = normalizeText(`${item.name} ${item.subarea || ''}`);
+          if (norm.includes(query)) {
+            matches.push({
+              type: "mob",
+              name: item.name,
+              sub: item.subarea || `Niveau ${item.level_range}`,
+              slug: item.slug,
+              pic: item.picture,
+              badgeCls: "nav-badge-mob",
+              badgeLabel: "👾 Monstre"
+            });
+          }
+        });
+
+        // 4. Equipements
+        data.equip.forEach(item => {
+          const norm = normalizeText(`${item.name} ${item.type || ''}`);
+          if (norm.includes(query)) {
+            matches.push({
+              type: "equipment",
+              id: item.ankama_id,
+              name: item.name,
+              sub: `${item.type} • Niv. ${item.level}`,
+              slug: item.slug,
+              pic: item.icon_url || item.hd_url,
+              badgeCls: "nav-badge-equipment",
+              badgeLabel: "💎 Objet"
+            });
+          }
+        });
+
+        if (matches.length === 0) {
+          resultsContainer.style.display = "block";
+          resultsContainer.innerHTML = `<div class="nav-search-item" style="color: var(--text-muted); font-size:0.85rem; justify-content:center;">Aucun résultat pour "${escapeHtml(query)}"</div>`;
+          return;
+        }
+
+        resultsContainer.style.display = "flex";
+        resultsContainer.innerHTML = matches.slice(0, 8).map(m => {
+          const href = `detail.html?type=${m.type}&${m.type === 'equipment' ? 'id=' + m.id : 'slug=' + m.slug}`;
+          const picSrc = m.pic ? encodeURI(m.pic) : 'favicon.svg';
+          return `
+            <a href="${href}" class="nav-search-item" data-type="${m.type}" data-slug="${m.slug || ''}" data-id="${m.id || ''}">
+              <img src="${picSrc}" alt="${escapeHtml(m.name)}" class="nav-search-thumb" onerror="this.src='favicon.svg';">
+              <div class="nav-search-info">
+                <span class="nav-search-title">${escapeHtml(m.name)}</span>
+                <span class="nav-search-sub">${escapeHtml(m.sub)}</span>
+              </div>
+              <span class="nav-search-badge ${m.badgeCls}">${m.badgeLabel}</span>
+            </a>
+          `;
+        }).join("");
+      }, 150);
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".nav-search-box")) {
+        resultsContainer.style.display = "none";
+      }
+    });
+
+    // Save click state before navigation for detail recovery
+    resultsContainer.addEventListener("click", (e) => {
+      const itemEl = e.target.closest(".nav-search-item");
+      if (itemEl && itemEl.dataset.type) {
+        sessionStorage.setItem("last_detail_type", itemEl.dataset.type);
+        if (itemEl.dataset.slug) sessionStorage.setItem("last_detail_slug", itemEl.dataset.slug);
+        if (itemEl.dataset.id) sessionStorage.setItem("last_detail_id", itemEl.dataset.id);
+      }
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     const nav = document.getElementById("site-nav");
     if (!nav) return;
@@ -102,5 +265,6 @@
     const { section, child } = resolveNavContext();
     applyActiveStates(section, child);
     setupDropdowns();
+    setupGlobalNavSearch();
   });
 })();
