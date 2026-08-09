@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chasse au Trésor Dofus — DOFORGE</title>
+  <meta name="description" content="Solveur et carte tactique interactive de chasse au trésor Dofus. Calculez les jalons, phorreurs et commandes /travel instantanément.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+</head>
+<body class="page-chasse">
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🔥</div>
+        <span class="logo-text">DO<span class="logo-highlight">FORGE</span></span>
+      </a>
+      <nav class="header-nav" id="site-nav"></nav>
+    </div>
+  </header>
+
+
+  <!-- MAIN DOFUSDB SOLVER CONTAINER (2 COLUMNS: JOURNAL LEFT, CONTROLS RIGHT) -->
+  <main class="page-main-container dofusdb-layout-main">
+
+    <div class="chasse-split-container">
+
+      <!-- LEFT COLUMN: JOURNAL & SUIVI DES JALONS -->
+      <div class="chasse-left-journal-col">
+        <div class="chasse-card journal-card-full">
+          <div class="journal-header">
+            <h3>📜 Suivi des Jalons</h3>
+            <button type="button" id="btn-reset-hunt" class="btn-reset-hunt">🧹 Réinitialiser</button>
+          </div>
+
+          <div id="journal-steps-list" class="journal-steps-list">
+            <div class="journal-empty">Aucun jalon enregistré.<br><span style="font-size:0.82rem;color:#94a3b8;margin-top:4px;display:block;">Sélectionnez un indice pour l'ajouter automatiquement au suivi.</span></div>
+          </div>
+
+        </div>
+      </div> <!-- /chasse-left-journal-col -->
+
+      <!-- RIGHT COLUMN: SOLVER CONTROLS -->
+      <div class="chasse-right-controls-col">
+
+        <h1 class="dofusdb-title">Chasse au trésor</h1>
+
+        <!-- 1. POSITION SECTION -->
+        <div class="dofusdb-section">
+          <label class="dofusdb-label">Position</label>
+          <div class="dofusdb-pos-row">
+            <div class="pos-stepper">
+              <button type="button" class="btn-pos-step" id="btn-dec-x" title="-1">-</button>
+              <input type="number" id="pos-x" class="pos-input" value="-25" step="1">
+              <button type="button" class="btn-pos-step" id="btn-inc-x" title="+1">+</button>
+            </div>
+            <span class="pos-sep">;</span>
+            <div class="pos-stepper">
+              <button type="button" class="btn-pos-step" id="btn-dec-y" title="-1">-</button>
+              <input type="number" id="pos-y" class="pos-input" value="-36" step="1">
+              <button type="button" class="btn-pos-step" id="btn-inc-y" title="+1">+</button>
+            </div>
+          </div>
+
+          <!-- Raccourcis / Presets -->
+          <div class="chasse-presets">
+            <span class="preset-label">Raccourcis :</span>
+            <button type="button" class="btn-preset" data-x="-25" data-y="-36">🏛️ Malle [-25,-36]</button>
+            <button type="button" class="btn-preset" data-x="-33" data-y="-56">🏰 Bonta [-33,-56]</button>
+            <button type="button" class="btn-preset" data-x="-26" data-y="35">🌋 Brâkmar [-26,35]</button>
+            <button type="button" class="btn-preset" data-x="-79" data-y="-38">❄️ Frigost [-79,-38]</button>
+            <button type="button" class="btn-preset" data-x="15" data-y="-60">🏜️ Saharach [15,-60]</button>
+          </div>
+        </div>
+
+        <!-- 2. DIRECTION SECTION (Diamond Compass) -->
+        <div class="dofusdb-section">
+          <label class="dofusdb-label">Direction</label>
+          <div class="dofusdb-diamond-compass">
+            <button type="button" class="btn-diamond btn-dir-nord" data-dir="nord" title="Nord">
+              <span class="diamond-arrow">⬆</span>
+            </button>
+            <div class="diamond-middle-row">
+              <button type="button" class="btn-diamond btn-dir-ouest" data-dir="ouest" title="Ouest">
+                <span class="diamond-arrow">⬅</span>
+              </button>
+              <button type="button" class="btn-diamond btn-dir-est" data-dir="est" title="Est">
+                <span class="diamond-arrow">➔</span>
+              </button>
+            </div>
+            <button type="button" class="btn-diamond btn-dir-sud active" data-dir="sud" title="Sud">
+              <span class="diamond-arrow">⬇</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. INDICE SECTION -->
+        <div class="dofusdb-section">
+          <label class="dofusdb-label">Indice</label>
+          <div class="indice-input-wrapper">
+            <input type="text" id="indice-search" class="dofusdb-indice-input" placeholder="Taper le nom de l'indice (ex: Puits, Statue, Casque...)" autocomplete="off">
+            <div id="indice-dropdown" class="indice-dropdown-overlay" style="display:none;"></div>
+          </div>
+
+          <!-- Quick Clue Chips -->
+          <div class="quick-clue-chips">
+            <button type="button" class="chip-clue" data-name="👾 Phorreur (Sournois/Fourbe)">👾 Phorreur</button>
+            <button type="button" class="chip-clue" data-name="Puits">🚰 Puits</button>
+            <button type="button" class="chip-clue" data-name="Statue Écaflip">🗿 Statue</button>
+            <button type="button" class="chip-clue" data-name="Caisse en bois">📦 Caisse</button>
+            <button type="button" class="chip-clue" data-name="Tonneau">🛢️ Tonneau</button>
+            <button type="button" class="chip-clue" data-name="Ancre de bateau">⚓ Ancre</button>
+            <button type="button" class="chip-clue" data-name="Squelette d'humanoïde">💀 Squelette</button>
+          </div>
+        </div>
+
+        <!-- 4. AUTO-COPY CHECKBOX -->
+        <div class="autocopy-row">
+          <label class="autocopy-label">
+            <input type="checkbox" id="chk-autocopy" checked>
+            <span>Copier la commande d'auto-pilote automatiquement</span>
+          </label>
+        </div>
+
+        <!-- 5. RESULT BANNER -->
+        <div id="hunt-result-banner" class="hunt-result-banner">
+          <div class="result-header">
+            <span class="result-badge">📍 DESTINATION CALCULÉE</span>
+            <span id="result-distance" class="result-distance">3 cartes vers le Sud</span>
+          </div>
+
+          <div class="result-coords-box">
+            <div id="result-coords" class="result-coords">[-25, -33]</div>
+            <div class="result-actions">
+              <button type="button" id="btn-copy-coords" class="btn-action btn-copy" title="Copier les coordonnées">
+                📋 Copier [-25, -33]
+              </button>
+              <button type="button" id="btn-copy-travel" class="btn-action btn-detail" title="Copier /travel">
+                💬 /travel [-25, -33]
+              </button>
+            </div>
+          </div>
+
+          <!-- Phorreur Grid -->
+          <div id="phorreur-grid" class="phorreur-grid" style="display:none;">
+            <div class="phorreur-title">👾 10 Cartes candidates pour le Phorreur :</div>
+            <div id="phorreur-pills" class="phorreur-pills"></div>
+          </div>
+        </div>
+
+      </div> <!-- /chasse-right-controls-col -->
+
+    </div> <!-- /chasse-split-container -->
+
+  </main>
+
+
+
+
+
+  <!-- Toast -->
+  <div class="toast-container">
+    <div id="toast" class="toast">📋 Copié dans le presse-papier !</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-text">
+      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/nav.js"></script>
+  <script src="js/chasse.js"></script>
+</body>
+</html>

@@ -11,13 +11,6 @@
   }
 
   const NAV_HTML = `
-    <div class="nav-search-box">
-      <div class="nav-search-input-wrapper">
-        <span class="nav-search-icon">🔍</span>
-        <input type="text" id="nav-global-search" class="nav-search-input" placeholder="Rechercher un monstre, boss, avis, équipement..." autocomplete="off" aria-label="Recherche rapide">
-      </div>
-      <div id="nav-global-search-results" class="nav-search-results-dropdown" style="display: none;"></div>
-    </div>
     <a href="index.html" class="nav-link" data-nav="home">Accueil</a>
     <a href="equipements.html" class="nav-link" data-nav="equipements">💎 Équipements</a>
     <div class="nav-dropdown">
@@ -30,7 +23,15 @@
         <a href="bestiaire.html" class="nav-dropdown-link" data-nav="mobs" role="menuitem">📖 Bestiaire Complet</a>
       </div>
     </div>
+    <a href="chasse.html" class="nav-link" data-nav="chasse">🧭 Chasse au Trésor</a>
     <a href="songes.html" class="nav-link" data-nav="songes">🌌 Songes Infinis</a>
+    <div class="nav-search-box">
+      <div class="nav-search-input-wrapper">
+        <span class="nav-search-icon">🔍</span>
+        <input type="text" id="nav-global-search" class="nav-search-input" placeholder="Rechercher..." autocomplete="off" aria-label="Recherche rapide">
+      </div>
+      <div id="nav-global-search-results" class="nav-search-results-dropdown" style="display: none;"></div>
+    </div>
   `;
 
   function resolveNavContext() {
@@ -42,6 +43,7 @@
       const map = {
         "index.html": { section: "home" },
         "equipements.html": { section: "equipements" },
+        "chasse.html": { section: "chasse" },
         "bestiaires.html": { section: "bestiaires" },
         "avis.html": { section: "bestiaires", child: "avis" },
         "donjons.html": { section: "bestiaires", child: "donjons" },
@@ -70,6 +72,12 @@
     if (section === "home") {
       document.querySelector('[data-nav="home"]')?.classList.add("active");
     }
+    if (section === "equipements") {
+      document.querySelector('[data-nav="equipements"]')?.classList.add("active");
+    }
+    if (section === "chasse") {
+      document.querySelector('[data-nav="chasse"]')?.classList.add("active");
+    }
     if (section === "songes") {
       document.querySelector('[data-nav="songes"]')?.classList.add("active");
     }
@@ -80,6 +88,7 @@
       }
     }
   }
+
 
   function setupDropdowns() {
     document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {

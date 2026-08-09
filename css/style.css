@@ -110,15 +110,15 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(10, 13, 20, 0.92);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-forge);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 1px 15px rgba(255, 100, 0, 0.1);
-  padding: 14px 0;
+  background: rgba(10, 13, 20, 0.88);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 1px 12px rgba(245, 158, 11, 0.1);
+  padding: 10px 0;
 }
 
 .header-inner {
-  max-width: 1300px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 var(--space-lg);
   display: flex;
@@ -134,63 +134,63 @@ a:hover {
 }
 
 .logo-icon {
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, #ffb703, #ff5400);
-  box-shadow: 0 0 16px rgba(255, 120, 0, 0.5);
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 .logo-img {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
 
 .logo-text {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.35rem;
+  font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
 }
 
 .logo-highlight {
-  color: #ff6000;
-  text-shadow: 0 0 12px rgba(255, 96, 0, 0.6);
+  color: #f59e0b;
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.5);
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  gap: var(--space-xs);
+  gap: 6px;
 }
 
 .nav-link {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  padding: 6px 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #94a3b8;
+  padding: 6px 14px;
   border-radius: var(--radius-full);
-  transition: all 0.15s ease;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
-  color: var(--text-primary);
-  background: var(--bg-tertiary);
-}
-
-.nav-link:hover {
-  color: var(--text-primary);
-  background: var(--bg-tertiary);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .nav-link.active {
-  color: #0a0d14;
-  background: linear-gradient(135deg, #ff9e00, #ff5400);
-  box-shadow: 0 0 14px rgba(255, 120, 0, 0.4);
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.35);
+  box-shadow: 0 0 14px rgba(245, 158, 11, 0.25);
   font-weight: 700;
 }
 
@@ -203,6 +203,7 @@ a:hover {
   align-items: center;
   gap: 4px;
 }
+
 
 .nav-chevron {
   font-size: 0.65rem;
@@ -2344,7 +2345,380 @@ a:hover {
   align-items: center;
   gap: 8px;
 }
-/* Global Navbar Search Bar */
+/* ===== CHASSE AU TRÉSOR SOLVER & MAP STYLES ===== */
+.hero-chasse {
+  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.18) 0%, rgba(15, 23, 42, 0.98) 80%);
+}
+
+.chasse-main-grid {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+.chasse-col-left {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.chasse-card {
+  background: rgba(15, 23, 42, 0.88);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.chasse-card:hover {
+  border-color: rgba(245, 158, 11, 0.45);
+}
+
+.chasse-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.chasse-step-num {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+.chasse-card-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+.chasse-card-sub {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  margin: 2px 0 0 0;
+}
+
+/* Presets */
+.chasse-presets {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.preset-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.btn-preset {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.73rem;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-preset:hover {
+  border-color: var(--accent-primary);
+  color: #fef08a;
+  background: rgba(245, 158, 11, 0.2);
+}
+
+.chasse-coords-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.coord-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.coord-field label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.chasse-input {
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  font-family: inherit;
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.chasse-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+/* Compass Direction Grid */
+.compass-direction-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.btn-compass {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 10px 4px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+.btn-compass:hover {
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+.btn-compass.active {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: var(--accent-primary);
+  color: #fef08a;
+  box-shadow: 0 0 14px rgba(245, 158, 11, 0.3);
+}
+.compass-arrow {
+  font-size: 1.3rem;
+}
+
+/* Quick Clue Chips */
+.quick-clue-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.chip-clue {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.chip-clue:hover {
+  border-color: var(--accent-primary);
+  color: #fef08a;
+  background: rgba(245, 158, 11, 0.15);
+}
+
+.btn-solve-hunt {
+  width: 100%;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #0f172a;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
+  margin-top: 8px;
+}
+.btn-solve-hunt:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45);
+}
+
+/* RIGHT COLUMN: MAP & RESULTS */
+.chasse-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  position: sticky;
+  top: 80px;
+}
+
+.hunt-result-banner {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.98));
+  border: 2px solid var(--accent-primary);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.25);
+}
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.result-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  letter-spacing: 0.5px;
+}
+.result-distance {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  font-weight: 600;
+}
+.result-coords-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  background: rgba(15, 23, 42, 0.85);
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+.result-coords {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fef08a;
+  letter-spacing: 1px;
+}
+.result-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-add-step {
+  width: 100%;
+  background: rgba(16, 185, 129, 0.2);
+  border: 1px solid #10b981;
+  color: #34d399;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-add-step:hover {
+  background: rgba(16, 185, 129, 0.35);
+}
+
+/* Map Header & Controls */
+.map-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  padding: 8px 12px;
+}
+.map-view-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.map-view-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-right: 8px;
+}
+.btn-map-control {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-map-control:hover {
+  border-color: var(--accent-primary);
+  color: #fef08a;
+  background: rgba(245, 158, 11, 0.2);
+}
+.map-hover-status {
+  font-size: 0.78rem;
+  color: var(--accent-primary);
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.chasse-map-container {
+  background: #090c15;
+  border: 1px solid var(--border-subtle);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  overflow: hidden;
+  height: 560px;
+  position: relative;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.8);
+}
+#chasse-canvas-map {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+.canvas-hud-info {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+.map-target-badge {
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--accent-primary);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  color: #fef08a;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.canvas-legend {
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  display: flex;
+  gap: 12px;
+}
+
+@media (max-width: 1100px) {
+  .chasse-main-grid {
+    grid-template-columns: 1fr;
+  }
+  .chasse-col-right {
+    position: static;
+  }
+}
 .nav-search-box {
   position: relative;
   margin: 0 16px;
@@ -2464,6 +2838,440 @@ a:hover {
   }
 }
 
+/* ===== CHASSE AU TRÉSOR JOURNAL & STAGE TABS ===== */
+.journal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.journal-header h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-reset-hunt {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  color: #fca5a5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-reset-hunt:hover {
+  background: rgba(239, 68, 68, 0.3);
+  border-color: #ef4444;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.35);
+  transform: translateY(-1px);
+}
+
+.stage-tabs {
+  display: flex;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  padding: 5px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.stage-tab {
+  flex: 1;
+  min-width: 68px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #94a3b8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.stage-tab:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.stage-tab.active {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #0f172a;
+  font-weight: 700;
+  border-color: #fbbf24;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+}
+
+.journal-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 80px;
+}
+
+.journal-empty {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px dashed var(--border-subtle);
+  padding: 18px;
+  border-radius: var(--radius-sm);
+  color: #64748b;
+  font-size: 0.88rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.journal-step-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-left: 4px solid var(--accent-primary);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.journal-step-card:hover {
+  transform: translateX(4px);
+  border-color: var(--accent-primary);
+  background: rgba(15, 23, 42, 0.95);
+}
+
+.journal-step-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.journal-step-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #fef08a;
+}
+
+.journal-step-sub {
+  font-size: 0.78rem;
+  color: #94a3b8;
+}/* ===== 2-COLUMN LAYOUT: JOURNAL LEFT, CONTROLS RIGHT ===== */
+.dofusdb-layout-main {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  min-height: 85vh;
+}
+
+.chasse-split-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .chasse-split-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.chasse-left-journal-col {
+  width: 100%;
+}
+
+.chasse-right-controls-col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.dofusdb-title {
+  font-family: var(--font-display);
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #84cc16;
+  text-align: center;
+  margin: 0 0 4px 0;
+  text-shadow: 0 0 20px rgba(132, 204, 22, 0.45);
+}
+
+.dofusdb-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dofusdb-label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* Position Stepper Row */
+.dofusdb-pos-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.pos-stepper {
+  display: flex;
+  align-items: center;
+  background: #383838;
+  border: 1px solid #525252;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn-pos-step {
+  background: rgba(245, 158, 11, 0.25);
+  border: none;
+  color: #fcd34d;
+  font-size: 1.2rem;
+  font-weight: 800;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn-pos-step:hover {
+  background: rgba(245, 158, 11, 0.5);
+  color: #ffffff;
+}
+
+.pos-input {
+  width: 90px;
+  height: 38px;
+  background: #262626;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: inherit;
+}
+
+.pos-input:focus {
+  outline: none;
+  background: #1a1a1a;
+}
+
+.pos-sep {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fcd34d;
+}
+
+/* Diamond Compass (45-deg rotation) */
+.dofusdb-diamond-compass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0 8px;
+}
+
+.diamond-middle-row {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.btn-diamond {
+  width: 44px;
+  height: 44px;
+  background: #383838;
+  border: 2px solid #525252;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.btn-diamond .diamond-arrow {
+  transform: rotate(-45deg);
+  font-weight: 800;
+  display: inline-block;
+}
+
+.btn-diamond:hover {
+  border-color: #f59e0b;
+  background: #4a4a4a;
+  transform: rotate(45deg) scale(1.08);
+}
+
+.btn-diamond.active {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  border-color: #fef08a;
+  color: #0f172a;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.6);
+}
+
+/* Indice Search & Overlay Dropdown */
+.dofusdb-section .indice-input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.dofusdb-indice-input {
+  width: 100%;
+  background: #383838;
+  border: 1px solid #525252;
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-family: inherit;
+  text-align: center;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dofusdb-indice-input:focus {
+  outline: none;
+  border-color: #84cc16;
+  box-shadow: 0 0 14px rgba(132, 204, 22, 0.35);
+  background: #2a2a2a;
+}
+
+.indice-dropdown-overlay {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #1c2234;
+  border: 1px solid #84cc16;
+  border-radius: 6px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85), 0 0 20px rgba(132, 204, 22, 0.2);
+  backdrop-filter: blur(12px);
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.indice-dropdown-overlay .indice-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 14px;
+  color: #ffffff;
+  font-size: 0.88rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.15s ease;
+}
+
+.indice-dropdown-overlay .indice-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.indice-dropdown-overlay .indice-dropdown-item:hover {
+  background: rgba(132, 204, 22, 0.2);
+  color: #fef08a;
+}
+
+.quick-clue-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+/* Autocopy Checkbox Row */
+.autocopy-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0 6px 0;
+}
+
+.autocopy-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: #e2e8f0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.autocopy-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #f59e0b;
+  cursor: pointer;
+}
+
+/* Result Banner */
+.dofusdb-chasse-box .hunt-result-banner {
+  width: 100%;
+}
+
+/* Centered Map Card */
+.dofusdb-map-card {
+  width: 100%;
+  background: #18191c;
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
+}
+
+.dofusdb-map-footer {
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  background: #121316;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.journal-card-full {
+  width: 100%;
+}
 
 
 
