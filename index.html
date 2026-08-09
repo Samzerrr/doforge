@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOFORGE | Forge Tactique & Bestiaire Dofus</title>
-  <meta name="description" content="DOFORGE - Portail et forge tactique complète pour Dofus. Avis de recherche, Boss de donjons, Songes Infinis et Bestiaire avec fiches de sorts et mécaniques d'OS.">
-  
+  <meta name="description" content="DOFORGE - Portail et forge tactique complète pour Dofus. Avis de recherche, Boss de donjons, Songes Infinis, Chasse au trésor et Bestiaire avec fiches de sorts et mécaniques d'OS.">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  
+
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css?v=3.6.2">
+  <link rel="stylesheet" href="css/style.css?v=4.0.0">
 </head>
 <body class="home-page" data-nav-section="home">
 
@@ -32,109 +32,221 @@
     </div>
   </header>
 
-  <!-- Hero Portal Section -->
-  <section class="hero hero-home">
-    <div class="hero-badge">🔥 DOFORGE — Base de Données Tactique & Bestiaire Dofus</div>
-    <h1 class="hero-title">Forge des Boss, Avis & Bestiaire Dofus</h1>
-    <p class="hero-subtitle">Consultez instantanément les fiches de sorts, les mécaniques d’invulnérabilité, les alertes One-Shot et le guide complet des Songes Infinis.</p>
-    
-    <!-- Quick Search Widget -->
-    <div class="home-search-container">
-      <div class="search-wrapper">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" class="search-input" placeholder="Rechercher un boss, avis de recherche, monstre ou donjon..." autocomplete="off">
+  <!-- ═══════════════════════════════════════════════════
+       HERO — Immersive Forge with Ember Particles
+       ═══════════════════════════════════════════════════ -->
+  <section class="hero-v2" id="hero-v2">
+    <!-- Canvas for ember particles -->
+    <canvas id="ember-canvas" class="ember-canvas"></canvas>
+
+    <!-- Radial glow behind title -->
+    <div class="hero-v2-glow"></div>
+
+    <div class="hero-v2-content">
+      <!-- Logo badge -->
+      <div class="hero-v2-logo-badge">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span>DOFORGE</span>
       </div>
-      <div id="home-search-results" class="home-search-dropdown" style="display: none;"></div>
+
+      <h1 class="hero-v2-title">
+        La Forge Tactique<br>
+        <span class="hero-v2-title-accent">Dofus</span>
+      </h1>
+
+      <p class="hero-v2-subtitle">
+        Bestiaire complet, stratégies de boss, solveur de chasse au trésor et guide des Songes Infinis — tout ce qu'il faut pour dominer le Monde des Douze.
+      </p>
+
+      <!-- Search bar -->
+      <div class="hero-v2-search">
+        <div class="hero-v2-search-inner">
+          <svg class="hero-v2-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="search-input" class="hero-v2-search-input" placeholder="Rechercher un boss, monstre, équipement..." autocomplete="off">
+        </div>
+        <div id="home-search-results" class="home-search-dropdown" style="display: none;"></div>
+      </div>
     </div>
   </section>
 
-  <!-- Main Category Portal Grid -->
-  <section class="portal-section">
-    <div class="portal-grid">
-      
-      <!-- Card 1: Bestiaires (hub) -->
-      <a href="bestiaires.html" class="portal-card">
-        <div class="portal-card-header">
-          <div class="portal-icon green">👾</div>
-          <span class="portal-badge">3 Bases</span>
-        </div>
-        <h2 class="portal-title">Bestiaires</h2>
-        <p class="portal-desc">Avis de recherche, boss de donjons et bestiaire complet — choisissez votre base depuis le hub.</p>
-        <div class="portal-footer">
-          <span>Ouvrir les Bestiaires</span>
-          <span class="portal-arrow">→</span>
+  <!-- ═══════════════════════════════════════════════════
+       STATS BAR — Animated counters
+       ═══════════════════════════════════════════════════ -->
+  <section class="stats-bar" id="stats-bar">
+    <div class="stats-bar-inner">
+      <div class="stat-item">
+        <span class="stat-number" data-target="0" id="stat-avis">0</span>
+        <span class="stat-label">Avis de Recherche</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="0" id="stat-donjons">0</span>
+        <span class="stat-label">Boss de Donjons</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="0" id="stat-equip">0</span>
+        <span class="stat-label">Équipements</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number stat-infinity">∞</span>
+        <span class="stat-label">Songes Infinis</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       BENTO PORTAL GRID — 4 asymmetric cards
+       ═══════════════════════════════════════════════════ -->
+  <section class="bento-section">
+    <h2 class="bento-heading">Explore la Forge</h2>
+    <div class="bento-grid">
+
+      <!-- Card 1: Bestiaires (large, spans 2 cols) -->
+      <a href="bestiaires.html" class="bento-card bento-card-large bento-bestiaires" id="bento-bestiaires">
+        <div class="bento-card-bg"></div>
+        <div class="bento-card-content">
+          <div class="bento-card-top">
+            <div class="bento-icon">👾</div>
+            <span class="bento-badge">3 Bases</span>
+          </div>
+          <h3 class="bento-title">Bestiaires</h3>
+          <p class="bento-desc">Avis de recherche, boss de donjons et bestiaire complet avec fiches de sorts et stratégies détaillées.</p>
+          <div class="bento-cta">
+            <span>Explorer les Bestiaires</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
         </div>
       </a>
 
-      <!-- Card 2: Équipements & Armes -->
-      <a href="equipements.html" class="portal-card">
-        <div class="portal-card-header">
-          <div class="portal-icon amber">💎</div>
-          <span class="portal-badge">3 400+ Objets</span>
-        </div>
-        <h2 class="portal-title">Équipements & Armes</h2>
-        <p class="portal-desc">Encyclopédie des équipements Dofus : Armes, Armures, Bijoux, Dofus, Trophées et Familiers avec leurs statistiques réelles.</p>
-        <div class="portal-footer">
-          <span>Consulter les Équipements</span>
-          <span class="portal-arrow">→</span>
+      <!-- Card 2: Équipements -->
+      <a href="equipements.html" class="bento-card bento-equipements" id="bento-equipements">
+        <div class="bento-card-bg"></div>
+        <div class="bento-card-content">
+          <div class="bento-card-top">
+            <div class="bento-icon">💎</div>
+            <span class="bento-badge" id="bento-badge-equip">3 400+ Objets</span>
+          </div>
+          <h3 class="bento-title">Équipements & Armes</h3>
+          <p class="bento-desc">Encyclopédie complète : armes, armures, bijoux, Dofus, trophées et familiers.</p>
+          <div class="bento-cta">
+            <span>Consulter</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
         </div>
       </a>
 
       <!-- Card 3: Songes Infinis -->
-      <a href="songes.html" class="portal-card portal-card-featured">
-        <div class="portal-card-header">
-          <div class="portal-icon purple">🌌</div>
-          <span class="portal-badge badge-featured">Mode Infini</span>
+      <a href="songes.html" class="bento-card bento-songes" id="bento-songes">
+        <div class="bento-card-bg"></div>
+        <div class="bento-card-content">
+          <div class="bento-card-top">
+            <div class="bento-icon">🌌</div>
+            <span class="bento-badge bento-badge-featured">Mode Infini</span>
+          </div>
+          <h3 class="bento-title">Songes Infinis</h3>
+          <p class="bento-desc">Guide complet : Paradoxes, Cauchemars et tous les Boss de Songe.</p>
+          <div class="bento-cta">
+            <span>Découvrir</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
         </div>
-        <h2 class="portal-title">Songes Infinis</h2>
-        <p class="portal-desc">Guide complet du mode Songe : explications des Paradoxes, Cauchemars et liste filtrable de tous les Boss de Songe.</p>
-        <div class="portal-footer">
-          <span>Découvrir les Songes</span>
-          <span class="portal-arrow">→</span>
+      </a>
+
+      <!-- Card 4: Chasse au Trésor (large, spans 2 cols) -->
+      <a href="chasse.html" class="bento-card bento-card-large bento-chasse" id="bento-chasse">
+        <div class="bento-card-bg"></div>
+        <div class="bento-card-content">
+          <div class="bento-card-top">
+            <div class="bento-icon">🧭</div>
+            <span class="bento-badge bento-badge-new">Nouveau</span>
+          </div>
+          <h3 class="bento-title">Chasse au Trésor</h3>
+          <p class="bento-desc">Solveur automatique avec l'API DofusDB — entrez vos coordonnées, choisissez l'indice, et laissez DOFORGE calculer votre prochaine position.</p>
+          <div class="bento-cta">
+            <span>Lancer le Solveur</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
         </div>
       </a>
 
     </div>
   </section>
 
-  <!-- Features Highlight -->
-  <section class="features-section">
-    <div class="section-container">
-      <h2 class="features-heading">Pourquoi utiliser DOFORGE ?</h2>
-      <div class="features-grid">
-        <div class="feature-item">
-          <div class="feature-icon">⚡</div>
+  <!-- ═══════════════════════════════════════════════════
+       FEATURES — Glassmorphic Why DOFORGE?
+       ═══════════════════════════════════════════════════ -->
+  <section class="features-v2">
+    <div class="features-v2-inner">
+      <h2 class="features-v2-heading">Pourquoi utiliser <span class="text-accent">DOFORGE</span> ?</h2>
+      <div class="features-v2-grid">
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">⚡</div>
           <h3>Sorts & Portée Réels</h3>
-          <p>Consultez les détails exacts des sorts de chaque créature : coût en PA, portée en PO et effets élémentaires.</p>
+          <p>Détails exacts des sorts : coût en PA, portée en PO et effets élémentaires de chaque créature.</p>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">⚠️</div>
-          <h3>Alertes One-Shot (OS)</h3>
-          <p>Identifiez immédiatement les attaques mortelles pour adapter le placement et l'esquive de votre équipe.</p>
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">☠️</div>
+          <h3>Alertes One-Shot</h3>
+          <p>Identifiez instantanément les attaques mortelles pour adapter votre placement et vos résistances.</p>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">🛡️</div>
-          <h3>Déblocage d'Invulnérabilité</h3>
-          <p>Explications claires des états invulnérables des Boss et Avis de recherche pour savoir comment les rendre vulnérables.</p>
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">🛡️</div>
+          <h3>Invulnérabilité</h3>
+          <p>Explications claires des états invulnérables et comment rendre les boss vulnérables.</p>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">📜</div>
-          <h3>Succès Officiels Dofus</h3>
-          <p>Liste complète des succès et objectifs de donjons synchronisés pour vous accompagner dans vos quêtes Dofus.</p>
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">🧭</div>
+          <h3>Solveur de Chasse</h3>
+          <p>Résolvez automatiquement vos chasses au trésor grâce à l'API DofusDB en temps réel.</p>
         </div>
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">📜</div>
+          <h3>Succès Officiels</h3>
+          <p>Liste complète des succès et objectifs de donjons synchronisés depuis le jeu.</p>
+        </div>
+
+        <div class="feature-v2-card">
+          <div class="feature-v2-icon">🌌</div>
+          <h3>Guide des Songes</h3>
+          <p>Guide complet du mode Songe Infini avec Paradoxes, Cauchemars et stratégies de boss.</p>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-text">
-      <p>Dofus est un MMORPG édité par Ankama Games. <strong>DOFORGE</strong> est une forge tactique non-officielle créée par <strong>Sambo</strong>.</p>
+  <footer class="site-footer-v2">
+    <div class="footer-v2-inner">
+      <div class="footer-v2-brand">
+        <div class="footer-v2-logo">
+          <img src="favicon.svg" alt="" width="24" height="24">
+          <span>DO<span class="logo-highlight">FORGE</span></span>
+        </div>
+        <p class="footer-v2-tagline">Forge tactique non-officielle pour Dofus, créée par <strong>Sambo</strong>.</p>
+      </div>
+      <div class="footer-v2-links">
+        <a href="bestiaires.html">Bestiaires</a>
+        <a href="equipements.html">Équipements</a>
+        <a href="chasse.html">Chasse au Trésor</a>
+        <a href="songes.html">Songes Infinis</a>
+      </div>
+      <div class="footer-v2-copy">
+        <p>Dofus est un MMORPG édité par <strong>Ankama Games</strong>. DOFORGE n'est pas affilié à Ankama.</p>
+      </div>
     </div>
   </footer>
 
   <!-- App JS -->
   <script src="js/nav.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/home-v2.js"></script>
 </body>
 </html>
