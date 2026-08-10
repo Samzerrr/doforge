@@ -2204,7 +2204,8 @@
         "name": "⚔️ Combat d'Équipe",
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
-    ]
+    ],
+    "zone_map": "images/avis_zones/sans-visage_zone.jpg"
   },
   {
     "slug": "viti-glourson",
@@ -2974,7 +2975,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/comte-harebourg_zone.png"
+    "zone_map": "images/avis_zones/comte-harebourg_zone.jpg"
   },
   {
     "slug": "buldalazred",
