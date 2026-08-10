@@ -20,7 +20,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/cryptologie.html",
+        "url": "#",
         "text": "Cryptologie – Dofus Argenté"
       }
     ],
@@ -68,7 +68,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-tour-du-monde.html",
+        "url": "#",
         "text": "Le tour du monde – Tour du monde"
       }
     ],
@@ -116,7 +116,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-en-mousse.html",
+        "url": "#",
         "text": "Donjon en mousse – Tour du Monde"
       }
     ],
@@ -164,11 +164,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/revenons-a-nos-bouftons.html",
+        "url": "#",
         "text": "Revenons à nos bouftons – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-avis-de-la-mort.html",
+        "url": "#",
         "text": "L’avis de la mort – Dofus du Cauchemar"
       }
     ],
@@ -216,7 +216,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître – Tour du monde"
       }
     ],
@@ -264,7 +264,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-maitre-des-clefs.html",
+        "url": "#",
         "text": "Le maître des clefs – Tour du monde"
       }
     ],
@@ -308,11 +308,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/fantomes-contre-fantomes.html",
+        "url": "#",
         "text": "Fantômes contre fantômes – Quête de zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-en-lambeaux.html",
+        "url": "#",
         "text": "Donjon en lambeauxstat – Tour du monde"
       }
     ],
@@ -360,7 +360,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-maitre-des-clefs.html",
+        "url": "#",
         "text": "Le maître des clefs – Tour du monde"
       }
     ],
@@ -408,11 +408,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-rikiki.html",
+        "url": "#",
         "text": "Donjon Rikiki – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/aventure-miniature.html",
+        "url": "#",
         "text": "Aventure miniature – Quête de zone"
       }
     ],
@@ -460,15 +460,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/de-joyeux-petits-arbres.html",
+        "url": "#",
         "text": "De joyeux petits arbres – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-raison-du-plus-fort.html",
+        "url": "#",
         "text": "La raison du plus fort – Ocre d’ambre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-educatif.html",
+        "url": "#",
         "text": "Donjon éducatif – Tour du monde"
       }
     ],
@@ -516,11 +516,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/du-repos-mais-pas-trop.html",
+        "url": "#",
         "text": "Alignement 11 : Du repos mais pas trop"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître"
       }
     ],
@@ -568,15 +568,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/bandanarthrie.html",
+        "url": "#",
         "text": "Alignement 65 : Bandanarthrie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/recouvrement-de-dette-agrave-la-tabasse.html",
+        "url": "#",
         "text": "Alignement 12 : Recouvrement de dette à la Tabasse"
       }
     ],
@@ -624,11 +624,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pauvre-larve-doreacutee.html",
+        "url": "#",
         "text": "Alignement 12 : Pauvre larve... dorée"
       }
     ],
@@ -676,11 +676,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-magistral.html",
+        "url": "#",
         "text": "Donjon magistral – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apres-lui-le-deluge.html",
+        "url": "#",
         "text": "Après lui, le déluge – Ocre d’Ambre"
       }
     ],
@@ -723,15 +723,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-douillet.html",
+        "url": "#",
         "text": "Donjon douillet – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-ascension.html",
+        "url": "#",
         "text": "L’Ascension – Quête de zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pauvre-larve.html",
+        "url": "#",
         "text": "Pauvre larve – Alignement 11 Brakmar"
       }
     ],
@@ -779,11 +779,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/association-de-fureteurs.html",
+        "url": "#",
         "text": "Association de fureteurs"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître"
       }
     ],
@@ -831,11 +831,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-wa-pythie.html",
+        "url": "#",
         "text": "Le Wa Pythie – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-chacircteau-du-wa.html",
+        "url": "#",
         "text": "Le château du Wa – Dofus Cawotte"
       }
     ],
@@ -883,15 +883,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-kanniboul-verseacute.html",
+        "url": "#",
         "text": "Un Kanniboul versé – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-indigeste-chez-les-indigegravenes.html",
+        "url": "#",
         "text": "Un indigeste chez les indigènes – Dokoko"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/t-as-les-boules.html",
+        "url": "#",
         "text": "T’as les boules – Quête de zone"
       }
     ],
@@ -934,11 +934,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/entre-quatre-blops.html",
+        "url": "#",
         "text": "Entre quatre blops – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-tabi-damayiro.html",
+        "url": "#",
         "text": "Le Tabi d’Amayiro– Alignement 19 Bonta"
       }
     ],
@@ -982,11 +982,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/geleacutee-bien-eue.html",
+        "url": "#",
         "text": "Gelée bien eue"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-capes-typiques.html",
+        "url": "#",
         "text": "Alignement 19 Brakmar : Des capes typiques"
       }
     ],
@@ -1034,23 +1034,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/ougrave-est-passeacutee-la-7-e-compagnie.html",
+        "url": "#",
         "text": "Où est passée la 7 e compagnie ?"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/histoire-de-chiens.html",
+        "url": "#",
         "text": "Histoire de chiens"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/poison-de-scorbute-pour-la-prison.html",
+        "url": "#",
         "text": "Alignement 29 Bonta : Poison de scorbute pour la prison"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/du-venin-sinon-rien.html",
+        "url": "#",
         "text": "Alignement 29 Brakmar : Du venin sinon rien"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-morts-vivants.html",
+        "url": "#",
         "text": "Les morts vivants"
       }
     ],
@@ -1092,7 +1092,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/cheacuteri-fais-moi-peur.html",
+        "url": "#",
         "text": "Chéri fais-moi peur"
       }
     ],
@@ -1140,15 +1140,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+        "url": "#",
         "text": "Les sbires du maître"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-fureur-du-holbaiumld.html",
+        "url": "#",
         "text": "Alignement 22 Bonta : La fureur du Holbaïd"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/taxe-gratuite.html",
+        "url": "#",
         "text": "Alignement 22 Brakmar : Taxe gratuite"
       }
     ],
@@ -1196,7 +1196,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/c-est-radical-ici.html",
+        "url": "#",
         "text": "C'est radical ici"
       }
     ],
@@ -1240,11 +1240,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-deacutefileacute-de-wobots.html",
+        "url": "#",
         "text": "Un défilé de Wobots – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/lrsquooeliguf-ou-la-cawotte.html",
+        "url": "#",
         "text": "L’œuf ou la cawotte ? – Dofus Cawotte"
       }
     ],
@@ -1292,15 +1292,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-roi-scorpion.html",
+        "url": "#",
         "text": "Le roi scorpion (vaincre le Mantiscore avec les gants équipés)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/sans-chair-et-en-os.html",
+        "url": "#",
         "text": "Sans chair et en os (éléments à cliquer salles 3, 4 et 5 et pas besoin de vaincre le boss)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-fossile-et-le-marteau.html",
+        "url": "#",
         "text": "Le fossile et le marteau"
       }
     ],
@@ -1348,27 +1348,27 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/arak-haiuml-en-pagaille.html",
+        "url": "#",
         "text": "Arak-haï en pagaille"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/comme-un-corbac-sur-sa-branche.html",
+        "url": "#",
         "text": "Comme un corbac sur sa branche"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/munster-legraveve-le-mystegravere.html",
+        "url": "#",
         "text": "Munster lève le mystère"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-assassin-agrave-bonta.html",
+        "url": "#",
         "text": "Alignement 33 Brakmar : Un assassin... à Bonta ?"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-friandise-pas-comme-les-autres.html",
+        "url": "#",
         "text": "Une friandise pas comme les autres"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-du-proprietaire.html",
+        "url": "#",
         "text": "Tour du propriétaire"
       }
     ],
@@ -1416,15 +1416,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/munster-legraveve-le-mystegravere.html",
+        "url": "#",
         "text": "Munster lève le mystère"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/vengeance-par-procuration.html",
+        "url": "#",
         "text": "Alignement 33 Bonta : Vengeance par procuration"
       }
     ],
@@ -1472,15 +1472,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/c-est-du-bateau.html",
+        "url": "#",
         "text": "C’est du bateau – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/squelettes-et-amulettes.html",
+        "url": "#",
         "text": "Squelettes et amulettes – Dokoko"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-radeau-ivre.html",
+        "url": "#",
         "text": "Le radeau ivre – Quête de zone"
       }
     ],
@@ -1528,11 +1528,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-grande-parade.html",
+        "url": "#",
         "text": "La grande parade"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-spectacle-vivant.html",
+        "url": "#",
         "text": "Le spectacle vivant"
       }
     ],
@@ -1575,11 +1575,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
+        "url": "#",
         "text": "Plongeon et dragon"
       }
     ],
@@ -1627,11 +1627,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/cest-stupeacutefiant.html",
+        "url": "#",
         "text": "Alignement 40 Bonta : C'est stupéfiant"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       }
     ],
@@ -1675,23 +1675,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/allumer-le-feu.html",
+        "url": "#",
         "text": "Allumer le feu – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/draconanthropie.html",
+        "url": "#",
         "text": "Draconanthropie – Dofus Emeraude"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/mulanthropie.html",
+        "url": "#",
         "text": "Mulanthropie – Alignement Brakmarien"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--surineur.html",
+        "url": "#",
         "text": "Apprentissage : Surineur – Ordre Brakmarien"
       }
     ],
@@ -1734,15 +1734,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-dhorizon.html",
+        "url": "#",
         "text": "Tour d’horizon – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/rendez-vous-avec-la-lune.html",
+        "url": "#",
         "text": "Rendez-vous avec la lune – Dokoko"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/simulation-de-tiwaapi.html",
+        "url": "#",
         "text": "Simulation de Tiwaapi – Evènement des 20 ans"
       }
     ],
@@ -1785,11 +1785,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/ainsi-font-les-petites-marionnettes.html",
+        "url": "#",
         "text": "Ainsi font les petites marionnettes (permet d'obtenir l'émote Brandir son bouclier)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-marionnettes.html",
+        "url": "#",
         "text": "Tour de marionnettes"
       }
     ],
@@ -1837,11 +1837,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/malladie.html",
+        "url": "#",
         "text": "Malladie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/malle-des-profondeurs.html",
+        "url": "#",
         "text": "Malle des profondeurs"
       }
     ],
@@ -1889,7 +1889,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-d-honneur.html",
+        "url": "#",
         "text": "Tour d'honneur"
       }
     ],
@@ -1931,11 +1931,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+        "url": "#",
         "text": "Comment perdre ses plumes"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-agrave-tour.html",
+        "url": "#",
         "text": "Tour à tour"
       }
     ],
@@ -1983,15 +1983,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/voler-dans-les-plumes.html",
+        "url": "#",
         "text": "Voler dans les plumes – Dofus Pourpre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
+        "url": "#",
         "text": "Le livre des Taures – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+        "url": "#",
         "text": "Des donjons, encore des donjons – Tour du monde"
       }
     ],
@@ -2034,15 +2034,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-geste-de-ratagnan.html",
+        "url": "#",
         "text": "La Geste de Ratagnan"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/vin-diou.html",
+        "url": "#",
         "text": "Alignement 41 Bonta : Vin Diou"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       }
     ],
@@ -2085,15 +2085,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/fait-comme-un-rat.html",
+        "url": "#",
         "text": "Fait comme un rat"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/triple-x.html",
+        "url": "#",
         "text": "Alignement 41 Brakmar : Triple X"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+        "url": "#",
         "text": "Un juge hystérique"
       }
     ],
@@ -2136,7 +2136,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/testeacute-et-approuveacute.html",
+        "url": "#",
         "text": "Testé et approuvé"
       }
     ],
@@ -2184,15 +2184,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/sous-le-bois-de-sa-colere.html",
+        "url": "#",
         "text": "Sous le bois de sa colère"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-saule-du-promeneur.html",
+        "url": "#",
         "text": "Le Saule du Promeneur"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/rester-plante-la.html",
+        "url": "#",
         "text": "Rester planté là"
       }
     ],
@@ -2235,15 +2235,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-table.html",
+        "url": "#",
         "text": "Tour de table – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/il-faut-battre-le-lait-quand-il-est-chaud.html",
+        "url": "#",
         "text": "Il faut battre le lait quand il est chaud – Dofus Pourpre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/joyeux-nowel.html",
+        "url": "#",
         "text": "Joyeux Nowel – Evènement Nowel"
       }
     ],
@@ -2285,11 +2285,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+        "url": "#",
         "text": "Des donjons, encore des donjons – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/taures-et-deacutetours.html",
+        "url": "#",
         "text": "Taures et détours – Dofus Pourpre"
       }
     ],
@@ -2332,35 +2332,35 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+        "url": "#",
         "text": "Des donjons, encore des donjons – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-royalmouth-treacutesor.html",
+        "url": "#",
         "text": "Porte, Royalmouth, trésor – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/antiroyaliste.html",
+        "url": "#",
         "text": "Antiroyaliste – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-du-slip.html",
+        "url": "#",
         "text": "Chaud du S.L.I.P – Dofus des glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-mal-a-dit.html",
+        "url": "#",
         "text": "Le mal a dit – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/monarchie-absolue.html",
+        "url": "#",
         "text": "Monarchie absolue – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-pouvoir-derriegravere-le-trocircne.html",
+        "url": "#",
         "text": "Le pouvoir derrière le trône – Dofus Pourpre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/joyeux-nowel.html",
+        "url": "#",
         "text": "Joyeux Nowel – Evènement"
       }
     ],
@@ -2408,11 +2408,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+        "url": "#",
         "text": "Des donjons, encore des donjons – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+        "url": "#",
         "text": "Comment perdre ses plumes"
       }
     ],
@@ -2454,11 +2454,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+        "url": "#",
         "text": "Des donjons, encore des donjons – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-forgeur-de-legende.html",
+        "url": "#",
         "text": "Le forgeur de légende"
       }
     ],
@@ -2500,11 +2500,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
+        "url": "#",
         "text": "L'épée du rocher"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier"
       }
     ],
@@ -2546,11 +2546,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/prisonniers-du-temps.html",
+        "url": "#",
         "text": "Prisonniers du temps"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
+        "url": "#",
         "text": "L'épée du rocher"
       }
     ],
@@ -2593,15 +2593,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/frankenstruche.html",
+        "url": "#",
         "text": "Frankenstruche"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-oeuf-pour-ecaflip.html",
+        "url": "#",
         "text": "Un œuf pour Ecaflip"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+        "url": "#",
         "text": "Comment perdre ses plumes"
       }
     ],
@@ -2649,11 +2649,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-monde-entier-est-un-cactus.html",
+        "url": "#",
         "text": "Le monde entier est un cactus"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-etoile-de-la-mer.html",
+        "url": "#",
         "text": "L'Étoile de la Mer"
       }
     ],
@@ -2705,11 +2705,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-ring-pour-les-gouverner-tous.html",
+        "url": "#",
         "text": "Un ring pour les gouverner tous – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/lanneau-de-tot.html",
+        "url": "#",
         "text": "L’anneau de Tot – Dofus Pourpre"
       }
     ],
@@ -2751,7 +2751,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-jetee-des-enfants-perdus.html",
+        "url": "#",
         "text": "La jetée des enfants perdus"
       }
     ],
@@ -2793,15 +2793,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-tactique-des-gens-d-armes.html",
+        "url": "#",
         "text": "Alignement 55 Bonta : La tactique des gens d'armes"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/au-nom-de-l-art.html",
+        "url": "#",
         "text": "Au nom de l'Art"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier"
       }
     ],
@@ -2844,27 +2844,27 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/convoi-humanitaire.html",
+        "url": "#",
         "text": "Convoi humanitaire – Quête de zone Frigost"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
+        "url": "#",
         "text": "Plongeon et Dragon – Dofus Turquoise"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-adepte-des-ecrits.html",
+        "url": "#",
         "text": "Apprentissage : Adepte des Écrits (quête d’ordre 3 alignement Bontarien)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-pouvoir-merydique.html",
+        "url": "#",
         "text": "Un pouvoir mérydique – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/lart-de-la-langue-de-bois.html",
+        "url": "#",
         "text": "L’art de la langue de bois – Dofus Sylvestre"
       }
     ],
@@ -2908,11 +2908,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-passe-passe.html",
+        "url": "#",
         "text": "Tour de passe-passe"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-viti.html",
+        "url": "#",
         "text": "La bénédiction de Viti"
       }
     ],
@@ -2955,27 +2955,27 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-joyeux-de-la-couronne.html",
+        "url": "#",
         "text": "Les joyeux de la couronne"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-mansot-royal-treacutesor.html",
+        "url": "#",
         "text": "Porte, Mansot Royal, trésor"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/monarchie-parlementaire.html",
+        "url": "#",
         "text": "Monarchie parlementaire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-viti.html",
+        "url": "#",
         "text": "La bénédiction de Viti"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-chasseurs.html",
+        "url": "#",
         "text": "Les chasseurs"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pecircche-en-eaux-geleacutees.html",
+        "url": "#",
         "text": "Pêche en eaux gelées"
       }
     ],
@@ -3019,7 +3019,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-equilibre-des-forces.html",
+        "url": "#",
         "text": "L'équilibre des forces"
       }
     ],
@@ -3062,19 +3062,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--adepte-des-douleurs.html",
+        "url": "#",
         "text": "Ordre 3 Brakmar : Apprentissage : Adepte des Douleurs"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-viti.html",
+        "url": "#",
         "text": "La bénédiction de Viti"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-festival-de-la-lanterne.html",
+        "url": "#",
         "text": "Le festival de la lanterne"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier"
       }
     ],
@@ -3117,19 +3117,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/fais-dodo-tauras-du-gacircteau.html",
+        "url": "#",
         "text": "Fais dodo, t'auras du gâteau"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-ben-le-ripate-treacutesor.html",
+        "url": "#",
         "text": "Porte, Ben le Ripate, trésor"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/piwates-des-sept-mers-et-demies.html",
+        "url": "#",
         "text": "Piwates des sept mers et demies"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-thomahon.html",
+        "url": "#",
         "text": "La bénédiction de Thomahon"
       }
     ],
@@ -3172,19 +3172,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/bandanarthrie.html",
+        "url": "#",
         "text": "Alignement 65 Bonta : Bandanarthrie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-faille-dans-sa-carapace.html",
+        "url": "#",
         "text": "Alignement 65 Brakmar : Une faille dans sa carapace"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-rein.html",
+        "url": "#",
         "text": "Tour de rein"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-thomahon.html",
+        "url": "#",
         "text": "La bénédiction de Thomahon"
       }
     ],
@@ -3226,15 +3226,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-pelle-de-la-phorreacutee.html",
+        "url": "#",
         "text": "La pelle de la phorrée"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-foluk.html",
+        "url": "#",
         "text": "La bénédiction de Foluk"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
+        "url": "#",
         "text": "Le disparu de Sufokia"
       }
     ],
@@ -3277,11 +3277,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/arrete-la-si-tu-peux.html",
+        "url": "#",
         "text": "Arrête-la si tu peux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pas-de-fumee-sans-feu.html",
+        "url": "#",
         "text": "Pas de fumée sans feu"
       }
     ],
@@ -3324,19 +3324,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-main.html",
+        "url": "#",
         "text": "Tour de main"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-thomahon.html",
+        "url": "#",
         "text": "La bénédiction de Thomahon"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/ruee-sur-le-kimbo.html",
+        "url": "#",
         "text": "Ruée sur le Kimbo"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-pouvoir-merydique.html",
+        "url": "#",
         "text": "Un pouvoir mérydique"
       }
     ],
@@ -3378,7 +3378,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier – Tour du monde"
       }
     ],
@@ -3421,35 +3421,35 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/lavomatique.html",
+        "url": "#",
         "text": "Lavomatique"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-obsidiantre-treacutesor.html",
+        "url": "#",
         "text": "Porte, Obsidiantre, trésor"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pour-qui-sonne-le-glagla.html",
+        "url": "#",
         "text": "Pour qui sonne le glagla"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-thomahon.html",
+        "url": "#",
         "text": "La bénédiction de Thomahon"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-du-slip.html",
+        "url": "#",
         "text": "Chaud du S.L.I.P."
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/fleuries-mais-rougissent.html",
+        "url": "#",
         "text": "Fleuries mais rougissent"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/champ-pomy.html",
+        "url": "#",
         "text": "Champ Pomy"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-dan-lavy.html",
+        "url": "#",
         "text": "À la recherche de Dan Lavy (se rendre à la salle 4, pas besoin de vaincre l'Obsidiantre)"
       }
     ],
@@ -3497,19 +3497,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/chachyegravene-de-vie.html",
+        "url": "#",
         "text": "Chachyène de vie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/leacutegitime-deacutefense.html",
+        "url": "#",
         "text": "Alignement 70 Brakmar : Légitime défense"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-subterfuge-de-la-corne.html",
+        "url": "#",
         "text": "Alignement 70 Bonta : Le subterfuge de la corne"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-foluk.html",
+        "url": "#",
         "text": "La bénédiction de Foluk"
       }
     ],
@@ -3555,7 +3555,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/en-rouge-et-noir.html",
+        "url": "#",
         "text": "En rouge et noir"
       }
     ],
@@ -3598,7 +3598,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/maudite-disparition.html",
+        "url": "#",
         "text": "Maudite disparition"
       }
     ],
@@ -3641,15 +3641,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/cest-frais-mais-cest-pas-grave.html",
+        "url": "#",
         "text": "C'est frais, mais c'est pas grave"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/guerriers-foux.html",
+        "url": "#",
         "text": "Guerriers foux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-tengu-givrefoux-treacutesor.html",
+        "url": "#",
         "text": "Porte, Tengu Givrefoux, trésor"
       }
     ],
@@ -3693,7 +3693,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-mystere-des-vers.html",
+        "url": "#",
         "text": "Le mystère des vers"
       }
     ],
@@ -3741,11 +3741,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-vie-lhormonde-et-le-reste.html",
+        "url": "#",
         "text": "La Vie, l'Hormonde et le Reste"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
+        "url": "#",
         "text": "Le disparu de Sufokia"
       }
     ],
@@ -3795,11 +3795,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/requiem-pour-un-yokai.html",
+        "url": "#",
         "text": "Requiem pour un Yokai"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/quand-les-esprits-s-echauffent.html",
+        "url": "#",
         "text": "Quand les esprits s'échauffent"
       }
     ],
@@ -3845,7 +3845,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tetes-de-ponte.html",
+        "url": "#",
         "text": "Têtes de ponte – Dofoozbz"
       }
     ],
@@ -3888,31 +3888,31 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/sans-ma-barbe-quelle-barbe.html",
+        "url": "#",
         "text": "Sans ma barbe, quelle barbe"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/donjon-sans-dragon.html",
+        "url": "#",
         "text": "Donjon sans dragon"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-beacuteneacutediction-de-foluk.html",
+        "url": "#",
         "text": "La bénédiction de Foluk"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-korriandre-treacutesor.html",
+        "url": "#",
         "text": "Porte, Korriandre, trésor"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/marqueacute-dune-pierre-blanche.html",
+        "url": "#",
         "text": "Alignement 85 Brakmar : Marqué d'une pierre blanche"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/gele-a-pierre-fendre.html",
+        "url": "#",
         "text": "Alignement 85 Bonta : Gelé à pierre fendre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-derniers-d-entre-nous.html",
+        "url": "#",
         "text": "Les derniers d'entre nous"
       }
     ],
@@ -3955,11 +3955,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/leacuteternelle-moisson.html",
+        "url": "#",
         "text": "L'éternelle moisson"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-tour-est-joueacute.html",
+        "url": "#",
         "text": "Le tour est joué"
       }
     ],
@@ -4007,15 +4007,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+        "url": "#",
         "text": "La voie du guerrier"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-derniere-pierre.html",
+        "url": "#",
         "text": "La dernière pierre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/ruee-sur-le-bworker.html",
+        "url": "#",
         "text": "Ruée sur le Bworker"
       }
     ],
@@ -4063,43 +4063,43 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-de-force.html",
+        "url": "#",
         "text": "Tour de force"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/appui-sur-le-champignon.html",
+        "url": "#",
         "text": "Appui sur le champignon"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-couts-du-sort.html",
+        "url": "#",
         "text": "Les coûts du sort"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-pouvoir-merydique.html",
+        "url": "#",
         "text": "Un pouvoir mérydique"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-assassin-supreme.html",
+        "url": "#",
         "text": "Ordre 4 Bonta : Apprentissage : Assassin Suprême"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-champion-merveilleux.html",
+        "url": "#",
         "text": "Ordre 4 Bonta : Apprentissage : Champion Merveilleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-maitre-des-parchemins.html",
+        "url": "#",
         "text": "Ordre 4 Bonta : Apprentissage : Maître des Parchemins"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-champion-du-chaos.html",
+        "url": "#",
         "text": "Ordre 4 Brakmar : Apprentissage : Champion du Chaos"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--psychopathe.html",
+        "url": "#",
         "text": "Ordre 4 Brakmar : Apprentissage : Psychopathe​"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--maicirctre-des-seacutevices.html",
+        "url": "#",
         "text": "Ordre 4 Brakmar : Apprentissage : Maître des Sévices​​"
       }
     ],
@@ -4143,23 +4143,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/lart-me-ment.html",
+        "url": "#",
         "text": "L'art me ment - Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
+        "url": "#",
         "text": "Le disparu de Sufokia - Dofus des Veilleurs"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/depuis-lenfer.html",
+        "url": "#",
         "text": "Depuis l'enfer - Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-gloutons-des-dimensions.html",
+        "url": "#",
         "text": "Les gloutons des dimensions - Quête de Zone Osavora"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/depuis-lenfer.html",
+        "url": "#",
         "text": ""
       }
     ],
@@ -4202,23 +4202,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/lagrave-haut-sur-la-montagne.html",
+        "url": "#",
         "text": "Là-haut sur la montagne"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/cest-reacutebro.html",
+        "url": "#",
         "text": "C'est Rébro"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-kolosso-treacutesor.html",
+        "url": "#",
         "text": "Porte, Kolosso, trésor"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-ami-qui-ne-vous-veut-pas-que-du-bien.html",
+        "url": "#",
         "text": "Un ami qui ne vous veut pas que du bien (pas besoin de faire le Boss)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-remegravede-agrave-tous-les-maux.html",
+        "url": "#",
         "text": "Un remède à tous les maux"
       }
     ],
@@ -4306,23 +4306,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/au-fion-du-trou.html",
+        "url": "#",
         "text": "Au fion du trou"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-machine-agrave-deacutemonter-le-temps.html",
+        "url": "#",
         "text": "La machine à démonter le temps"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/ca-fait-froid-dans-le-dos.html",
+        "url": "#",
         "text": "Alignement 90 Bonta : Ça fait froid dans le dos"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-vengeance-est-un-plat-qui-se-mange-froid.html",
+        "url": "#",
         "text": "Alignement 90 Brakmar : La vengeance est un plat qui se mange froid​"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/larmeacutee-des-ombres.html",
+        "url": "#",
         "text": "L'armée des ombres (il faudra se rendre dans la deuxième salle, pas besoin de vaincre le boss)"
       }
     ],
@@ -4365,23 +4365,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-pic-qui-glace.html",
+        "url": "#",
         "text": "Le pic qui glace"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/glourson-et-lumiegravere.html",
+        "url": "#",
         "text": "Glourson et lumière"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/porte-glourseacuteleste-treacutesor.html",
+        "url": "#",
         "text": "Porte, Glourséleste, trésor​"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/mission-solution.html",
+        "url": "#",
         "text": "Mission Solution​"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-remede-draconien.html",
+        "url": "#",
         "text": "Un remède draconien​"
       }
     ],
@@ -4425,11 +4425,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/larmeacutee-des-ombres.html",
+        "url": "#",
         "text": "L'armée des ombres"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-ombre-au-tableau.html",
+        "url": "#",
         "text": "Une ombre au tableau"
       }
     ],
@@ -4473,7 +4473,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-valse-des-manuels.html",
+        "url": "#",
         "text": "La valse des manuels"
       }
     ],
@@ -4519,7 +4519,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-ile-maudite.html",
+        "url": "#",
         "text": "L'île maudite"
       }
     ],
@@ -4562,23 +4562,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-et-froid.html",
+        "url": "#",
         "text": "Chaud et Froid – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-derniegravere-carte.html",
+        "url": "#",
         "text": "La dernière carte – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/a-glacer-le-sang.html",
+        "url": "#",
         "text": "À glacer le sang (alignement bontarien)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/sueurs-froides.html",
+        "url": "#",
         "text": "Sueurs froides (alignement brâkmarien)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4621,19 +4621,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-et-froid.html",
+        "url": "#",
         "text": "Chaud et Froid – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-desseins-de-sylargh.html",
+        "url": "#",
         "text": "Les desseins de Sylargh – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/il-est-temps-de-mourir.html",
+        "url": "#",
         "text": "Il est temps de mourir – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4676,19 +4676,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-et-froid.html",
+        "url": "#",
         "text": "Chaud et Froid – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/vous-avez-demandeacute-la-peau-lisse.html",
+        "url": "#",
         "text": "Vous avez demandé la peau lisse ? – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-dragon-noir.html",
+        "url": "#",
         "text": "Le dragon noir – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4731,19 +4731,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/au-delagrave-du-mur.html",
+        "url": "#",
         "text": "Au-delà du mur – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chaud-et-froid.html",
+        "url": "#",
         "text": "Chaud et Froid – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-voix-de-crystal.html",
+        "url": "#",
         "text": "Une voix de crystal – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4786,19 +4786,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-givre-des-reacuteveacutelations.html",
+        "url": "#",
         "text": "Le givre des révélations – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-comte-de-faits-divers.html",
+        "url": "#",
         "text": "Un comte de fait divers – Dofus des Glaces"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/s-armer-contre-le-destin.html",
+        "url": "#",
         "text": "S’armer contre le destin – 6 sur 6"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4876,39 +4876,39 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/tour-nage.html",
+        "url": "#",
         "text": "Tour nage – Tour du monde"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/pollution-je-dis-non.html",
+        "url": "#",
         "text": "Pollution, je dis non – Dofus Abyssal"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-heros-legendaire.html",
+        "url": "#",
         "text": "Ordre 5 Bonta : Apprentissage : Héros Légendaire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--gardien-du-savoir.html",
+        "url": "#",
         "text": "Ordre 5 Bonta : Apprentissage : Gardien du Savoir"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-maitre-des-illusions.html",
+        "url": "#",
         "text": "Ordre 5 Bonta : Apprentissage : Maître des Illusions"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-heros-de-l-apocalypse.html",
+        "url": "#",
         "text": "Ordre 5 Brakmar : Apprentissage : Héros de l'Apocalypse"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage--gardien-des-tortures.html",
+        "url": "#",
         "text": "Ordre 5 Brakmar : Apprentissage : Gardien des Tortures"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/apprentissage-maitre-des-ombres.html",
+        "url": "#",
         "text": "Ordre 5 Brakmar : Apprentissage : Maître des Ombres"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -4951,27 +4951,27 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/coiffeur-de-genie.html",
+        "url": "#",
         "text": "Coiffeur de génie – Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-morceau-de-roi.html",
+        "url": "#",
         "text": "Un morceau de roi – Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/casse-en-enutrosor.html",
+        "url": "#",
         "text": "Casse en Enutrosor – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-gloutons-des-dimensions.html",
+        "url": "#",
         "text": "Les gloutons des dimensions – Quête de Zone Osavora"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/qui-nous-protege-du-protecteur.html",
+        "url": "#",
         "text": "Qui nous protège du protecteur ? – Dofus Sylvestre"
       }
     ],
@@ -5014,15 +5014,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-cour-des-miracles.html",
+        "url": "#",
         "text": "La cour des miracles – Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-oeuf-de-crocabulia.html",
+        "url": "#",
         "text": "L’œuf de Crocabulia – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5065,19 +5065,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/qui-dit-baume.html",
+        "url": "#",
         "text": "Qui dit baume – Quête de zone Île de Frigost"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-gloutons-des-dimensions.html",
+        "url": "#",
         "text": "Les gloutons des dimensions – Quête de zone Osavora"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/examen-de-passage.html",
+        "url": "#",
         "text": "Exament de passage – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5121,19 +5121,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-veacuteriteacute-est-au-fond-du-puits.html",
+        "url": "#",
         "text": "La vérité est au fond du puits – Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-sables-du-temps.html%20target=",
+        "url": "#",
         "text": "Les sables du temps – Dofus Nébuleux"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/s-armer-contre-le-destin.html",
+        "url": "#",
         "text": "S’armer contre le destin – 6/6"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5178,15 +5178,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/de-lautre-cocircteacute-du-chaloeil.html",
+        "url": "#",
         "text": "De l’autre côté du Chaloeil – Quête de zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-dragon-blanc.html",
+        "url": "#",
         "text": "L’œuf de Crocabulia – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5229,15 +5229,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/piegravege-de-crystal.html",
+        "url": "#",
         "text": "Piège de crystal – Dofus Abyssal"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-voix-de-crystal.html",
+        "url": "#",
         "text": "Une voix de crystal – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5280,15 +5280,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/de-mal-en-impie.html",
+        "url": "#",
         "text": "De mal en impie – Dofus Abyssal"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-creuset-de-meriana.html",
+        "url": "#",
         "text": "Le creuset de Mériana – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5331,15 +5331,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/reine-de-beauteacute.html",
+        "url": "#",
         "text": "Reine de beauté – Dofus Abyssal"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/mississitudes.html",
+        "url": "#",
         "text": "Mississitudes – 4/6"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5384,15 +5384,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-secret-de-la-pyramide.html",
+        "url": "#",
         "text": "Le secret de la pyramide – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/nordalie.html",
+        "url": "#",
         "text": "Nordalie – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5436,15 +5436,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/entretien-avec-une-vampyre.html",
+        "url": "#",
         "text": "Entretien avec une Vampyre – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-mort-dans-l-ame.html",
+        "url": "#",
         "text": "Le mort dans l’âme – Dofus Ivoire"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5489,23 +5489,23 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/fee-d-hiver.html",
+        "url": "#",
         "text": "Alignement 99 Bonta : Fée d'hiver"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/lettre-a-ilyz.html",
+        "url": "#",
         "text": "Alignement 99 Brakmar : Lettre à Ilyz"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-avis-de-la-mort.html",
+        "url": "#",
         "text": "L’avis de la Mort – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-derniere-volonte.html",
+        "url": "#",
         "text": "Une dernière volonté – Dofus Sylvestre"
       }
     ],
@@ -5565,19 +5565,19 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-coeurs-livides.html",
+        "url": "#",
         "text": "Les cœurs livides – Dofus Forgelave"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-nouvel-heritier.html",
+        "url": "#",
         "text": "Un nouvel héritier – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/qui-nous-protege-du-protecteur.html",
+        "url": "#",
         "text": "Qui nous protège du protecteur ? – Dofus Sylvestre"
       }
     ],
@@ -5621,15 +5621,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-coeurs-livides.html",
+        "url": "#",
         "text": "Les cœurs livides – Dofus Forgelave"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-crocoburio.html",
+        "url": "#",
         "text": "À la recherche de Crocoburio – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5672,15 +5672,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/de-brikke-et-de-brokke.html",
+        "url": "#",
         "text": "De Brikke et de Brokke – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-dragon-noir.html",
+        "url": "#",
         "text": "Le dragon noir – Dofus Ebène"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5724,11 +5724,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-sens-du-sacrifice.html",
+        "url": "#",
         "text": "Le sens du sacrifice – Dofus Vulbis"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5776,11 +5776,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/mort-et-renouveau.html",
+        "url": "#",
         "text": "Mort et renouveau – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5830,11 +5830,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-jour-le-plus-long.html",
+        "url": "#",
         "text": "Le jour le plus long – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5883,11 +5883,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/briser-ses-chaines.html",
+        "url": "#",
         "text": "Briser ses chaines – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -5936,11 +5936,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/avis-de-tempete.html",
+        "url": "#",
         "text": "Avis de tempête – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -6018,15 +6018,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/deux-souffles-une-inspiration.html",
+        "url": "#",
         "text": "Deux souffles, une inspiration – Dofus Tacheté"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tant-de-mots-et-si-peu-de-temps.html",
+        "url": "#",
         "text": "Tant de mots et si peu de temps – Quête de Zone/a&gt;"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -6070,15 +6070,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/deux-souffles-une-inspiration.html",
+        "url": "#",
         "text": "Deux souffles, une inspiration – Dofus Tacheté"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/tant-de-mots-et-si-peu-de-temps.html",
+        "url": "#",
         "text": "Tant de mots et si peu de temps – Quête de Zone/a&gt;"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -6124,15 +6124,15 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-chant-du-pandamonium.html",
+        "url": "#",
         "text": "Le chant du Pandamonium – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-vrai-petit-garcon.html",
+        "url": "#",
         "text": "Un vrai petit garçon – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-totems-de-maimane.html",
+        "url": "#",
         "text": "Les totems de Maïmane – Dofus Cauchemar (pas obligatoire)"
       }
     ],
@@ -6176,11 +6176,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-danse-de-la-dissonance.html",
+        "url": "#",
         "text": "La danse de la dissonance – Dofus Cauchemar"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/qui-nous-protege-du-protecteur.html",
+        "url": "#",
         "text": "Qui nous protège du protecteur ? – Dofus Sylvestre"
       }
     ],
@@ -6229,11 +6229,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/la-sorciere-exilee.html",
+        "url": "#",
         "text": "La sorcière exilée – Dofus Sylvestre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/flovoraison.html",
+        "url": "#",
         "text": "Flovoraison – Dofus Sylvestre"
       }
     ],
@@ -6281,7 +6281,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/un-hote-de-marque.html",
+        "url": "#",
         "text": "Un hôte de marque – Dofoozbz"
       }
     ],
@@ -6327,7 +6327,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/devoir-de-reserve.html",
+        "url": "#",
         "text": "Devoir de réserve – Dofoozbz"
       }
     ],
@@ -6374,31 +6374,31 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-heacuteros-en-herbe-ne-sont-jamais-assoupis.html",
+        "url": "#",
         "text": "Les héros en herbe ne sont jamais assoupis – Répétable Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-heacuteros-en-herbe-ne-sont-jamais-eacutepuiseacutes.html",
+        "url": "#",
         "text": "Les héros en herbe ne sont jamais épuisés – Répétable Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-heacuteros-ne-sont-jamais-fatigueacutes.html",
+        "url": "#",
         "text": "Les héros ne sont jamais fatigués – Répétable Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-heacuteros-ne-sont-jamais-lasseacutes.html",
+        "url": "#",
         "text": "Les héros ne sont jamais lassés – Répétable Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/ecirctre-un-heacuteros--question-dattitude.html",
+        "url": "#",
         "text": "Être un héros ? Question d’attitude – Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/prise-de-sang.html",
+        "url": "#",
         "text": "Prise de sang – Vulkania"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/le-monde-a-l-envers-partie1.html",
+        "url": "#",
         "text": "Le monde à l’envers – 20 ans de Dofus"
       }
     ],
@@ -6442,11 +6442,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/sapik-eacutepique-et-coleacutegram.html",
+        "url": "#",
         "text": "Sapik épique et Colégram – Quête de Zone"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/lrsquoeacutetoile-du-sapik.html",
+        "url": "#",
         "text": "L’Étoile du Sapik. – Quête de Zone"
       }
     ],
@@ -6498,7 +6498,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/petit-papa-nowel.html",
+        "url": "#",
         "text": "Petit Papa Nowel – Quête de Zone"
       }
     ],
@@ -6542,7 +6542,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/vilain-petit-nrsquoenfant.html",
+        "url": "#",
         "text": "Vilain petit n’enfant – Quête de Zone"
       }
     ],
@@ -6594,7 +6594,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/une-citwouille-pour-halouine.html",
+        "url": "#",
         "text": "Une Citwouille pour Halouine – Quête de Zone"
       }
     ],
@@ -6633,11 +6633,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/pour-que-la-flamme-vacille.html",
+        "url": "#",
         "text": "Pour que la flamme vacille – Dofus Sylvestre"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/l-heure-des-adieux.html",
+        "url": "#",
         "text": "L’heure des adieux – Dofus Sylvestre"
       }
     ],
@@ -6690,7 +6690,7 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/destructeur-de-mondes.html",
+        "url": "#",
         "text": "Destructeur de Mondes - Dofoobz"
       }
     ],
@@ -7041,11 +7041,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-aleas-de-la-chocolaterie.html",
+        "url": "#",
         "text": "Les aléas de la Chocolaterie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chocomagie-contre-chocomancie.html",
+        "url": "#",
         "text": "Chocomagie contre chocomancie"
       }
     ],
@@ -7101,11 +7101,11 @@
         "text": "Les aléas de la&nbsp;"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-aleas-de-la-chocolaterie.html",
+        "url": "#",
         "text": "Les aléas de la Chocolaterie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chocomagie-contre-chocomancie.html",
+        "url": "#",
         "text": "Chocomagie contre chocomancie"
       }
     ],
@@ -7145,11 +7145,11 @@
     ],
     "quests": [
       {
-        "url": "https://www.dofuspourlesnoobs.com/les-aleas-de-la-chocolaterie.html",
+        "url": "#",
         "text": "Les aléas de la Chocolaterie"
       },
       {
-        "url": "https://www.dofuspourlesnoobs.com/chocomagie-contre-chocomancie.html",
+        "url": "#",
         "text": "Chocomagie contre chocomancie"
       }
     ],

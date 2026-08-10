@@ -2974,7 +2974,7 @@ a:hover {
   font-size: 0.78rem;
   color: #94a3b8;
 }/* ===== 2-COLUMN LAYOUT: JOURNAL LEFT, CONTROLS RIGHT ===== */
-.dofusdb-layout-main {
+.solver-layout-main {
   padding-top: 100px;
   padding-bottom: 60px;
   min-height: 85vh;
@@ -3008,7 +3008,7 @@ a:hover {
   gap: 16px;
 }
 
-.dofusdb-title {
+.solver-title {
   font-family: var(--font-display);
   font-size: 2.3rem;
   font-weight: 700;
@@ -3018,14 +3018,14 @@ a:hover {
   text-shadow: 0 0 20px rgba(132, 204, 22, 0.45);
 }
 
-.dofusdb-section {
+.solver-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.dofusdb-label {
+.solver-label {
   font-size: 1.05rem;
   font-weight: 600;
   color: #ffffff;
@@ -3034,7 +3034,7 @@ a:hover {
 }
 
 /* Position Stepper Row */
-.dofusdb-pos-row {
+.solver-pos-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3096,7 +3096,7 @@ a:hover {
 }
 
 /* Diamond Compass (45-deg rotation) */
-.dofusdb-diamond-compass {
+.solver-diamond-compass {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3147,7 +3147,7 @@ a:hover {
 }
 
 /* Indice Search & Overlay Dropdown */
-.dofusdb-section .indice-input-wrapper {
+.solver-section .indice-input-wrapper {
   position: relative;
   width: 100%;
   max-width: 500px;
@@ -3155,7 +3155,7 @@ a:hover {
   justify-content: center;
 }
 
-.dofusdb-indice-input {
+.solver-indice-input {
   width: 100%;
   background: #383838;
   border: 1px solid #525252;
@@ -3168,7 +3168,7 @@ a:hover {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.dofusdb-indice-input:focus {
+.solver-indice-input:focus {
   outline: none;
   border-color: #84cc16;
   box-shadow: 0 0 14px rgba(132, 204, 22, 0.35);
@@ -3246,12 +3246,12 @@ a:hover {
 }
 
 /* Result Banner */
-.dofusdb-chasse-box .hunt-result-banner {
+.solver-chasse-box .hunt-result-banner {
   width: 100%;
 }
 
 /* Centered Map Card */
-.dofusdb-map-card {
+.solver-map-card {
   width: 100%;
   background: #18191c;
   border: 2px solid #f59e0b;
@@ -3260,7 +3260,7 @@ a:hover {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
 }
 
-.dofusdb-map-footer {
+.solver-map-footer {
   text-align: center;
   padding: 8px 12px;
   font-size: 0.85rem;

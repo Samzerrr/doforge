@@ -29,8 +29,8 @@
   </header>
 
 
-  <!-- MAIN DOFUSDB SOLVER CONTAINER (2 COLUMNS: JOURNAL LEFT, CONTROLS RIGHT) -->
-  <main class="page-main-container dofusdb-layout-main">
+  <!-- MAIN SOLVER SOLVER CONTAINER (2 COLUMNS: JOURNAL LEFT, CONTROLS RIGHT) -->
+  <main class="page-main-container solver-layout-main">
 
     <div class="chasse-split-container">
 
@@ -52,12 +52,12 @@
       <!-- RIGHT COLUMN: SOLVER CONTROLS -->
       <div class="chasse-right-controls-col">
 
-        <h1 class="dofusdb-title">Chasse au trésor</h1>
+        <h1 class="solver-title">Chasse au trésor</h1>
 
         <!-- 1. POSITION SECTION -->
-        <div class="dofusdb-section">
-          <label class="dofusdb-label">Position</label>
-          <div class="dofusdb-pos-row">
+        <div class="solver-section">
+          <label class="solver-label">Position</label>
+          <div class="solver-pos-row">
             <div class="pos-stepper">
               <button type="button" class="btn-pos-step" id="btn-dec-x" title="-1">-</button>
               <input type="number" id="pos-x" class="pos-input" value="-25" step="1">
@@ -83,9 +83,9 @@
         </div>
 
         <!-- 2. DIRECTION SECTION (Diamond Compass) -->
-        <div class="dofusdb-section">
-          <label class="dofusdb-label">Direction</label>
-          <div class="dofusdb-diamond-compass">
+        <div class="solver-section">
+          <label class="solver-label">Direction</label>
+          <div class="solver-diamond-compass">
             <button type="button" class="btn-diamond btn-dir-nord" data-dir="nord" title="Nord">
               <span class="diamond-arrow">⬆</span>
             </button>
@@ -104,10 +104,10 @@
         </div>
 
         <!-- 3. INDICE SECTION -->
-        <div class="dofusdb-section">
-          <label class="dofusdb-label">Indice</label>
+        <div class="solver-section">
+          <label class="solver-label">Indice</label>
           <div class="indice-input-wrapper">
-            <input type="text" id="indice-search" class="dofusdb-indice-input" placeholder="Taper le nom de l'indice (ex: Puits, Statue, Casque...)" autocomplete="off">
+            <input type="text" id="indice-search" class="solver-indice-input" placeholder="Taper le nom de l'indice (ex: Puits, Statue, Casque...)" autocomplete="off">
             <div id="indice-dropdown" class="indice-dropdown-overlay" style="display:none;"></div>
           </div>
 
