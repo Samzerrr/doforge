@@ -28,7 +28,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fouduglen-l-ecureuil_zone.png"
+    "zone_map": "images/avis_zones/fouduglen-l-ecureuil_zone.jpg"
   },
   {
     "slug": "sam-sagaz",
@@ -63,7 +63,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/sam-sagaz_zone.png"
+    "zone_map": "images/avis_zones/sam-sagaz_zone.jpg"
   },
   {
     "slug": "maitre-boulet",
@@ -100,7 +100,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/maitre-boulet_zone.png"
+    "zone_map": "images/avis_zones/maitre-boulet_zone.jpg"
   },
   {
     "slug": "frakacia-leukocytine",
@@ -137,7 +137,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/frakacia-leukocytine_zone.png"
+    "zone_map": "images/avis_zones/frakacia-leukocytine_zone.jpg"
   },
   {
     "slug": "les-guman",
@@ -211,7 +211,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/roub-ignolles_zone.png"
+    "zone_map": "images/avis_zones/roub-ignolles_zone.jpg"
   },
   {
     "slug": "bouss-baybe",
@@ -248,7 +248,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/bouss-baybe_zone.png"
+    "zone_map": "images/avis_zones/bouss-baybe_zone.jpg"
   },
   {
     "slug": "ogivol-scalarcin",
@@ -284,7 +284,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/ogivol-scalarcin_zone.png"
+    "zone_map": "images/avis_zones/ogivol-scalarcin_zone.jpg"
   },
   {
     "slug": "brumen-tinctorias",
@@ -320,7 +320,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/brumen-tinctorias_zone.png"
+    "zone_map": "images/avis_zones/brumen-tinctorias_zone.jpg"
   },
   {
     "slug": "marzwel-le-gobelin",
@@ -357,7 +357,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/marzwel-le-gobelin_zone.png"
+    "zone_map": "images/avis_zones/marzwel-le-gobelin_zone.jpg"
   },
   {
     "slug": "nono-le-wobot",
@@ -394,7 +394,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/nono-le-wobot_zone.png"
+    "zone_map": "images/avis_zones/nono-le-wobot_zone.jpg"
   },
   {
     "slug": "gadoo",
@@ -468,7 +468,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/qil-bil_zone.png"
+    "zone_map": "images/avis_zones/qil-bil_zone.jpg"
   },
   {
     "slug": "armada-l-invincible",
@@ -504,7 +504,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/armada-l-invincible_zone.png"
+    "zone_map": "images/avis_zones/armada-l-invincible_zone.jpg"
   },
   {
     "slug": "aermyne",
@@ -541,7 +541,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/aermyne_zone.png"
+    "zone_map": "images/avis_zones/aermyne_zone.jpg"
   },
   {
     "slug": "tournade",
@@ -578,7 +578,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/tournade_zone.png"
+    "zone_map": "images/avis_zones/tournade_zone.jpg"
   },
   {
     "slug": "musha-l-oni",
@@ -615,7 +615,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/musha-l-oni_zone.png"
+    "zone_map": "images/avis_zones/musha-l-oni_zone.jpg"
   },
   {
     "slug": "dragodingo",
@@ -652,7 +652,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/dragodingo_zone.png"
+    "zone_map": "images/avis_zones/dragodingo_zone.jpg"
   },
   {
     "slug": "tyranne-la-terrible",
@@ -689,7 +689,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/tyranne-la-terrible_zone.png"
+    "zone_map": "images/avis_zones/tyranne-la-terrible_zone.jpg"
   },
   {
     "slug": "degolas",
@@ -726,7 +726,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/degolas_zone.png"
+    "zone_map": "images/avis_zones/degolas_zone.jpg"
   },
   {
     "slug": "simbadas",
@@ -763,7 +763,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/simbadas_zone.png"
+    "zone_map": "images/avis_zones/simbadas_zone.jpg"
   },
   {
     "slug": "rok-gnorok",
@@ -800,7 +800,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/rok-gnorok_zone.png"
+    "zone_map": "images/avis_zones/rok-gnorok_zone.jpg"
   },
   {
     "slug": "maxi-malle",
@@ -868,7 +868,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/carlita-de-l-aguerfelde_zone.png"
+    "zone_map": "images/avis_zones/carlita-de-l-aguerfelde_zone.jpg"
   },
   {
     "slug": "naganita",
@@ -899,7 +899,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/naganita_zone.png"
+    "zone_map": "images/avis_zones/naganita_zone.jpg"
   },
   {
     "slug": "prince-marchand",
@@ -936,7 +936,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/prince-marchand_zone.png"
+    "zone_map": "images/avis_zones/prince-marchand_zone.jpg"
   },
   {
     "slug": "trukipik",
@@ -973,7 +973,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/trukipik_zone.png"
+    "zone_map": "images/avis_zones/trukipik_zone.jpg"
   },
   {
     "slug": "gobrechaun",
@@ -1012,7 +1012,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/gobrechaun_zone.png"
+    "zone_map": "images/avis_zones/gobrechaun_zone.jpg"
   },
   {
     "slug": "bouflouth",
@@ -1049,7 +1049,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/bouflouth_zone.png"
+    "zone_map": "images/avis_zones/bouflouth_zone.jpg"
   },
   {
     "slug": "morblok",
@@ -1127,7 +1127,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/vashkiwi_zone.png"
+    "zone_map": "images/avis_zones/vashkiwi_zone.jpg"
   },
   {
     "slug": "nenuflor-tilotus",
@@ -1164,7 +1164,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/nenuflor-tilotus_zone.png"
+    "zone_map": "images/avis_zones/nenuflor-tilotus_zone.jpg"
   },
   {
     "slug": "padgref-demoel",
@@ -1205,7 +1205,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/padgref-demoel_zone.png"
+    "zone_map": "images/avis_zones/padgref-demoel_zone.jpg"
   },
   {
     "slug": "jerart-dupaindur",
@@ -1242,7 +1242,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/jerart-dupaindur_zone.png"
+    "zone_map": "images/avis_zones/jerart-dupaindur_zone.jpg"
   },
   {
     "slug": "panteroz",
@@ -1318,7 +1318,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/ali-grothor_zone.png"
+    "zone_map": "images/avis_zones/ali-grothor_zone.jpg"
   },
   {
     "slug": "roi-camole",
@@ -1359,7 +1359,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/roi-camole_zone.png"
+    "zone_map": "images/avis_zones/roi-camole_zone.jpg"
   },
   {
     "slug": "monsieur-pingouin",
@@ -1396,7 +1396,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/monsieur-pingouin_zone.png"
+    "zone_map": "images/avis_zones/monsieur-pingouin_zone.jpg"
   },
   {
     "slug": "amy-l-empoisonneuse",
@@ -1478,7 +1478,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/katigrou_zone.png"
+    "zone_map": "images/avis_zones/katigrou_zone.jpg"
   },
   {
     "slug": "darma",
@@ -1509,7 +1509,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/darma_zone.png"
+    "zone_map": "images/avis_zones/darma_zone.jpg"
   },
   {
     "slug": "fojumo",
@@ -1540,7 +1540,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fojumo_zone.png"
+    "zone_map": "images/avis_zones/fojumo_zone.jpg"
   },
   {
     "slug": "aigripoil",
@@ -1608,7 +1608,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/mogligli_zone.png"
+    "zone_map": "images/avis_zones/mogligli_zone.jpg"
   },
   {
     "slug": "fantomayte",
@@ -1645,7 +1645,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fantomayte_zone.png"
+    "zone_map": "images/avis_zones/fantomayte_zone.jpg"
   },
   {
     "slug": "zatoishwan",
@@ -1686,7 +1686,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/zatoishwan_zone.png"
+    "zone_map": "images/avis_zones/zatoishwan_zone.jpg"
   },
   {
     "slug": "glandalf-l-aigri",
@@ -1717,7 +1717,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/glandalf-l-aigri_zone.png"
+    "zone_map": "images/avis_zones/glandalf-l-aigri_zone.jpg"
   },
   {
     "slug": "vengeuse-masquee",
@@ -1754,7 +1754,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/vengeuse-masquee_zone.png"
+    "zone_map": "images/avis_zones/vengeuse-masquee_zone.jpg"
   },
   {
     "slug": "anatak-diskedor",
@@ -1791,7 +1791,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/anatak-diskedor_zone.png"
+    "zone_map": "images/avis_zones/anatak-diskedor_zone.jpg"
   },
   {
     "slug": "yechti",
@@ -1830,7 +1830,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/yechti_zone.png"
+    "zone_map": "images/avis_zones/yechti_zone.jpg"
   },
   {
     "slug": "ka-youloud",
@@ -1867,7 +1867,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/ka-youloud_zone.png"
+    "zone_map": "images/avis_zones/ka-youloud_zone.jpg"
   },
   {
     "slug": "crasper",
@@ -1904,7 +1904,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/crasper_zone.png"
+    "zone_map": "images/avis_zones/crasper_zone.jpg"
   },
   {
     "slug": "hin",
@@ -2023,7 +2023,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/shushu-debruk-sayl_zone.png"
+    "zone_map": "images/avis_zones/shushu-debruk-sayl_zone.jpg"
   },
   {
     "slug": "guerrier-du-ko",
@@ -2054,7 +2054,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/guerrier-du-ko_zone.png"
+    "zone_map": "images/avis_zones/guerrier-du-ko_zone.jpg"
   },
   {
     "slug": "dremoan",
@@ -2131,7 +2131,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/carter-le-pillard_zone.png"
+    "zone_map": "images/avis_zones/carter-le-pillard_zone.jpg"
   },
   {
     "slug": "mouchame",
@@ -2283,7 +2283,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/predagob_zone.png"
+    "zone_map": "images/avis_zones/predagob_zone.jpg"
   },
   {
     "slug": "flasho",
@@ -2357,7 +2357,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/docteur-eggob_zone.png"
+    "zone_map": "images/avis_zones/docteur-eggob_zone.jpg"
   },
   {
     "slug": "culbutoeuf",
@@ -2398,7 +2398,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/culbutoeuf_zone.png"
+    "zone_map": "images/avis_zones/culbutoeuf_zone.jpg"
   },
   {
     "slug": "hyperscampe",
@@ -2581,7 +2581,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/glourdorak_zone.png"
+    "zone_map": "images/avis_zones/glourdorak_zone.jpg"
   },
   {
     "slug": "psikopompe",
@@ -2616,7 +2616,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/psikopompe_zone.png"
+    "zone_map": "images/avis_zones/psikopompe_zone.jpg"
   },
   {
     "slug": "mekamouth",
@@ -2651,7 +2651,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/mekamouth_zone.png"
+    "zone_map": "images/avis_zones/mekamouth_zone.jpg"
   },
   {
     "slug": "takomako",
@@ -2792,7 +2792,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/grand-kongoku_zone.png"
+    "zone_map": "images/avis_zones/grand-kongoku_zone.jpg"
   },
   {
     "slug": "voldelor",
@@ -2864,7 +2864,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/chevalier-de-glace_zone.png"
+    "zone_map": "images/avis_zones/chevalier-de-glace_zone.jpg"
   },
   {
     "slug": "khepricorne",
@@ -2903,7 +2903,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/khepricorne_zone.png"
+    "zone_map": "images/avis_zones/khepricorne_zone.jpg"
   },
   {
     "slug": "fantome-braideur",
@@ -2934,7 +2934,7 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fantome-braideur_zone.png"
+    "zone_map": "images/avis_zones/fantome-braideur_zone.jpg"
   },
   {
     "slug": "comte-harebourg",
