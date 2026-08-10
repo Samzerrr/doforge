@@ -404,6 +404,7 @@
             <button class="btn-action btn-copy" title="Copier le nom">
               📋 Copier
             </button>
+            ${item.zone_map ? `<button class="btn-action btn-map" title="Voir la carte du périmètre">🗺️ Carte</button>` : ''}
             <a href="detail.html?type=avis&slug=${item.slug}" class="btn-action btn-detail">
               Stratégie →
             </a>
@@ -419,10 +420,34 @@
       });
 
       const btnCopy = card.querySelector(".btn-copy");
-      btnCopy.addEventListener("click", (e) => {
-        e.stopPropagation();
-        copyToClipboard(item.name);
-      });
+      if (btnCopy) {
+        btnCopy.addEventListener("click", (e) => {
+          e.stopPropagation();
+          copyToClipboard(item.name);
+        });
+      }
+
+      const btnMap = card.querySelector(".btn-map");
+      if (btnMap && item.zone_map) {
+        btnMap.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const modal = document.createElement("div");
+          modal.className = "map-modal-overlay";
+          modal.innerHTML = `
+            <div class="map-modal-content">
+              <span class="map-modal-close">&times;</span>
+              <img src="${item.zone_map}" alt="${escapeHtml(item.name)}" class="map-modal-img">
+              <div class="map-modal-caption">📍 Périmètre de recherche : <strong>${escapeHtml(item.name)}</strong> (${escapeHtml(zoneBadge)})</div>
+            </div>
+          `;
+          document.body.appendChild(modal);
+          modal.onclick = (ev) => {
+            if (ev.target === modal || ev.target.classList.contains("map-modal-close")) {
+              modal.remove();
+            }
+          };
+        });
+      }
 
       elements.gridAvis.appendChild(card);
     });

@@ -19,7 +19,10 @@
     questSection: document.getElementById("quest-section"),
     questContent: document.getElementById("quest-content"),
     extraSection: document.getElementById("extra-section"),
-    extraContent: document.getElementById("extra-content")
+    extraContent: document.getElementById("extra-content"),
+    zoneMapSection: document.getElementById("zone-map-section"),
+    zoneMapImg: document.getElementById("zone-map-img"),
+    zoneMapContainer: document.getElementById("zone-map-container")
   };
 
   const monsterIcons = ["👹", "👾", "🐉", "💀", "👺", "👻", "🔥", "⚡", "🕸️", "🕷️", "🤖", "⚔️"];
@@ -247,6 +250,37 @@
     }
 
     elements.mobBadges.innerHTML = badgesHtml;
+
+    // 0.5 Zone Map Section (Avis de recherche spawn area map image)
+    if (item.zone_map && elements.zoneMapSection && elements.zoneMapImg) {
+      elements.zoneMapSection.style.display = "block";
+      elements.zoneMapImg.src = item.zone_map;
+      elements.zoneMapImg.alt = `Carte zone de recherche de ${itemName}`;
+      
+      // Lightbox click handler
+      if (elements.zoneMapContainer) {
+        elements.zoneMapContainer.style.cursor = "zoom-in";
+        elements.zoneMapContainer.onclick = () => {
+          const modal = document.createElement("div");
+          modal.className = "map-modal-overlay";
+          modal.innerHTML = `
+            <div class="map-modal-content">
+              <span class="map-modal-close">&times;</span>
+              <img src="${item.zone_map}" alt="${escapeHtml(itemName)}" class="map-modal-img">
+              <div class="map-modal-caption">📍 Périmètre de recherche : <strong>${escapeHtml(itemName)}</strong> (${escapeHtml(locText)})</div>
+            </div>
+          `;
+          document.body.appendChild(modal);
+          modal.onclick = (e) => {
+            if (e.target === modal || e.target.classList.contains("map-modal-close")) {
+              modal.remove();
+            }
+          };
+        };
+      }
+    } else if (elements.zoneMapSection) {
+      elements.zoneMapSection.style.display = "none";
+    }
 
     // 1. Invulnerability Alert & Delock Strategy Banner
     if (item.has_invulnerable_state) {
