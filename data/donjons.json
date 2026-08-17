@@ -2977,7 +2977,7 @@
     "picture": "images/boss-excavation-du-mansot-royal.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "🛡️ DÉBLOCAGE DU MANSOT ROYAL :\n• Le Mansot Royal est invulnérable. Pour lui retirer son invulnérabilité pendant 1 tour, vous devez lui infliger des DOMMAGES DE POUSSÉE (en le poussant contre un mur ou une entité).\n⚠️ ATTENTION ONE SHOT :\n• Ne le poussez jamais lorsqu'il est au contact d'un joueur, sous peine d'OS le joueur immédiatement !",
+    "explanation": "🛡️ DÉBLOCAGE DU MANSOT ROYAL :\nLe Mansot Royal commence le combat avec l'état Invulnérable.\n• Pour retirer l'invulnérabilité du Mansot Royal pendant 1 tour, vous devez SOIGNER un personnage (ou un allié) placé au contact (CàC) du Mansot Royal.\n\n☠️ MÉCANIQUE D'OS (SOINS INTERDITS À PROXIMITÉ) :\n• Si un personnage reçoit un soin (sort de soin, vol de vie, soin passif) alors qu'il est situé à 4 cases ou moins du Mansot Royal, le Mansot Royal déclenche immédiatement une réaction mortelle et OS (One-Shot) le personnage soigné ainsi que tous les alliés adjacents !\n\n💡 Stratégie recommandée :\n1. N'utilisez AUCUN sort de soin, ni arme de soin, ni vol de vie près du Mansot Royal.\n2. Pour lever l'invulnérabilité : amenez un allié au CàC du Mansot Royal et lancez un soin sur cet allié pour débloquer le boss, puis déclenchez votre tour de burst à distance.\n3. Éliminez rapidement les Mansots accompagnateurs pour ne pas vous faire pousser vers le boss.",
     "spells": [
       "Mansatire : Tape Eau à distance et pousse de 2 cases",
       "Glissade : Inflige des dommages de poussée massifs",
@@ -3032,9 +3032,9 @@
       }
     ],
     "os_details": {
-      "why": "Soigner un allié placé à côté du Mansot Royal ou subir un coup critique à portée.",
-      "how": "Le Mansot Royal réagit aux soins ennemis en gagnant +1 000 Puissance et en appliquant un OS en zone CàC.",
-      "avoid": "Ne lancez aucun sort de soin si un allié est au contact du Mansot Royal."
+      "why": "Soigner un allié ou subir un soin (sort de soin, vol de vie, arme de soin) à 4 cases ou moins du Mansot Royal.",
+      "how": "Le Mansot Royal réagit au soin en lançant immédiatement le sort 'Fulminotion' qui inflige 100 000 dégâts Eau/Neutre (OS instantané) au personnage soigné et aux alliés à son CàC.",
+      "avoid": "Interdiction totale de soigner ou d'utiliser du vol de vie à moins de 4 cases du Mansot Royal. N'utilisez le soin au CàC qu'au moment voulu pour retirer l'invulnérabilité du boss."
     }
   },
   {
