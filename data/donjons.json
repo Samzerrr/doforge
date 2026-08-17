@@ -3254,7 +3254,7 @@
     "picture": "images/boss-galerie-du-phossile.webp",
     "has_invulnerable_state": true,
     "has_special_strat": false,
-    "explanation": "💡 STRATÉGIE PHOSSILE :\n• Le Phossile gagne 100% de résistance dans l'élément dans lequel il est attaqué.\n• Alternez les éléments d'attaque (par exemple Feu puis Terre puis Eau) pour contourner ses boucliers rotatifs !",
+    "explanation": "🛡️ RÉSISTANCES ET STRATÉGIE PHOSSILE :\n• Le Phossile gagne +100% de résistance temporaire dans l'élément avec lequel vous l'attaquez.\n• Alternez impérativement les éléments d'attaque (par exemple Feu → Eau → Terre → Air) à chaque coup pour continuer à lui infliger des dégâts.\n\n☠️ MÉCANIQUE D'OS (POUSSÉE & CORPS-À-CORPS MORTEL) :\n• Si un personnage termine son tour au corps-à-corps (CàC) du Phossile ou subit des dommages de poussée provoqués par les monstres de la salle (Phorreurs) contre le Phossile, le boss déclenche immédiatement une attaque dévastatrice qui OS (One-Shot) la cible !\n\n💡 Stratégie recommandée :\n1. Gardez le Phossile impérativement à DISTANCE (> 3 PO) à l'aide de retraits PM et de poussées.\n2. Évitez les lignes de poussée des monstres accompagnateurs pour ne pas être projeté sur le boss.\n3. Alternez vos éléments d'attaque à chaque tour pour contourner ses immunités élémentaires.",
     "spells": [
       "Fossilisation : Gagne 100% de résistance dans l'élément subit",
       "Coup de Pioche : Tape Neutre en zone CàC"
@@ -3276,7 +3276,7 @@
     "capture": "non-capturable",
     "useful_for_ocre": false,
     "useful_for_emeraude": false,
-    "has_os_mechanic": false,
+    "has_os_mechanic": true,
     "challenges": [
       {
         "name": "Hardi",
@@ -3294,7 +3294,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Finir son tour au corps-à-corps (CàC) du Phossile ou subir des dommages de poussée contre le boss ou les murs causés par les monstres de la salle.",
+      "how": "Le Phossile déclenche 'Glissement de Terrain' (dégâts Terre/Neutre à 100 000 PV) qui OS immédiatement le personnage au contact.",
+      "avoid": "Maintenez le Phossile à distance (> 3 PO) avec du retrait PM, surveillez le placement des monstres pour éviter les poussées ennemies, et ne venez jamais finir votre tour à son CàC."
+    }
   },
   {
     "slug": "tertre-du-long-sommeil",
