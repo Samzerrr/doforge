@@ -307,10 +307,44 @@
       elements.invulnerableSection.style.display = "none";
     }
 
-    // 1.5 OS Alert
+    // 1.5 OS Alert (One Shot why, how, avoid details)
     const osSection = document.getElementById("os-section");
     if (osSection) {
-      osSection.style.display = item.has_os_mechanic ? "block" : "none";
+      if (item.has_os_mechanic) {
+        osSection.style.display = "block";
+        const details = item.os_details || {};
+        const whyText = details.why || "Non-respect d'une mécanique clé (placement, déclencheur ou seuil de PA/PM).";
+        const howText = details.how || "Sort de frappe dévastatrice (100 000 dégâts) ou exécution immédiate (100% PV).";
+        const avoidText = details.avoid || "Consultez la stratégie de combat ci-dessous pour contourner cette mécanique.";
+
+        osSection.innerHTML = `
+          <div class="os-banner-container">
+            <div class="os-banner-header">
+              <span class="os-banner-icon">☠️</span>
+              <div>
+                <h3 class="os-banner-title">Mécanique de One-Shot (OS Instantané)</h3>
+                <p class="os-banner-subtitle">Explication du déclencheur, du sort mortel et des conseils d'esquive</p>
+              </div>
+            </div>
+            <div class="os-banner-grid">
+              <div class="os-info-card os-why">
+                <div class="os-card-title"><span>❓</span> POURQUOI IL OS (Déclencheur)</div>
+                <div class="os-card-text">${escapeHtml(whyText)}</div>
+              </div>
+              <div class="os-info-card os-how">
+                <div class="os-card-title"><span>⚡</span> COMMENT IL OS (Sort & Dégâts)</div>
+                <div class="os-card-text">${escapeHtml(howText)}</div>
+              </div>
+              <div class="os-info-card os-avoid">
+                <div class="os-card-title"><span>🛡️</span> COMMENT L'ÉVITER (Parade)</div>
+                <div class="os-card-text">${escapeHtml(avoidText)}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      } else {
+        osSection.style.display = "none";
+      }
     }
 
     // 2. Explanation / Strategy Section — show for ALL bosses and avis

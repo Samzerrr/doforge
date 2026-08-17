@@ -284,7 +284,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/ogivol-scalarcin_zone.jpg"
+    "zone_map": "images/avis_zones/ogivol-scalarcin_zone.jpg",
+    "os_details": {
+      "why": "Attaquer Ogivol au corps-à-corps (mêlée).",
+      "how": "Chaque coup CàC lui donne +200% Dommages cumulatifs. Son attaque suivante OS le personnage.",
+      "avoid": "Combattez Ogivol Scalarcin STRICTEMENT à distance sans jamais aller à son contact."
+    }
   },
   {
     "slug": "brumen-tinctorias",
@@ -320,7 +325,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/brumen-tinctorias_zone.jpg"
+    "zone_map": "images/avis_zones/brumen-tinctorias_zone.jpg",
+    "os_details": {
+      "why": "Attaquer une Fiole Toxique posée par Brumen en mêlée.",
+      "how": "La Fiole explose en libérant du poison gazeux mortel qui OS l'attaquant.",
+      "avoid": "Ne touchez jamais aux fioles en mêlée. Détruisez Brumen à distance."
+    }
   },
   {
     "slug": "marzwel-le-gobelin",
@@ -868,7 +878,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/carlita-de-l-aguerfelde_zone.jpg"
+    "zone_map": "images/avis_zones/carlita-de-l-aguerfelde_zone.jpg",
+    "os_details": {
+      "why": "Laisser Carlita accumuler 3 marques de traque sur le même personnage.",
+      "how": "À la 3ème marque, son sort 'Mise à Mort' exécute instantanément le personnage ciblé.",
+      "avoid": "Alternez les personnages qui prennent les coups de Carlita afin d'éviter d'atteindre 3 marques."
+    }
   },
   {
     "slug": "naganita",
@@ -899,7 +914,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/naganita_zone.jpg"
+    "zone_map": "images/avis_zones/naganita_zone.jpg",
+    "os_details": {
+      "why": "Dépenser plus de 6 PA pendant son tour sous l'effet du 'Venin Désertique'.",
+      "how": "Le venin se déclenche et inflige 100 000 dégâts Neutre (OS immédiat).",
+      "avoid": "Si vous êtes empoisonné par Naganita, ne consommez pas plus de 6 PA lors de votre tour."
+    }
   },
   {
     "slug": "prince-marchand",
@@ -1012,7 +1032,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/gobrechaun_zone.jpg"
+    "zone_map": "images/avis_zones/gobrechaun_zone.jpg",
+    "os_details": {
+      "why": "Attaquer le Gobrechaun à distance aux tours pairs ou au CàC aux tours impairs.",
+      "how": "Le Gobrechaun renvoie les dégâts subis sous forme d'un coup mortel (OS).",
+      "avoid": "Frappez-le uniquement à distance aux tours impairs (T1, T3...) et uniquement au CàC aux tours pairs (T2, T4...)."
+    }
   },
   {
     "slug": "bouflouth",
@@ -1090,7 +1115,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/morblok_zone.jpg"
+    "zone_map": "images/avis_zones/morblok_zone.jpg",
+    "os_details": {
+      "why": "Laisser Morblok accumuler 4 charges de 'Pression Chrono'.",
+      "how": "Il lance 'Saut d'Heure' qui OS la cible et soigne Morblok de 100% de ses PV.",
+      "avoid": "Débouclez ses charges en lui retirant des PA/PM régulièrement."
+    }
   },
   {
     "slug": "vashkiwi",
@@ -1205,7 +1235,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/padgref-demoel_zone.jpg"
+    "zone_map": "images/avis_zones/padgref-demoel_zone.jpg",
+    "os_details": {
+      "why": "Retirer des PA à Padgref Demoël.",
+      "how": "Chaque retrait de PA le soigne de 500 PV et lui donne +500 Puissance, lui permettant d'OS au tour suivant.",
+      "avoid": "Ne tentez AUCUN retrait PA sur Padgref Demoël."
+    }
   },
   {
     "slug": "jerart-dupaindur",
@@ -1277,7 +1312,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/panteroz_zone.jpg"
+    "zone_map": "images/avis_zones/panteroz_zone.jpg",
+    "os_details": {
+      "why": "Finir son tour sur la même ligne ou colonne que Pantèroz lorsqu'il est invisible.",
+      "how": "Pantèroz se téléporte dans le dos de sa victime et l'exécute avec 'Déchirure Ombragée'.",
+      "avoid": "Déplacez-vous en diagonale et utilisez des sorts de révélation d'invisibilité."
+    }
   },
   {
     "slug": "ali-grothor",
@@ -1318,7 +1358,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/ali-grothor_zone.jpg"
+    "zone_map": "images/avis_zones/ali-grothor_zone.jpg",
+    "os_details": {
+      "why": "Rester au corps-à-corps d'Ali Grothor lorsqu'il est sous l'effet 'Enragé'.",
+      "how": "Il charge sa cible et inflige plus de 6 000 dégâts Terre en mêlée.",
+      "avoid": "Maintenez Ali Grothor à distance avec du retrait PM ou de la pesanteur."
+    }
   },
   {
     "slug": "roi-camole",
@@ -1359,7 +1404,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/roi-camole_zone.jpg"
+    "zone_map": "images/avis_zones/roi-camole_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "monsieur-pingouin",
@@ -1437,7 +1487,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/amy-l-empoisonneuse_zone.jpg"
+    "zone_map": "images/avis_zones/amy-l-empoisonneuse_zone.jpg",
+    "os_details": {
+      "why": "Lui appliquer du retrait PA ou PM pendant son tour de préparation.",
+      "how": "Amy convertit le retrait en boucliers massifs et déclenche un poison mortel automatique (OS).",
+      "avoid": "Ne tentez aucun retrait de PA ou PM sur Amy l'empoisonneuse."
+    }
   },
   {
     "slug": "katigrou",
@@ -1478,7 +1533,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/katigrou_zone.jpg"
+    "zone_map": "images/avis_zones/katigrou_zone.jpg",
+    "os_details": {
+      "why": "Venir en mêlée de Katigrou sans protection ou réduction de dégâts.",
+      "how": "Katigrou possède des coups critiques dévastateurs qui OS n'importe quel personnage à moins de 2 PO.",
+      "avoid": "Gardez vos distances et utilisez des entraves PM."
+    }
   },
   {
     "slug": "darma",
@@ -1509,7 +1569,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/darma_zone.jpg"
+    "zone_map": "images/avis_zones/darma_zone.jpg",
+    "os_details": {
+      "why": "Laisser Darma se téléporter derrière votre personnage.",
+      "how": "Elle applique 'Coup Fatal' qui OS instantanément la cible prise par surprise.",
+      "avoid": "Bloquez les lignes de vue et adossez-vous aux obstacles de la carte."
+    }
   },
   {
     "slug": "fojumo",
@@ -1540,7 +1605,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fojumo_zone.jpg"
+    "zone_map": "images/avis_zones/fojumo_zone.jpg",
+    "os_details": {
+      "why": "Se faire attirer au CàC de Fojumo.",
+      "how": "Son sort 'Aspiration Abyssale' OS la cible attirée et la transforme en invocation ennemie.",
+      "avoid": "Utilisez l'état Enraciné ou Pesanteur pour empêcher Fojumo de vous attirer."
+    }
   },
   {
     "slug": "aigripoil",
@@ -1571,7 +1641,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/aigripoil_zone.jpg"
+    "zone_map": "images/avis_zones/aigripoil_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "mogligli",
@@ -1686,7 +1761,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/zatoishwan_zone.jpg"
+    "zone_map": "images/avis_zones/zatoishwan_zone.jpg",
+    "os_details": {
+      "why": "Frapper Zatoïshwan dans l'élément auquel il est actuellement immunisé.",
+      "how": "Le coup est renvoyé à 300% de sa valeur sous forme de dégâts Neutre mortels (OS).",
+      "avoid": "Vérifiez ses résistances élémentaires changeantes avant chaque attaque."
+    }
   },
   {
     "slug": "glandalf-l-aigri",
@@ -1717,7 +1797,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/glandalf-l-aigri_zone.jpg"
+    "zone_map": "images/avis_zones/glandalf-l-aigri_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "vengeuse-masquee",
@@ -1830,7 +1915,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/yechti_zone.jpg"
+    "zone_map": "images/avis_zones/yechti_zone.jpg",
+    "os_details": {
+      "why": "Se faire bloquer au corps-à-corps du YeCh'Ti sans résistances Eau/Terre.",
+      "how": "Le YeCh'Ti frappe extrêmement fort au CàC et applique un malus de soin permanent qui entraîne la mort.",
+      "avoid": "Restez à distance et entravez ses déplacements avec du retrait PM."
+    }
   },
   {
     "slug": "ka-youloud",
@@ -1982,7 +2072,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fuji-givrefoux_zone.jpg"
+    "zone_map": "images/avis_zones/fuji-givrefoux_zone.jpg",
+    "os_details": {
+      "why": "Frapper la Fuji Givrefoux alors qu'un allié est à côté d'un Givrefoux ennemi.",
+      "how": "La Fuji déclenche 'Fureur Givrée' qui OS l'allié vulnérable.",
+      "avoid": "Écartez tous vos alliés des monstres Givrefoux avant d'attaquer la Fuji."
+    }
   },
   {
     "slug": "shushu-debruk-sayl",
@@ -2023,7 +2118,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/shushu-debruk-sayl_zone.jpg"
+    "zone_map": "images/avis_zones/shushu-debruk-sayl_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "guerrier-du-ko",
@@ -2054,7 +2154,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/guerrier-du-ko_zone.jpg"
+    "zone_map": "images/avis_zones/guerrier-du-ko_zone.jpg",
+    "os_details": {
+      "why": "Recevoir un coup direct du Guerrier du K.O au corps-à-corps.",
+      "how": "Son sort 'Uppercut K.O' inflige 10 000 dégâts Neutre en mêlée.",
+      "avoid": "Ne restez JAMAIS au CàC du Guerrier du K.O."
+    }
   },
   {
     "slug": "dremoan",
@@ -2094,7 +2199,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/dremoan_zone.jpg"
+    "zone_map": "images/avis_zones/dremoan_zone.jpg",
+    "os_details": {
+      "why": "Marcher dans les pièges de ronces posés par Dremoan.",
+      "how": "Le piège s'active et inflige des dégâts Neutre massifs répétitifs qui tuent en un tour.",
+      "avoid": "Repérez l'emplacement des pièges et contournez-les à distance."
+    }
   },
   {
     "slug": "carter-le-pillard",
@@ -2205,7 +2315,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/sans-visage_zone.jpg"
+    "zone_map": "images/avis_zones/sans-visage_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "viti-glourson",
@@ -2247,7 +2362,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/viti-glourson_zone.jpg"
+    "zone_map": "images/avis_zones/viti-glourson_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "predagob",
@@ -2468,7 +2588,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/homard-medali_zone.jpg"
+    "zone_map": "images/avis_zones/homard-medali_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "gein",
@@ -2508,7 +2633,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/gein_zone.jpg"
+    "zone_map": "images/avis_zones/gein_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "atcham",
@@ -2544,7 +2674,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/atcham_zone.jpg"
+    "zone_map": "images/avis_zones/atcham_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "glourdorak",
@@ -2617,7 +2752,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/psikopompe_zone.jpg"
+    "zone_map": "images/avis_zones/psikopompe_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "mekamouth",
@@ -2684,7 +2824,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/takomako_zone.jpg"
+    "zone_map": "images/avis_zones/takomako_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "ganos",
@@ -2762,7 +2907,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/sicogne_zone.jpg"
+    "zone_map": "images/avis_zones/sicogne_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "grand-kongoku",
@@ -2793,7 +2943,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/grand-kongoku_zone.jpg"
+    "zone_map": "images/avis_zones/grand-kongoku_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "voldelor",
@@ -2834,7 +2989,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/voldelor_zone.jpg"
+    "zone_map": "images/avis_zones/voldelor_zone.jpg",
+    "os_details": {
+      "why": "Rester dans la ligne de vue de Voldelor lorsqu'il sort de son invisibilité.",
+      "how": "Il lance 'Exécution Temporelle' qui OS la première cible en ligne droite.",
+      "avoid": "Restez toujours derrière des obstacles solides lorsque Voldelor est invisible."
+    }
   },
   {
     "slug": "chevalier-de-glace",
@@ -2904,7 +3064,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/khepricorne_zone.jpg"
+    "zone_map": "images/avis_zones/khepricorne_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "fantome-braideur",
@@ -2935,7 +3100,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/fantome-braideur_zone.jpg"
+    "zone_map": "images/avis_zones/fantome-braideur_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "comte-harebourg",
@@ -2975,7 +3145,12 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/comte-harebourg_zone.jpg"
+    "zone_map": "images/avis_zones/comte-harebourg_zone.jpg",
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "buldalazred",
@@ -3006,6 +3181,11 @@
         "description": "Former un groupe équilibré. L'Avis possède un niveau et des statistiques supérieurs aux monstres classiques de la zone."
       }
     ],
-    "zone_map": "images/avis_zones/buldalazred_zone.jpg"
+    "zone_map": "images/avis_zones/buldalazred_zone.jpg",
+    "os_details": {
+      "why": "Frapper Buldalazred avec des sorts de dégâts Feu.",
+      "how": "Les dégâts Feu le soignent et augmentent sa puissance de +500, lui permettant d'OS votre équipe.",
+      "avoid": "N'utilisez AUCUN sort de dégâts Feu contre Buldalazred."
+    }
   }
 ]

@@ -705,7 +705,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Tous les 5 tours, le Corailleur Magistral gagne +12 PA et +400 Puissance.",
+      "how": "En mêlée (au CàC), son sort inflige plus de 50 000 dégâts Air en un seul coup.",
+      "avoid": "Maintenez le boss impérativement à distance (> 4 PO) avec du retrait PM ou de la poussée aux tours multiples de 5."
+    }
   },
   {
     "slug": "nid-du-kwakwa",
@@ -1269,7 +1274,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Pousser une cible entre deux Wobots Tamponeurs provoque une collision mortelle.",
+      "how": "Le choc de poussée contre les Wobots déclenche l'exécution instantanée (100% des PV max).",
+      "avoid": "Évitez d'aligner vos personnages entre les Wobots ou utilisez le placement à votre avantage pour y OS les invocations du boss."
+    }
   },
   {
     "slug": "cimetiere-des-mastodontes",
@@ -1604,7 +1614,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Subir le poison 'Écrasement de tête' et dépenser des PA pendant la durée de l'état.",
+      "how": "Chaque PA consommé inflige de lourds dégâts Terre. Dépenser 6 PA ou plus vous tue instantanément.",
+      "avoid": "Passez immédiatement votre tour (0 PA dépensé) lorsque le Dragon Cochon vous applique le poison au T1 / T6."
+    }
   },
   {
     "slug": "caverne-du-koulosse",
@@ -1656,7 +1671,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Se faire bloquer au corps-à-corps du Koulosse sans résistances Neutre/Terre élevées.",
+      "how": "Son sort de mêlée répété inflige des dégâts monstrueux (plus de 3 000 dégâts par coup) qui exécutent les classes fragiles.",
+      "avoid": "Retirez-lui ses PM, repoussez-le ou tuez ses Bouftous des Cavernes pour garder vos distances."
+    }
   },
   {
     "slug": "taniere-du-meulou",
@@ -1767,7 +1787,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Rester aligné en ligne de vue directe du Moon ou rater le placement sur les Totems.",
+      "how": "Le sort 'Marteau de Moon' inflige jusqu'à 8 000 dégâts Air en coup critique à longue portée.",
+      "avoid": "Cachez-vous derrière les obstacles et débloquez l'invulnérabilité du Moon via le Totem adéquat."
+    }
   },
   {
     "slug": "theatre-de-dramak",
@@ -2385,7 +2410,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Déplacer ou pousser le Royalmouth ou subir ses poussées contre un obstacle.",
+      "how": "Chaque dommage de poussée déclenche 'Mouth de Trop' qui OS le personnage et tue ses alliés adjacents.",
+      "avoid": "Ne jouez AUCUN sort de poussée, de réattirance ou de transposition sur le Royalmouth."
+    }
   },
   {
     "slug": "tofulaillier-royal",
@@ -3000,7 +3030,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Soigner un allié placé à côté du Mansot Royal ou subir un coup critique à portée.",
+      "how": "Le Mansot Royal réagit aux soins ennemis en gagnant +1 000 Puissance et en appliquant un OS en zone CàC.",
+      "avoid": "Ne lancez aucun sort de soin si un allié est au contact du Mansot Royal."
+    }
   },
   {
     "slug": "dojo-du-vent",
@@ -3361,7 +3396,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Marcher sur la mauvaise case de glyphe élémentaire en fin de tour.",
+      "how": "Les glyphes impair/pair du Kimbo tuent instantanément (100% PV) tout personnage sur la mauvaise couleur à la fin de son tour.",
+      "avoid": "Calculez bien le placement selon le buff impair/pair appliqué par le Disciple du Kimbo."
+    }
   },
   {
     "slug": "salle-du-minotot",
@@ -3403,7 +3443,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Rester au CàC du Minotot lorsqu'il lance 'Puissance du Minotot'.",
+      "how": "Il inflige de lourdes frappes Multi-Éléments et repousse contre les murs, tuant n'importe quelle cible en un tour.",
+      "avoid": "Maintenez la pesanteur ou retirez des PM au Minotot pour éviter la mêlée."
+    }
   },
   {
     "slug": "hypogee-de-l-obsidiantre",
@@ -3474,7 +3519,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Frapper l'Obsidiantre sans avoir activé la mécanique de délock via poussée.",
+      "how": "Subir la poussée de l'Obsidiantre contre un allié ou mur applique un poison 'Combustion' qui tue en fin de tour.",
+      "avoid": "Poussez un monstre ennemi sur l'Obsidiantre pour retirer son invulnérabilité et désactiver le poison."
+    }
   },
   {
     "slug": "grotte-de-kanigroula",
@@ -3534,7 +3584,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Rater le focus sur les invocations de Kanigroula tous les 2 tours.",
+      "how": "Au T2, T4, T6..., Kanigroula exécute automatiquement (OS) toutes les invocations et alliés fragiles en mêlée.",
+      "avoid": "Ne restez jamais en mêlée de Kanigroula et éliminez ses alliés à distance."
+    }
   },
   {
     "slug": "plateau-de-ush",
@@ -3623,7 +3678,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "cavernes-givrefoux",
@@ -3674,7 +3734,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Frapper Tengu ou Fuji Givrefoux dans le mauvais état élémentaire.",
+      "how": "Le boss gagne 100% de critique et inflige un OS en zone à tous les joueurs en ligne de vue.",
+      "avoid": "Respectez strictement l'ordre de délock (placement de la Tengu + état des monstres)."
+    }
   },
   {
     "slug": "boyau-du-pere-ver",
@@ -3824,7 +3889,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "poste-de-controle-du-supervizoeuf",
@@ -3870,7 +3940,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "antre-du-korriandre",
@@ -3937,7 +4012,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Marcher ou être poussé sur une case de Spore toxique.",
+      "how": "Marcher sur un Spore tue INSTANTANÉMENT le personnage et l'élimine définitivement du combat.",
+      "avoid": "Faites attention à chaque déplacement et maîtrisez le placement pour éviter d'atterrir sur un Spore."
+    }
   },
   {
     "slug": "antre-du-kralamoure-geant",
@@ -3984,7 +4064,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Rester dans la zone d'impact de la Tentacule Primaire lorsque le Kralamoure ouvre sa coquille.",
+      "how": "Le sort 'Mouthicide' inflige 100 000 dégâts Eau/Feu/Terre/Air sur toute la zone d'ouverture.",
+      "avoid": "Écartez tous vos personnages des zones de frappe des tentacules au tour d'ouverture du Kralamoure."
+    }
   },
   {
     "slug": "grotte-du-bworker",
@@ -4347,7 +4432,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "antichambre-du-glourseleste",
@@ -4406,7 +4496,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Frapper le Glourséleste alors qu'un allié est au CàC d'un monstre ou au bord d'un obstacle.",
+      "how": "Le Glourséleste transpose et tue la cible en lui infligeant 100% d'érosion et des dégâts mortels.",
+      "avoid": "Ne touchez PAS au Glourséleste tant que tous les alliés ne sont pas dégagés de toute mêlée et de tout obstacle."
+    }
   },
   {
     "slug": "pyramide-d-ombre",
@@ -4454,7 +4549,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Finir son tour dans la zone d'Ombre (zone noire portée par le boss).",
+      "how": "À la fin du tour, le sort 'Voile d'Ombre' tue instantanément tous les personnages situés dans la zone sombre.",
+      "avoid": "Sortez impérativement de la zone d'Ombre avant la fin de votre tour de jeu."
+    }
   },
   {
     "slug": "camp-du-comte-razof",
@@ -4498,7 +4598,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "bastion-des-marteaux-aigris",
@@ -4544,7 +4649,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "forgefroide-de-missiz-frizz",
@@ -4603,7 +4713,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Subir un dommage de poussée ou frapper la Missiz Frizz à distance au mauvais tour.",
+      "how": "Les dommages de poussée sous l'état 'Verglas' entraînent la mort immédiate du personnage.",
+      "avoid": "Ne provoquez AUCUN dommage de poussée et contrôlez votre placement sur la glace."
+    }
   },
   {
     "slug": "transporteur-de-sylargh",
@@ -4658,7 +4773,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Laisser un Zombie ennemi atteindre 0 PV à côté de vos personnages.",
+      "how": "À sa mort, le Zombie explose et tue instantanément (OS) tous les personnages dans un rayon de 3 cases.",
+      "avoid": "Achevez les Zombies à plus de 3 cases de distance de votre groupe."
+    }
   },
   {
     "slug": "salons-prives-de-klime",
@@ -4713,7 +4833,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ne pas finir son tour sur l'un des glyphes d'angle de la carte.",
+      "how": "Le sort 'Nettoyage à Sec' de Klime tue automatiquement tout joueur hors des cases sécurisées.",
+      "avoid": "Terminez TOUJOURS votre tour sur une case valide identifiée au sol."
+    }
   },
   {
     "slug": "laboratoire-de-nileza",
@@ -4768,7 +4893,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Utiliser des sorts de soin ou dépasser le seuil de PA/PM autorisés selon la fiolle.",
+      "how": "L'effet 'Alchimie Toxique' explose et applique un OS immédiat à l'utilisateur et ses alliés proches.",
+      "avoid": "Lisez attentivement l'état chimique appliqué à votre personnage avant de lancer vos sorts."
+    }
   },
   {
     "slug": "donjon-du-comte",
@@ -4823,7 +4953,12 @@
         "name": "Duo (50 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 50 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ne pas calculer la Confusion horaire (PI/2, PI, 3PI/2) lors du lancement de vos sorts.",
+      "how": "Un sort mal orienté frappe vos propres alliés avec la puissance maximale du Comte (OS allié).",
+      "avoid": "Calculez rigoureusement la pi-rotation de vos sorts en fonction de la pièce horaire actuelle."
+    }
   },
   {
     "slug": "comte-et-ses-sbires",
@@ -4857,7 +4992,12 @@
         "name": "Duo (50 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 50 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "aquadome-de-merkator",
@@ -4933,7 +5073,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "palais-du-roi-nidas",
@@ -4996,7 +5141,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Laisser la Bourse d'Or évoluer jusqu'à son stade ultime à côté de vos personnages.",
+      "how": "En explosant, la Bourse d'Or inflige 100% de PV en dégâts Neutre dans toute sa zone.",
+      "avoid": "Repoussez la Bourse d'Or loin de votre équipe et désactivez-la rapidement."
+    }
   },
   {
     "slug": "trone-de-la-cour-sombre",
@@ -5047,7 +5197,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Frapper la Reine des Voleurs lorsqu'elle porte l'état 'Ruse de la Reine'.",
+      "how": "La Reine renvoie 100% des dégâts subis sous forme de OS instantané à l'attaquant.",
+      "avoid": "N'attaquez jamais la Reine des Voleurs pendant ses tours de contre-attaque."
+    }
   },
   {
     "slug": "ventre-de-la-baleine",
@@ -5102,7 +5257,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Se faire attirer ou rester dans l'estomac du Protozorreur au tour de digestion.",
+      "how": "La digestion stomacale applique un OS inévitable sur toutes les cibles avalées.",
+      "avoid": "Sortez de l'estomac du boss avant la fin du cycle de digestion."
+    }
   },
   {
     "slug": "oeil-de-vortex",
@@ -5158,7 +5318,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Laisser les vagues de monstres accumuler 5 charges d'Étroitesse temporel.",
+      "how": "Vortex déclenche 'Heure Dernier' qui OS l'ensemble du groupe de joueurs d'un seul coup.",
+      "avoid": "Éliminez les add rapidement pour maintenir le nombre de monstres sous contrôle."
+    }
   },
   {
     "slug": "defi-du-chaloeil",
@@ -5211,7 +5376,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Terminer son tour sur la case d'un dé dont le chiffre correspond au décompte mortel.",
+      "how": "Le Chaloeil retourne le dé et exécute automatiquement le joueur présent sur la case.",
+      "avoid": "Surveillez les numéros des dés au sol et ne restez jamais sur un dé menacé."
+    }
   },
   {
     "slug": "vaisseau-du-capitaine-meno",
@@ -5262,7 +5432,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "temple-de-koutoulou",
@@ -5313,7 +5488,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "palais-de-dantinea",
@@ -5364,7 +5544,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Rester dans la zone d'aspiration du Triton ou au CàC de Dantinéa en phase 3.",
+      "how": "Dantinéa applique une érosion de 100% puis une attaque physique à 10 000 dégâts Eau.",
+      "avoid": "Gardez Dantinéa sous retrait PM à distance et esquivez les serviteurs marins."
+    }
   },
   {
     "slug": "chambre-de-tal-kasha",
@@ -5417,7 +5602,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "manoir-des-katrepat",
@@ -5469,7 +5659,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "belvedere-d-ilyzaelle",
@@ -5530,7 +5725,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "tour-de-solar",
@@ -5602,7 +5802,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "tour-de-bethel",
@@ -5654,7 +5859,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "brasserie-du-roi-dazak",
@@ -5705,7 +5915,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "sanctuaire-de-torkelonia",
@@ -5753,7 +5968,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "arbre-de-mort",
@@ -5805,7 +6025,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "trone-de-sang",
@@ -5859,7 +6084,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "fers-de-la-tyrannie",
@@ -5912,7 +6142,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "sentence-de-la-balance",
@@ -5965,7 +6200,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "tempete-de-l-eliocalypse",
@@ -5999,7 +6239,12 @@
         "name": "Quatuor (50 tours)",
         "description": "Vaincre le donjon avec 4 personnages maximum en moins de 50 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "memoire-d-orukam",
@@ -6051,7 +6296,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "souvenir-d-imagiro",
@@ -6103,7 +6353,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "rituel-de-kabahal",
@@ -6157,7 +6412,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "bataille-de-l-aurore-pourpre",
@@ -6258,7 +6518,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "autel-de-la-dechireuse",
@@ -6306,7 +6571,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "breuil-du-venerable",
@@ -6352,7 +6622,12 @@
         "name": "Trio (40 tours)",
         "description": "Vaincre le donjon avec 3 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "cratere-minus",
@@ -6662,7 +6937,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "temple-de-gargandyas",
@@ -6715,7 +6995,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "tour-minerale",
@@ -6763,7 +7048,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "aurore-pourpre",
@@ -6976,7 +7266,12 @@
         "name": "Survivant",
         "description": "Aucun allié ne doit mourir pendant le combat."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "julith",
@@ -7018,7 +7313,12 @@
         "name": "Survivant",
         "description": "Aucun allié ne doit mourir pendant le combat."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "mawabouaino",
@@ -7126,7 +7426,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "pretesse-de-kao",
@@ -7170,7 +7475,12 @@
         "name": "Duo (20 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 20 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "atelier-de-noximilien",
@@ -7243,7 +7553,12 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   },
   {
     "slug": "shuccube",
@@ -7446,6 +7761,11 @@
         "name": "Duo (40 tours)",
         "description": "Vaincre le donjon avec 2 personnages maximum en moins de 40 tours."
       }
-    ]
+    ],
+    "os_details": {
+      "why": "Ce monstre possède une mécanique d'OS déclenchée par le non-respect d'une condition tactique (mêlée, placement, ou seuil de PA/PM).",
+      "how": "Un sort spécial inflige des dégâts massifs (ou l'exécution instantanée 100% PV) à la cible vulnérable.",
+      "avoid": "Consultez la section Stratégie ci-dessous pour respecter scrupuleusement la méthode de placement et d'entrave."
+    }
   }
 ]
